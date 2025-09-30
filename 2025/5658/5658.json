@@ -1,0 +1,219 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "<div>NVIDIA has released a software update for NVIDIA WebDataset.&nbsp;</div><div>To protect your system, install the software including the Github <a href=\"https://github.com/webdataset/webdataset/commit/9e95f50fcf06abb7cbd5043ae16f86653ca1ee5b\">commit 9e95f50</a>&nbsp;of NVIDIA <a href=\"https://github.com/webdataset/webdataset\">WebDataset</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, install the software including the Github&nbsp;<a href=\"https://github.com/webdataset/webdataset/commit/9e95f50fcf06abb7cbd5043ae16f86653ca1ee5b\">commit 9e95f50</a>&nbsp;of NVIDIA&nbsp;<a href=\"https://github.com/webdataset/webdataset\">WebDataset</a>.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA WebDataset. <br><div>To protect your system, install the software including the Github <a href=\"https://github.com/webdataset/webdataset/commit/9e95f50fcf06abb7cbd5043ae16f86653ca1ee5b\">commit 9e95f50</a> of NVIDIA <a href=\"https://github.com/webdataset/webdataset\">WebDataset</a>.</div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12481-001_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1138827",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA WebDataset - August 2025",
+        "tracking": {
+            "current_release_date": "2025-08-12T00:00:00Z",
+            "generator": {
+                "date": "2025-08-12T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5658",
+            "initial_release_date": "2025-08-12T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-08-12T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA WebDataset",
+                                "product": {
+                                    "name": "NVIDIA WebDataset",
+                                    "product_id": "all_nvidia_webdataset",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_webdataset:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA WebDataset",
+                                "product": {
+                                    "name": "All versions that do not include code commit 9e95f50",
+                                    "product_id": "all_nvidia_webdataset_all_versions_that_do_not_include_code_commit_9e95f50",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_webdataset:all_versions_that_do_not_include_code_commit_9e95f50:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA WebDataset",
+                                "product": {
+                                    "name": "Any code branch that includes code commit 9e95f50",
+                                    "product_id": "all_nvidia_webdataset_any_code_branch_that_includes_code_commit_9e95f50",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_webdataset:any_code_branch_that_includes_code_commit_9e95f50:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Adam Stewart"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23294",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA WebDataset for all platforms contains a vulnerability where an attacker could execute arbitrary code with elevated permissions. A successful exploit of this vulnerability might lead to escalation of privileges, data tampering, information disclosure, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Escalation of privileges, data tampering, information disclosure, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5222432",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nvidia_webdataset_any_code_branch_that_includes_code_commit_9e95f50"
+                ],
+                "known_affected": [
+                    "all_nvidia_webdataset_all_versions_that_do_not_include_code_commit_9e95f50"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23294"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23294"
+                }
+            ],
+            "release_date": "2025-08-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nvidia_webdataset_all_versions_that_do_not_include_code_commit_9e95f50"
+                    ]
+                }
+            ]
+        }
+    ]
+}

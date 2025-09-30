@@ -1,0 +1,425 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "CRITICAL"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Container Toolkit and GPU Operator. <br><div><br></div><div>To protect your system, install the software update as described in the installation section of the <a href=\"https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html\">NVIDIA Container Toolkit</a> documentation and the <a href=\"https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/getting-started.html\">NVIDIA GPU Operator</a> documentation.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<div>To protect your system, install the software update as described in the installation section of the <a href=\"https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html\">NVIDIA Container Toolkit</a> documentation and the <a href=\"https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/getting-started.html\">NVIDIA GPU Operator</a> documentation.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "<div>Mitigations for NVIDIA GPU Operator<br></div><div>When using a GPU Operator version prior to 25.3.1, you can deploy NVIDIA Container Toolkit 1.17.8, NVIDIA Kubernetes Device Plugin 0.17.3, and NVIDIA MIG Manager 0.12.2 by including the following arguments when installing or upgrading the GPU Operator with Helm. <br></div><div>--set \"toolkit.version=v1.17.8-ubuntu20.04\"<br></div><div>--set \"devicePlugin.version=v0.17.3\"<br></div><div>--set \"migManager.version=v0.12.2\"<br></div><div>If you are already running GPU Operator version 25.3.1 and are not able to upgrade to 25.3.2, then you still need to deploy NVIDIA Kubernetes Device Plugin 0.17.3 and NVIDIA MIG Manager 0.12.2 by including the following arguments when installing or upgrading the GPU Operator with Helm. <br></div><div>--set \"devicePlugin.version=v0.17.3\"<br></div><div>--set \"migManager.version=v0.12.2\"<br></div><div>For Red Hat Enterprise Linux or Red Hat OpenShift, you must specify the v1.17.8-ubi8 tag for the Toolkit and the v0.12.2-ubi9 tag for the MIG Manager.</div><div><br></div><div><br></div>",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "CVE-2025-23266 does not affect systems where crun is used as the low-level runtime. In this case, updating to the NVIDIA Container Toolkit v1.17.7 is sufficient to address CVE-2025-23267.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12062-003_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1137005",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "26:NV Container Toolkit",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Container Toolkit - July 2025",
+        "tracking": {
+            "current_release_date": "2025-08-12T00:00:00Z",
+            "generator": {
+                "date": "2025-08-12T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5659",
+            "initial_release_date": "2025-07-15T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-07-15T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                },
+                {
+                    "date": "2025-08-12T00:00:00Z",
+                    "number": "2.0.0",
+                    "summary": "Updated affected products and mitigation steps."
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Container Toolkit",
+                                "product": {
+                                    "name": "NVIDIA Container Toolkit",
+                                    "product_id": "all_nvidia_container_toolkit",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_container_toolkit:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA GPU Operator",
+                                "product": {
+                                    "name": "NVIDIA GPU Operator",
+                                    "product_id": "linux_nvidia_gpu_operator",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_gpu_operator:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Kubernetes Device Plugin",
+                                "product": {
+                                    "name": "NVIDIA Kubernetes Device Plugin",
+                                    "product_id": "linux_nvidia_kubernetes_device_plugin",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_kubernetes_device_plugin:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA MIG Manager",
+                                "product": {
+                                    "name": "NVIDIA MIG Manager",
+                                    "product_id": "linux_nvidia_mig_manager",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_mig_manager:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Container Toolkit",
+                                "product": {
+                                    "name": "All versions up to and including 1.17.7 (CDI mode only for versions prior to 1.17.5)",
+                                    "product_id": "all_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_7_cdi_mode_only_for_versions_prior_to_1_17_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_container_toolkit:all_versions_up_to_and_including_1_17_7_cdi_mode_only_for_versions_prior_to_1_17_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Container Toolkit",
+                                "product": {
+                                    "name": "1.17.8",
+                                    "product_id": "all_nvidia_container_toolkit_1_17_8",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_container_toolkit:1_17_8:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA GPU Operator",
+                                "product": {
+                                    "name": "All versions up to and including 25.3.1 (CDI mode only for versions prior to 25.3.1)",
+                                    "product_id": "linux_nvidia_gpu_operator_all_versions_up_to_and_including_25_3_1_cdi_mode_only_for_versions_prior_to_25_3_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_gpu_operator:all_versions_up_to_and_including_25_3_1_cdi_mode_only_for_versions_prior_to_25_3_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA GPU Operator",
+                                "product": {
+                                    "name": "25.3.2",
+                                    "product_id": "linux_nvidia_gpu_operator_25_3_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_gpu_operator:25_3_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Kubernetes Device Plugin",
+                                "product": {
+                                    "name": "All versions up to and including 0.17.2 (only when device-list-strategy is cdi-annotations and/or cdi-cri)",
+                                    "product_id": "linux_nvidia_kubernetes_device_plugin_all_versions_up_to_and_including_0_17_2_only_when_deviceliststrategy_is_cdiannotations_andor_cdicri",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_kubernetes_device_plugin:all_versions_up_to_and_including_0_17_2_only_when_deviceliststrategy_is_cdiannotations_andor_cdicri:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Kubernetes Device Plugin",
+                                "product": {
+                                    "name": "0.17.3",
+                                    "product_id": "linux_nvidia_kubernetes_device_plugin_0_17_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_kubernetes_device_plugin:0_17_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA MIG Manager",
+                                "product": {
+                                    "name": "All versions up to and including 0.12.1 (only when CDI is enabled)",
+                                    "product_id": "linux_nvidia_mig_manager_all_versions_up_to_and_including_0_12_1_only_when_cdi_is_enabled",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_mig_manager:all_versions_up_to_and_including_0_12_1_only_when_cdi_is_enabled:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA MIG Manager",
+                                "product": {
+                                    "name": "0.12.2",
+                                    "product_id": "linux_nvidia_mig_manager_0_12_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_mig_manager:0_12_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Nir Ohfeld (@nirohfeld) and Shir Tamari (@shirtamari) working with Trend Zero Day Initiative"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23266",
+            "cwe": {
+                "id": "CWE-426",
+                "name": "Untrusted Search Path"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Container Toolkit for all platforms contains a vulnerability in some hooks used to initialize the container, where an attacker could execute arbitrary code with elevated permissions. A successful exploit of this vulnerability might lead to escalation of privileges, data tampering, information disclosure, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Escalation of privileges, data tampering, information disclosure, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5290600",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nvidia_container_toolkit_1_17_8",
+                    "linux_nvidia_gpu_operator_25_3_2",
+                    "linux_nvidia_kubernetes_device_plugin_0_17_3",
+                    "linux_nvidia_mig_manager_0_12_2"
+                ],
+                "known_affected": [
+                    "all_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_7_cdi_mode_only_for_versions_prior_to_1_17_5",
+                    "linux_nvidia_gpu_operator_all_versions_up_to_and_including_25_3_1_cdi_mode_only_for_versions_prior_to_25_3_1",
+                    "linux_nvidia_kubernetes_device_plugin_all_versions_up_to_and_including_0_17_2_only_when_deviceliststrategy_is_cdiannotations_andor_cdicri",
+                    "linux_nvidia_mig_manager_all_versions_up_to_and_including_0_12_1_only_when_cdi_is_enabled"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23266"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23266"
+                }
+            ],
+            "release_date": "2025-07-15T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 9,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_7_cdi_mode_only_for_versions_prior_to_1_17_5",
+                        "linux_nvidia_gpu_operator_all_versions_up_to_and_including_25_3_1_cdi_mode_only_for_versions_prior_to_25_3_1",
+                        "linux_nvidia_kubernetes_device_plugin_all_versions_up_to_and_including_0_17_2_only_when_deviceliststrategy_is_cdiannotations_andor_cdicri",
+                        "linux_nvidia_mig_manager_all_versions_up_to_and_including_0_12_1_only_when_cdi_is_enabled"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Lei Wang & Min Yao (Nebula Security Lab, Huawei Cloud)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23267",
+            "cwe": {
+                "id": "CWE-59",
+                "name": "Improper Link Resolution Before File Access ('Link Following')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Container Toolkit for all platforms contains a vulnerability in the update-ldcache hook, where an attacker could cause a link following by using a specially crafted container image. A successful exploit of this vulnerability might lead to data tampering and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data tampering, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5204624",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nvidia_container_toolkit_1_17_8",
+                    "linux_nvidia_gpu_operator_25_3_2",
+                    "linux_nvidia_kubernetes_device_plugin_0_17_3",
+                    "linux_nvidia_mig_manager_0_12_2"
+                ],
+                "known_affected": [
+                    "all_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_7_cdi_mode_only_for_versions_prior_to_1_17_5",
+                    "linux_nvidia_gpu_operator_all_versions_up_to_and_including_25_3_1_cdi_mode_only_for_versions_prior_to_25_3_1",
+                    "linux_nvidia_kubernetes_device_plugin_all_versions_up_to_and_including_0_17_2_only_when_deviceliststrategy_is_cdiannotations_andor_cdicri",
+                    "linux_nvidia_mig_manager_all_versions_up_to_and_including_0_12_1_only_when_cdi_is_enabled"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23267"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23267"
+                }
+            ],
+            "release_date": "2025-07-15T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_7_cdi_mode_only_for_versions_prior_to_1_17_5",
+                        "linux_nvidia_gpu_operator_all_versions_up_to_and_including_25_3_1_cdi_mode_only_for_versions_prior_to_25_3_1",
+                        "linux_nvidia_kubernetes_device_plugin_all_versions_up_to_and_including_0_17_2_only_when_deviceliststrategy_is_cdiannotations_andor_cdicri",
+                        "linux_nvidia_mig_manager_all_versions_up_to_and_including_0_12_1_only_when_cdi_is_enabled"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,261 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Triton Inference Server. <br><div>To protect your system, download and install the latest release from the <a href=\"https://github.com/triton-inference-server/server/releases\">Triton Inference Server Releases</a> page on GitHub and view the <a href=\"https://github.com/triton-inference-server/server/blob/main/docs/customization_guide/deploy.md\">Secure Deployment Considerations Guide</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Triton Inference Server.<br><div>To protect your system, download and install the latest release from the <a href=\"https://github.com/triton-inference-server/server/releases\">Triton Inference Server Releases</a> page on GitHub and view the <a href=\"https://github.com/triton-inference-server/server/blob/main/docs/customization_guide/deploy.md\">Secure Deployment Considerations Guide</a>.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software branch releases that support this product are also affected. If you are using an earlier branch release, upgrade to the latest branch release.<br><div>This issue was found externally.</div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12183-001_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1127144",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "23:Triton",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Triton Inference Server - February 2025",
+        "tracking": {
+            "current_release_date": "2025-02-11T00:00:00Z",
+            "generator": {
+                "date": "2025-02-11T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5612",
+            "initial_release_date": "2025-02-11T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-02-11T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "Triton Inference Server",
+                                    "product_id": "windows_triton_inference_server",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "Triton Inference Server",
+                                    "product_id": "linux_triton_inference_server",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "24.11",
+                                    "product_id": "windows_triton_inference_server_24_11",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:24_11:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "24.12",
+                                    "product_id": "windows_triton_inference_server_24_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:24_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "24.11",
+                                    "product_id": "linux_triton_inference_server_24_11",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:24_11:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "24.12",
+                                    "product_id": "linux_triton_inference_server_24_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:24_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "7resp4ss and Guang Gong - 360 Vulnerability Research Institute"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-53880",
+            "cwe": {
+                "id": "CWE-190",
+                "name": "Integer Overflow or Wraparound"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server contains a vulnerability in the model loading API, where a user could cause an integer overflow or wraparound error by loading a model with an extra-large file size that overflows an internal variable. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4906575",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_triton_inference_server_24_12",
+                    "linux_triton_inference_server_24_12"
+                ],
+                "known_affected": [
+                    "windows_triton_inference_server_24_11",
+                    "linux_triton_inference_server_24_11"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53880"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-53880"
+                }
+            ],
+            "release_date": "2025-02-11T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 4.9,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_triton_inference_server_24_11",
+                        "linux_triton_inference_server_24_11"
+                    ]
+                }
+            ]
+        }
+    ]
+}

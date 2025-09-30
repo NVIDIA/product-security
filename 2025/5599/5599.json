@@ -1,0 +1,412 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Container Toolkit and NVIDIA GPU Operator. To protect your system, install the software update as described in the installation section of the <a href=\"https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html\">NVIDIA Container Toolkit documentation</a> and the <a href=\"https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/getting-started.html\">NVIDIA GPU Operator documentation</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, install the software update as described in the installation section of the <a href=\"https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html\">NVIDIA Container Toolkit documentation</a> and the <a href=\"https://catalog.ngc.nvidia.com/orgs/nvidia/containers/gpu-operator\">NVIDIA GPU Operator</a> documentation.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "<ul><li>Customer Required Mitigations for CVE-2024-0136 and CVE-2024-0137<br></li></ul><div>To mitigate CVE-2024-0136 and CVE-2024-0137, ensure that the NVIDIA Container Toolkit is configured in the default way. Specifically, ensure that in the /etc/nvidia-container-runtime/config.toml file, the NVIDIA Container Toolkit is configured as follows to use the host\u2019s ldconfig binary:<br></div><div>[nvidia-container-cli]<br></div><div>ldconfig = \"@/sbin/ldconfig\"<br></div><div>Note the @ in the ldconfig binary path. The @ prefix indicates that the path is relative to the host\u2019s file system and not the container\u2019s file system. <br></div><div>Configuring the NVIDIA Container Toolkit this way prevents the execution of untrusted code and protects systems from CVE-2024-0136 and CVE-2024-0137.<br></div><div>Systems are vulnerable to CVE-2024-0136 and CVE-2024-0137 only if the NVIDIA Container Toolkit is configured in a non-default way, specifically to run the ldconfig binary in the container\u2019s file system.<br></div><div>To reduce the likelihood of the NVIDIA Container Toolkit being inadvertently configured in an unsafe manner, the v1.17.3 release of the NVIDIA Container Toolkit will change the default behavior of the NVIDIA Container Toolkit to disallow  ldconfig paths that are not relative to the host\u2019s file system. An explicit opt-in feature flag will be added to allow the execution of possibly unsafe code from a container if required.&nbsp;</div><div><ul><li>Preventing Unprivileged Containers from Bypassing the Kubernetes Device Plugin API</li></ul>The default installation of NVIDIA GPU Operator might allow unprivileged containers to bypass the Kubernetes Device Plugin API and gain access to GPUs on a node if the NVIDIA_VISIBLE_DEVICES environment variable is set. Unprivileged containers might gain access to GPUs without specifying resource requests or limits, or gain access to more GPUs than were originally specified through resource requests or limits.<br></div><div>To prevent unprivileged containers from bypassing the Kubernetes Device Plugin API, configure the NVIDIA GPU Operator in the clusterpolicy custom resource definition as follows:<br></div><div>toolkit:<br></div><div>&nbsp; env:<br></div><div>&nbsp; - name: ACCEPT_NVIDIA_VISIBLE_DEVICES_ENVVAR_WHEN_UNPRIVILEGED<br></div><div>&nbsp; &nbsp; value: \"false\"<br></div><div>&nbsp; - name: ACCEPT_NVIDIA_VISIBLE_DEVICES_AS_VOLUME_MOUNTS<br></div><div>&nbsp; &nbsp; value: \"true\"<br></div><div>devicePlugin:<br></div><div>&nbsp; &nbsp;env:<br></div><div>&nbsp; &nbsp;- name: DEVICE_LIST_STRATEGY<br></div><div>&nbsp; &nbsp; &nbsp;value: volume-mounts<br></div><div>This configuration ensures that:&nbsp;</div><div><ul><li>The NVIDIA Container Toolkit ignores the NVIDIA_VISIBLE_DEVICES environment variable for unprivileged containers.<br></li><li>The NVIDIA Kubernetes Device Plugin produces a list of GPU devices as volume mounts, according to resource requests or limits, and the NVIDIA Container Toolkit accepts only this list.&nbsp;</li></ul></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div>",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software releases of this product are also affected. If you are using an earlier release, upgrade to the latest release version.<br><div>To protect your system, install the software update as described in the installation section of the <a href=\"https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html\">NVIDIA Container Toolkit documentation</a> and the <a href=\"https://catalog.ngc.nvidia.com/orgs/nvidia/containers/gpu-operator\">NVIDIA GPU Operator</a> section of the NGC catalog.</div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12062-002_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "na",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "26:NV Container Toolkit",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Container Toolkit - January 2025",
+        "tracking": {
+            "current_release_date": "2025-01-14T00:00:00Z",
+            "generator": {
+                "date": "2025-01-14T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5599",
+            "initial_release_date": "2025-01-14T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-01-14T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Container Toolkit",
+                                "product": {
+                                    "name": "NVIDIA Container Toolkit",
+                                    "product_id": "linux_nvidia_container_toolkit",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_container_toolkit:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA GPU Operator",
+                                "product": {
+                                    "name": "NVIDIA GPU Operator",
+                                    "product_id": "linux_nvidia_gpu_operator",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_gpu_operator:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Container Toolkit",
+                                "product": {
+                                    "name": "All versions up to and including 1.17.0",
+                                    "product_id": "linux_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_container_toolkit:all_versions_up_to_and_including_1_17_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Container Toolkit",
+                                "product": {
+                                    "name": "1.17.1",
+                                    "product_id": "linux_nvidia_container_toolkit_1_17_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_container_toolkit:1_17_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA GPU Operator",
+                                "product": {
+                                    "name": "All versions up to and including 24.9.0",
+                                    "product_id": "linux_nvidia_gpu_operator_all_versions_up_to_and_including_24_9_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_gpu_operator:all_versions_up_to_and_including_24_9_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA GPU Operator",
+                                "product": {
+                                    "name": "24.9.1",
+                                    "product_id": "linux_nvidia_gpu_operator_24_9_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_gpu_operator:24_9_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Andres Riancho, Ronen Shustin, and Shir Tamari from Wiz Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0135",
+            "cwe": {
+                "id": "CWE-653",
+                "name": "Improper Isolation or Compartmentalization"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Container Toolkit contains an improper isolation vulnerability where a specially crafted container image could lead to modification of a host binary. A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Escalation of Privileges, Data Tampering, Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4846855",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_container_toolkit_1_17_1",
+                    "linux_nvidia_gpu_operator_24_9_1"
+                ],
+                "known_affected": [
+                    "linux_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_0",
+                    "linux_nvidia_gpu_operator_all_versions_up_to_and_including_24_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0135"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0135"
+                }
+            ],
+            "release_date": "2025-01-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.6,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_0",
+                        "linux_nvidia_gpu_operator_all_versions_up_to_and_including_24_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Andres Riancho, Ronen Shustin, and Shir Tamari from Wiz Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0136",
+            "cwe": {
+                "id": "CWE-653",
+                "name": "Improper Isolation or Compartmentalization"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Container Toolkit contains an improper isolation vulnerability where a specially crafted container image could lead to untrusted code obtaining read and write access to host devices. This vulnerability is present only when the NVIDIA Container Toolkit is configured in a nondefault way. A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Data Tampering, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4846797",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_container_toolkit_1_17_1",
+                    "linux_nvidia_gpu_operator_24_9_1"
+                ],
+                "known_affected": [
+                    "linux_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_0",
+                    "linux_nvidia_gpu_operator_all_versions_up_to_and_including_24_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0136"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0136"
+                }
+            ],
+            "release_date": "2025-01-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.6,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_0",
+                        "linux_nvidia_gpu_operator_all_versions_up_to_and_including_24_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Andres Riancho, Ronen Shustin, and Shir Tamari from Wiz Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0137",
+            "cwe": {
+                "id": "CWE-653",
+                "name": "Improper Isolation or Compartmentalization"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Container Toolkit contains an improper isolation vulnerability where a specially crafted container image could lead to untrusted code running in the host\u2019s network namespace. This vulnerability is present only when the NVIDIA Container Toolkit is configured in a nondefault way. A successful exploit of this vulnerability may lead to denial of service and escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Escalation of Privileges, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4846845",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_container_toolkit_1_17_1",
+                    "linux_nvidia_gpu_operator_24_9_1"
+                ],
+                "known_affected": [
+                    "linux_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_0",
+                    "linux_nvidia_gpu_operator_all_versions_up_to_and_including_24_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0137"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0137"
+                }
+            ],
+            "release_date": "2025-01-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 5.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:L/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_container_toolkit_all_versions_up_to_and_including_1_17_0",
+                        "linux_nvidia_gpu_operator_all_versions_up_to_and_including_24_9_0"
+                    ]
+                }
+            ]
+        }
+    ]
+}

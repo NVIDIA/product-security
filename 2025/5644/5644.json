@@ -1,0 +1,219 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for the NVIDIA App application to address the issues listed below.<br><div>To protect your system, download and install the latest version of NVIDIA App from the <a href=\"https://www.nvidia.com/en-us/software/nvidia-app/\">NVIDIA App</a> site.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Download the updates through the <a href=\"https://www.geforce.com/geforce-experience/download\">GeForce Experience Downloads</a> page, or open the client to automatically apply the security update.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software branch releases that support this product are also affected. If you are using an earlier branch release, upgrade to the latest branch release.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12326-001_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1130777",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "17:NVApp (GFE)",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA App - April 2025",
+        "tracking": {
+            "current_release_date": "2025-04-22T00:00:00Z",
+            "generator": {
+                "date": "2025-04-22T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5644",
+            "initial_release_date": "2025-04-22T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-04-22T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA App",
+                                "product": {
+                                    "name": "NVIDIA App",
+                                    "product_id": "windows_nvidia_app",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_app:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA App",
+                                "product": {
+                                    "name": "All versions prior to 11.0.2.337 (prod2 hotfix)",
+                                    "product_id": "windows_nvidia_app_all_versions_prior_to_11_0_2_337_prod2_hotfix",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_app:all_versions_prior_to_11_0_2_337_prod2_hotfix:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA App",
+                                "product": {
+                                    "name": "11.0.2.337 (prod2 hotfix)",
+                                    "product_id": "windows_nvidia_app_11_0_2_337_prod2_hotfix",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_app:11_0_2_337_prod2_hotfix:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Sascha Meyer - GAI NetConsult GmbH"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23253",
+            "cwe": {
+                "id": "CWE-547",
+                "name": "Use of Hard-coded, Security-relevant Constants"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NvContainer service for Windows contains a vulnerability in its usage of OpenSSL, where an attacker could exploit a hard-coded constant issue by copying a malicious DLL in a hard-coded path. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, denial of service, escalation of privileges, information disclosure, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5034031",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_nvidia_app_11_0_2_337_prod2_hotfix"
+                ],
+                "known_affected": [
+                    "windows_nvidia_app_all_versions_prior_to_11_0_2_337_prod2_hotfix"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23253"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23253"
+                }
+            ],
+            "release_date": "2025-04-22T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/UI:N/PR:L/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_nvidia_app_all_versions_prior_to_11_0_2_337_prod2_hotfix"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,214 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "<div>NVIDIA has released a software update for NVIDIA Merlin Transformers4Rec.&nbsp;</div><div>To protect your system, install the software from the Github <a href=\"https://github.com/NVIDIA-Merlin/Transformers4Rec/pull/802/commits/b7eaea527d6ef46024f0a5086bce4670cc140903\">commit b7eaea5</a>&nbsp;of NVIDIA <a href=\"https://github.com/NVIDIA-Merlin/Transformers4Rec\">Merlin Transformers4Rec</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<div>NVIDIA has released a software update for NVIDIA Merlin Transformers4Rec.&nbsp;</div><div>To protect your system, install the software from the Github&nbsp;<a href=\"https://github.com/NVIDIA-Merlin/Transformers4Rec/pull/802/commits/b7eaea527d6ef46024f0a5086bce4670cc140903\">commit b7eaea5</a>&nbsp;of NVIDIA&nbsp;<a href=\"https://github.com/NVIDIA-Merlin/Transformers4Rec\">Merlin Transformers4Rec</a>.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12480-001_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1138830",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Merlin Transformers4Rec - August 2025",
+        "tracking": {
+            "current_release_date": "2025-08-12T00:00:00Z",
+            "generator": {
+                "date": "2025-08-12T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5683",
+            "initial_release_date": "2025-08-12T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-08-12T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Merlin Transformers4Rec",
+                                "product": {
+                                    "name": "NVIDIA Merlin Transformers4Rec",
+                                    "product_id": "all_nvidia_merlin_transformers4rec",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_merlin_transformers4rec:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Merlin Transformers4Rec",
+                                "product": {
+                                    "name": "All versions that do not include code commit b7eaea5",
+                                    "product_id": "all_nvidia_merlin_transformers4rec_all_versions_that_do_not_include_code_commit_b7eaea5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_merlin_transformers4rec:all_versions_that_do_not_include_code_commit_b7eaea5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Merlin Transformers4Rec",
+                                "product": {
+                                    "name": "Any code branch that includes code commit b7eaea5",
+                                    "product_id": "all_nvidia_merlin_transformers4rec_any_code_branch_that_includes_code_commit_b7eaea5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_merlin_transformers4rec:any_code_branch_that_includes_code_commit_b7eaea5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23298",
+            "cwe": {
+                "id": "CWE-94",
+                "name": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Merlin Transformers4Rec for all platforms contains a vulnerability in a python dependency, where an attacker could cause a code injection issue. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, escalation of privileges, information disclosure and data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5301701",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nvidia_merlin_transformers4rec_any_code_branch_that_includes_code_commit_b7eaea5"
+                ],
+                "known_affected": [
+                    "all_nvidia_merlin_transformers4rec_all_versions_that_do_not_include_code_commit_b7eaea5"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23298"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23298"
+                }
+            ],
+            "release_date": "2025-08-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nvidia_merlin_transformers4rec_all_versions_that_do_not_include_code_commit_b7eaea5"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,349 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a new version of the NVIDIA NVDebug Tool to address the security issues described below.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, download and install the latest update from the <a href=\"https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/\">NVIDIA Developer Tools</a> page.",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12385-002_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1140467",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "9:DGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA NVDebug Tool - September 2025",
+        "tracking": {
+            "current_release_date": "2025-09-09T00:00:00Z",
+            "generator": {
+                "date": "2025-09-09T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5696",
+            "initial_release_date": "2025-09-09T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-09-09T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVDebug tool",
+                                "product": {
+                                    "name": "NVDebug tool",
+                                    "product_id": "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvdebug_tool:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVDebug tool",
+                                "product": {
+                                    "name": "All versions prior to 1.7.0",
+                                    "product_id": "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_all_versions_prior_to_1_7_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvdebug_tool:all_versions_prior_to_1_7_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVDebug tool",
+                                "product": {
+                                    "name": "1.7.0 and later",
+                                    "product_id": "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_1_7_0_and_later",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvdebug_tool:1_7_0_and_later:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "x86_64 or arm64-SBSA architecture systems"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2025-23342",
+            "cwe": {
+                "id": "CWE-522",
+                "name": "Insufficiently Protected Credentials"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "The NVIDIA NVDebug tool contains a vulnerability that may allow an actor to gain access to a privileged account . A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, denial of service, escalation of privileges, information disclosure, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5284874",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_1_7_0_and_later"
+                ],
+                "known_affected": [
+                    "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_all_versions_prior_to_1_7_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23342"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23342"
+                }
+            ],
+            "release_date": "2025-09-09T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_all_versions_prior_to_1_7_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-23343",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "The NVIDIA NVDebug tool contains a vulnerability that may allow an actor to write files to restricted components. A successful exploit of this vulnerability may lead to information disclosure, denial of service, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information disclosure, data tampering, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5284966",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_1_7_0_and_later"
+                ],
+                "known_affected": [
+                    "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_all_versions_prior_to_1_7_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23343"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23343"
+                }
+            ],
+            "release_date": "2025-09-09T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.6,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_all_versions_prior_to_1_7_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-23344",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "The NVIDIA NVDebug tool contains a vulnerability that may allow an actor to run code on the platform host as a non-privileged user. A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, denial of service, escalation of privileges, information disclosure, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5285409",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_1_7_0_and_later"
+                ],
+                "known_affected": [
+                    "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_all_versions_prior_to_1_7_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23344"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23344"
+                }
+            ],
+            "release_date": "2025-09-09T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.3,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "x86_64_or_arm64sbsa_architecture_systems_nvdebug_tool_all_versions_prior_to_1_7_0"
+                    ]
+                }
+            ]
+        }
+    ]
+}

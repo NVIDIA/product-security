@@ -1,0 +1,219 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "<div>NVIDIA has released a software update for NVIDIA Apex.&nbsp;</div><div>To protect your system, install the software from the Github&nbsp;<a href=\"https://github.com/NVIDIA/apex/releases/tag/25.07\">release 25.07</a>&nbsp;of NVIDIA <a href=\"https://github.com/NVIDIA/apex\">Apex</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<div>To protect your system, install the software from the Github&nbsp;<a href=\"https://github.com/NVIDIA/apex/releases/tag/25.07\">release 25.07</a>&nbsp;of NVIDIA&nbsp;<a href=\"https://github.com/NVIDIA/apex\">Apex</a>.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA Apex. <br><div>To protect your system, install the software from the Github <a href=\"https://github.com/NVIDIA/apex/releases/tag/25.07\">release 25.07</a> of NVIDIA <a href=\"https://github.com/NVIDIA/apex\">Apex</a>.</div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12479-001_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1138828",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Apex - August 2025",
+        "tracking": {
+            "current_release_date": "2025-08-12T00:00:00Z",
+            "generator": {
+                "date": "2025-08-12T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5680",
+            "initial_release_date": "2025-08-12T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-08-12T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Apex",
+                                "product": {
+                                    "name": "NVIDIA Apex",
+                                    "product_id": "all_nvidia_apex",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_apex:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Apex",
+                                "product": {
+                                    "name": "All versions before release 25.07",
+                                    "product_id": "all_nvidia_apex_all_versions_before_release_25_07",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_apex:all_versions_before_release_25_07:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Apex",
+                                "product": {
+                                    "name": "Release 25.07",
+                                    "product_id": "all_nvidia_apex_release_25_07",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_apex:release_25_07:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Pinji Chen (Tsinghua University)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23295",
+            "cwe": {
+                "id": "CWE-94",
+                "name": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Apex for all platforms contains a vulnerability in a Python component where an attacker could cause a code injection issue by providing a malicious file. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, escalation of privileges, information disclosure and data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5202341",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nvidia_apex_release_25_07"
+                ],
+                "known_affected": [
+                    "all_nvidia_apex_all_versions_before_release_25_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23295"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23295"
+                }
+            ],
+            "release_date": "2025-08-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nvidia_apex_all_versions_before_release_25_07"
+                    ]
+                }
+            ]
+        }
+    ]
+}

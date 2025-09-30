@@ -1,0 +1,303 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Framework.<div>To protect your system, download and install the latest release from the <a href=\"https://github.com/NVIDIA/NeMo-Framework-Launcher/releases\">NeMo-Framework-Launcher Releases</a> page on GitHub.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, download and install the latest release from the <a href=\"https://github.com/NVIDIA/NeMo-Framework-Launcher/releases\">NeMo-Framework-Launcher Releases</a> page on GitHub.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software releases of this product are also affected. If you are using an earlier release, upgrade to the latest release version.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12268-001_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1128437",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "15:NeMo",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA NeMo - March 2025",
+        "tracking": {
+            "current_release_date": "2025-03-11T00:00:00Z",
+            "generator": {
+                "date": "2025-03-11T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5623",
+            "initial_release_date": "2025-03-11T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-03-11T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA NeMo Framework",
+                                "product": {
+                                    "name": "NVIDIA NeMo Framework",
+                                    "product_id": "windows_nvidia_nemo_framework",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA NeMo Framework",
+                                "product": {
+                                    "name": "NVIDIA NeMo Framework",
+                                    "product_id": "linux_nvidia_nemo_framework",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA NeMo Framework",
+                                "product": {
+                                    "name": "NVIDIA NeMo Framework",
+                                    "product_id": "macos_nvidia_nemo_framework",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA NeMo Framework",
+                                "product": {
+                                    "name": "All versions prior to 24.12",
+                                    "product_id": "windows_nvidia_nemo_framework_all_versions_prior_to_24_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:all_versions_prior_to_24_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA NeMo Framework",
+                                "product": {
+                                    "name": "24.12",
+                                    "product_id": "windows_nvidia_nemo_framework_24_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:24_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA NeMo Framework",
+                                "product": {
+                                    "name": "All versions prior to 24.12",
+                                    "product_id": "linux_nvidia_nemo_framework_all_versions_prior_to_24_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:all_versions_prior_to_24_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA NeMo Framework",
+                                "product": {
+                                    "name": "24.12",
+                                    "product_id": "linux_nvidia_nemo_framework_24_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:24_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA NeMo Framework",
+                                "product": {
+                                    "name": "All versions prior to 24.12",
+                                    "product_id": "macos_nvidia_nemo_framework_all_versions_prior_to_24_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:all_versions_prior_to_24_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA NeMo Framework",
+                                "product": {
+                                    "name": "24.12",
+                                    "product_id": "macos_nvidia_nemo_framework_24_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:24_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "macOS"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Or Peles - JFrog Security"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23360",
+            "cwe": {
+                "id": "CWE-23",
+                "name": "Relative Path Traversal"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Nemo Framework contains a vulnerability where a user could cause a relative path traversal issue by arbitrary file write. A successful exploit of this vulnerability may lead to code execution and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data Tampering, Code Execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4919823",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_nvidia_nemo_framework_24_12",
+                    "linux_nvidia_nemo_framework_24_12",
+                    "macos_nvidia_nemo_framework_24_12"
+                ],
+                "known_affected": [
+                    "windows_nvidia_nemo_framework_all_versions_prior_to_24_12",
+                    "linux_nvidia_nemo_framework_all_versions_prior_to_24_12",
+                    "macos_nvidia_nemo_framework_all_versions_prior_to_24_12"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23360"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23360"
+                }
+            ],
+            "release_date": "2025-03-11T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_nvidia_nemo_framework_all_versions_prior_to_24_12",
+                        "linux_nvidia_nemo_framework_all_versions_prior_to_24_12",
+                        "macos_nvidia_nemo_framework_all_versions_prior_to_24_12"
+                    ]
+                }
+            ]
+        }
+    ]
+}

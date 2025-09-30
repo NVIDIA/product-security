@@ -1,0 +1,522 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "CRITICAL"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA Triton Inference Server to address the issue disclosed in this bulletin.  To protect your system, install the latest release from the <a href=\"https://github.com/triton-inference-server/server/releases\">Triton Inference Server Releases</a> page on GitHub, and view the <a href=\"https://github.com/triton-inference-server/server/blob/main/docs/customization_guide/deploy.md\">Secure Deployment Considerations Guide</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Users deploying NVIDIA Triton Inference Server in production settings should follow the <a href=\"https://github.com/triton-inference-server/server/blob/main/docs/customization_guide/deploy.md\">Secure Deployment Considerations Guide</a> and ensure that logging and shared memory APIs are protected for use by authorized users.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "<div>Users deploying NVIDIA Triton Inference Server in production settings should follow the <a href=\"https://github.com/triton-inference-server/server/blob/main/docs/customization_guide/deploy.md\">Secure Deployment Considerations Guide</a> and ensure that logging and shared memory APIs are protected for use by authorized users.</div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12813-002_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1139559",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "23:Triton",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Triton Inference Server - September 2025",
+        "tracking": {
+            "current_release_date": "2025-09-16T00:00:00Z",
+            "generator": {
+                "date": "2025-09-16T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5691",
+            "initial_release_date": "2025-09-16T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-09-16T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "Triton Inference Server",
+                                    "product_id": "windows_linux_triton_inference_server",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "Triton Inference Server",
+                                    "product_id": "dali_backend_triton_inference_server",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "All versions prior to 25.08",
+                                    "product_id": "windows_linux_triton_inference_server_all_versions_prior_to_25_08",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:all_versions_prior_to_25_08:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "25.08",
+                                    "product_id": "windows_linux_triton_inference_server_25_08",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:25_08:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows, Linux"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "All versions prior to 25.07",
+                                    "product_id": "dali_backend_triton_inference_server_all_versions_prior_to_25_07",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:all_versions_prior_to_25_07:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "25.07",
+                                    "product_id": "dali_backend_triton_inference_server_25_07",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:25_07:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "DALI Backend"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2025-23316",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server for Windows and Linux contains a vulnerability in the Python backend, where an attacker could cause a remote code execution by manipulating the model name parameter in the model control APIs. A successful exploit of this vulnerability might lead to remote code execution, denial of service, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Data Tampering, Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5216735",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_triton_inference_server_25_08"
+                ],
+                "known_affected": [
+                    "windows_linux_triton_inference_server_all_versions_prior_to_25_08"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23316"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23316"
+                }
+            ],
+            "release_date": "2025-09-16T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 9.8,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_triton_inference_server_all_versions_prior_to_25_08"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Trend Micro Zero Day Initiative"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23268",
+            "cwe": {
+                "id": "CWE-20",
+                "name": "Improper Input Validation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server contains a vulnerability in the DALI backend where an attacker may cause an improper input validation issue. A successful exploit of this vulnerability may lead to code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5287264",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dali_backend_triton_inference_server_25_07"
+                ],
+                "known_affected": [
+                    "dali_backend_triton_inference_server_all_versions_prior_to_25_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23268"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23268"
+                }
+            ],
+            "release_date": "2025-09-16T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dali_backend_triton_inference_server_all_versions_prior_to_25_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-23328",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server for Windows and Linux contains a vulnerability where an attacker could cause an out-of-bounds write through a specially crafted input. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5216646",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_triton_inference_server_25_08"
+                ],
+                "known_affected": [
+                    "windows_linux_triton_inference_server_all_versions_prior_to_25_08"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23328"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23328"
+                }
+            ],
+            "release_date": "2025-09-16T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_triton_inference_server_all_versions_prior_to_25_08"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-23329",
+            "cwe": {
+                "id": "CWE-284",
+                "name": "Improper Access Control"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server for Windows and Linux contains a vulnerability where an attacker could cause memory corruption by identifying and accessing the shared memory region used by the Python backend. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5216636",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_triton_inference_server_25_08"
+                ],
+                "known_affected": [
+                    "windows_linux_triton_inference_server_all_versions_prior_to_25_08"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23329"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23329"
+                }
+            ],
+            "release_date": "2025-09-16T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_triton_inference_server_all_versions_prior_to_25_08"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-23336",
+            "cwe": {
+                "id": "CWE-20",
+                "name": "Improper Input Validation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server for Windows and Linux contains a vulnerability where an attacker could cause a denial of service by loading a misconfigured model. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5217090",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_triton_inference_server_25_08"
+                ],
+                "known_affected": [
+                    "windows_linux_triton_inference_server_all_versions_prior_to_25_08"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23336"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23336"
+                }
+            ],
+            "release_date": "2025-09-16T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 4.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_triton_inference_server_all_versions_prior_to_25_08"
+                    ]
+                }
+            ]
+        }
+    ]
+}

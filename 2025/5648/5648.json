@@ -1,0 +1,219 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "To protect your system, clone or update to version 0.18.2 or later from <a href=\"https://github.com/NVIDIA/TensorRT-LLM\">Github Main</a> for main branch and from <a href=\"https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v0.18.2\">0.18.2 release tag</a> for GA.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, clone or update to version 0.18.2 or later from <a href=\"https://github.com/NVIDIA/TensorRT-LLM\">Github Main</a> for main branch and from <a href=\"https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v0.18.2\">0.18.2 release tag</a> for GA.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "TensorRT-LLM added a security enhancement for its socket-based Inter-Process Communication (IPC) that involves Python pickle serialization and deserialization processes.HMAC encryption will be set to encryption ON in both release branch and main branch by default.  While this security enhancement is enabled by default, customers have the option to disable it.<br><div>Warning: Disabling this feature will make you vulnerable to the security issue<br></div><div>Follow these steps to disable the security feature:<br></div><div><ul><li>On the main branch, customers can set \u201cuse_hmac_encryption = False\u201d under tensorrt_llm/executor/ipc.py, in the class ZeroMqQueue.<br></li><li>In release 0.18, customers can set \u201cuse_hmac_encryption = False\u201d under tensorrt_llm/executor.py, in the class ZeroMqQueue.</li></ul></div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12354-001_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1133092",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA TensorRT LLM - April 2025",
+        "tracking": {
+            "current_release_date": "2025-04-29T00:00:00Z",
+            "generator": {
+                "date": "2025-04-29T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5648",
+            "initial_release_date": "2025-04-29T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-04-29T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA TensorRT-LLM",
+                                "product": {
+                                    "name": "NVIDIA TensorRT-LLM",
+                                    "product_id": "windows_linux_macos_nvidia_tensorrtllm",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_tensorrtllm:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA TensorRT-LLM",
+                                "product": {
+                                    "name": "All versions prior to 0.18.2",
+                                    "product_id": "windows_linux_macos_nvidia_tensorrtllm_all_versions_prior_to_0_18_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_tensorrtllm:all_versions_prior_to_0_18_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA TensorRT-LLM",
+                                "product": {
+                                    "name": "0.18.2",
+                                    "product_id": "windows_linux_macos_nvidia_tensorrtllm_0_18_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_tensorrtllm:0_18_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows, Linux, macOS"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Avi Lumelsky of Oligo Security"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23254",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM for any platform contains a vulnerability in python executor where an attacker may cause a data validation issue by local access to the TRTLLM server. A successful exploit of this vulnerability may lead to code execution, information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, information disclosure, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5066257",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_macos_nvidia_tensorrtllm_0_18_2"
+                ],
+                "known_affected": [
+                    "windows_linux_macos_nvidia_tensorrtllm_all_versions_prior_to_0_18_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23254"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23254"
+                }
+            ],
+            "release_date": "2025-04-29T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_macos_nvidia_tensorrtllm_all_versions_prior_to_0_18_2"
+                    ]
+                }
+            ]
+        }
+    ]
+}

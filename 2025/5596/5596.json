@@ -1,0 +1,591 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae nvJPEG2000 to address the issues listed below.<br> To protect your system, download and install this software update from <a href=\"https://developer.nvidia.com/nvjpeg2000-downloads\">nvJPEG2000 Downloads</a> page.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Download the update from the <a href=\"https://developer.nvidia.com/nvjpeg2000-downloads\">nvJPEG2000 Downloads</a> page to apply the security update.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software releases of this product are also affected. If you are using an earlier release, upgrade to the latest release version.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12195-001_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1127078",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "20:nvJPEG2000",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA nvJPEG2000 - February 2025",
+        "tracking": {
+            "current_release_date": "2025-02-11T00:00:00Z",
+            "generator": {
+                "date": "2025-02-11T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5596",
+            "initial_release_date": "2025-02-11T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-02-11T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "nvJPEG2000",
+                                    "product_id": "linux_x86_64_nvjpeg2000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "nvJPEG2000",
+                                    "product_id": "linux_sbsa_nvjpeg2000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "nvJPEG2000",
+                                    "product_id": "jetson_nvjpeg2000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "nvJPEG2000",
+                                    "product_id": "windows_nvjpeg2000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "0.8.0",
+                                    "product_id": "linux_x86_64_nvjpeg2000_0_8_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:0_8_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "0.8.1",
+                                    "product_id": "linux_x86_64_nvjpeg2000_0_8_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:0_8_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux x86_64"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "0.8.0",
+                                    "product_id": "linux_sbsa_nvjpeg2000_0_8_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:0_8_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "0.8.1",
+                                    "product_id": "linux_sbsa_nvjpeg2000_0_8_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:0_8_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux sbsa"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "0.8.0",
+                                    "product_id": "jetson_nvjpeg2000_0_8_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:0_8_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "0.8.1",
+                                    "product_id": "jetson_nvjpeg2000_0_8_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:0_8_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "0.8.0",
+                                    "product_id": "windows_nvjpeg2000_0_8_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:0_8_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG2000",
+                                "product": {
+                                    "name": "0.8.1",
+                                    "product_id": "windows_nvjpeg2000_0_8_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg2000:0_8_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dimitrios Tatsis - Cisco Talos"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0142",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA nvJPEG2000 library contains a vulnerability where an attacker can cause an out-of-bounds write issue by means of a specially crafted JPEG2000 file. A successful exploit of this vulnerability might lead to code execution and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data Tampering, Code Execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4899130",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_x86_64_nvjpeg2000_0_8_1",
+                    "linux_sbsa_nvjpeg2000_0_8_1",
+                    "jetson_nvjpeg2000_0_8_1",
+                    "windows_nvjpeg2000_0_8_1"
+                ],
+                "known_affected": [
+                    "linux_x86_64_nvjpeg2000_0_8_0",
+                    "linux_sbsa_nvjpeg2000_0_8_0",
+                    "jetson_nvjpeg2000_0_8_0",
+                    "windows_nvjpeg2000_0_8_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0142"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0142"
+                }
+            ],
+            "release_date": "2025-02-11T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_x86_64_nvjpeg2000_0_8_0",
+                        "linux_sbsa_nvjpeg2000_0_8_0",
+                        "jetson_nvjpeg2000_0_8_0",
+                        "windows_nvjpeg2000_0_8_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dimitrios Tatsis - Cisco Talos"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0143",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA nvJPEG2000 library contains a vulnerability where an attacker can cause an out-of-bounds write issue by means of a specially crafted JPEG2000 file. A successful exploit of this vulnerability might lead to code execution and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4928507",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_x86_64_nvjpeg2000_0_8_1",
+                    "linux_sbsa_nvjpeg2000_0_8_1",
+                    "jetson_nvjpeg2000_0_8_1",
+                    "windows_nvjpeg2000_0_8_1"
+                ],
+                "known_affected": [
+                    "linux_x86_64_nvjpeg2000_0_8_0",
+                    "linux_sbsa_nvjpeg2000_0_8_0",
+                    "jetson_nvjpeg2000_0_8_0",
+                    "windows_nvjpeg2000_0_8_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0143"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0143"
+                }
+            ],
+            "release_date": "2025-02-11T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_x86_64_nvjpeg2000_0_8_0",
+                        "linux_sbsa_nvjpeg2000_0_8_0",
+                        "jetson_nvjpeg2000_0_8_0",
+                        "windows_nvjpeg2000_0_8_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dimitrios Tatsis - Cisco Talos"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0144",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA nvJPEG2000 library contains a vulnerability where an attacker can cause a buffer overflow issue by means of a specially crafted JPEG 2000 file. A successful exploit of this vulnerability might lead to data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4945910",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_x86_64_nvjpeg2000_0_8_1",
+                    "linux_sbsa_nvjpeg2000_0_8_1",
+                    "jetson_nvjpeg2000_0_8_1",
+                    "windows_nvjpeg2000_0_8_1"
+                ],
+                "known_affected": [
+                    "linux_x86_64_nvjpeg2000_0_8_0",
+                    "linux_sbsa_nvjpeg2000_0_8_0",
+                    "jetson_nvjpeg2000_0_8_0",
+                    "windows_nvjpeg2000_0_8_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0144"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0144"
+                }
+            ],
+            "release_date": "2025-02-11T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_x86_64_nvjpeg2000_0_8_0",
+                        "linux_sbsa_nvjpeg2000_0_8_0",
+                        "jetson_nvjpeg2000_0_8_0",
+                        "windows_nvjpeg2000_0_8_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dimitrios Tatsis - Cisco Talos"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0145",
+            "cwe": {
+                "id": "CWE-122",
+                "name": "Heap-based Buffer Overflow"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA nvJPEG2000 library contains a vulnerability where an attacker can cause a heap-based buffer overflow issue by means of a specially crafted JPEG2000 file. A successful exploit of this vulnerability might lead to code execution and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data Tampering, Code Execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4974500",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_x86_64_nvjpeg2000_0_8_1",
+                    "linux_sbsa_nvjpeg2000_0_8_1",
+                    "jetson_nvjpeg2000_0_8_1",
+                    "windows_nvjpeg2000_0_8_1"
+                ],
+                "known_affected": [
+                    "linux_x86_64_nvjpeg2000_0_8_0",
+                    "linux_sbsa_nvjpeg2000_0_8_0",
+                    "jetson_nvjpeg2000_0_8_0",
+                    "windows_nvjpeg2000_0_8_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0145"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0145"
+                }
+            ],
+            "release_date": "2025-02-11T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_x86_64_nvjpeg2000_0_8_0",
+                        "linux_sbsa_nvjpeg2000_0_8_0",
+                        "jetson_nvjpeg2000_0_8_0",
+                        "windows_nvjpeg2000_0_8_0"
+                    ]
+                }
+            ]
+        }
+    ]
+}

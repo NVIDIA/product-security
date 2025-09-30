@@ -1,0 +1,413 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Jetson Linux. To protect your system, download and install this software update from the <a href=\"https://developer.nvidia.com/embedded/downloads\">Jetson Download Center</a> page, Jetson Linux <a href=\"https://developer.nvidia.com/embedded/jetson-linux-r3562\">35.6.2 Link</a>, Jetson Linux <a href=\"https://developer.nvidia.com/embedded/jetson-linux\">36.4.4 Link</a> and <a href=\"https://developer.nvidia.com/igx-downloads?sortBy=igx_downloads%2Fsort%2Fdate%3Adesc\">IGX Link</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software branch releases that support this product are also affected. If you are using an earlier branch release, upgrade to the latest branch release.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12196-003_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1136377",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "13:Jetson / L4T / IGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Jetson AGX Orin Series and IGX Orin - July 2025",
+        "tracking": {
+            "current_release_date": "2025-07-15T00:00:00Z",
+            "generator": {
+                "date": "2025-07-15T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5662",
+            "initial_release_date": "2025-07-15T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-07-15T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Jetson Orin Series",
+                                "product": {
+                                    "name": "NVIDIA Jetson Orin Series",
+                                    "product_id": "jetson_linuxjp5_nvidia_jetson_orin_series",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_orin_series:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Jetson Orin Series",
+                                "product": {
+                                    "name": "NVIDIA Jetson Orin Series",
+                                    "product_id": "jetson_linuxjp6_nvidia_jetson_orin_series",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_orin_series:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Xavier Series",
+                                "product": {
+                                    "name": "Jetson Xavier Series",
+                                    "product_id": "jetson_linuxjp5_jetson_xavier_series",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "IGX Orin",
+                                "product": {
+                                    "name": "IGX Orin",
+                                    "product_id": "igx_os_igx_orin",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:igx_orin:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Jetson Orin Series",
+                                "product": {
+                                    "name": "All versions prior to JP5.x: 35.6.2",
+                                    "product_id": "jetson_linuxjp5_nvidia_jetson_orin_series_all_versions_prior_to_jp5_x_35_6_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_orin_series:all_versions_prior_to_jp5_x_35_6_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Jetson Orin Series",
+                                "product": {
+                                    "name": "35.6.2",
+                                    "product_id": "jetson_linuxjp5_nvidia_jetson_orin_series_35_6_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_orin_series:35_6_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series",
+                                "product": {
+                                    "name": "All versions prior to JP5.x: 35.6.2",
+                                    "product_id": "jetson_linuxjp5_jetson_xavier_series_all_versions_prior_to_jp5_x_35_6_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series:all_versions_prior_to_jp5_x_35_6_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series",
+                                "product": {
+                                    "name": "35.6.2",
+                                    "product_id": "jetson_linuxjp5_jetson_xavier_series_35_6_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series:35_6_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson Linux(JP5)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Jetson Orin Series",
+                                "product": {
+                                    "name": "All versions prior to JP6.x: 36.4.4",
+                                    "product_id": "jetson_linuxjp6_nvidia_jetson_orin_series_all_versions_prior_to_jp6_x_36_4_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_orin_series:all_versions_prior_to_jp6_x_36_4_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Jetson Orin Series",
+                                "product": {
+                                    "name": "36.4.4",
+                                    "product_id": "jetson_linuxjp6_nvidia_jetson_orin_series_36_4_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_orin_series:36_4_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson Linux(JP6)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "IGX Orin",
+                                "product": {
+                                    "name": "All versions prior to IGX 1.1.2",
+                                    "product_id": "igx_os_igx_orin_all_versions_prior_to_igx_1_1_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:igx_orin:all_versions_prior_to_igx_1_1_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "IGX Orin",
+                                "product": {
+                                    "name": "IGX 1.1.2",
+                                    "product_id": "igx_os_igx_orin_igx_1_1_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:igx_orin:igx_1_1_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "IGX OS"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Sarah Newman, Jason Zaman and Brennan Coslett (Blue River Technology)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23270",
+            "cwe": {
+                "id": "CWE-392",
+                "name": "Missing Report of Error Condition"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Jetson Linux contains a vulnerability in UEFI Management mode, where an unprivileged local attacker may cause exposure of sensitive information via a side channel vulnerability. A successful exploit of this vulnerability might lead to code execution, data tampering, denial of service, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5175094",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linuxjp5_nvidia_jetson_orin_series_35_6_2",
+                    "jetson_linuxjp6_nvidia_jetson_orin_series_36_4_4",
+                    "jetson_linuxjp5_jetson_xavier_series_35_6_2",
+                    "igx_os_igx_orin_igx_1_1_2"
+                ],
+                "known_affected": [
+                    "jetson_linuxjp5_nvidia_jetson_orin_series_all_versions_prior_to_jp5_x_35_6_2",
+                    "jetson_linuxjp6_nvidia_jetson_orin_series_all_versions_prior_to_jp6_x_36_4_4",
+                    "jetson_linuxjp5_jetson_xavier_series_all_versions_prior_to_jp5_x_35_6_2",
+                    "igx_os_igx_orin_all_versions_prior_to_igx_1_1_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23270"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23270"
+                }
+            ],
+            "release_date": "2025-07-15T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "PHYSICAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linuxjp5_nvidia_jetson_orin_series_all_versions_prior_to_jp5_x_35_6_2",
+                        "jetson_linuxjp6_nvidia_jetson_orin_series_all_versions_prior_to_jp6_x_36_4_4",
+                        "jetson_linuxjp5_jetson_xavier_series_all_versions_prior_to_jp5_x_35_6_2",
+                        "igx_os_igx_orin_all_versions_prior_to_igx_1_1_2"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Roronoan Zoro"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23269",
+            "cwe": {
+                "id": "CWE-1423",
+                "name": "Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Jetson Linux contains a vulnerability in the kernel where an attacker may cause an exposure of sensitive information due to a shared microarchitectural predictor state that influences transient execution. A successful exploit of this vulnerability may lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5240631",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linuxjp5_nvidia_jetson_orin_series_35_6_2",
+                    "jetson_linuxjp6_nvidia_jetson_orin_series_36_4_4",
+                    "jetson_linuxjp5_jetson_xavier_series_35_6_2"
+                ],
+                "known_affected": [
+                    "jetson_linuxjp5_nvidia_jetson_orin_series_all_versions_prior_to_jp5_x_35_6_2",
+                    "jetson_linuxjp6_nvidia_jetson_orin_series_all_versions_prior_to_jp6_x_36_4_4",
+                    "jetson_linuxjp5_jetson_xavier_series_all_versions_prior_to_jp5_x_35_6_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23269"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23269"
+                }
+            ],
+            "release_date": "2025-07-15T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 4.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linuxjp5_nvidia_jetson_orin_series_all_versions_prior_to_jp5_x_35_6_2",
+                        "jetson_linuxjp6_nvidia_jetson_orin_series_all_versions_prior_to_jp6_x_36_4_4",
+                        "jetson_linuxjp5_jetson_xavier_series_all_versions_prior_to_jp5_x_35_6_2"
+                    ]
+                }
+            ]
+        }
+    ]
+}

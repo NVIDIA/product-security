@@ -1,0 +1,289 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae DGX and HGX HMC and BMC to address the security issues described below. To protect your system, download and install the latest update from the <a href=\"https://developer.nvidia.com/\">NVIDIA Developer Tools page</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "<div><br></div>",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "For CVE-2025-23337, if the HMC is properly hardened, then risk associated with this vulnerability is reduced. The CVSS vector indicates the worst-case configuration.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-11334-005_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1140468",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "9:DGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: DGX and HGX HMC and BMC - September 2025",
+        "tracking": {
+            "current_release_date": "2025-09-16T00:00:00Z",
+            "generator": {
+                "date": "2025-09-16T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5692",
+            "initial_release_date": "2025-09-16T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-09-16T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "HGX & DGX GB200",
+                                "product": {
+                                    "name": "HGX & DGX GB200",
+                                    "product_id": "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb200",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:hgx__dgx_gb200:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "HGX & DGX GB300",
+                                "product": {
+                                    "name": "HGX & DGX GB300",
+                                    "product_id": "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb300",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:hgx__dgx_gb300:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "HGX & DGX B300",
+                                "product": {
+                                    "name": "HGX & DGX B300",
+                                    "product_id": "hgx_hmc_dgx_hmc__bmc_hgx__dgx_b300",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:hgx__dgx_b300:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "HGX & DGX GB200",
+                                "product": {
+                                    "name": "GB200 1.2",
+                                    "product_id": "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb200_gb200_1_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:hgx__dgx_gb200:gb200_1_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "HGX & DGX GB200",
+                                "product": {
+                                    "name": "GB200 1.3",
+                                    "product_id": "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb200_gb200_1_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:hgx__dgx_gb200:gb200_1_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "HGX & DGX GB300",
+                                "product": {
+                                    "name": "GB300 0.8 dev drop",
+                                    "product_id": "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb300_gb300_0_8_dev_drop",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:hgx__dgx_gb300:gb300_0_8_dev_drop:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "HGX & DGX GB300",
+                                "product": {
+                                    "name": "GB300 0.8",
+                                    "product_id": "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb300_gb300_0_8",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:hgx__dgx_gb300:gb300_0_8:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "HGX & DGX B300",
+                                "product": {
+                                    "name": "B300 0.6",
+                                    "product_id": "hgx_hmc_dgx_hmc__bmc_hgx__dgx_b300_b300_0_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:hgx__dgx_b300:b300_0_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "HGX & DGX B300",
+                                "product": {
+                                    "name": "B300 0.8",
+                                    "product_id": "hgx_hmc_dgx_hmc__bmc_hgx__dgx_b300_b300_0_8",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:hgx__dgx_b300:b300_0_8:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "HGX: HMC, DGX: HMC & BMC"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2025-23337",
+            "cwe": {
+                "id": "CWE-1244",
+                "name": "Internal Asset Exposed to Unsafe Debug Access Level or State"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA HGX & DGX GB200, GB300, B300  contain a vulnerability in the HGX Management Controller (HMC) that may allow a malicious actor with administrative access on the BMC to access the HMC as an administrator. A successful exploit of this vulnerability may lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, denial of service, escalation of privileges, information disclosure, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5388155",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb200_gb200_1_3",
+                    "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb300_gb300_0_8",
+                    "hgx_hmc_dgx_hmc__bmc_hgx__dgx_b300_b300_0_8"
+                ],
+                "known_affected": [
+                    "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb200_gb200_1_2",
+                    "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb300_gb300_0_8_dev_drop",
+                    "hgx_hmc_dgx_hmc__bmc_hgx__dgx_b300_b300_0_6"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23337"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23337"
+                }
+            ],
+            "release_date": "2025-09-16T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb200_gb200_1_2",
+                        "hgx_hmc_dgx_hmc__bmc_hgx__dgx_gb300_gb300_0_8_dev_drop",
+                        "hgx_hmc_dgx_hmc__bmc_hgx__dgx_b300_b300_0_6"
+                    ]
+                }
+            ]
+        }
+    ]
+}

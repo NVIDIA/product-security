@@ -1,0 +1,432 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae DOCA Host and Mellanox OFED.<div>To protect your system, download and install the latest update from the <a href=\"https://developer.nvidia.com/doca-downloads\">DOCA Framework page</a>.  For earlier evaluation versions, contact your account manager to get access through NVOnline.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "This content is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). If you distribute this content, or a modified version of it, you must provide attribution to Red Hat Inc. and provide a link to the original.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, download and install the latest update from the <a href=\"https://developer.nvidia.com/doca-downloads\">DOCA Framework page</a>. For earlier evaluation versions, contact your account manager to get access through NVOnline.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "VGT+ is a feature only for Mellanox OFED and DOCA-Host, and does not exist in upstream Linux, or INBOX. The VGT+ feature is not enabled by default. The vulnerability affects only systems with the VGT+ feature enabled and eSwitch in Legacy mode, where Legacy is the default. The scope of impact is limited to the VGT+ feature itself.<br><div>Upstream Linux VGT features can achieve similar separation between VLANs.<br></div><div>Review your network configurations and ensure that the VGT+ feature is not enabled unless necessary.<br></div><div>To determine if VGT+ is enabled for a specific SR-IOV (0 in this example), determine whether  the /sys/class/net/eth5/device/sriov/0/trunkfile exists and contains any values. If this file is missing or empty, VGT+ is not enabled.<br></div><div>To search for relevant files:<br></div><div>$&gt; sudo find /sys/class/net/ -name trunk\t<br></div><div>To check if the device is in Legacy mode:<br></div><div>$&gt; sudo find /sys/class/net -name mode -exec cat {} ;</div>",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-11307-004_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1135196",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "14:NBU",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA DOCA-Host and Mellanox OFED - July 2025",
+        "tracking": {
+            "current_release_date": "2025-07-16T00:00:00Z",
+            "generator": {
+                "date": "2025-07-16T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5654",
+            "initial_release_date": "2025-07-15T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-07-15T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                },
+                {
+                    "date": "2025-07-16T00:00:00Z",
+                    "number": "2.0.0",
+                    "summary": "Adjusted affected and updated versions"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA DOCA-Host",
+                                "product": {
+                                    "name": "NVIDIA DOCA-Host",
+                                    "product_id": "linuxdoca_2_5_nvidia_docahost",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_docahost:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA DOCA-Host",
+                                "product": {
+                                    "name": "NVIDIA DOCA-Host",
+                                    "product_id": "linuxdoca_2_9_nvidia_docahost",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_docahost:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA DOCA-Host",
+                                "product": {
+                                    "name": "NVIDIA DOCA-Host",
+                                    "product_id": "linuxdoca_3_0_nvidia_docahost",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_docahost:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Mellanox OFED",
+                                "product": {
+                                    "name": "Mellanox OFED",
+                                    "product_id": "linuxofed_5_8_mellanox_ofed",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_ofed:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Mellanox OFED",
+                                "product": {
+                                    "name": "Mellanox OFED",
+                                    "product_id": "linuxofed_23_10_mellanox_ofed",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_ofed:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Mellanox OFED",
+                                "product": {
+                                    "name": "Mellanox OFED",
+                                    "product_id": "linuxofed_24_10_mellanox_ofed",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_ofed:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DOCA-Host",
+                                "product": {
+                                    "name": "All versions prior to 2.5.3-0.1.2",
+                                    "product_id": "linuxdoca_2_5_nvidia_docahost_all_versions_prior_to_2_5_30_1_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_docahost:all_versions_prior_to_2_5_30_1_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DOCA-Host",
+                                "product": {
+                                    "name": "2.5.3-0.1.2",
+                                    "product_id": "linuxdoca_2_5_nvidia_docahost_2_5_30_1_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_docahost:2_5_30_1_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(DOCA 2.5)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DOCA-Host",
+                                "product": {
+                                    "name": "All versions prior to 2.9.2-0.1.6",
+                                    "product_id": "linuxdoca_2_9_nvidia_docahost_all_versions_prior_to_2_9_20_1_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_docahost:all_versions_prior_to_2_9_20_1_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DOCA-Host",
+                                "product": {
+                                    "name": "2.9.2-0.1.6",
+                                    "product_id": "linuxdoca_2_9_nvidia_docahost_2_9_20_1_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_docahost:2_9_20_1_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(DOCA 2.9)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DOCA-Host",
+                                "product": {
+                                    "name": "All versions prior to 3.0.0-058001",
+                                    "product_id": "linuxdoca_3_0_nvidia_docahost_all_versions_prior_to_3_0_0058001",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_docahost:all_versions_prior_to_3_0_0058001:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DOCA-Host",
+                                "product": {
+                                    "name": "3.0.0-058001",
+                                    "product_id": "linuxdoca_3_0_nvidia_docahost_3_0_0058001",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_docahost:3_0_0058001:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(DOCA 3.0)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OFED",
+                                "product": {
+                                    "name": "All versions prior to 5.8-7.0.6.1",
+                                    "product_id": "linuxofed_5_8_mellanox_ofed_all_versions_prior_to_5_87_0_6_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_ofed:all_versions_prior_to_5_87_0_6_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OFED",
+                                "product": {
+                                    "name": "5.8-7.0.6.1",
+                                    "product_id": "linuxofed_5_8_mellanox_ofed_5_87_0_6_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_ofed:5_87_0_6_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(OFED 5.8)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OFED",
+                                "product": {
+                                    "name": "All versions prior to 23.10-5.1.4.0",
+                                    "product_id": "linuxofed_23_10_mellanox_ofed_all_versions_prior_to_23_105_1_4_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_ofed:all_versions_prior_to_23_105_1_4_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OFED",
+                                "product": {
+                                    "name": "23.10-5.1.4.0",
+                                    "product_id": "linuxofed_23_10_mellanox_ofed_23_105_1_4_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_ofed:23_105_1_4_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(OFED 23.10)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OFED",
+                                "product": {
+                                    "name": "All versions prior to 24.10-3.2.5.0",
+                                    "product_id": "linuxofed_24_10_mellanox_ofed_all_versions_prior_to_24_103_2_5_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_ofed:all_versions_prior_to_24_103_2_5_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OFED",
+                                "product": {
+                                    "name": "24.10-3.2.5.0",
+                                    "product_id": "linuxofed_24_10_mellanox_ofed_24_103_2_5_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_ofed:24_103_2_5_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(OFED 24.10)"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2025-23263",
+            "cwe": {
+                "id": "CWE-279",
+                "name": "Incorrect Execution-Assigned Permissions"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DOCA-Host and Mellanox OFED contain a vulnerability in the VGT+ feature, where an attacker on a VM might cause escalation of privileges and denial of service on the VLAN.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Escalation of Privileges, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5174661",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linuxdoca_2_5_nvidia_docahost_2_5_30_1_2",
+                    "linuxdoca_2_9_nvidia_docahost_2_9_20_1_6",
+                    "linuxdoca_3_0_nvidia_docahost_3_0_0058001",
+                    "linuxofed_5_8_mellanox_ofed_5_87_0_6_1",
+                    "linuxofed_23_10_mellanox_ofed_23_105_1_4_0",
+                    "linuxofed_24_10_mellanox_ofed_24_103_2_5_0"
+                ],
+                "known_affected": [
+                    "linuxdoca_2_5_nvidia_docahost_all_versions_prior_to_2_5_30_1_2",
+                    "linuxdoca_2_9_nvidia_docahost_all_versions_prior_to_2_9_20_1_6",
+                    "linuxdoca_3_0_nvidia_docahost_all_versions_prior_to_3_0_0058001",
+                    "linuxofed_5_8_mellanox_ofed_all_versions_prior_to_5_87_0_6_1",
+                    "linuxofed_23_10_mellanox_ofed_all_versions_prior_to_23_105_1_4_0",
+                    "linuxofed_24_10_mellanox_ofed_all_versions_prior_to_24_103_2_5_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23263"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23263"
+                }
+            ],
+            "release_date": "2025-07-15T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 7.6,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linuxdoca_2_5_nvidia_docahost_all_versions_prior_to_2_5_30_1_2",
+                        "linuxdoca_2_9_nvidia_docahost_all_versions_prior_to_2_9_20_1_6",
+                        "linuxdoca_3_0_nvidia_docahost_all_versions_prior_to_3_0_0058001",
+                        "linuxofed_5_8_mellanox_ofed_all_versions_prior_to_5_87_0_6_1",
+                        "linuxofed_23_10_mellanox_ofed_all_versions_prior_to_23_105_1_4_0",
+                        "linuxofed_24_10_mellanox_ofed_all_versions_prior_to_24_103_2_5_0"
+                    ]
+                }
+            ]
+        }
+    ]
+}
