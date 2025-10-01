@@ -30,6 +30,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-23271](5661/CVE-2025-23271.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 |  | [CVE-2025-23340](5661/CVE-2025-23340.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 |  | [CVE-2025-23339](5661/CVE-2025-23339.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
+| Dong-uk Kim & JunYoung Park of KAIST Hacking Lab | [CVE-2025-23297](5682/CVE-2025-23297.json) | [5682.json](5682/5682.json) | [5682.md](5682/5682.md) |
 | Kai Lu - Palo Alto Networks | [CVE-2024-53870](5594/CVE-2024-53870.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53871](5594/CVE-2024-53871.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53872](5594/CVE-2024-53872.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
@@ -52,6 +53,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative | [CVE-2025-23298](5683/CVE-2025-23298.json) | [5683.json](5683/5683.json) | [5683.md](5683/5683.md) |
 | Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative and Tong Liu (IIE) | [CVE-2025-23296](5681/CVE-2025-23296.json) | [5681.json](5681/5681.json) | [5681.md](5681/5681.md) |
 | Pinji Chen (Tsinghua University) | [CVE-2025-23295](5680/CVE-2025-23295.json) | [5680.json](5680/5680.json) | [5680.md](5680/5680.md) |
+| pwni | [CVE-2025-23355](5704/CVE-2025-23355.json) | [5704.json](5704/5704.json) | [5704.md](5704/5704.md) |
 | Ronen Shustin - WIZ.IO | [CVE-2025-23319](5687/CVE-2025-23319.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23334](5687/CVE-2025-23334.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 | Roronoan Zoro | [CVE-2025-23269](5662/CVE-2025-23269.json) | [5662.json](5662/5662.json) | [5662.md](5662/5662.md) |

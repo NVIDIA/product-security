@@ -2,6 +2,8 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5682](5682/5682.md) | Security Bulletin: NVIDIA App - September 2025 | 2025-09-30 | 2025-09-30 | [CVE-2025-23297](5682/CVE-2025-23297.json) |
+| [5704](5704/5704.md) | Security Bulletin: NVIDIA Nsight Graphics - September 2025 | 2025-09-30 | 2025-09-30 | [CVE-2025-23355](5704/CVE-2025-23355.json) |
 | [5698](5698/5698.md) | Security Bulletin: NVIDIA Megatron LM - September 2025 | 2025-09-23 | 2025-09-23 | [CVE-2025-23348](5698/CVE-2025-23348.json), [CVE-2025-23349](5698/CVE-2025-23349.json), [CVE-2025-23353](5698/CVE-2025-23353.json), [CVE-2025-23354](5698/CVE-2025-23354.json) |
 | [5661](5661/5661.md) | Security Bulletin: NVIDIA CUDA Toolkit - September 2025 | 2025-09-23 | 2025-09-23 | [CVE-2025-23272](5661/CVE-2025-23272.json), [CVE-2025-23274](5661/CVE-2025-23274.json), [CVE-2025-23275](5661/CVE-2025-23275.json), [CVE-2025-23338](5661/CVE-2025-23338.json), [CVE-2025-23248](5661/CVE-2025-23248.json), [CVE-2025-23271](5661/CVE-2025-23271.json), [CVE-2025-23340](5661/CVE-2025-23340.json), [CVE-2025-23255](5661/CVE-2025-23255.json), [CVE-2025-23339](5661/CVE-2025-23339.json), [CVE-2025-23308](5661/CVE-2025-23308.json), [CVE-2025-23346](5661/CVE-2025-23346.json), [CVE-2025-23273](5661/CVE-2025-23273.json) |
 | [5692](5692/5692.md) | Security Bulletin: DGX and HGX HMC and BMC - September 2025 | 2025-09-16 | 2025-09-16 | [CVE-2025-23337](5692/CVE-2025-23337.json) |
