@@ -26,6 +26,10 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2024-0144](5596/CVE-2024-0144.json) | [5596.json](5596/5596.json) | [5596.md](5596/5596.md) |
 |  | [CVE-2024-0145](5596/CVE-2024-0145.json) | [5596.json](5596/5596.json) | [5596.md](5596/5596.md) |
 |  | [CVE-2025-23247](5643/CVE-2025-23247.json) | [5643.json](5643/5643.json) | [5643.md](5643/5643.md) |
+|  | [CVE-2025-23338](5661/CVE-2025-23338.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
+|  | [CVE-2025-23271](5661/CVE-2025-23271.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
+|  | [CVE-2025-23340](5661/CVE-2025-23340.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
+|  | [CVE-2025-23339](5661/CVE-2025-23339.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 | Kai Lu - Palo Alto Networks | [CVE-2024-53870](5594/CVE-2024-53870.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53871](5594/CVE-2024-53871.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53872](5594/CVE-2024-53872.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
@@ -35,6 +39,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2024-53876](5594/CVE-2024-53876.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53877](5594/CVE-2024-53877.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53878](5594/CVE-2024-53878.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
+|  | [CVE-2025-23248](5661/CVE-2025-23248.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 | Lei Wang & Min Yao (Nebula Security Lab, Huawei Cloud) | [CVE-2025-23267](5659/CVE-2025-23267.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
 | Maxim Mints and Austin Herring | [CVE-2024-0112](5611/CVE-2024-0112.json) | [5611.json](5611/5611.json) | [5611.md](5611/5611.md) |
 | nEINEI - Tencent-zhuquelab | [CVE-2024-53879](5594/CVE-2024-53879.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
@@ -62,6 +67,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-23333](5687/CVE-2025-23333.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 | Will Vandevanter - Trail of Bits | [CVE-2025-23310](5687/CVE-2025-23310.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23311](5687/CVE-2025-23311.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
+| Xiaozheng Ding, Lidong Li from SourceGuard | [CVE-2025-23255](5661/CVE-2025-23255.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 | Xuanzhe Yu | [CVE-2025-23313](5689/CVE-2025-23313.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |
 |  | [CVE-2025-23314](5689/CVE-2025-23314.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |
 | Yash Kundlik Jare | [CVE-2025-23289](5679/CVE-2025-23289.json) | [5679.json](5679/5679.json) | [5679.md](5679/5679.md) |
@@ -72,6 +78,9 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-23354](5698/CVE-2025-23354.json) | [5698.json](5698/5698.json) | [5698.md](5698/5698.md) |
 |  | [CVE-2025-23264](5663/CVE-2025-23264.json) | [5663.json](5663/5663.json) | [5663.md](5663/5663.md) |
 |  | [CVE-2025-23265](5663/CVE-2025-23265.json) | [5663.json](5663/5663.json) | [5663.md](5663/5663.md) |
+| Yuhao Zhou@Sichuan University | [CVE-2025-23272](5661/CVE-2025-23272.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
+|  | [CVE-2025-23274](5661/CVE-2025-23274.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
+|  | [CVE-2025-23275](5661/CVE-2025-23275.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 | Руслан Семченко (Ruslan Semchenko) and Kikay Lee | [CVE-2025-23312](5689/CVE-2025-23312.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |
 
 ## NVIDIA would also like to thank the following

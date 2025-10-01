@@ -1,0 +1,1096 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae CUDA\u00ae Toolkit.&nbsp;<div>To protect your system, download and install this software update from the <a href=\"https://developer.nvidia.com/cuda-toolkit\">CUDA Toolkit Downloads</a> page.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Download the update from the Releases tab on the <a href=\"https://github.com/CVCUDA/CV-CUDA\">CV-CUDA Github</a> page to apply the security update.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software branch releases that support this product are also affected. If you are using an earlier branch release, upgrade to the latest branch release.<br><div>These issues were found externally.</div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB--12195-005_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1140329",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "6:CUDA Toolkit",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA CUDA Toolkit - September 2025",
+        "tracking": {
+            "current_release_date": "2025-09-23T00:00:00Z",
+            "generator": {
+                "date": "2025-09-23T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5661",
+            "initial_release_date": "2025-09-23T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-09-23T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA CUDA Toolkit",
+                                "product": {
+                                    "name": "NVIDIA CUDA Toolkit",
+                                    "product_id": "windows_linux_nvidia_cuda_toolkit",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_cuda_toolkit:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "nvJPEG",
+                                "product": {
+                                    "name": "nvJPEG",
+                                    "product_id": "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA CUDA Toolkit",
+                                "product": {
+                                    "name": "All versions prior to CUDA Toolkit 12.9 Update 1",
+                                    "product_id": "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_12_9_update_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_cuda_toolkit:all_versions_prior_to_cuda_toolkit_12_9_update_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA CUDA Toolkit",
+                                "product": {
+                                    "name": "CUDA Toolkit 12.9 Update 1",
+                                    "product_id": "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_12_9_update_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_cuda_toolkit:cuda_toolkit_12_9_update_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA CUDA Toolkit",
+                                "product": {
+                                    "name": "All versions prior to CUDA Toolkit 13.0",
+                                    "product_id": "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_cuda_toolkit:all_versions_prior_to_cuda_toolkit_13_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA CUDA Toolkit",
+                                "product": {
+                                    "name": "CUDA Toolkit 13.0",
+                                    "product_id": "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_cuda_toolkit:cuda_toolkit_13_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows, Linux"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG",
+                                "product": {
+                                    "name": "All versions prior to nvJPEG 25.03",
+                                    "product_id": "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_25_03",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg:all_versions_prior_to_nvjpeg_25_03:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG",
+                                "product": {
+                                    "name": "nvJPEG 25.03",
+                                    "product_id": "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_nvjpeg_25_03",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg:nvjpeg_25_03:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG",
+                                "product": {
+                                    "name": "All versions prior to nvJPEG 13.0.0",
+                                    "product_id": "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_13_0_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg:all_versions_prior_to_nvjpeg_13_0_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "nvJPEG",
+                                "product": {
+                                    "name": "nvJPEG 13.0.0",
+                                    "product_id": "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_nvjpeg_13_0_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvjpeg:nvjpeg_13_0_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux x86_64, Linux sbsa Jetson, Windows, Linux for Tegra, DriveOS"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Yuhao Zhou@Sichuan University"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23272",
+            "cwe": {
+                "id": "CWE-125",
+                "name": "Out-of-bounds Read"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA nvJPEG library contains a vulnerability where an attacker can cause an out-of-bounds read by means of a specially crafted JPEG file. A successful exploit of this vulnerability might lead to information disclosure or denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information disclosure, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5168024",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_12_9_update_1",
+                    "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_nvjpeg_25_03"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_12_9_update_1",
+                    "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_25_03"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23272"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23272"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 5.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_12_9_update_1",
+                        "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_25_03"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Yuhao Zhou@Sichuan University"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23274",
+            "cwe": {
+                "id": "CWE-125",
+                "name": "Out-of-bounds Read"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA nvJPEG contains a vulnerability in jpeg encoding where a user may cause an out-of-bounds read by providing a maliciously crafted input image with dimensions that cause integer overflows in array index calculations. A successful exploit of this vulnerability may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5216452",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0",
+                    "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_nvjpeg_13_0_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0",
+                    "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_13_0_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23274"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23274"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 4.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0",
+                        "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_13_0_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Yuhao Zhou@Sichuan University"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23275",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit for all platforms contains a vulnerability in nvJPEG where a local authenticated user may cause a GPU out-of-bounds write by providing certain image dimensions.  A successful exploit of this vulnerability may lead to denial of service and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5225718",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0",
+                    "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_nvjpeg_13_0_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0",
+                    "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_13_0_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23275"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23275"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 4.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0",
+                        "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_13_0_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dimitrios Tatsis - Cisco Talos"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23338",
+            "cwe": {
+                "id": "CWE-129",
+                "name": "Improper Validation of Array Index"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit for all platforms contains a vulnerability in nvdisasm where a user may cause an out-of-bounds write by running nvdisasm on a malicious ELF file. A successful exploit of this vulnerability may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5200315",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23338"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23338"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 3.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Kai Lu - Palo Alto Networks"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23248",
+            "cwe": {
+                "id": "CWE-125",
+                "name": "Out-of-bounds Read"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit for all platforms contains a vulnerability in the nvdisasm binary where a user may cause an out-of-bounds read by passing a malformed ELF file to nvdisasm. A successful exploit of this vulnerability may lead to a partial denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5125219",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23248"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23248"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 3.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dimitrios Tatsis - Cisco Talos"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23271",
+            "cwe": {
+                "id": "CWE-125",
+                "name": "Out-of-bounds Read"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit for all platforms contains a vulnerability in the nvdisasm binary where a user may cause an out-of-bounds read by passing a malformed ELF file to nvdisasm. A successful exploit of this vulnerability may lead to a partial denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5264771",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23271"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23271"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 3.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dimitrios Tatsis - Cisco Talos"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23340",
+            "cwe": {
+                "id": "CWE-125",
+                "name": "Out-of-bounds Read"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit for all platforms contains a vulnerability in the nvdisasm binary where a user may cause an out-of-bounds read by passing a malformed ELF file to nvdisasm. A successful exploit of this vulnerability may lead to a partial denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5222966",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23340"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23340"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 3.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Xiaozheng Ding, Lidong Li from SourceGuard"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23255",
+            "cwe": {
+                "id": "CWE-125",
+                "name": "Out-of-bounds Read"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit for all platforms contains a vulnerability in the cuobjdump binary where a user may cause an out-of-bounds read by passing a malformed ELF file to cuobjdump. A successful exploit of this vulnerability may lead to a partial denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5249134",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23255"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23255"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 3.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dimitrios Tatsis - Cisco Talos"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-23339",
+            "cwe": {
+                "id": "CWE-121",
+                "name": "Stack-based Buffer Overflow"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit for all platforms contains a vulnerability in cuobjdump where an attacker may cause a stack-based buffer overflow by getting the user to run cuobjdump on a malicious ELF file. A successful exploit of this vulnerability may lead to arbitrary code execution at the privilege level of the user running <br/>cuobjdump.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5143583",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23339"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23339"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 3.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-23308",
+            "cwe": {
+                "id": "CWE-122",
+                "name": "Heap-based Buffer Overflow"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit for all platforms contains a vulnerability in nvdisasm where an attacker may cause a heap-based buffer overflow by getting the user to run nvdisasm on a malicious ELF file. A successful exploit of this vulnerability may lead to arbitrary code execution at the privilege level of the user running nvdisasm.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5370622",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23308"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23308"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 3.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-23346",
+            "cwe": {
+                "id": "CWE-476",
+                "name": "NULL Pointer Dereference"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit contains a vulnerability in cuobjdump, where an unprivileged user can cause a NULL pointer dereference.  A successful exploit of this vulnerability may lead to a limited denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5431813",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23346"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23346"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 3.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-23273",
+            "cwe": {
+                "id": "CWE-369",
+                "name": "Divide By Zero"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit for all platforms contains a vulnerability in nvJPEG where a local authenticated user may cause a divide by zero error by submitting a specially crafted JPEG file. A successful exploit of this vulnerability may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5218311",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_linux_nvidia_cuda_toolkit_cuda_toolkit_13_0",
+                    "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_nvjpeg_13_0_0"
+                ],
+                "known_affected": [
+                    "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0",
+                    "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_13_0_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23273"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-23273"
+                }
+            ],
+            "release_date": "2025-09-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 2.5,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_linux_nvidia_cuda_toolkit_all_versions_prior_to_cuda_toolkit_13_0",
+                        "linux_x86_64_linux_sbsa_jetson_windows_linux_for_tegra_driveos_nvjpeg_all_versions_prior_to_nvjpeg_13_0_0"
+                    ]
+                }
+            ]
+        }
+    ]
+}
