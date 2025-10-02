@@ -1,0 +1,57 @@
+Milan Katwal
+miguelse
+Veshraj Ghimire
+Wesley Sponsler
+Wiz AI Dast Agent, Wiz Research
+Pengyu Ding, Ant Group Security Team & Huazhong University of Science and Technology
+Ziteng Xu, Ant Group Security Team
+Azmal Khan
+moomi (TencentAISec)
+Mo XY of IceSword Lab
+Yu Rong and Hao Fan
+Tian Yu from ADLab of VenusTech
+Kostas Tsilikis (MindTheHack)
+Lewis Ardern - Semgrep
+Abdullah Schahin
+William Bastos
+Zezhi Lin (ByteDance security team)
+h3r & Tsingshui with 0xfa
+xsstestov
+Veshraj with Bibek and Ashim
+Arunava Chaudhuri, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India
+Shubhi Shukla, Centre for Computational and Data Sciences, IIT Kharagpur, Kharagpur, India
+Sarani Bhattacharya, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India
+Debdeep Mukhopadhyay, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India
+Varad AP Mene (@varad_mene)
+Miguel Segovia Gil
+Arnesh Vikas Vaidya
+Spade
+Ali Shihab
+Rami McCarthy - Wiz Research
+Gal Nagli - Wiz Research
+Pratyush Dutta (xlsizebruh)
+Mohammad-Nouri Almohammad
+Taylor James Benware Nelson
+Nicholas Clark
+Kun Jiang - Shanghai Fudan Microelectronics Group Co. Ltd
+LIDONG LI (SourceGuard)
+Ruslan Semchenko
+Jacob Wujciak-Jens
+Mukesh Sai Kumar
+BlackinOne (@blackinone)
+PiotrKFtw (@piotrkftw)
+Patrik Huber
+François Proulx - BoostSecurity.io
+William Hackett - Secure AI Researcher (Mindgard)
+Lewis Birch - Secure AI Researcher (Mindgard)
+Peng Zhou from Shanghai University
+Yakup Bozkurt - AppSec Team Lead at TEB (BNP Paribas)
+Magashwarahan A
+Dharmesh Baskaran
+Satoshi Ushioda
+Jaeheng Yoon (JENBlack Soft)
+Sascha Meyer
+El Hatimi Mohamed Amine
+Abu Bakkar Siddique
+Yulia Smith
+Kartik Mohite (@kartik2311)

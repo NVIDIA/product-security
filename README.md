@@ -18,4 +18,4 @@ This repository provides:
 - NVIDIA takes security concerns seriously. Reported issues are analyzed, validated, and addressed with corrective actions.
 
 ## Contact
-- For details on NVIDIA’s security practices or to report any security issues please visit the [NVIDIA Product Security page](https://www.nvidia.com/en-us/security/).
+- For details on NVIDIA’s security practices or to report any security issues please visit the [NVIDIA Product Security page](https://www.nvidia.com/en-us/security/report-vulnerability/).

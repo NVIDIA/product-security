@@ -1,0 +1,476 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a firmware update for NVIDIA UFM Enterprise, UFM Appliance, and UFM CyberAI. To protect your system, download and install this firmware update from the <a href=\"https://enterprise-support.nvidia.com/s/\">NVIDIA Enterprise Support Portal</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "The vulnerability is exploitable through the Ethernet management interface of the UFM system, which in most cases is isolated from public networks.<div>The LTS22 versions of the various UFM products are not affected.</div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA UFM Enterprise, UFM Appliance, UFM CyberAI - November 2024",
+        "tracking": {
+            "current_release_date": "2025-02-14T00:00:00Z",
+            "generator": {
+                "date": "2025-02-14T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5584",
+            "initial_release_date": "2024-11-26T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2024-11-26T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                },
+                {
+                    "date": "2025-02-14T00:00:00Z",
+                    "number": "1.1.0",
+                    "summary": "Added updated versions 6.16.0-5 for UFM Enterprise GA"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "UFM Enterprise GA",
+                                "product": {
+                                    "name": "UFM Enterprise GA",
+                                    "product_id": "rhel_8_rhel_9_ubuntu20_ubuntu22_ufm_enterprise_ga",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_ga:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "UFM Enterprise LTS23",
+                                "product": {
+                                    "name": "UFM Enterprise LTS23",
+                                    "product_id": "rhel_7_rhel_8_rhel_9_ubuntu18_ubuntu20_ubuntu22_ufm_enterprise_lts23",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_lts23:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "UFM Enterprise Appliance GA",
+                                "product": {
+                                    "name": "UFM Enterprise Appliance GA",
+                                    "product_id": "na_ufm_enterprise_appliance_ga",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_appliance_ga:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "UFM Enterprise Appliance LTS23",
+                                "product": {
+                                    "name": "UFM Enterprise Appliance LTS23",
+                                    "product_id": "na_ufm_enterprise_appliance_lts23",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_appliance_lts23:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "UFM SDN Appliance GA",
+                                "product": {
+                                    "name": "UFM SDN Appliance GA",
+                                    "product_id": "na_ufm_sdn_appliance_ga",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_sdn_appliance_ga:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "UFM SDN Appliance LTS23",
+                                "product": {
+                                    "name": "UFM SDN Appliance LTS23",
+                                    "product_id": "na_ufm_sdn_appliance_lts23",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_sdn_appliance_lts23:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "UFM CyberAI GA",
+                                "product": {
+                                    "name": "UFM CyberAI GA",
+                                    "product_id": "na_ufm_cyberai_ga",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_cyberai_ga:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "UFM CyberAI LTS23",
+                                "product": {
+                                    "name": "UFM CyberAI LTS23",
+                                    "product_id": "na_ufm_cyberai_lts23",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_cyberai_lts23:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "UFM Enterprise GA",
+                                "product": {
+                                    "name": "6.15.x, 6.16.x, 6.17.x",
+                                    "product_id": "rhel_8_rhel_9_ubuntu20_ubuntu22_ufm_enterprise_ga_6_15_x_6_16_x_6_17_x",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_ga:6_15_x_6_16_x_6_17_x:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM Enterprise GA",
+                                "product": {
+                                    "name": "6.16.0-5, 6.18.0-5",
+                                    "product_id": "rhel_8_rhel_9_ubuntu20_ubuntu22_ufm_enterprise_ga_6_16_05_6_18_05",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_ga:6_16_05_6_18_05:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "RHEL 8, RHEL 9, Ubuntu20, Ubuntu22"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "UFM Enterprise LTS23",
+                                "product": {
+                                    "name": "6.15.x LTS prior to 6.15.6-4 LTS",
+                                    "product_id": "rhel_7_rhel_8_rhel_9_ubuntu18_ubuntu20_ubuntu22_ufm_enterprise_lts23_6_15_x_lts_prior_to_6_15_64_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_lts23:6_15_x_lts_prior_to_6_15_64_lts:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM Enterprise LTS23",
+                                "product": {
+                                    "name": "6.15.6-4 LTS",
+                                    "product_id": "rhel_7_rhel_8_rhel_9_ubuntu18_ubuntu20_ubuntu22_ufm_enterprise_lts23_6_15_64_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_lts23:6_15_64_lts:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "RHEL 7, RHEL 8, RHEL 9, Ubuntu18, Ubuntu20, Ubuntu22"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "UFM Enterprise Appliance GA",
+                                "product": {
+                                    "name": "1.6.x, 1.7.x, 1.8.x",
+                                    "product_id": "na_ufm_enterprise_appliance_ga_1_6_x_1_7_x_1_8_x",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_appliance_ga:1_6_x_1_7_x_1_8_x:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM Enterprise Appliance GA",
+                                "product": {
+                                    "name": "1.9.1-2",
+                                    "product_id": "na_ufm_enterprise_appliance_ga_1_9_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_appliance_ga:1_9_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM Enterprise Appliance LTS23",
+                                "product": {
+                                    "name": "1.6.x LTS prior to 1.6.6-1 LTS",
+                                    "product_id": "na_ufm_enterprise_appliance_lts23_1_6_x_lts_prior_to_1_6_61_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_appliance_lts23:1_6_x_lts_prior_to_1_6_61_lts:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM Enterprise Appliance LTS23",
+                                "product": {
+                                    "name": "1.6.6-1 LTS",
+                                    "product_id": "na_ufm_enterprise_appliance_lts23_1_6_61_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_enterprise_appliance_lts23:1_6_61_lts:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM SDN Appliance GA",
+                                "product": {
+                                    "name": "4.14.x, 4.15.x, 4.16.x",
+                                    "product_id": "na_ufm_sdn_appliance_ga_4_14_x_4_15_x_4_16_x",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_sdn_appliance_ga:4_14_x_4_15_x_4_16_x:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM SDN Appliance GA",
+                                "product": {
+                                    "name": "4.17.0.5",
+                                    "product_id": "na_ufm_sdn_appliance_ga_4_17_0_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_sdn_appliance_ga:4_17_0_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM SDN Appliance LTS23",
+                                "product": {
+                                    "name": "4.14.x LTS prior to 4.14.6.4 LTS",
+                                    "product_id": "na_ufm_sdn_appliance_lts23_4_14_x_lts_prior_to_4_14_6_4_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_sdn_appliance_lts23:4_14_x_lts_prior_to_4_14_6_4_lts:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM SDN Appliance LTS23",
+                                "product": {
+                                    "name": "4.14.6.4 LTS",
+                                    "product_id": "na_ufm_sdn_appliance_lts23_4_14_6_4_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_sdn_appliance_lts23:4_14_6_4_lts:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM CyberAI GA",
+                                "product": {
+                                    "name": "2.6.x, 2.7.x, 2.8.x",
+                                    "product_id": "na_ufm_cyberai_ga_2_6_x_2_7_x_2_8_x",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_cyberai_ga:2_6_x_2_7_x_2_8_x:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM CyberAI GA",
+                                "product": {
+                                    "name": "2.9.1-2",
+                                    "product_id": "na_ufm_cyberai_ga_2_9_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_cyberai_ga:2_9_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM CyberAI LTS23",
+                                "product": {
+                                    "name": "2.6.1-3 LTS",
+                                    "product_id": "na_ufm_cyberai_lts23_2_6_13_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_cyberai_lts23:2_6_13_lts:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "UFM CyberAI LTS23",
+                                "product": {
+                                    "name": "2.6.1-4 LTS",
+                                    "product_id": "na_ufm_cyberai_lts23_2_6_14_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:ufm_cyberai_lts23:2_6_14_lts:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "N/A"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2024-0130",
+            "cwe": {
+                "id": "CWE-287",
+                "name": "Improper Authentication"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA UFM Enterprise, UFM Appliance, and UFM CyberAI contain a vulnerability where an attacker can cause an improper authentication issue by sending a malformed request through the Ethernet management interface. A successful exploit of this vulnerability might lead to escalation of privileges, data tampering, denial of service, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Escalation of Privileges, Data Tampering, Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4860711",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "rhel_8_rhel_9_ubuntu20_ubuntu22_ufm_enterprise_ga_6_16_05_6_18_05",
+                    "rhel_7_rhel_8_rhel_9_ubuntu18_ubuntu20_ubuntu22_ufm_enterprise_lts23_6_15_64_lts",
+                    "na_ufm_enterprise_appliance_ga_1_9_12",
+                    "na_ufm_enterprise_appliance_lts23_1_6_61_lts",
+                    "na_ufm_sdn_appliance_ga_4_17_0_5",
+                    "na_ufm_sdn_appliance_lts23_4_14_6_4_lts",
+                    "na_ufm_cyberai_ga_2_9_12",
+                    "na_ufm_cyberai_lts23_2_6_14_lts"
+                ],
+                "known_affected": [
+                    "rhel_8_rhel_9_ubuntu20_ubuntu22_ufm_enterprise_ga_6_15_x_6_16_x_6_17_x",
+                    "rhel_7_rhel_8_rhel_9_ubuntu18_ubuntu20_ubuntu22_ufm_enterprise_lts23_6_15_x_lts_prior_to_6_15_64_lts",
+                    "na_ufm_enterprise_appliance_ga_1_6_x_1_7_x_1_8_x",
+                    "na_ufm_enterprise_appliance_lts23_1_6_x_lts_prior_to_1_6_61_lts",
+                    "na_ufm_sdn_appliance_ga_4_14_x_4_15_x_4_16_x",
+                    "na_ufm_sdn_appliance_lts23_4_14_x_lts_prior_to_4_14_6_4_lts",
+                    "na_ufm_cyberai_ga_2_6_x_2_7_x_2_8_x",
+                    "na_ufm_cyberai_lts23_2_6_13_lts"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0130"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0130"
+                }
+            ],
+            "release_date": "2024-11-26T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "rhel_8_rhel_9_ubuntu20_ubuntu22_ufm_enterprise_ga_6_15_x_6_16_x_6_17_x",
+                        "rhel_7_rhel_8_rhel_9_ubuntu18_ubuntu20_ubuntu22_ufm_enterprise_lts23_6_15_x_lts_prior_to_6_15_64_lts",
+                        "na_ufm_enterprise_appliance_ga_1_6_x_1_7_x_1_8_x",
+                        "na_ufm_enterprise_appliance_lts23_1_6_x_lts_prior_to_1_6_61_lts",
+                        "na_ufm_sdn_appliance_ga_4_14_x_4_15_x_4_16_x",
+                        "na_ufm_sdn_appliance_lts23_4_14_x_lts_prior_to_4_14_6_4_lts",
+                        "na_ufm_cyberai_ga_2_6_x_2_7_x_2_8_x",
+                        "na_ufm_cyberai_lts23_2_6_13_lts"
+                    ]
+                }
+            ]
+        }
+    ]
+}
