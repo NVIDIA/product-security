@@ -6,7 +6,7 @@ This file contains acknowledgments for security researchers and organizations wh
 
 | Acknowledgment | CVE | CSAF File | Bulletin |
 |----------------|-----|-----------|----------|
-| (No acknowledgments found) | | | |
+| Abian Blome, Jan Kästle – Siemens Energy | [CVE-2024-0139](5600/CVE-2024-0139.json) | [5600.json](5600/5600.json) | [5600.md](5600/5600.md) |
 
 ## NVIDIA would also like to thank the following
 

@@ -1,0 +1,250 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA Base Command and Bright Cluster Managers to address the security issues listed below.<div>To protect your system, update the CMdaemon package on the head node and in software images.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Use this security update to resolve the issue as follows:<div><ul><li>Update to the most recent version of CMdaemon on the head nodes and in all software images.</li><li>Update the nodes by rebooting them or by resynchronizing them against the software image.</li></ul></div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "3:Base Control Manager",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Base Command and Bright Cluster Managers - November 2024",
+        "tracking": {
+            "current_release_date": "2024-11-26T00:00:00Z",
+            "generator": {
+                "date": "2024-11-26T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5600",
+            "initial_release_date": "2024-11-26T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2024-11-26T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "draft",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Base Command Manager",
+                                "product": {
+                                    "name": "NVIDIA Base Command Manager",
+                                    "product_id": "linux_nvidia_base_command_manager",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_base_command_manager:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Bright Cluster Manager",
+                                "product": {
+                                    "name": "NVIDIA Bright Cluster Manager",
+                                    "product_id": "linux_nvidia_bright_cluster_manager",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_bright_cluster_manager:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Base Command Manager",
+                                "product": {
+                                    "name": "Base Command Manager 3, Base Command Manager 10",
+                                    "product_id": "linux_nvidia_base_command_manager_base_command_manager_3_base_command_manager_10",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_base_command_manager:base_command_manager_3_base_command_manager_10:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Base Command Manager",
+                                "product": {
+                                    "name": "10.24.09a",
+                                    "product_id": "linux_nvidia_base_command_manager_10_24_09a",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_base_command_manager:10_24_09a:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Bright Cluster Manager",
+                                "product": {
+                                    "name": "Bright Cluster Manager 9.0-9.2",
+                                    "product_id": "linux_nvidia_bright_cluster_manager_bright_cluster_manager_9_09_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_bright_cluster_manager:bright_cluster_manager_9_09_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Bright Cluster Manager",
+                                "product": {
+                                    "name": "Bright Cluster Manager 9.0-22, 9.1-19, 9.2-17",
+                                    "product_id": "linux_nvidia_bright_cluster_manager_bright_cluster_manager_9_022_9_119_9_217",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_bright_cluster_manager:bright_cluster_manager_9_022_9_119_9_217:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Abian Blome, Jan K\u00e4stle \u2013 Siemens Energy"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0139",
+            "cwe": {
+                "id": "CWE-377",
+                "name": "Insecure Temporary File"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Base Command Manager and Bright Cluster Manager for Linux contain an insecure temporary file vulnerability. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4864950",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_base_command_manager_10_24_09a",
+                    "linux_nvidia_bright_cluster_manager_bright_cluster_manager_9_022_9_119_9_217"
+                ],
+                "known_affected": [
+                    "linux_nvidia_base_command_manager_base_command_manager_3_base_command_manager_10",
+                    "linux_nvidia_bright_cluster_manager_bright_cluster_manager_9_09_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0139"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0139"
+                }
+            ],
+            "release_date": "2024-11-26T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 4.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_base_command_manager_base_command_manager_3_base_command_manager_10",
+                        "linux_nvidia_bright_cluster_manager_bright_cluster_manager_9_09_2"
+                    ]
+                }
+            ]
+        }
+    ]
+}
