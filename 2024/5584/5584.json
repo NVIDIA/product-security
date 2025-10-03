@@ -82,8 +82,8 @@
                     "summary": "Added updated versions 6.16.0-5 for UFM Enterprise GA"
                 }
             ],
-            "status": "draft",
-            "version": "1.0.0"
+            "status": "final",
+            "version": "1.1.0"
         }
     },
     "product_tree": {
