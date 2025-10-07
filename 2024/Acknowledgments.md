@@ -7,6 +7,15 @@ This file contains acknowledgments for security researchers and organizations wh
 | Acknowledgment | CVE | CSAF File | Bulletin |
 |----------------|-----|-----------|----------|
 | Abian Blome, Jan Kästle – Siemens Energy | [CVE-2024-0139](5600/CVE-2024-0139.json) | [5600.json](5600/5600.json) | [5600.md](5600/5600.md) |
+| Andres Riancho, Ronen Shustin, and Shir Tamari from Wiz Research | [CVE-2024-0132](5582/CVE-2024-0132.json) | [5582.json](5582/5582.json) | [5582.md](5582/5582.md) |
+|  | [CVE-2024-0133](5582/CVE-2024-0133.json) | [5582.json](5582/5582.json) | [5582.md](5582/5582.md) |
+|  | [CVE-2024-0134](5585/CVE-2024-0134.json) | [5585.json](5585/5585.json) | [5585.md](5585/5585.md) |
+| CSF LABS - Energisa Group | [CVE-2024-0122](5570/CVE-2024-0122.json) | [5570.json](5570/5570.json) | [5570.md](5570/5570.md) |
+| nEINEI - Tencent-zhuquelab | [CVE-2024-0123](5577/CVE-2024-0123.json) | [5577.json](5577/5577.json) | [5577.md](5577/5577.md) |
+|  | [CVE-2024-0124](5577/CVE-2024-0124.json) | [5577.json](5577/5577.json) | [5577.md](5577/5577.md) |
+|  | [CVE-2024-0125](5577/CVE-2024-0125.json) | [5577.json](5577/5577.json) | [5577.md](5577/5577.md) |
+| r3pwnx | [CVE-2024-0116](5565/CVE-2024-0116.json) | [5565.json](5565/5565.json) | [5565.md](5565/5565.md) |
+| Ryan Tracey - HiddenLayer | [CVE-2024-0129](5580/CVE-2024-0129.json) | [5580.json](5580/5580.json) | [5580.md](5580/5580.md) |
 
 ## NVIDIA would also like to thank the following
 

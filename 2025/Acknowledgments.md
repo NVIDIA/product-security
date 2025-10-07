@@ -31,6 +31,9 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-23340](5661/CVE-2025-23340.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 |  | [CVE-2025-23339](5661/CVE-2025-23339.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 | Dong-uk Kim & JunYoung Park of KAIST Hacking Lab | [CVE-2025-23297](5682/CVE-2025-23297.json) | [5682.json](5682/5682.json) | [5682.md](5682/5682.md) |
+| Jahmel Harris - NATO CYBER SECURITY CENTRE | [CVE-2025-23293](5705/CVE-2025-23293.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
+|  | [CVE-2025-23292](5705/CVE-2025-23292.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
+|  | [CVE-2025-23291](5705/CVE-2025-23291.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
 | Kai Lu - Palo Alto Networks | [CVE-2024-53870](5594/CVE-2024-53870.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53871](5594/CVE-2024-53871.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53872](5594/CVE-2024-53872.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
