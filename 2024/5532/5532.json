@@ -2,7 +2,7 @@
     "document": {
         "aggregate_severity": {
             "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
-            "text": "MEDIUM"
+            "text": "HIGH"
         },
         "category": "csaf_security_advisory",
         "csaf_version": "2.0",
@@ -17,7 +17,7 @@
         "notes": [
             {
                 "category": "summary",
-                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo. To protect your system, download and install this software update from the Releases tab on the <a href=\"https://github.com/NVIDIA/NeMo/\">NeMo Github</a> page.",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae ChatRTX. To protect your system, download and install this software update from the <a href=\"https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/\">ChatRTX Download</a> page.",
                 "title": "Summary"
             },
             {
@@ -27,12 +27,12 @@
             },
             {
                 "category": "details",
-                "text": "Download the update from the Releases tab on the <a href=\"https://github.com/NVIDIA/NeMo/releases\">NeMo Github</a> page to apply the security update.",
+                "text": "Download the update from the <a href=\"https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/\">ChatRTX Download</a> page to apply the security update.",
                 "title": "Security Update Notes"
             },
             {
                 "category": "details",
-                "text": "Earlier software releases of this product are also affected. If you are using an earlier release, upgrade to the latest release version.",
+                "text": "<ul><li>To ensure that you have the version that includes this security update, confirm that the name of the downloaded file is ChatWithRTX_installer_3_27.zip.</li></ul>",
                 "title": "Bulletin Notes"
             },
             {
@@ -47,7 +47,7 @@
             },
             {
                 "category": "details",
-                "text": "15:NeMo",
+                "text": "5:ChatRTX",
                 "title": "Product Team"
             },
             {
@@ -63,27 +63,32 @@
             "name": "NVIDIA Product Security",
             "namespace": "https://www.nvidia.com/security"
         },
-        "title": "Security Bulletin: NVIDIA NeMo - October 2024",
+        "title": "Security Bulletin: NVIDIA ChatRTX - March 2024",
         "tracking": {
-            "current_release_date": "2024-10-15T00:00:00Z",
+            "current_release_date": "2024-03-29T00:00:00Z",
             "generator": {
-                "date": "2024-10-15T00:00:00Z",
+                "date": "2024-03-29T00:00:00Z",
                 "engine": {
                     "name": "NVIDIA PSIRT",
                     "version": "1.0.0"
                 }
             },
-            "id": "5580",
-            "initial_release_date": "2024-10-15T00:00:00Z",
+            "id": "5532",
+            "initial_release_date": "2024-03-26T00:00:00Z",
             "revision_history": [
                 {
-                    "date": "2024-10-15T00:00:00Z",
+                    "date": "2024-03-26T00:00:00Z",
                     "number": "1.0.0",
                     "summary": "Initial Release"
+                },
+                {
+                    "date": "2024-03-29T00:00:00Z",
+                    "number": "1.1.0",
+                    "summary": "Updated \"Updated Version\" field"
                 }
             ],
             "status": "final",
-            "version": "1.0.0"
+            "version": "1.1.0"
         }
     },
     "product_tree": {
@@ -94,12 +99,12 @@
                         "branches": [
                             {
                                 "category": "product_name",
-                                "name": "NeMo",
+                                "name": "ChatRTX",
                                 "product": {
-                                    "name": "NeMo",
-                                    "product_id": "windows_linux_macos_nemo",
+                                    "name": "ChatRTX",
+                                    "product_id": "windows_chatrtx",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:nemo:*:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:chatrtx:*:*:*:*:*:*:*:*"
                                     }
                                 }
                             }
@@ -111,29 +116,29 @@
                         "branches": [
                             {
                                 "category": "product_version",
-                                "name": "NeMo",
+                                "name": "ChatRTX",
                                 "product": {
-                                    "name": "All versions prior to r2.0.0rc0",
-                                    "product_id": "windows_linux_macos_nemo_all_versions_prior_to_r2_0_0rc0",
+                                    "name": "0.2 and prior versions",
+                                    "product_id": "windows_chatrtx_0_2_and_prior_versions",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:nemo:all_versions_prior_to_r2_0_0rc0:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:chatrtx:0_2_and_prior_versions:*:*:*:*:*:*:*"
                                     }
                                 }
                             },
                             {
                                 "category": "product_version",
-                                "name": "NeMo",
+                                "name": "ChatRTX",
                                 "product": {
-                                    "name": "r2.0.0rc0",
-                                    "product_id": "windows_linux_macos_nemo_r2_0_0rc0",
+                                    "name": "0.2.1 (ChatWithRTX_installer_3_27.zip)",
+                                    "product_id": "windows_chatrtx_0_2_1_chatwithrtx_installer_3_27_zip",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:nemo:r2_0_0rc0:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:chatrtx:0_2_1_chatwithrtx_installer_3_27_zip:*:*:*:*:*:*:*"
                                     }
                                 }
                             }
                         ],
                         "category": "architecture",
-                        "name": "Windows, Linux, MacOS"
+                        "name": "Windows"
                     }
                 ],
                 "category": "vendor",
@@ -146,71 +151,144 @@
             "acknowledgments": [
                 {
                     "names": [
-                        "Ryan Tracey - HiddenLayer"
+                        "l1k3beef - tencent-zhuquelab"
                     ]
                 }
             ],
-            "cve": "CVE-2024-0129",
+            "cve": "CVE-2024-0082",
             "cwe": {
-                "id": "CWE-22",
-                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+                "id": "CWE-269",
+                "name": "Improper Privilege Management"
             },
             "notes": [
                 {
                     "category": "summary",
-                    "text": "NVIDIA NeMo contains a vulnerability in SaveRestoreConnector where a user may cause a path traversal issue via an unsafe .tar file extraction. A successful exploit of this vulnerability may lead to code execution and data tampering.",
+                    "text": "NVIDIA ChatRTX for Windows contains a vulnerability in the UI, where an attacker can cause improper privilege management by sending open file requests to the application. A successful exploit of this vulnerability might lead to local escalation of privileges, information disclosure, and data tampering.",
                     "title": "Vulnerability description"
                 },
                 {
                     "category": "details",
-                    "text": "Code Execution, Data Tampering",
+                    "text": "Escalation of Privileges, Information Disclosure, Data Tampering",
                     "title": "Impacts"
                 },
                 {
                     "category": "details",
-                    "text": "4573205",
+                    "text": "4510096",
                     "title": "defect"
                 }
             ],
             "product_status": {
                 "fixed": [
-                    "windows_linux_macos_nemo_r2_0_0rc0"
+                    "windows_chatrtx_0_2_1_chatwithrtx_installer_3_27_zip"
                 ],
                 "known_affected": [
-                    "windows_linux_macos_nemo_all_versions_prior_to_r2_0_0rc0"
+                    "windows_chatrtx_0_2_and_prior_versions"
                 ]
             },
             "references": [
                 {
                     "category": "self",
                     "summary": "NVD",
-                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0129"
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0082"
                 },
                 {
                     "category": "self",
                     "summary": "Mitre",
-                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0129"
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0082"
                 }
             ],
-            "release_date": "2024-10-15T00:00:00Z",
+            "release_date": "2024-03-29T00:00:00Z",
             "scores": [
                 {
                     "cvss_v3": {
                         "attackComplexity": "LOW",
                         "attackVector": "LOCAL",
-                        "availabilityImpact": "LOW",
-                        "baseScore": 6.3,
-                        "baseSeverity": "MEDIUM",
-                        "confidentialityImpact": "LOW",
-                        "integrityImpact": "LOW",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
                         "privilegesRequired": "LOW",
                         "scope": "CHANGED",
-                        "userInteraction": "NONE",
-                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
                         "version": "3.1"
                     },
                     "products": [
-                        "windows_linux_macos_nemo_all_versions_prior_to_r2_0_0rc0"
+                        "windows_chatrtx_0_2_and_prior_versions"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Ozgun Kultekin"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0083",
+            "cwe": {
+                "id": "CWE-79",
+                "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA ChatRTX for Windows contains a vulnerability in the UI, where an attacker can cause a cross-site scripting error by network by running malicious scripts in users' browsers. A successful exploit of this vulnerability might lead to code execution, denial of service, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4501773",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_chatrtx_0_2_1_chatwithrtx_installer_3_27_zip"
+                ],
+                "known_affected": [
+                    "windows_chatrtx_0_2_and_prior_versions"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0083"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0083"
+                }
+            ],
+            "release_date": "2024-03-29T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 6.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_chatrtx_0_2_and_prior_versions"
                     ]
                 }
             ]

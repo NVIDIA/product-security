@@ -1,6 +1,6 @@
 # Table of Contents for bulletin 5580
 
- - Security Bulletin: NVIDIA® NeMo - October 2024
+ - Security Bulletin: NVIDIA NeMo - October 2024
 
 | File Name | Description |
 |-----------|-------------|

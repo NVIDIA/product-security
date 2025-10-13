@@ -1,0 +1,292 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA Triton Inference Server to address the issue disclosed in this bulletin.  To protect your system, install the latest release from the <a href=\"https://github.com/triton-inference-server/server/releases\">Triton Inference Server Releases</a> page on GitHub, and view the <a href=\"https://github.com/triton-inference-server/server/blob/main/docs/customization_guide/deploy.md\">Secure Deployment Considerations Guide</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Users deploying NVIDIA Triton Inference Server in production settings should follow the <a href=\"https://github.com/triton-inference-server/server/blob/main/docs/customization_guide/deploy.md\">Secure Deployment Considerations Guide</a> and ensure that logging and shared memory APIs are protected for use by authorized users.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Users deploying NVIDIA Triton Inference Server in production settings should follow the <a href=\"https://github.com/triton-inference-server/server/blob/main/docs/customization_guide/deploy.md\">Secure Deployment Considerations Guide</a> and ensure that logging and shared memory APIs are protected for use by authorized users.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "23:Triton",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Triton Inference Server - May 2024",
+        "tracking": {
+            "current_release_date": "2024-05-29T00:00:00Z",
+            "generator": {
+                "date": "2024-05-29T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5546",
+            "initial_release_date": "2024-05-29T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2024-05-29T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Triton Inference Server",
+                                "product": {
+                                    "name": "NVIDIA Triton Inference Server",
+                                    "product_id": "linux_windows_nvidia_triton_inference_server",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_triton_inference_server:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Triton Inference Server",
+                                "product": {
+                                    "name": "20.10 to 24.04",
+                                    "product_id": "linux_windows_nvidia_triton_inference_server_20_10_to_24_04",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_triton_inference_server:20_10_to_24_04:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Triton Inference Server",
+                                "product": {
+                                    "name": "24.05",
+                                    "product_id": "linux_windows_nvidia_triton_inference_server_24_05",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_triton_inference_server:24_05:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux, Windows"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Andrew Innes, Will Williams, Jamie Dougherty, Markus Hennerbichler"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0103",
+            "cwe": {
+                "id": "CWE-1419",
+                "name": "Incorrect Initialization of Resource"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server for Linux contains a vulnerability where a user may cause an incorrect Initialization of resource by network issue. A successful exploit of this vulnerability may lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4607386",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_windows_nvidia_triton_inference_server_24_05"
+                ],
+                "known_affected": [
+                    "linux_windows_nvidia_triton_inference_server_20_10_to_24_04"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0103"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0103"
+                }
+            ],
+            "release_date": "2024-05-29T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_windows_nvidia_triton_inference_server_20_10_to_24_04"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "pinkdraconian"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0095",
+            "cwe": {
+                "id": "CWE-117",
+                "name": "Improper Output Neutralization for Logs"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server for Linux and Windows contains a vulnerability where a user can inject forged logs and executable commands by injecting arbitrary data as a new log entry. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4492806",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_windows_nvidia_triton_inference_server_24_05"
+                ],
+                "known_affected": [
+                    "linux_windows_nvidia_triton_inference_server_20_10_to_24_04"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0095"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0095"
+                }
+            ],
+            "release_date": "2024-05-29T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 4.3,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_windows_nvidia_triton_inference_server_20_10_to_24_04"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -8,7 +8,7 @@
 | [5570](5570/5570.md) | Security Bulletin: NVIDIA Delegated License System - November 2024 | 2024-11-19 | 2024-11-19 | [CVE-2024-0122](5570/CVE-2024-0122.json) |
 | [5585](5585/5585.md) | Security Bulletin: NVIDIA Container Toolkit - November 2024 | 2024-11-05 | 2024-11-05 | [CVE-2024-0134](5585/CVE-2024-0134.json) |
 | [5562](5562/5562.md) | Security Bulletin: NVIDIA ConnectX and BlueField - October 2024 | 2024-10-29 | 2024-10-29 | [CVE-2024-0105](5562/CVE-2024-0105.json), [CVE-2024-0106](5562/CVE-2024-0106.json) |
-| [5580](5580/5580.md) | Security Bulletin: NVIDIA® NeMo - October 2024 | 2024-10-15 | 2024-10-15 | [CVE-2024-0129](5580/CVE-2024-0129.json) |
+| [5580](5580/5580.md) | Security Bulletin: NVIDIA NeMo - October 2024 | 2024-10-15 | 2024-10-15 | [CVE-2024-0129](5580/CVE-2024-0129.json) |
 | [5577](5577/5577.md) | Security Bulletin: NVIDIA CUDA Toolkit - October 2024 | 2024-10-02 | 2024-10-02 | [CVE-2024-0123](5577/CVE-2024-0123.json), [CVE-2024-0124](5577/CVE-2024-0124.json), [CVE-2024-0125](5577/CVE-2024-0125.json) |
 | [5565](5565/5565.md) | Security Bulletin: NVIDIA Triton Inference Server - September 2024 | 2024-09-30 | 2024-09-30 | [CVE-2024-0116](5565/CVE-2024-0116.json) |
 | [5582](5582/5582.md) | Security Bulletin: NVIDIA Container Toolkit - September 2024 | 2024-09-25 | 2024-09-25 | [CVE-2024-0132](5582/CVE-2024-0132.json), [CVE-2024-0133](5582/CVE-2024-0133.json) |
@@ -18,3 +18,8 @@
 | [5555](5555/5555.md) | Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson TX1, Jetson TX2 Series (including Jetson TX2 NX), and Jetson Nano (including Jetson Nano 2GB) - July 2024 | 2024-07-23 | 2024-07-23 | [CVE-2024-0108](5555/CVE-2024-0108.json) |
 | [5559](5559/5559.md) | Security Bulletin: NVIDIA Mellanox OS, ONYX, Skyway, MetroX-3 XC - July 2024 | 2024-07-23 | 2024-07-23 | [CVE-2024-0101](5559/CVE-2024-0101.json), [CVE-2024-0104](5559/CVE-2024-0104.json) |
 | [5548](5548/5548.md) | Security Bulletin: NVIDIA CUDA Toolkit - July 2024 | 2024-07-11 | 2024-07-11 | [CVE-2024-0102](5548/CVE-2024-0102.json) |
+| [5546](5546/5546.md) | Security Bulletin: NVIDIA Triton Inference Server - May 2024 | 2024-05-29 | 2024-05-29 | [CVE-2024-0103](5546/CVE-2024-0103.json), [CVE-2024-0095](5546/CVE-2024-0095.json) |
+| [5533](5533/5533.md) | Security Bulletin: NVIDIA ChatRTX - May 2024 | 2024-05-01 | 2024-05-01 | [CVE-2024-0096](5533/CVE-2024-0096.json), [CVE-2024-0097](5533/CVE-2024-0097.json), [CVE-2024-0098](5533/CVE-2024-0098.json) |
+| [5535](5535/5535.md) | Security Bulletin: NVIDIA Triton Inference Server - April 2024 | 2024-04-30 | 2024-04-30 | [CVE-2024-0087](5535/CVE-2024-0087.json), [CVE-2024-0100](5535/CVE-2024-0100.json), [CVE-2024-0088](5535/CVE-2024-0088.json) |
+| [5517](5517/5517.md) | Security Bulletin: NVIDIA CUDA Toolkit - April 2024 | 2024-04-03 | 2024-04-03 | [CVE-2024-0072](5517/CVE-2024-0072.json), [CVE-2024-0076](5517/CVE-2024-0076.json), [CVE-2023-31028](5517/CVE-2023-31028.json), [CVE-2024-0080](5517/CVE-2024-0080.json) |
+| [5532](5532/5532.md) | Security Bulletin: NVIDIA ChatRTX - March 2024 | 2024-03-26 | 2024-03-29 | [CVE-2024-0082](5532/CVE-2024-0082.json), [CVE-2024-0083](5532/CVE-2024-0083.json) |
