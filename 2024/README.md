@@ -12,3 +12,9 @@
 | [5577](5577/5577.md) | Security Bulletin: NVIDIA CUDA Toolkit - October 2024 | 2024-10-02 | 2024-10-02 | [CVE-2024-0123](5577/CVE-2024-0123.json), [CVE-2024-0124](5577/CVE-2024-0124.json), [CVE-2024-0125](5577/CVE-2024-0125.json) |
 | [5565](5565/5565.md) | Security Bulletin: NVIDIA Triton Inference Server - September 2024 | 2024-09-30 | 2024-09-30 | [CVE-2024-0116](5565/CVE-2024-0116.json) |
 | [5582](5582/5582.md) | Security Bulletin: NVIDIA Container Toolkit - September 2024 | 2024-09-25 | 2024-09-25 | [CVE-2024-0132](5582/CVE-2024-0132.json), [CVE-2024-0133](5582/CVE-2024-0133.json) |
+| [5564](5564/5564.md) | Security Bulletin: NVIDIA CUDA Toolkit - August 2024 | 2024-08-29 | 2024-08-29 | [CVE-2024-0110](5564/CVE-2024-0110.json), [CVE-2024-0111](5564/CVE-2024-0111.json), [CVE-2024-0109](5564/CVE-2024-0109.json) |
+| [5560](5560/5560.md) | Security Bulletin: NVIDIA CV-CUDA - August 2024 | 2024-08-07 | 2024-08-07 | [CVE-2024-0115](5560/CVE-2024-0115.json) |
+| [5563](5563/5563.md) | Security Bulletin: NVIDIA Mellanox OS, ONYX, Skyway, MetroX - August 2024 | 2024-08-07 | 2024-08-07 | [CVE-2024-0113](5563/CVE-2024-0113.json) |
+| [5555](5555/5555.md) | Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson TX1, Jetson TX2 Series (including Jetson TX2 NX), and Jetson Nano (including Jetson Nano 2GB) - July 2024 | 2024-07-23 | 2024-07-23 | [CVE-2024-0108](5555/CVE-2024-0108.json) |
+| [5559](5559/5559.md) | Security Bulletin: NVIDIA Mellanox OS, ONYX, Skyway, MetroX-3 XC - July 2024 | 2024-07-23 | 2024-07-23 | [CVE-2024-0101](5559/CVE-2024-0101.json), [CVE-2024-0104](5559/CVE-2024-0104.json) |
+| [5548](5548/5548.md) | Security Bulletin: NVIDIA CUDA Toolkit - July 2024 | 2024-07-11 | 2024-07-11 | [CVE-2024-0102](5548/CVE-2024-0102.json) |

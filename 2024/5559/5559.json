@@ -1,0 +1,594 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a firmware update for NVIDIA Mellanox OS, ONYX, Skyway, and MetroX-3 XC. To protect your system, download and install this firmware update from the <a href=\"https://enterprise-support.nvidia.com/s/\">NVIDIA Enterprise Support Portal</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a firmware update for NVIDIA Mellanox OS, ONYX, Skyway, and MetroX-3 XC. To protect your system, download and install this firmware update from the <a href=\"https://enterprise-support.nvidia.com/s/\">NVIDIA Enterprise Support Portal</a>.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software releases of this product are also affected. If you are using an earlier release, upgrade to the latest release version.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "14:NBU",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Mellanox OS, ONYX, Skyway, MetroX-3 XC - July 2024",
+        "tracking": {
+            "current_release_date": "2024-07-23T00:00:00Z",
+            "generator": {
+                "date": "2024-07-23T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5559",
+            "initial_release_date": "2024-07-23T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2024-07-23T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "Mellanox OS",
+                                "product": {
+                                    "name": "Mellanox OS",
+                                    "product_id": "mellanox_os_mellanox_os",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_os:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "ONYX",
+                                "product": {
+                                    "name": "ONYX",
+                                    "product_id": "onyx_lts_onyx",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:onyx:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Skyway",
+                                "product": {
+                                    "name": "Skyway",
+                                    "product_id": "skyway_skyway",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:skyway:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "MetroX-3 XC",
+                                "product": {
+                                    "name": "MetroX-3 XC",
+                                    "product_id": "metroxv18_metrox3_xc",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:metrox3_xc:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "MetroX-2",
+                                "product": {
+                                    "name": "MetroX-2",
+                                    "product_id": "metroxv3_metrox2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:metrox2:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Skyway",
+                                "product": {
+                                    "name": "Skyway",
+                                    "product_id": "skyway_lts_skyway",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:skyway:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Mellanox OS",
+                                "product": {
+                                    "name": "Mellanox OS",
+                                    "product_id": "mellanox_os_lts_mellanox_os",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_os:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OS",
+                                "product": {
+                                    "name": "All versions prior to and including 3.11.1000",
+                                    "product_id": "mellanox_os_mellanox_os_all_versions_prior_to_and_including_3_11_1000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_os:all_versions_prior_to_and_including_3_11_1000:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OS",
+                                "product": {
+                                    "name": "3.11.2002",
+                                    "product_id": "mellanox_os_mellanox_os_3_11_2002",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_os:3_11_2002:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Mellanox OS"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "ONYX",
+                                "product": {
+                                    "name": "All versions prior to and including 3.10.4300",
+                                    "product_id": "onyx_lts_onyx_all_versions_prior_to_and_including_3_10_4300",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:onyx:all_versions_prior_to_and_including_3_10_4300:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "ONYX",
+                                "product": {
+                                    "name": "3.10.4402",
+                                    "product_id": "onyx_lts_onyx_3_10_4402",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:onyx:3_10_4402:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "ONYX",
+                                "product": {
+                                    "name": "All versions prior to and including 3.10.4302",
+                                    "product_id": "onyx_lts_onyx_all_versions_prior_to_and_including_3_10_4302",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:onyx:all_versions_prior_to_and_including_3_10_4302:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "ONYX LTS"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Skyway",
+                                "product": {
+                                    "name": "All versions prior to and including 8.2.1000",
+                                    "product_id": "skyway_skyway_all_versions_prior_to_and_including_8_2_1000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:skyway:all_versions_prior_to_and_including_8_2_1000:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Skyway",
+                                "product": {
+                                    "name": "8.2.2000",
+                                    "product_id": "skyway_skyway_8_2_2000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:skyway:8_2_2000:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Skyway",
+                                "product": {
+                                    "name": "All versions prior to and including 8.2.2100",
+                                    "product_id": "skyway_skyway_all_versions_prior_to_and_including_8_2_2100",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:skyway:all_versions_prior_to_and_including_8_2_2100:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Skyway",
+                                "product": {
+                                    "name": "8.2.2202",
+                                    "product_id": "skyway_skyway_8_2_2202",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:skyway:8_2_2202:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Skyway"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "MetroX-3 XC",
+                                "product": {
+                                    "name": "All versions prior to and including 18.2.1000",
+                                    "product_id": "metroxv18_metrox3_xc_all_versions_prior_to_and_including_18_2_1000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:metrox3_xc:all_versions_prior_to_and_including_18_2_1000:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "MetroX-3 XC",
+                                "product": {
+                                    "name": "18.2.2000",
+                                    "product_id": "metroxv18_metrox3_xc_18_2_2000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:metrox3_xc:18_2_2000:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "MetroX-3 XC",
+                                "product": {
+                                    "name": "All versions prior to and including 18.2.2100",
+                                    "product_id": "metroxv18_metrox3_xc_all_versions_prior_to_and_including_18_2_2100",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:metrox3_xc:all_versions_prior_to_and_including_18_2_2100:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "MetroX-3 XC",
+                                "product": {
+                                    "name": "18.2.2200",
+                                    "product_id": "metroxv18_metrox3_xc_18_2_2200",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:metrox3_xc:18_2_2200:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "MetroX(v18)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "MetroX-2",
+                                "product": {
+                                    "name": "All versions prior to and including 3.11.1000",
+                                    "product_id": "metroxv3_metrox2_all_versions_prior_to_and_including_3_11_1000",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:metrox2:all_versions_prior_to_and_including_3_11_1000:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "MetroX-2",
+                                "product": {
+                                    "name": "3.11.2002",
+                                    "product_id": "metroxv3_metrox2_3_11_2002",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:metrox2:3_11_2002:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "MetroX(v3)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Skyway",
+                                "product": {
+                                    "name": "All versions prior to and including 8.1.4300",
+                                    "product_id": "skyway_lts_skyway_all_versions_prior_to_and_including_8_1_4300",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:skyway:all_versions_prior_to_and_including_8_1_4300:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Skyway",
+                                "product": {
+                                    "name": "8.1.4400",
+                                    "product_id": "skyway_lts_skyway_8_1_4400",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:skyway:8_1_4400:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Skyway LTS"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OS",
+                                "product": {
+                                    "name": "All versions prior to and including 3.11.2100",
+                                    "product_id": "mellanox_os_lts_mellanox_os_all_versions_prior_to_and_including_3_11_2100",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_os:all_versions_prior_to_and_including_3_11_2100:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Mellanox OS",
+                                "product": {
+                                    "name": "3.11.2202",
+                                    "product_id": "mellanox_os_lts_mellanox_os_3_11_2202",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mellanox_os:3_11_2202:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Mellanox OS LTS"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2024-0101",
+            "cwe": {
+                "id": "CWE-693",
+                "name": "Protection Mechanism Failure"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Mellanox OS, ONYX, Skyway, MetroX-2 and MetroX-3 XC contain a vulnerability in ipfilter, where improper ipfilter definitions could enable an attacker to cause a failure by attacking the switch. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4618982",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "mellanox_os_mellanox_os_3_11_2002",
+                    "onyx_lts_onyx_3_10_4402",
+                    "skyway_skyway_8_2_2000",
+                    "metroxv18_metrox3_xc_18_2_2000",
+                    "metroxv3_metrox2_3_11_2002",
+                    "skyway_lts_skyway_8_1_4400"
+                ],
+                "known_affected": [
+                    "mellanox_os_mellanox_os_all_versions_prior_to_and_including_3_11_1000",
+                    "onyx_lts_onyx_all_versions_prior_to_and_including_3_10_4300",
+                    "skyway_skyway_all_versions_prior_to_and_including_8_2_1000",
+                    "metroxv18_metrox3_xc_all_versions_prior_to_and_including_18_2_1000",
+                    "metroxv3_metrox2_all_versions_prior_to_and_including_3_11_1000",
+                    "skyway_lts_skyway_all_versions_prior_to_and_including_8_1_4300"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0101"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0101"
+                }
+            ],
+            "release_date": "2024-07-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "mellanox_os_mellanox_os_all_versions_prior_to_and_including_3_11_1000",
+                        "onyx_lts_onyx_all_versions_prior_to_and_including_3_10_4300",
+                        "skyway_skyway_all_versions_prior_to_and_including_8_2_1000",
+                        "metroxv18_metrox3_xc_all_versions_prior_to_and_including_18_2_1000",
+                        "metroxv3_metrox2_all_versions_prior_to_and_including_3_11_1000",
+                        "skyway_lts_skyway_all_versions_prior_to_and_including_8_1_4300"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2024-0104",
+            "cwe": {
+                "id": "CWE-284",
+                "name": "Improper Access Control"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Mellanox OS, ONYX, Skyway, MetroX-2 and MetroX-3 XC contain a vulnerability in the LDAP AAA component, where a user can cause improper access. A successful exploit of this vulnerability might lead to information disclosure, data tampering, and escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure, Data Tampering, Escalation of Privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4617573",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "mellanox_os_lts_mellanox_os_3_11_2202",
+                    "onyx_lts_onyx_3_10_4402",
+                    "skyway_skyway_8_2_2202",
+                    "metroxv18_metrox3_xc_18_2_2200",
+                    "metroxv3_metrox2_3_11_2002"
+                ],
+                "known_affected": [
+                    "mellanox_os_lts_mellanox_os_all_versions_prior_to_and_including_3_11_2100",
+                    "onyx_lts_onyx_all_versions_prior_to_and_including_3_10_4302",
+                    "skyway_skyway_all_versions_prior_to_and_including_8_2_2100",
+                    "metroxv18_metrox3_xc_all_versions_prior_to_and_including_18_2_2100",
+                    "metroxv3_metrox2_all_versions_prior_to_and_including_3_11_1000"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0104"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0104"
+                }
+            ],
+            "release_date": "2024-07-23T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 4.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "mellanox_os_lts_mellanox_os_all_versions_prior_to_and_including_3_11_2100",
+                        "onyx_lts_onyx_all_versions_prior_to_and_including_3_10_4302",
+                        "skyway_skyway_all_versions_prior_to_and_including_8_2_2100",
+                        "metroxv18_metrox3_xc_all_versions_prior_to_and_including_18_2_2100",
+                        "metroxv3_metrox2_all_versions_prior_to_and_including_3_11_1000"
+                    ]
+                }
+            ]
+        }
+    ]
+}

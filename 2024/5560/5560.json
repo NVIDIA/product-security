@@ -1,0 +1,219 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae CV-CUDA\u00ae. To protect your system, download and install this software update from the Releases tab on the <a href=\"https://github.com/CVCUDA/CV-CUDA\">CV-CUDA Github</a> page.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Download the update from the Releases tab on the <a href=\"https://github.com/CVCUDA/CV-CUDA\">CV-CUDA Github</a> page to apply the security update.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software releases of this product are also affected. If you are using an earlier release, upgrade to the latest release version.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "7:CV-CUDA",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA CV-CUDA - August 2024",
+        "tracking": {
+            "current_release_date": "2024-08-07T00:00:00Z",
+            "generator": {
+                "date": "2024-08-07T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5560",
+            "initial_release_date": "2024-08-07T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2024-08-07T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA CV-CUDA",
+                                "product": {
+                                    "name": "NVIDIA CV-CUDA",
+                                    "product_id": "ubuntu_20_04_ubuntu_22_04_jetpack_nvidia_cvcuda",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_cvcuda:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA CV-CUDA",
+                                "product": {
+                                    "name": "v0.1.x - v0.9.x",
+                                    "product_id": "ubuntu_20_04_ubuntu_22_04_jetpack_nvidia_cvcuda_v0_1_x__v0_9_x",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_cvcuda:v0_1_x__v0_9_x:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA CV-CUDA",
+                                "product": {
+                                    "name": "v0.10.0",
+                                    "product_id": "ubuntu_20_04_ubuntu_22_04_jetpack_nvidia_cvcuda_v0_10_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_cvcuda:v0_10_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Ubuntu 20.04, Ubuntu 22.04, Jetpack"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "ByteDance"
+                    ]
+                }
+            ],
+            "cve": "CVE-2024-0115",
+            "cwe": {
+                "id": "CWE-400",
+                "name": "Uncontrolled Resource Consumption"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CV-CUDA for Ubuntu 20.04, Ubuntu 22.04, and Jetpack contains a vulnerability in Python APIs where a user may cause an uncontrolled resource consumption issue by a long running CV-CUDA Python process. A successful exploit of this vulnerability may lead to denial of service and data loss.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data Tampering, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "4682944",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "ubuntu_20_04_ubuntu_22_04_jetpack_nvidia_cvcuda_v0_10_0"
+                ],
+                "known_affected": [
+                    "ubuntu_20_04_ubuntu_22_04_jetpack_nvidia_cvcuda_v0_1_x__v0_9_x"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0115"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2024-0115"
+                }
+            ],
+            "release_date": "2024-08-07T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.1,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "ubuntu_20_04_ubuntu_22_04_jetpack_nvidia_cvcuda_v0_1_x__v0_9_x"
+                    ]
+                }
+            ]
+        }
+    ]
+}
