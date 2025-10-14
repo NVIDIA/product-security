@@ -14,6 +14,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | ByteDance | [CVE-2024-0115](5560/CVE-2024-0115.json) | [5560.json](5560/5560.json) | [5560.md](5560/5560.md) |
 | CSF LABS - Energisa Group | [CVE-2024-0122](5570/CVE-2024-0122.json) | [5570.json](5570/5570.json) | [5570.md](5570/5570.md) |
 | Cyrille CHATRAS - Orange Group | [CVE-2024-0113](5563/CVE-2024-0113.json) | [5563.json](5563/5563.json) | [5563.md](5563/5563.md) |
+| HaoKun Yang | [CVE-2023-31037](5511/CVE-2023-31037.json) | [5511.json](5511/5511.json) | [5511.md](5511/5511.md) |
 | hjy79425575 | [CVE-2023-31028](5517/CVE-2023-31028.json) | [5517.json](5517/5517.json) | [5517.md](5517/5517.md) |
 |  | [CVE-2024-0080](5517/CVE-2024-0080.json) | [5517.json](5517/5517.json) | [5517.md](5517/5517.md) |
 | l1k3beef - tencent-zhuquelab | [CVE-2024-0082](5532/CVE-2024-0082.json) | [5532.json](5532/5532.json) | [5532.md](5532/5532.md) |

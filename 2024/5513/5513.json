@@ -1,0 +1,1356 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a firmware security update for the NVIDIA DGX\u2122 Station A100 and DGX\u2122 Station A800 systems.<br>To protect your system, download and install this firmware update through the <a href=\"https://nvid.nvidia.com/dashboard/\">NVIDIA Enterprise Support Portal</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To get the updated BMC and SBIOS versions listed in the table, upgrade to the NVIDIA DGX Station A100 and DGX Station A800 Firmware Update Container Version 24.1.1. Firmware updates are available through the <a href=\"https://nvid.nvidia.com/dashboard/\">NVIDIA Enterprise Support Portal</a>.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "To get the updated BMC and SBIOS versions listed in the table, upgrade to the NVIDIA DGX Station A100 and DGX Station A800 Firmware Update Container Version 24.1.1. Firmware updates are available through the <a href=\"https://nvid.nvidia.com/dashboard/\">NVIDIA Enterprise Support Portal</a>.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "9:DGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA DGX Station A100 and DGX Station A800 - February 2024",
+        "tracking": {
+            "current_release_date": "2024-02-08T00:00:00Z",
+            "generator": {
+                "date": "2024-02-08T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5513",
+            "initial_release_date": "2024-02-08T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2024-02-08T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA DGX Servers",
+                                "product": {
+                                    "name": "NVIDIA DGX Servers",
+                                    "product_id": "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX Servers",
+                                "product": {
+                                    "name": "All BMC firmware versions prior to 2.09.00",
+                                    "product_id": "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:all_bmc_firmware_versions_prior_to_2_09_00:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX Servers",
+                                "product": {
+                                    "name": "BMC Firmware 2.09.00",
+                                    "product_id": "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:bmc_firmware_2_09_00:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX Servers",
+                                "product": {
+                                    "name": "All SBIOS firmware versions prior to 10.20",
+                                    "product_id": "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_20",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:all_sbios_firmware_versions_prior_to_10_20:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX Servers",
+                                "product": {
+                                    "name": "SBIOS Firmware 10.20",
+                                    "product_id": "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_sbios_firmware_10_20",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:sbios_firmware_10_20:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "DGX Station A100, DGX Station A800"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2022-42271",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 baseboard management controller (BMC) contains a vulnerability in the Intelligent Platform Management Interface (IPMI) handler, where an attacker with the required privileges can cause a buffer overflow, which may lead to denial of service or code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719029",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42271"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42271"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.4,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42272",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the IPMI handler, where an attacker with the required privileges can cause a buffer overflow, which may lead to code execution, denial of service, or escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579207",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42272"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42272"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42273",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in libwebsocket, where an attacker with the required privileges can cause a buffer overflow, which may lead to denial of service or code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719027",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42273"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42273"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42274",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the IPMI handler, where an attacker with the required privileges can cause a buffer overflow, which may lead to denial of service or code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719031",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42274"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42274"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42275",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the IPMI handler, where an unauthenticated host is allowed to write to a host SPI flash, bypassing secure boot protections. An exploit of this vulnerability may lead to a loss of integrity or denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719066",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42275"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42275"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.7,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-31032",
+            "cwe": {
+                "id": "CWE-627",
+                "name": "Dynamic Variable Evaluation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 SBIOS contains a vulnerability where a user may cause a dynamic variable evaluation by local access. A successful exploit of this vulnerability may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3916701",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_sbios_firmware_10_20"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_20"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31032"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-31032"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_20"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-25521",
+            "cwe": {
+                "id": "CWE-250",
+                "name": "Execution with Unnecessary Privileges"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 SBIOS contains a vulnerability where improper validation of an input parameter may lead to code execution, escalation of privileges, denial of service, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3829734",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_sbios_firmware_10_20"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_20"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25521"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-25521"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_20"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42279",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the SPX REST API, where an attacker with the required privileges can inject arbitrary shell commands, which may lead to code execution, denial of service, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579419",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42279"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42279"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42289",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the SPX REST API, where an attacker with the required privileges can inject arbitrary shell commands, which may lead to code execution, denial of service, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719043",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42289"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42289"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42290",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the SPX REST API, where an attacker with the required privileges can inject arbitrary shell commands, which may lead to code execution, denial of service, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719040",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42290"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42290"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42280",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the SPX REST authorization handler, where an unauthorized attacker can exploit a path traversal, which may lead to escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Escalation of Privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3580315",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42280"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42280"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-31034",
+            "cwe": {
+                "id": "CWE-190",
+                "name": "Integer Overflow or Wraparound"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 SBIOS contains a vulnerability where a local attacker can cause input validation checks to be bypassed by causing an integer overflow. A successful exploit of this vulnerability may lead to denial of service, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3931905",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_sbios_firmware_10_20"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_20"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31034"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-31034"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.6,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:L/I:L/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_20"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42282",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the SPX REST API, where an attacker with the required privileges can access arbitrary files, which may lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3580300",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42282"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42282"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42283",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the IPMI handler, where an attacker with the required privileges can cause a buffer overflow, which may lead to denial of service or code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579431",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42283"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42283"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42284",
+            "cwe": {
+                "id": "CWE-312",
+                "name": "Cleartext Storage of Sensitive Information"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC stores user passwords in an obfuscated form in a database accessible by the host, which may lead to exposure of user credentials.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719063",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42284"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42284"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42287",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the IPMI handler, where an attacker can upload and download arbitrary files under certain circumstances, which may lead to denial of service, escalation of privileges, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579438",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42287"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42287"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2022-42288",
+            "cwe": {
+                "id": "CWE-208",
+                "name": "Observable Timing Discrepancy"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 BMC contains a vulnerability in the IPMI handler, where an unauthorized attacker can use certain oracles to guess a valid BMC username, which may lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579203",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_bmc_firmware_2_09_00"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42288"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42288"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.3,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_2_09_00"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-31031",
+            "cwe": {
+                "id": "CWE-122",
+                "name": "Heap-based Buffer Overflow"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station A100 and DGX Station A800 SBIOS contains a vulnerability where a user may cause a heap-based buffer overflow by local access. A successful exploit of this vulnerability may lead to code execution, denial of service, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3931911",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_sbios_firmware_10_20"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_20"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31031"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-31031"
+                }
+            ],
+            "release_date": "2024-02-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 4.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_dgx_station_a800_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_20"
+                    ]
+                }
+            ]
+        }
+    ]
+}

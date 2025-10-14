@@ -34,6 +34,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Jahmel Harris - NATO CYBER SECURITY CENTRE | [CVE-2025-23293](5705/CVE-2025-23293.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
 |  | [CVE-2025-23292](5705/CVE-2025-23292.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
 |  | [CVE-2025-23291](5705/CVE-2025-23291.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
+| Jumin Lee | [CVE-2025-33177](5716/CVE-2025-33177.json) | [5716.json](5716/5716.json) | [5716.md](5716/5716.md) |
 | Kai Lu - Palo Alto Networks | [CVE-2024-53870](5594/CVE-2024-53870.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53871](5594/CVE-2024-53871.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53872](5594/CVE-2024-53872.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
@@ -44,6 +45,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2024-53877](5594/CVE-2024-53877.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53878](5594/CVE-2024-53878.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2025-23248](5661/CVE-2025-23248.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
+| kikayli (Zhuque Lab, Tencent) | [CVE-2025-23356](5708/CVE-2025-23356.json) | [5708.json](5708/5708.json) | [5708.md](5708/5708.md) |
 | Lei Wang & Min Yao (Nebula Security Lab, Huawei Cloud) | [CVE-2025-23267](5659/CVE-2025-23267.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
 | Maxim Mints and Austin Herring | [CVE-2024-0112](5611/CVE-2024-0112.json) | [5611.json](5611/5611.json) | [5611.md](5611/5611.md) |
 | nEINEI - Tencent-zhuquelab | [CVE-2024-53879](5594/CVE-2024-53879.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
@@ -60,6 +62,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Ronen Shustin - WIZ.IO | [CVE-2025-23319](5687/CVE-2025-23319.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23334](5687/CVE-2025-23334.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 | Roronoan Zoro | [CVE-2025-23269](5662/CVE-2025-23269.json) | [5662.json](5662/5662.json) | [5662.md](5662/5662.md) |
+| Sarah Newman and Jason Zaman @ Blue River Technology | [CVE-2025-33182](5716/CVE-2025-33182.json) | [5716.json](5716/5716.json) | [5716.md](5716/5716.md) |
 | Sarah Newman, Jason Zaman and Brennan Coslett (Blue River Technology) | [CVE-2025-23270](5662/CVE-2025-23270.json) | [5662.json](5662/5662.json) | [5662.md](5662/5662.md) |
 | Sascha Meyer - GAI NetConsult GmbH | [CVE-2025-23253](5644/CVE-2025-23253.json) | [5644.json](5644/5644.json) | [5644.md](5644/5644.md) |
 | TencentAISec | [CVE-2025-23348](5698/CVE-2025-23348.json) | [5698.json](5698/5698.json) | [5698.md](5698/5698.md) |
