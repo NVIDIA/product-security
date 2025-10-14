@@ -958,6 +958,13 @@
             ]
         },
         {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Mo XY of IceSword Lab"
+                    ]
+                }
+            ],
             "cve": "CVE-2025-23346",
             "cwe": {
                 "id": "CWE-476",

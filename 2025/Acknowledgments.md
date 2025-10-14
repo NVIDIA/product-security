@@ -48,6 +48,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | kikayli (Zhuque Lab, Tencent) | [CVE-2025-23356](5708/CVE-2025-23356.json) | [5708.json](5708/5708.json) | [5708.md](5708/5708.md) |
 | Lei Wang & Min Yao (Nebula Security Lab, Huawei Cloud) | [CVE-2025-23267](5659/CVE-2025-23267.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
 | Maxim Mints and Austin Herring | [CVE-2024-0112](5611/CVE-2024-0112.json) | [5611.json](5611/5611.json) | [5611.md](5611/5611.md) |
+| Mo XY of IceSword Lab | [CVE-2025-23346](5661/CVE-2025-23346.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 | nEINEI - Tencent-zhuquelab | [CVE-2024-53879](5594/CVE-2024-53879.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 | Nir Ohfeld (@nirohfeld) and Shir Tamari (@shirtamari) working with Trend Zero Day Initiative | [CVE-2025-23266](5659/CVE-2025-23266.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
 | Or Peles - JFrog Security | [CVE-2025-23360](5623/CVE-2025-23360.json) | [5623.json](5623/5623.json) | [5623.md](5623/5623.md) |
