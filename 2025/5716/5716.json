@@ -58,7 +58,7 @@
             "name": "NVIDIA Product Security",
             "namespace": "https://www.nvidia.com/security"
         },
-        "title": "Security Bulletin: NVIDIA Jetson Xavier, Orin, Thor, and IGX Orin Devices- September 2025",
+        "title": "Security Bulletin: NVIDIA Jetson Xavier, Orin, Thor, and IGX Orin Devices - October 2025",
         "tracking": {
             "current_release_date": "2025-10-14T00:00:00Z",
             "generator": {

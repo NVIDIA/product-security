@@ -1,6 +1,6 @@
 # Table of Contents for bulletin 5716
 
- - Security Bulletin: NVIDIA Jetson Xavier, Orin, Thor, and IGX Orin Devices- September 2025
+ - Security Bulletin: NVIDIA Jetson Xavier, Orin, Thor, and IGX Orin Devices - October 2025
 
 | File Name | Description |
 |-----------|-------------|

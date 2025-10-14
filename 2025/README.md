@@ -3,7 +3,7 @@
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
 | [5708](5708/5708.md) | Security Bulletin: NVIDIA Isaac Sim Framework - October 2025 | 2025-10-14 | 2025-10-14 | [CVE-2025-23356](5708/CVE-2025-23356.json) |
-| [5716](5716/5716.md) | Security Bulletin: NVIDIA Jetson Xavier, Orin, Thor, and IGX Orin Devices- September 2025 | 2025-10-14 | 2025-10-14 | [CVE-2025-33182](5716/CVE-2025-33182.json), [CVE-2025-33177](5716/CVE-2025-33177.json) |
+| [5716](5716/5716.md) | Security Bulletin: NVIDIA Jetson Xavier, Orin, Thor, and IGX Orin Devices - October 2025 | 2025-10-14 | 2025-10-14 | [CVE-2025-33182](5716/CVE-2025-33182.json), [CVE-2025-33177](5716/CVE-2025-33177.json) |
 | [5682](5682/5682.md) | Security Bulletin: NVIDIA App - September 2025 | 2025-09-30 | 2025-09-30 | [CVE-2025-23297](5682/CVE-2025-23297.json) |
 | [5705](5705/5705.md) | Security Bulletin: NVIDIA License System - September 2025 | 2025-09-30 | 2025-09-30 | [CVE-2025-23293](5705/CVE-2025-23293.json), [CVE-2025-23292](5705/CVE-2025-23292.json), [CVE-2025-23291](5705/CVE-2025-23291.json) |
 | [5704](5704/5704.md) | Security Bulletin: NVIDIA Nsight Graphics - September 2025 | 2025-09-30 | 2025-09-30 | [CVE-2025-23355](5704/CVE-2025-23355.json) |
