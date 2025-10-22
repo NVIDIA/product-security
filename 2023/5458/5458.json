@@ -1,0 +1,574 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a security update for NVIDIA DGX-1 firmware. This update addresses an issue that may lead to arbitrary code execution, denial of service, escalation of privileges, information disclosure, data tampering, and SecureBoot bypass.<div>To protect your system, download and install this firmware update through the <a href=\"https://nvid.nvidia.com/dashboard/\">NVIDIA Enterprise Support Portal</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To get the updated BMC and SBIOS versions listed in the table, upgrade to the NVIDIA DGX Station A100 and DGX Station A800 Firmware Update Container Version 24.1.1. Firmware updates are available through the <a href=\"https://nvid.nvidia.com/dashboard/\">NVIDIA Enterprise Support Portal</a>.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "<ul><li>Upgrade the NVIDIA DGX-1 firmware container to version 23.06.03 to get the updated firmware and SBIOS version listed in the table above. Firmware updates are available through the NVIDIA Enterprise Support Portal.</li></ul><div>Additional Information: Security Vulnerabilities Reported by Intel</div><div>The following table lists potential security vulnerabilities in some Intel processors that have been reported by Intel. These vulnerabilities may allow escalation of privileges or denial of service. They are addressed in DGX-1 SBIOSS2W_3A13.</div><div><ul><li>CVE ID&nbsp; &nbsp;Severity</li><li>CVE-2020-12357\tHigh</li><li>CVE-2020-8670\tHigh</li><li>CVE-2020-8700\tHigh</li><li>CVE-2020-12359\tHigh</li><li>CVE-2020-12358\tMedium</li><li>CVE-2021-0095\tMedium</li><li>CVE-2020-12360\tMedium</li><li>CVE-2020-24486\tMedium</li></ul></div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "9:DGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA DGX-1 - April 2023",
+        "tracking": {
+            "current_release_date": "2023-07-14T00:00:00Z",
+            "generator": {
+                "date": "2023-07-14T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5458",
+            "initial_release_date": "2023-04-19T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2023-04-19T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                },
+                {
+                    "date": "2023-04-19T00:00:00Z",
+                    "number": "1.1.0",
+                    "summary": "Modified CVE-2023-0209 description."
+                },
+                {
+                    "date": "2023-07-14T00:00:00Z",
+                    "number": "2.0.0",
+                    "summary": "Modified notes section with guidance to upgrade the NVIDIA DGX-1 firmware container to version 23.06.3.  Bulletin version 1.0 previously guided users to upgrade to 23.04.01."
+                }
+            ],
+            "status": "final",
+            "version": "2.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA DGX-1 Servers",
+                                "product": {
+                                    "name": "NVIDIA DGX-1 Servers",
+                                    "product_id": "dgx1_nvidia_dgx1_servers",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx1_servers:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX-1 Servers",
+                                "product": {
+                                    "name": "All SBIOS prior to S2W_3A13",
+                                    "product_id": "dgx1_nvidia_dgx1_servers_all_sbios_prior_to_s2w_3a13",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx1_servers:all_sbios_prior_to_s2w_3a13:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX-1 Servers",
+                                "product": {
+                                    "name": "S2W_3A13",
+                                    "product_id": "dgx1_nvidia_dgx1_servers_s2w_3a13",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx1_servers:s2w_3a13:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX-1 Servers",
+                                "product": {
+                                    "name": "All BMC versions prior to 3.39.3",
+                                    "product_id": "dgx1_nvidia_dgx1_servers_all_bmc_versions_prior_to_3_39_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx1_servers:all_bmc_versions_prior_to_3_39_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX-1 Servers",
+                                "product": {
+                                    "name": "3.39.30",
+                                    "product_id": "dgx1_nvidia_dgx1_servers_3_39_30",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx1_servers:3_39_30:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "DGX-1"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2023-0209",
+            "cwe": {
+                "id": "CWE-287",
+                "name": "Improper Authentication"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX-1 SBIOS contains a vulnerability in the Uncore PEI module, where authentication of the code executed by SSA is missing, which may lead to arbitrary code execution, denial of service, escalation of privileges, information disclosure, data tampering, and SecureBoot bypass.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3174580",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx1_nvidia_dgx1_servers_s2w_3a13"
+                ],
+                "known_affected": [
+                    "dgx1_nvidia_dgx1_servers_all_sbios_prior_to_s2w_3a13"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0209"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-0209"
+                }
+            ],
+            "release_date": "2023-04-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx1_nvidia_dgx1_servers_all_sbios_prior_to_s2w_3a13"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-25505",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX-1 BMC contains a vulnerability in the IPMI handler of the AMI MegaRAC BMC, where an attacker with the appropriate level of authorization can cause a buffer overflow, which may lead to denial of service, information disclosure, or arbitrary code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3734488",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx1_nvidia_dgx1_servers_3_39_30"
+                ],
+                "known_affected": [
+                    "dgx1_nvidia_dgx1_servers_all_bmc_versions_prior_to_3_39_3"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25505"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-25505"
+                }
+            ],
+            "release_date": "2023-04-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx1_nvidia_dgx1_servers_all_bmc_versions_prior_to_3_39_3"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-25506",
+            "cwe": {
+                "id": "CWE-788",
+                "name": "Access of Memory Location After End of Buffer"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX-1 contains a vulnerability in Ofbd in AMI SBIOS, where a preconditioned heap can allow a user with elevated privileges to cause an access beyond the end of a buffer, which may lead to code execution, escalation of privileges, denial of service and information disclosure. The scope of the impact of this vulnerability can extend to other components.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3656014",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx1_nvidia_dgx1_servers_s2w_3a13"
+                ],
+                "known_affected": [
+                    "dgx1_nvidia_dgx1_servers_all_sbios_prior_to_s2w_3a13"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25506"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-25506"
+                }
+            ],
+            "release_date": "2023-04-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx1_nvidia_dgx1_servers_all_sbios_prior_to_s2w_3a13"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-25507",
+            "cwe": {
+                "id": "CWE-77",
+                "name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX-1 BMC contains a vulnerability in the SPX REST API, where an attacker with the appropriate level of authorization can inject arbitrary shell commands, which may lead to code execution, denial of service, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3734492",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx1_nvidia_dgx1_servers_3_39_30"
+                ],
+                "known_affected": [
+                    "dgx1_nvidia_dgx1_servers_all_bmc_versions_prior_to_3_39_3"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25507"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-25507"
+                }
+            ],
+            "release_date": "2023-04-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx1_nvidia_dgx1_servers_all_bmc_versions_prior_to_3_39_3"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-25508",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX-1 BMC contains a vulnerability in the IPMI handler, where an attacker with the appropriate level of authorization can upload and download arbitrary files under certain circumstances, which may lead to denial of service, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3734484",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx1_nvidia_dgx1_servers_3_39_30"
+                ],
+                "known_affected": [
+                    "dgx1_nvidia_dgx1_servers_all_bmc_versions_prior_to_3_39_3"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25508"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-25508"
+                }
+            ],
+            "release_date": "2023-04-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx1_nvidia_dgx1_servers_all_bmc_versions_prior_to_3_39_3"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-25509",
+            "cwe": {
+                "id": "CWE-119",
+                "name": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX-1 SBIOS contains a vulnerability in Bds, which may lead to code execution, denial of service, and escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3656010",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx1_nvidia_dgx1_servers_s2w_3a13"
+                ],
+                "known_affected": [
+                    "dgx1_nvidia_dgx1_servers_all_sbios_prior_to_s2w_3a13"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25509"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-25509"
+                }
+            ],
+            "release_date": "2023-04-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx1_nvidia_dgx1_servers_all_sbios_prior_to_s2w_3a13"
+                    ]
+                }
+            ]
+        }
+    ]
+}

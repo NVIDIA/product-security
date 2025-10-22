@@ -1,0 +1,360 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a security update for NVIDIA ConnectX\u00ae firmware. This update addresses issues that may lead to denial of service.<div>To protect your system, download and install this firmware update from the <a href=\"https://network.nvidia.com/support/firmware/firmware-downloads/\">NVIDIA Networking Support</a> page.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Earlier firmware releases that support this product are also affected. If you are using an earlier release, upgrade to the latest release version.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "14:NBU",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA ConnectX - April 2023",
+        "tracking": {
+            "current_release_date": "2023-04-18T00:00:00Z",
+            "generator": {
+                "date": "2023-04-18T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5459",
+            "initial_release_date": "2023-04-18T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2023-04-18T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA ConnectX Firmware",
+                                "product": {
+                                    "name": "NVIDIA ConnectX Firmware",
+                                    "product_id": "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_connectx_firmware:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA ConnectX Firmware",
+                                "product": {
+                                    "name": "All versions prior to 35.1012",
+                                    "product_id": "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_all_versions_prior_to_35_1012",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_connectx_firmware:all_versions_prior_to_35_1012:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA ConnectX Firmware",
+                                "product": {
+                                    "name": "35.1012",
+                                    "product_id": "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_35_1012",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_connectx_firmware:35_1012:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "onnectX-5, ConnectX-6, ConnectX6-DX "
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Xinhao Kong, Jingrong Chen, Wei Bai, Yechen Xu, Mahmoud Elhaddad, Shachar Raindel, Jitendra Padhye, Alvin R. Lebeck, Danyang Zhuo"
+                    ]
+                }
+            ],
+            "cve": "CVE-2023-0204",
+            "cwe": {
+                "id": "CWE-703",
+                "name": "Improper Check or Handling of Exceptional Conditions"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA ConnectX-5, ConnectX-6, and ConnectX6-DX contain a vulnerability in the NIC firmware, where an unprivileged user can cause improper handling of exceptional conditions, which may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3974084",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_35_1012"
+                ],
+                "known_affected": [
+                    "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_all_versions_prior_to_35_1012"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0204"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-0204"
+                }
+            ],
+            "release_date": "2023-04-18T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_all_versions_prior_to_35_1012"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Xinhao Kong, Jingrong Chen, Wei Bai, Yechen Xu, Mahmoud Elhaddad, Shachar Raindel, Jitendra Padhye, Alvin R. Lebeck, Danyang Zhuo"
+                    ]
+                }
+            ],
+            "cve": "CVE-2023-0203",
+            "cwe": {
+                "id": "CWE-1220",
+                "name": "Insufficient Granularity of Access Control"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA ConnectX-5, ConnectX-6, and ConnectX6-DX contain a vulnerability in the NIC firmware, where an unprivileged user can exploit insufficient granularity of access control, which may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3974083",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_35_1012"
+                ],
+                "known_affected": [
+                    "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_all_versions_prior_to_35_1012"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0203"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-0203"
+                }
+            ],
+            "release_date": "2023-04-18T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_all_versions_prior_to_35_1012"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Xinhao Kong, Jingrong Chen, Wei Bai, Yechen Xu, Mahmoud Elhaddad, Shachar Raindel, Jitendra Padhye, Alvin R. Lebeck, Danyang Zhuo"
+                    ]
+                }
+            ],
+            "cve": "CVE-2023-0205",
+            "cwe": {
+                "id": "CWE-1220",
+                "name": "Insufficient Granularity of Access Control"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA ConnectX-5, ConnectX-6, and ConnectX6-DX contain a vulnerability in the NIC firmware, where an unprivileged user can exploit insufficient granularity of access control, which may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3974085",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_35_1012"
+                ],
+                "known_affected": [
+                    "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_all_versions_prior_to_35_1012"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0205"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-0205"
+                }
+            ],
+            "release_date": "2023-04-18T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "onnectx5_connectx6_connectx6dx__nvidia_connectx_firmware_all_versions_prior_to_35_1012"
+                    ]
+                }
+            ]
+        }
+    ]
+}

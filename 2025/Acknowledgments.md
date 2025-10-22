@@ -117,7 +117,9 @@ This file contains acknowledgments for security researchers and organizations wh
 | Lewis Ardern - Semgrep |
 | Lewis Birch - Secure AI Researcher (Mindgard) |
 | LIDONG LI (SourceGuard) |
+| Lütfü Mert Ceylan - OWASP Project Leader |
 | Magashwarahan A |
+| Michael DePlante (@izobashi) of Trend Zero Day Initiative |
 | Miguel Segovia Gil |
 | miguelse |
 | Milan Katwal |

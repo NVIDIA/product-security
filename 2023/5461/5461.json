@@ -1,0 +1,283 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a firmware security update for the NVIDIA DGX\u2122 A100 system and the NVIDIA DGX A800 system. This update addresses issues that may lead to code execution, denial of service, data tampering, escalation of privileges, and information disclosure.<br><div><br></div><div>To protect your system, download and install this firmware update through the <a href=\"https://nvid.nvidia.com/dashboard/\">NVIDIA Enterprise Support Portal</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "To get the updated BMC and SBIOS versions listed in the tables, upgrade to the NVIDIA DGX A100 Firmware Update Container Version 23.06.3. Firmware updates are available through the NVIDIA Enterprise Support Portal.<div><ul><li>Security Vulnerabilities Reported by AMI<br></li></ul></div><div>The following table lists potential security vulnerabilities in some AMI MegaRAC SP-X baseboard management controllers that have been reported by AMI. These vulnerabilities may allow user enumeration, unauthorized access, or arbitrary code execution. The NVIDIA DGX-1, NVIDIA DGX-2, NVIDIA DGX Station, and NVIDIA DGX Station A100 systems are not vulnerable to these issues.</div><div><ul><li>CVE ID-Severity</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40259\">CVE\u20112022\u201140259</a>\tCritical</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26872\">CVE\u20112022\u201126872</a>\tHigh</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2827\">CVE\u20112022\u20112827</a>\tHigh</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26316\">CVE\u20112021\u201126316</a>\tHigh</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39298\">CVE\u20112021\u201139298</a>\tHigh</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26402\">CVE\u20112021\u201126402</a>\tHigh</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40242\">CVE\u20112022\u201140242</a>\tMedium</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23813\">CVE\u20112022\u201123813</a>\tMedium</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23814\">CVE\u20112022\u201123814</a>\tMedium</li><li><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26328\">CVE\u20112021\u201126328</a>\tMedium</li></ul></div><div><br></div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "9:DGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA DGX A100 and DGX A800 - June 2023",
+        "tracking": {
+            "current_release_date": "2023-07-14T00:00:00Z",
+            "generator": {
+                "date": "2023-07-14T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5461",
+            "initial_release_date": "2023-06-30T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2023-06-30T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                },
+                {
+                    "date": "2023-07-14T00:00:00Z",
+                    "number": "1.1.0",
+                    "summary": "Updated broken CVE hyperlinks to the security vulnerabilities reported by AMI"
+                }
+            ],
+            "status": "final",
+            "version": "1.1.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA DGX",
+                                "product": {
+                                    "name": "NVIDIA DGX",
+                                    "product_id": "nvidia_dgx_a100_nvidia_dgx_a800_nvidia_dgx",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX",
+                                "product": {
+                                    "name": "All SBIOS versions prior to 1.21",
+                                    "product_id": "nvidia_dgx_a100_nvidia_dgx_a800_nvidia_dgx_all_sbios_versions_prior_to_1_21",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx:all_sbios_versions_prior_to_1_21:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX",
+                                "product": {
+                                    "name": "1.21",
+                                    "product_id": "nvidia_dgx_a100_nvidia_dgx_a800_nvidia_dgx_1_21",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx:1_21:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "NVIDIA DGX A100, NVIDIA DGX A800"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2023-25521",
+            "cwe": {
+                "id": "CWE-250",
+                "name": "Execution with Unnecessary Privileges"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "The NVIDIA DGX A100 and A800 systems contain a vulnerability in SBIOS, where improper validation of an input parameter may lead to code execution, escalation of privileges, denial of service, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3829734",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_a100_nvidia_dgx_a800_nvidia_dgx_1_21"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_a100_nvidia_dgx_a800_nvidia_dgx_all_sbios_versions_prior_to_1_21"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25521"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-25521"
+                }
+            ],
+            "release_date": "2023-06-30T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_a100_nvidia_dgx_a800_nvidia_dgx_all_sbios_versions_prior_to_1_21"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2023-25522",
+            "cwe": {
+                "id": "CWE-20",
+                "name": "Improper Input Validation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "The NVIDIA DGX A100 and A800 systems contain a vulnerability in SBIOS, where information that is provided in an unexpected format may cause improper validation of an input parameter, which may lead to denial of service, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3755376",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_a100_nvidia_dgx_a800_nvidia_dgx_1_21"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_a100_nvidia_dgx_a800_nvidia_dgx_all_sbios_versions_prior_to_1_21"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25522"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2023-25522"
+                }
+            ],
+            "release_date": "2023-06-30T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_a100_nvidia_dgx_a800_nvidia_dgx_all_sbios_versions_prior_to_1_21"
+                    ]
+                }
+            ]
+        }
+    ]
+}
