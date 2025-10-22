@@ -19,6 +19,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | C0ss4ck - Bytedance Security | [CVE-2025-23257](5655/CVE-2025-23257.json) | [5655.json](5655/5655.json) | [5655.md](5655/5655.md) |
 | cyfra07  | [CVE-2024-0140](5597/CVE-2024-0140.json) | [5597.json](5597/5597.json) | [5597.md](5597/5597.md) |
 | D.K | [CVE-2025-23307](5690/CVE-2025-23307.json) | [5690.json](5690/5690.json) | [5690.md](5690/5690.md) |
+| Daniel Rhea | [CVE-2025-23309](5703/CVE-2025-23309.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
 | David Fiser and Alfredo Oliveira - Nebula of Trend Micro | [CVE-2025-23242](5625/CVE-2025-23242.json) | [5625.json](5625/5625.json) | [5625.md](5625/5625.md) |
 |  | [CVE-2025-23243](5625/CVE-2025-23243.json) | [5625.json](5625/5625.json) | [5625.md](5625/5625.md) |
 | Dimitrios Tatsis - Cisco Talos | [CVE-2024-0142](5596/CVE-2024-0142.json) | [5596.json](5596/5596.json) | [5596.md](5596/5596.md) |
@@ -31,10 +32,12 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-23340](5661/CVE-2025-23340.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 |  | [CVE-2025-23339](5661/CVE-2025-23339.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 | Dong-uk Kim & JunYoung Park of KAIST Hacking Lab | [CVE-2025-23297](5682/CVE-2025-23297.json) | [5682.json](5682/5682.json) | [5682.md](5682/5682.md) |
+| Ivan - Quarkslab Vulnerability Reports | [CVE-2025-23330](5703/CVE-2025-23330.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
 | Jahmel Harris - NATO CYBER SECURITY CENTRE | [CVE-2025-23293](5705/CVE-2025-23293.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
 |  | [CVE-2025-23292](5705/CVE-2025-23292.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
 |  | [CVE-2025-23291](5705/CVE-2025-23291.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
 | Jumin Lee | [CVE-2025-33177](5716/CVE-2025-33177.json) | [5716.json](5716/5716.json) | [5716.md](5716/5716.md) |
+| JunDong Xie - Ant Group Light-Year Security Lab | [CVE-2025-23345](5703/CVE-2025-23345.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
 | Kai Lu - Palo Alto Networks | [CVE-2024-53870](5594/CVE-2024-53870.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53871](5594/CVE-2024-53871.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53872](5594/CVE-2024-53872.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
@@ -48,6 +51,8 @@ This file contains acknowledgments for security researchers and organizations wh
 | kikayli (Zhuque Lab, Tencent) | [CVE-2025-23356](5708/CVE-2025-23356.json) | [5708.json](5708/5708.json) | [5708.md](5708/5708.md) |
 | Lei Wang & Min Yao (Nebula Security Lab, Huawei Cloud) | [CVE-2025-23267](5659/CVE-2025-23267.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
 | Maxim Mints and Austin Herring | [CVE-2024-0112](5611/CVE-2024-0112.json) | [5611.json](5611/5611.json) | [5611.md](5611/5611.md) |
+| Microsoft Offensive Research and Security Engineering Team | [CVE-2025-23281](5670/CVE-2025-23281.json) | [5670.json](5670/5670.json) | [5670.md](5670/5670.md) |
+|  | [CVE-2025-23287](5670/CVE-2025-23287.json) | [5670.json](5670/5670.json) | [5670.md](5670/5670.md) |
 | Mo XY of IceSword Lab | [CVE-2025-23346](5661/CVE-2025-23346.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 | nEINEI - Tencent-zhuquelab | [CVE-2024-53879](5594/CVE-2024-53879.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 | Nir Ohfeld (@nirohfeld) and Shir Tamari (@shirtamari) working with Trend Zero Day Initiative | [CVE-2025-23266](5659/CVE-2025-23266.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
@@ -63,6 +68,8 @@ This file contains acknowledgments for security researchers and organizations wh
 | Ronen Shustin - WIZ.IO | [CVE-2025-23319](5687/CVE-2025-23319.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23334](5687/CVE-2025-23334.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 | Roronoan Zoro | [CVE-2025-23269](5662/CVE-2025-23269.json) | [5662.json](5662/5662.json) | [5662.md](5662/5662.md) |
+| Sam Lovejoy and Valentina Palmiotti | [CVE-2025-23282](5703/CVE-2025-23282.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
+|  | [CVE-2025-23332](5703/CVE-2025-23332.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
 | Sarah Newman and Jason Zaman @ Blue River Technology | [CVE-2025-33182](5716/CVE-2025-33182.json) | [5716.json](5716/5716.json) | [5716.md](5716/5716.md) |
 | Sarah Newman, Jason Zaman and Brennan Coslett (Blue River Technology) | [CVE-2025-23270](5662/CVE-2025-23270.json) | [5662.json](5662/5662.json) | [5662.md](5662/5662.md) |
 | Sascha Meyer - GAI NetConsult GmbH | [CVE-2025-23253](5644/CVE-2025-23253.json) | [5644.json](5644/5644.json) | [5644.md](5644/5644.md) |
@@ -76,7 +83,10 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-23333](5687/CVE-2025-23333.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 | Will Vandevanter - Trail of Bits | [CVE-2025-23310](5687/CVE-2025-23310.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23311](5687/CVE-2025-23311.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
+| Wolfgang Frisch | [CVE-2024-0149](5614/CVE-2024-0149.json) | [5614.json](5614/5614.json) | [5614.md](5614/5614.md) |
+| Xiaochen Zou | [CVE-2024-0131](5614/CVE-2024-0131.json) | [5614.json](5614/5614.json) | [5614.md](5614/5614.md) |
 | Xiaozheng Ding, Lidong Li from SourceGuard | [CVE-2025-23255](5661/CVE-2025-23255.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
+| Xingyu Jin - Google | [CVE-2025-23244](5630/CVE-2025-23244.json) | [5630.json](5630/5630.json) | [5630.md](5630/5630.md) |
 | Xuanzhe Yu | [CVE-2025-23313](5689/CVE-2025-23313.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |
 |  | [CVE-2025-23314](5689/CVE-2025-23314.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |
 | Yash Kundlik Jare | [CVE-2025-23289](5679/CVE-2025-23289.json) | [5679.json](5679/5679.json) | [5679.md](5679/5679.md) |
