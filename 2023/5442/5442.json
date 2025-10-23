@@ -1,0 +1,249 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Jetson AGX Xavier\u2122 series, Jetson Xavier\u2122 NX, and Jetson AGX Orin series in the NVIDIA JetPack\u2122 software development kit (SDK). The update addresses security issues that may lead to escalation of privileges, compromised data integrity and confidentiality, and denial of service. To protect your system, download and install the latest NVIDIA JetPack SDK from <a href=\"https://developer.nvidia.com/embedded/downloads\">NVIDIA DevZone</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "13:Jetson / L4T / IGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series - January 2023",
+        "tracking": {
+            "current_release_date": "2023-01-25T00:00:00Z",
+            "generator": {
+                "date": "2023-01-25T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5442",
+            "initial_release_date": "2023-01-25T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2023-01-25T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series",
+                                "product": {
+                                    "name": "NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series",
+                                    "product_id": "jetson_linux35_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series",
+                                "product": {
+                                    "name": "NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series",
+                                    "product_id": "jetson_linux32_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series",
+                                "product": {
+                                    "name": "Versions 35.1 and 34.1.1",
+                                    "product_id": "jetson_linux35_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_versions_35_1_and_34_1_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series:versions_35_1_and_34_1_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series",
+                                "product": {
+                                    "name": "35.2.1",
+                                    "product_id": "jetson_linux35_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_35_2_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series:35_2_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson Linux(35)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series",
+                                "product": {
+                                    "name": "32.7.2 and prior releases",
+                                    "product_id": "jetson_linux32_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_32_7_2_and_prior_releases",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series:32_7_2_and_prior_releases:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson AGX Orin Series",
+                                "product": {
+                                    "name": "32.7.3",
+                                    "product_id": "jetson_linux32_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_32_7_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series:32_7_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson Linux(32)"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2022-42270",
+            "cwe": {
+                "id": "CWE-121",
+                "name": "Stack-based Buffer Overflow"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA distributions of Linux contain a vulnerability in nvdla_emu_task_submit, where unvalidated input may allow a local attacker to cause stack-based buffer overflow in kernel code, which may lead to escalation of privileges, compromised data integrity and confidentiality, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3805828",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux35_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_35_2_1",
+                    "jetson_linux32_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_32_7_3"
+                ],
+                "known_affected": [
+                    "jetson_linux35_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_versions_35_1_and_34_1_1",
+                    "jetson_linux32_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_32_7_2_and_prior_releases"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42270"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42270"
+                }
+            ],
+            "release_date": "2023-01-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux35_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_versions_35_1_and_34_1_1",
+                        "jetson_linux32_nvidia_jetson_agx_xavier_series_jetson_xavier_nx_jetson_agx_orin_series_32_7_2_and_prior_releases"
+                    ]
+                }
+            ]
+        }
+    ]
+}

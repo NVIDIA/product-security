@@ -1,0 +1,404 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA Omniverse\u2122 Kit to address a security issue that may lead to code execution, information disclosure, data tampering, and denial of service.<div>To protect your system, open the Omniverse Launcher and apply the appropriate update.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "The updated versions in the table disable the functionality that automatically runs embedded Python code when a USD file is opened. If you enable this functionality, open USD files only from trusted sources.<div>To protect your system, update your software by following the instructions for the launcher that you are using:</div><div><ul><li><b>Workstation Launcher</b> (all users): Click the <b>Library</b> tab and follow the instructions in <a href=\"https://docs.omniverse.nvidia.com/prod_launcher/prod_launcher/workstation-launcher.html#updating-an-app\">Updating an App</a> in the User Guide for <b>Omniverse Launcher</b>.</li><li><b>IT Managed Launcher</b>, formerly known as the Enterprise Launcher (IT administrators only): Download the updated version from the <a href=\"https://enterprise.launcher.omniverse.nvidia.com/exchange\">Omniverse</a> Enterprise portal and follow the instructions in <a href=\"https://docs.omniverse.nvidia.com/prod_launcher/prod_launcher/it-managed-launcher.html#install-applications\">Install Applications</a> in the User Guide for <b>Omniverse Launcher</b>.</li></ul></div><div>The IT Managed Launcher is designed for air-gapped networks. NVIDIA will notify enterprise contacts by email when an update is available.</div><div>After the application is updated, any extensions that support running embedded Python code in USD files will be disabled. To enable these extensions, follow the instructions in the <a href=\"https://docs.omniverse.nvidia.com/prod_extensions/prod_extensions/ext_extension-manager.html\">Extension Manager Documentation</a>.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "If you cannot install the updated versions, manually disable the following extensions:<div><ul><li>omni.kit.embedded_script</li><li>omni.script.prim</li><li>omni.graph.scriptnode</li></ul></div><div>To disable these extensions, follow the instructions and video in the <a href=\"https://docs.omniverse.nvidia.com/prod_extensions/prod_extensions/ext_extension-manager.html\">Extension Manager Documentation</a>.</div>",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software releases that support this product also enable this functionality by default. If you are using an earlier release, upgrade to the latest release.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "21:Omniverse",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Omniverse Kit - January 2023",
+        "tracking": {
+            "current_release_date": "2023-01-10T00:00:00Z",
+            "generator": {
+                "date": "2023-01-10T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5418",
+            "initial_release_date": "2023-01-10T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2023-01-10T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "Omniverse Audio2Face",
+                                "product": {
+                                    "name": "Omniverse Audio2Face",
+                                    "product_id": "all_platforms_omniverse_audio2face",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_audio2face:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Omniverse Create",
+                                "product": {
+                                    "name": "Omniverse Create",
+                                    "product_id": "all_platforms_omniverse_create",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_create:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Isaac Sim",
+                                "product": {
+                                    "name": "NVIDIA Isaac Sim",
+                                    "product_id": "all_platforms_nvidia_isaac_sim",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_isaac_sim:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Omniverse Machinima",
+                                "product": {
+                                    "name": "Omniverse Machinima",
+                                    "product_id": "all_platforms_omniverse_machinima",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_machinima:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Omniverse Code",
+                                "product": {
+                                    "name": "Omniverse Code",
+                                    "product_id": "all_platforms_omniverse_code",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_code:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Omniverse View",
+                                "product": {
+                                    "name": "Omniverse View",
+                                    "product_id": "all_platforms_omniverse_view",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_view:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse Audio2Face",
+                                "product": {
+                                    "name": "All versions prior to 2022.2",
+                                    "product_id": "all_platforms_omniverse_audio2face_all_versions_prior_to_2022_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_audio2face:all_versions_prior_to_2022_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse Audio2Face",
+                                "product": {
+                                    "name": "2022.2",
+                                    "product_id": "all_platforms_omniverse_audio2face_2022_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_audio2face:2022_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse Create",
+                                "product": {
+                                    "name": "All versions prior to 2022.3",
+                                    "product_id": "all_platforms_omniverse_create_all_versions_prior_to_2022_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_create:all_versions_prior_to_2022_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse Create",
+                                "product": {
+                                    "name": "2022.3",
+                                    "product_id": "all_platforms_omniverse_create_2022_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_create:2022_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Isaac Sim",
+                                "product": {
+                                    "name": "All versions prior to 2022.2.0",
+                                    "product_id": "all_platforms_nvidia_isaac_sim_all_versions_prior_to_2022_2_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_isaac_sim:all_versions_prior_to_2022_2_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Isaac Sim",
+                                "product": {
+                                    "name": "2022.2.0",
+                                    "product_id": "all_platforms_nvidia_isaac_sim_2022_2_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_isaac_sim:2022_2_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse Machinima",
+                                "product": {
+                                    "name": "All versions prior to 2022.3",
+                                    "product_id": "all_platforms_omniverse_machinima_all_versions_prior_to_2022_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_machinima:all_versions_prior_to_2022_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse Machinima",
+                                "product": {
+                                    "name": "2022.3",
+                                    "product_id": "all_platforms_omniverse_machinima_2022_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_machinima:2022_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse Code",
+                                "product": {
+                                    "name": "All versions prior to 2022.3.0",
+                                    "product_id": "all_platforms_omniverse_code_all_versions_prior_to_2022_3_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_code:all_versions_prior_to_2022_3_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse Code",
+                                "product": {
+                                    "name": "2022.3.0",
+                                    "product_id": "all_platforms_omniverse_code_2022_3_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_code:2022_3_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse View",
+                                "product": {
+                                    "name": "All versions prior to 2022.2.1",
+                                    "product_id": "all_platforms_omniverse_view_all_versions_prior_to_2022_2_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_view:all_versions_prior_to_2022_2_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Omniverse View",
+                                "product": {
+                                    "name": "2022.2.1",
+                                    "product_id": "all_platforms_omniverse_view_2022_2_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:omniverse_view:2022_2_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All platforms"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Shashi Bhushan"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42268",
+            "cwe": {
+                "id": "CWE-74",
+                "name": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "Omniverse Kit contains a vulnerability in the reference applications Create, Audio2Face, Isaac Sim, View, Code, and Machinima. These applications allow executable Python code to be embedded in Universal Scene Description (USD) files to customize all aspects of a scene. If a user opens a USD file that contains embedded Python code in one of these applications, the embedded Python code automatically runs with the privileges of the user who opened the file. As a result, an unprivileged remote attacker could craft a USD file containing malicious Python code and persuade a local user to open the file, which may lead to information disclosure, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3727937",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_omniverse_audio2face_2022_2",
+                    "all_platforms_omniverse_create_2022_3",
+                    "all_platforms_nvidia_isaac_sim_2022_2_0",
+                    "all_platforms_omniverse_machinima_2022_3",
+                    "all_platforms_omniverse_code_2022_3_0",
+                    "all_platforms_omniverse_view_2022_2_1"
+                ],
+                "known_affected": [
+                    "all_platforms_omniverse_audio2face_all_versions_prior_to_2022_2",
+                    "all_platforms_omniverse_create_all_versions_prior_to_2022_3",
+                    "all_platforms_nvidia_isaac_sim_all_versions_prior_to_2022_2_0",
+                    "all_platforms_omniverse_machinima_all_versions_prior_to_2022_3",
+                    "all_platforms_omniverse_code_all_versions_prior_to_2022_3_0",
+                    "all_platforms_omniverse_view_all_versions_prior_to_2022_2_1"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42268"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42268"
+                }
+            ],
+            "release_date": "2023-01-10T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_omniverse_audio2face_all_versions_prior_to_2022_2",
+                        "all_platforms_omniverse_create_all_versions_prior_to_2022_3",
+                        "all_platforms_nvidia_isaac_sim_all_versions_prior_to_2022_2_0",
+                        "all_platforms_omniverse_machinima_all_versions_prior_to_2022_3",
+                        "all_platforms_omniverse_code_all_versions_prior_to_2022_3_0",
+                        "all_platforms_omniverse_view_all_versions_prior_to_2022_2_1"
+                    ]
+                }
+            ]
+        }
+    ]
+}
