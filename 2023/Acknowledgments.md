@@ -8,6 +8,8 @@ This file contains acknowledgments for security researchers and organizations wh
 |----------------|-----|-----------|----------|
 | hjy79425575 | [CVE-2023-0196](5446/CVE-2023-0196.json) | [5446.json](5446/5446.json) | [5446.md](5446/5446.md) |
 | Hugo Magalhaes from Oracle | [CVE-2023-25519](5479/CVE-2023-25519.json) | [5479.json](5479/5479.json) | [5479.md](5479/5479.md) |
+| Imre Kis | [CVE-2023-0194](5452/CVE-2023-0194.json) | [5452.json](5452/5452.json) | [5452.md](5452/5452.md) |
+|  | [CVE-2023-0195](5452/CVE-2023-0195.json) | [5452.json](5452/5452.json) | [5452.md](5452/5452.md) |
 | Jifan Xiao | [CVE-2023-25523](5469/CVE-2023-25523.json) | [5469.json](5469/5469.json) | [5469.md](5469/5469.md) |
 | l1k3beef @ tencent-zhuquelab | [CVE-2023-31036](5509/CVE-2023-31036.json) | [5509.json](5509/5509.json) | [5509.md](5509/5509.md) |
 | Lockheed Martin Red Team | [CVE-2023-31017](5491/CVE-2023-31017.json) | [5491.json](5491/5491.json) | [5491.md](5491/5491.md) |
