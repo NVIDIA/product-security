@@ -36,7 +36,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Jahmel Harris - NATO CYBER SECURITY CENTRE | [CVE-2025-23293](5705/CVE-2025-23293.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
 |  | [CVE-2025-23292](5705/CVE-2025-23292.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
 |  | [CVE-2025-23291](5705/CVE-2025-23291.json) | [5705.json](5705/5705.json) | [5705.md](5705/5705.md) |
-| Jumin Lee | [CVE-2025-33177](5716/CVE-2025-33177.json) | [5716.json](5716/5716.json) | [5716.md](5716/5716.md) |
+| Jumin Lee, Hanjun Kim, and Dokyung Song (Yonsei University) | [CVE-2025-33177](5716/CVE-2025-33177.json) | [5716.json](5716/5716.json) | [5716.md](5716/5716.md) |
 | JunDong Xie - Ant Group Light-Year Security Lab | [CVE-2025-23345](5703/CVE-2025-23345.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
 | Kai Lu - Palo Alto Networks | [CVE-2024-53870](5594/CVE-2024-53870.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53871](5594/CVE-2024-53871.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
@@ -119,6 +119,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | François Proulx - BoostSecurity.io |
 | Gal Nagli - Wiz Research |
 | h3r & Tsingshui with 0xfa |
+| Indra Putra (Voltage Park) |
 | Jacob Wujciak-Jens |
 | Jaeheng Yoon (JENBlack Soft) |
 | Kartik Mohite (@kartik2311) |

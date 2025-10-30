@@ -1,0 +1,207 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for MLNX_DPDK to address a security issue that may lead to denial of service, and some impact to data integrity and confidentiality.<div>To protect your system, contact your NVIDIA representative to obtain the MLNX_DPDK version that contains the update and install it.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software releases of this product are also affected. If you are using an earlier release, upgrade to the latest release version.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "14:NBU",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Data Plane Development Kit (MLNX_DPDK) - August 2022",
+        "tracking": {
+            "current_release_date": "2022-08-29T00:00:00Z",
+            "generator": {
+                "date": "2022-08-29T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5389",
+            "initial_release_date": "2022-08-29T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2022-08-29T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "MLNX_DPDK",
+                                "product": {
+                                    "name": "MLNX_DPDK",
+                                    "product_id": "linux_windows_mlnx_dpdk",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mlnx_dpdk:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "MLNX_DPDK",
+                                "product": {
+                                    "name": "mlnx_dpdk_19.11_1 through mlnx_dpdk_20.11_1.0.0-4",
+                                    "product_id": "linux_windows_mlnx_dpdk_mlnx_dpdk_19_11_1_through_mlnx_dpdk_20_11_1_0_04",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mlnx_dpdk:mlnx_dpdk_19_11_1_through_mlnx_dpdk_20_11_1_0_04:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "MLNX_DPDK",
+                                "product": {
+                                    "name": "mlnx_dpdk_20.11_5.0.0",
+                                    "product_id": "linux_windows_mlnx_dpdk_mlnx_dpdk_20_11_5_0_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:mlnx_dpdk:mlnx_dpdk_20_11_5_0_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux, Windows"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2022-28199",
+            "cwe": {
+                "id": "CWE-1284",
+                "name": "Improper Validation of Specified Quantity in Input"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA\u2019s distribution of the Data Plane Development Kit (MLNX_DPDK) contains a vulnerability in the network stack, where error recovery is not handled properly, which can allow a remote attacker to cause denial of service and some impact to data integrity and confidentiality.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3603512",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_windows_mlnx_dpdk_mlnx_dpdk_20_11_5_0_0"
+                ],
+                "known_affected": [
+                    "linux_windows_mlnx_dpdk_mlnx_dpdk_19_11_1_through_mlnx_dpdk_20_11_1_0_04"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-28199"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-28199"
+                }
+            ],
+            "release_date": "2022-08-29T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_windows_mlnx_dpdk_mlnx_dpdk_19_11_1_through_mlnx_dpdk_20_11_1_0_04"
+                    ]
+                }
+            ]
+        }
+    ]
+}

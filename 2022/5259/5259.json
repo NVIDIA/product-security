@@ -1,0 +1,818 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software security update for NVIDIA SHIELD\u00ae TV. This update addresses issues that may lead to information disclosure, denial of service, code execution, or escalation of privileges. To protect your system, download and install this software update through Settings&gt;About&gt;System update.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "SHIELD TV update includes Android\u2122 Security Patch level <b>2021-09-05</b>. For more information about what is included in Android security patch levels, refer to the <a href=\"https://source.android.com/security/bulletin\">Android Security Bulletins</a>.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "See <a href=\"https://nvidia.custhelp.com/app/answers/detail/a_id/5259#security-updates\">Security Updates</a> for the version to install.",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier releases of this product are also affected. If you are using an earlier release, upgrade to the latest release.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA SHIELD TV - January 2022",
+        "tracking": {
+            "current_release_date": "2022-01-12T00:00:00Z",
+            "generator": {
+                "date": "2022-01-12T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5259",
+            "initial_release_date": "2022-01-12T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2022-01-12T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "SHIELD TV",
+                                "product": {
+                                    "name": "SHIELD TV",
+                                    "product_id": "androidp_shield_tv",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:shield_tv:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "SHIELD TV",
+                                "product": {
+                                    "name": "Shield Experience prior to SE 9.0",
+                                    "product_id": "androidp_shield_tv_shield_experience_prior_to_se_9_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:shield_tv:shield_experience_prior_to_se_9_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "SHIELD TV",
+                                "product": {
+                                    "name": "Shield Experience Upgrade SE 9.0",
+                                    "product_id": "androidp_shield_tv_shield_experience_upgrade_se_9_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:shield_tv:shield_experience_upgrade_se_9_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Android-P"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2021-1106",
+            "cwe": {
+                "id": "CWE-284",
+                "name": "Improper Access Control"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Linux kernel distributions contain a vulnerability in nvmap, where writes may be allowed to read-only buffers, which may result in escalation of privileges, denial of service, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3298659",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-1106"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-1106"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2021-1107",
+            "cwe": {
+                "id": "CWE-284",
+                "name": "Improper Access Control"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Linux kernel distributions contain a vulnerability in nvmap NVMAP_IOC_WRITE* paths, where improper access controls may lead to code execution, denial of service, or compromised integrity of system components.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3288501",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-1107"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-1107"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2021-34401",
+            "cwe": {
+                "id": "CWE-284",
+                "name": "Improper Access Control"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Linux kernel distributions contain a vulnerability in nvmap NVGPU_IOCTL_CHANNEL_SET_ERROR_NOTIFIER, where improper access control may lead to code execution, compromised integrity, or denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3298623",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-34401"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-34401"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2021-34403",
+            "cwe": {
+                "id": "CWE-416",
+                "name": "Use After Free"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Linux distributions contain a vulnerability in nvmap ioctl, which allows any user with a local account to exploit a use-after-free condition, leading to code privilege escalation, loss of confidentiality and integrity, or denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3345609",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-34403"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-34403"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2021-1108",
+            "cwe": {
+                "id": "CWE-190",
+                "name": "Integer Overflow or Wraparound"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Linux kernel distributions contain a vulnerability in FuSa Capture (VI/ISP), where integer underflow caused by lack of input validation may lead to complete denial of service, partial integrity, and serious confidentiality loss for all processes in the system.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3328260",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-1108"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-1108"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.3,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2021-34404",
+            "cwe": {
+                "id": "CWE-636",
+                "name": "Not Failing Securely ('Failing Open')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "Android images for T210 provided by NVIDIA contain a vulnerability in BROM, where failure to limit access to AHB-DMA when BROM fails may allow an unprivileged attacker with physical access to cause denial of service or impact integrity and confidentiality beyond the security scope of BROM.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "2543006",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-34404"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-34404"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "PHYSICAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2021-34402",
+            "cwe": {
+                "id": "CWE-119",
+                "name": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Tegra kernel driver contains a vulnerability in NVIDIA NVDEC, where a user with high privileges might be able to read from or write to a memory location that is outside the intended boundary of the buffer, which may lead to denial of service, Information disclosure, loss of Integrity, or possible escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3145417",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-34402"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-34402"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2021-34405",
+            "cwe": {
+                "id": "CWE-690",
+                "name": "Unchecked Return Value to NULL Pointer Dereference"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Linux distributions contain a vulnerability in TrustZone\u2019s TEE_Malloc function, where an unchecked return value causing a null pointer dereference may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3281031",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-34405"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-34405"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 5.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2021-1112",
+            "cwe": {
+                "id": "CWE-476",
+                "name": "NULL Pointer Dereference"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Linux kernel distributions contain a vulnerability in nvmap, where a null pointer dereference may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3285456",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-1112"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-1112"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 5.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Billy Laws"
+                    ]
+                }
+            ],
+            "cve": "CVE-2021-34406",
+            "cwe": {
+                "id": "CWE-476",
+                "name": "NULL Pointer Dereference"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Tegra kernel driver contains a vulnerability in NVHost, where a specific race condition can lead to a null pointer dereference, which may lead to a system reboot.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3295802",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "androidp_shield_tv_shield_experience_upgrade_se_9_0"
+                ],
+                "known_affected": [
+                    "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-34406"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-34406"
+                }
+            ],
+            "release_date": "2022-01-12T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 4.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "androidp_shield_tv_shield_experience_prior_to_se_9_0"
+                    ]
+                }
+            ]
+        }
+    ]
+}

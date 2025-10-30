@@ -1,0 +1,1672 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a firmware security update for NVIDIA DGX A100 server and NVIDIA DGX Station A100. This update addresses issues that may lead to code execution, denial of service, escalation of privileges, loss of data integrity, information disclosure, or data tampering.<br><div><br></div><div>To protect your system, download and install this firmware update through the <a href=\"https://nvid.nvidia.com/dashboard/\">NVIDIA Enterprise Support Portal</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "The following table lists the NVIDIA systems affected, firmware versions affected, and the updated version that includes this security update. To protect your system, download and install this firmware update through the <a href=\"https://nvid.nvidia.com/dashboard/\">NVIDIA Enterprise Support Portal</a>.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "<ul><li>To get the updated firmware and SBIOS version listed in the table above, upgrade to the NVIDIA DGX A100 firmware container 22.12.1, or NVIDIA DGX Station A100 firmware container 22.2.1. Firmware updates are available through the NVIDIA Enterprise Support Portal.<br></li><li>See <a href=\"https://nvidia.custhelp.com/app/answers/detail/a_id/5435#security-updates\">Security Updates</a> for the version to install.<br></li><li>NVIDIA recommends that all BMC ports be restricted to a dedicated management network with firewall protection. If remote access to the BMC is required, such as for a system hosted at a co-location provider, the BMC should be accessed through a secure method that provides isolation from the Internet, such as through a VPN server.</li></ul>Additional Information<br><div><br></div><div><br></div><div>AMI has reported potential security vulnerabilities in some AMI MegaRAC SP-X Baseboard Management Controllers that may allow user enumeration, unauthorized access, or arbitrary code execution. The NVIDIA DGX A100 BMC is affected by the following AMI vulnerabilities and plans to release an update to address them in May 2023.<br></div><div><ul><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE%E2%80%912022%E2%80%9140259\">CVE\u20112022\u201140259</a>: AMI MegaRAC Redfish Arbitrary Code Execution<br></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE%E2%80%912022%E2%80%9140242\">CVE\u20112022\u201140242</a>: MegaRAC Default Credentials Vulnerability<br></li><li><a href=\"https://nvd.nist.gov/vuln/detail/CVE%E2%80%912022%E2%80%912827\">CVE\u20112022\u20112827</a>: AMI MegaRAC User Enumeration Vulnerability<br></li></ul></div><div>The NVIDIA DGX-1, DGX-2, DGX Station A100 and DGX Station systems are not vulnerable to these CVEs.</div><div><br></div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "9:DGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA DGX A100 Server and DGX Station A100 - December 2022",
+        "tracking": {
+            "current_release_date": "2023-01-10T00:00:00Z",
+            "generator": {
+                "date": "2023-01-10T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5435",
+            "initial_release_date": "2022-12-19T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2022-12-19T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                },
+                {
+                    "date": "2023-01-10T00:00:00Z",
+                    "number": "2.0.0",
+                    "summary": "Added CVE IDs omitted from the Security Updates table"
+                }
+            ],
+            "status": "final",
+            "version": "2.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA DGX servers",
+                                "product": {
+                                    "name": "NVIDIA DGX servers",
+                                    "product_id": "dgx_a100_nvidia_dgx_servers",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA DGX servers",
+                                "product": {
+                                    "name": "NVIDIA DGX servers",
+                                    "product_id": "dgx_station_a100_nvidia_dgx_servers",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX servers",
+                                "product": {
+                                    "name": "All BMC firmware versions prior to 00.19.07",
+                                    "product_id": "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:all_bmc_firmware_versions_prior_to_00_19_07:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX servers",
+                                "product": {
+                                    "name": "BMC Firmware 00.19.07",
+                                    "product_id": "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:bmc_firmware_00_19_07:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX servers",
+                                "product": {
+                                    "name": "All SBIOS firmware versions prior to 1.18",
+                                    "product_id": "dgx_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_1_18",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:all_sbios_firmware_versions_prior_to_1_18:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX servers",
+                                "product": {
+                                    "name": "SBIOS Firmware 1.18",
+                                    "product_id": "dgx_a100_nvidia_dgx_servers_sbios_firmware_1_18",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:sbios_firmware_1_18:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "DGX A100"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX servers",
+                                "product": {
+                                    "name": "All SBIOS firmware versions prior to 10.16",
+                                    "product_id": "dgx_station_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:all_sbios_firmware_versions_prior_to_10_16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DGX servers",
+                                "product": {
+                                    "name": "SBIOS Firmware 10.16",
+                                    "product_id": "dgx_station_a100_nvidia_dgx_servers_sbios_firmware_10_16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dgx_servers:sbios_firmware_10_16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "DGX Station A100"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42271",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA baseboard management controller (BMC) contains a vulnerability in the Intelligent Platform Management Interface (IPMI) handler, where an attacker with the required privileges can cause a buffer overflow, which may lead to denial of service or code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719029",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42271"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42271"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.4,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42272",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the IPMI handler, where an attacker with the required privileges can cause a buffer overflow, which may lead to code execution, denial of service, or escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579207",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42272"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42272"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42273",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in libwebsocket, where an attacker with the required privileges can cause a buffer overflow, which may lead to denial of service or code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719027",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42273"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42273"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42274",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the IPMI handler, where an attacker with the required privileges can cause a buffer overflow, which may lead to denial of service or code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719031",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42274"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42274"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42275",
+            "cwe": {
+                "id": "CWE-288",
+                "name": "Authentication Bypass Using an Alternate Path or Channel"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the IPMI handler, where an unauthenticated host is allowed to write to a host SPI flash, bypassing secure boot protections. An exploit of this vulnerability may lead to a loss of integrity or denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719066",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42275"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42275"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.7,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42276",
+            "cwe": {
+                "id": "CWE-288",
+                "name": "Authentication Bypass Using an Alternate Path or Channel"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX A100 server contains a vulnerability in SBIOS in the SmiFlash, where a local user with elevated privileges can read, write, and erase the flash, which may lead to code execution, escalation of privileges, denial of service, or information disclosure. The scope of the impact can extend to other components.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3335526",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_sbios_firmware_1_18"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_1_18"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42276"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42276"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_1_18"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42277",
+            "cwe": {
+                "id": "CWE-288",
+                "name": "Authentication Bypass Using an Alternate Path or Channel"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Station contains a vulnerability in SBIOS in the SmiFlash, where a local user with elevated privileges can read, write, and erase the flash, which may lead to code execution, escalation of privileges, denial of service, or information disclosure. The scope of the impact can extend to other components.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3335531",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_station_a100_nvidia_dgx_servers_sbios_firmware_10_16"
+                ],
+                "known_affected": [
+                    "dgx_station_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_16"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42277"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42277"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_station_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_10_16"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42278",
+            "cwe": {
+                "id": "CWE-119",
+                "name": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the SPX REST API, where an attacker with the required privileges can read and write to arbitrary locations within the memory context of the IPMI server process, which may lead to code execution, denial of service, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579424",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42278"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42278"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42279",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the SPX REST API, where an attacker with the required privileges can inject arbitrary shell commands, which may lead to code execution, denial of service, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579419",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42279"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42279"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42289",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the SPX REST API, where an attacker with the required privileges can inject arbitrary shell commands, which may lead to code execution, denial of service, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719043",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42289"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42289"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42290",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the SPX REST API, where an attacker with the required privileges can inject arbitrary shell commands, which may lead to code execution, denial of service, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719040",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42290"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42290"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42280",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the SPX REST authorization handler, where an unauthorized attacker can exploit a path traversal, which may lead to escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Escalation of Privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3580315",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42280"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42280"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42281",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX A100 contains a vulnerability in SBIOS in the FsRecovery, which may allow a highly privileged local attacker to cause an out-of-bounds write, which may lead to code execution, denial of service, loss of data integrity, or information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3407869",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_sbios_firmware_1_18"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_1_18"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42281"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42281"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_1_18"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42282",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the SPX REST API, where an attacker with the required privileges can access arbitrary files, which may lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3580300",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42282"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42282"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42283",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the IPMI handler, where an attacker with the required privileges can cause a buffer overflow, which may lead to denial of service or code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579431",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42283"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42283"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42284",
+            "cwe": {
+                "id": "CWE-312",
+                "name": "Cleartext Storage of Sensitive Information"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC stores user passwords in an obfuscated form in a database accessible by the host, which may lead to exposure of user credentials.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3719063",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42284"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42284"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42285",
+            "cwe": {
+                "id": "CWE-1231",
+                "name": "Improper Prevention of Lock Bit Modification"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "DGX A100 SBIOS contains a vulnerability in the Pre-EFI Initialization (PEI) phase, where a privileged user can disable SPI flash protection, which may lead to denial of service, escalation of privileges, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3417404",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_sbios_firmware_1_18"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_1_18"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42285"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42285"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_1_18"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42286",
+            "cwe": {
+                "id": "CWE-119",
+                "name": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "DGX A100 SBIOS contains a vulnerability in Bds, which may lead to code execution, denial of service, or escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3417465",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_sbios_firmware_1_18"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_1_18"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42286"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42286"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_sbios_firmware_versions_prior_to_1_18"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42287",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the IPMI handler, where an attacker can upload and download arbitrary files under certain circumstances, which may lead to denial of service, escalation of privileges, information disclosure, or data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579438",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42287"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42287"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research (OSR) team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-42288",
+            "cwe": {
+                "id": "CWE-208",
+                "name": "Observable Timing Discrepancy"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA BMC contains a vulnerability in the IPMI handler, where an unauthorized attacker can use certain oracles to guess a valid BMC username, which may lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3579203",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "dgx_a100_nvidia_dgx_servers_bmc_firmware_00_19_07"
+                ],
+                "known_affected": [
+                    "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42288"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-42288"
+                }
+            ],
+            "release_date": "2022-12-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.3,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "dgx_a100_nvidia_dgx_servers_all_bmc_firmware_versions_prior_to_00_19_07"
+                    ]
+                }
+            ]
+        }
+    ]
+}

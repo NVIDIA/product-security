@@ -1,0 +1,224 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae CUDA\u00ae Toolkit software. This update addresses security issues that may lead to code execution, denial of service, or information disclosure.<div>To protect your system, download and install this software update from the <a href=\"https://developer.nvidia.com/cuda-toolkit\">CUDA Toolkit Downloads</a> page.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Download the update from the <a href=\"https://developer.nvidia.com/cuda-toolkit\">CUDA Toolkit Downloads</a> page to apply the security update.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "If you address this vulnerability by installing the CUDA Toolkit version listed in <a href=\"https://nvidia.custhelp.com/app/answers/detail/a_id/5334#security-updates\">Security Updates</a>, it is recommended, but not required, that you also update the CUDA driver at the same time. If you prefer to remain on an older CUDA driver, refer to <a href=\"https://docs.nvidia.com/deploy/cuda-compatibility/index.html\">CUDA Compatibility</a> for more information.<div>This issue exists in the standalone developer utility cuobjdump, which is shipped with CUDA Toolkit. It does not affect normal runtime execution of CUDA. It is encountered only when developer tools are run against specifically malformed binaries.</div><div>Applications that are built with or distributed with the CUDA runtime components listed in <a href=\"https://docs.nvidia.com/cuda/eula/index.html#attachment-a\">Attachment A of the CUDA EULA</a> are not affected by this vulnerability. The base and runtime variants of NGC CUDA containers are also unaffected because they do not contain the cuobjdump utility.</div>",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "Earlier software releases of this product are also affected. If you are using an earlier release, upgrade to the latest release version.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "6:CUDA Toolkit",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA CUDA Toolkit - March 2022",
+        "tracking": {
+            "current_release_date": "2022-03-28T00:00:00Z",
+            "generator": {
+                "date": "2022-03-28T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5334",
+            "initial_release_date": "2022-03-28T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2022-03-28T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "CUDA Toolkit",
+                                "product": {
+                                    "name": "CUDA Toolkit",
+                                    "product_id": "windows_and_linux_cuda_toolkit",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cuda_toolkit:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "CUDA Toolkit",
+                                "product": {
+                                    "name": "All versions prior to CUDA Toolkit 11.6 Update 2",
+                                    "product_id": "windows_and_linux_cuda_toolkit_all_versions_prior_to_cuda_toolkit_11_6_update_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cuda_toolkit:all_versions_prior_to_cuda_toolkit_11_6_update_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "CUDA Toolkit",
+                                "product": {
+                                    "name": "11.6 Update 2",
+                                    "product_id": "windows_and_linux_cuda_toolkit_11_6_update_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cuda_toolkit:11_6_update_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows and Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Leonardo Galli"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-21821",
+            "cwe": {
+                "id": "CWE-190",
+                "name": "Integer Overflow or Wraparound"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Toolkit SDK contains an integer overflow vulnerability in cuobjdump.To exploit this vulnerability, a remote attacker would require a local user to download a specially crafted, corrupted file and locally execute cuobjdump against the file. Such an attack may lead to remote code execution that causes complete denial of service and an impact on data confidentiality and integrity.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3526635",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windows_and_linux_cuda_toolkit_11_6_update_2"
+                ],
+                "known_affected": [
+                    "windows_and_linux_cuda_toolkit_all_versions_prior_to_cuda_toolkit_11_6_update_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-21821"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-21821"
+                }
+            ],
+            "release_date": "2022-03-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windows_and_linux_cuda_toolkit_all_versions_prior_to_cuda_toolkit_11_6_update_2"
+                    ]
+                }
+            ]
+        }
+    ]
+}
