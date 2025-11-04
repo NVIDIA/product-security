@@ -17,6 +17,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Avi Lumelsky of Oligo Security | [CVE-2025-23254](5648/CVE-2025-23254.json) | [5648.json](5648/5648.json) | [5648.md](5648/5648.md) |
 | Boston Dynamics | [CVE-2024-0148](5617/CVE-2024-0148.json) | [5617.json](5617/5617.json) | [5617.md](5617/5617.md) |
 | C0ss4ck - Bytedance Security | [CVE-2025-23257](5655/CVE-2025-23257.json) | [5655.json](5655/5655.json) | [5655.md](5655/5655.md) |
+| Chen Cohen (Ebay) | [CVE-2025-33176](5719/CVE-2025-33176.json) | [5719.json](5719/5719.json) | [5719.md](5719/5719.md) |
 | cyfra07  | [CVE-2024-0140](5597/CVE-2024-0140.json) | [5597.json](5597/5597.json) | [5597.md](5597/5597.md) |
 | D.K | [CVE-2025-23307](5690/CVE-2025-23307.json) | [5690.json](5690/5690.json) | [5690.md](5690/5690.md) |
 | Daniel Rhea | [CVE-2025-23309](5703/CVE-2025-23309.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
@@ -48,6 +49,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2024-53877](5594/CVE-2024-53877.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2024-53878](5594/CVE-2024-53878.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 |  | [CVE-2025-23248](5661/CVE-2025-23248.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
+| Kazuma Matsumoto - GMO Cybersecurity | [CVE-2025-23358](5717/CVE-2025-23358.json) | [5717.json](5717/5717.json) | [5717.md](5717/5717.md) |
 | kikayli (Zhuque Lab, Tencent) | [CVE-2025-23356](5708/CVE-2025-23356.json) | [5708.json](5708/5708.json) | [5708.md](5708/5708.md) |
 | Lei Wang & Min Yao (Nebula Security Lab, Huawei Cloud) | [CVE-2025-23267](5659/CVE-2025-23267.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
 | Maxim Mints and Austin Herring | [CVE-2024-0112](5611/CVE-2024-0112.json) | [5611.json](5611/5611.json) | [5611.md](5611/5611.md) |

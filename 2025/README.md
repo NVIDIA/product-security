@@ -2,6 +2,8 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5719](5719/5719.md) | Security Bulletin: NVIDIA RunAI - November 2025 | 2025-11-04 | 2025-11-04 | [CVE-2025-33176](5719/CVE-2025-33176.json) |
+| [5717](5717/5717.md) | Security Bulletin: NVIDIA App - November 2025 | 2025-11-04 | 2025-11-04 | [CVE-2025-23358](5717/CVE-2025-23358.json) |
 | [5684](5684/5684.md) | Security Bulletin: NVIDIA Networking Bluefield and ConnectX - October 2025 | 2025-10-21 | 2025-10-21 | [CVE-2025-23299](5684/CVE-2025-23299.json) |
 | [5708](5708/5708.md) | Security Bulletin: NVIDIA Isaac Sim Framework - October 2025 | 2025-10-14 | 2025-10-14 | [CVE-2025-23356](5708/CVE-2025-23356.json) |
 | [5716](5716/5716.md) | Security Bulletin: NVIDIA Jetson Xavier, Orin, Thor, and IGX Orin Devices - October 2025 | 2025-10-14 | 2025-10-14 | [CVE-2025-33182](5716/CVE-2025-33182.json), [CVE-2025-33177](5716/CVE-2025-33177.json) |
