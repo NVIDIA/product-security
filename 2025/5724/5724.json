@@ -1,0 +1,287 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released an update for the NVIDIA AuthN\u2122 component of NVIDIA AIStore\u2122 framework to address a security issue that might lead to the impacts described in this bulletin.<div>To protect your system, download and install the <a href=\"https://hub.docker.com/layers/aistorage/authn/v3.31\">latest version of AIStore AuthN</a>.</div><div><br><br></div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "Refer to Security Updates for the updated versions to install.",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12400-002_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1143830",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA AIStore Framework - November 2025",
+        "tracking": {
+            "current_release_date": "2025-11-11T00:00:00Z",
+            "generator": {
+                "date": "2025-11-11T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5724",
+            "initial_release_date": "2025-11-11T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-11-11T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "AuthN component of NVIDIA AIStore",
+                                "product": {
+                                    "name": "AuthN component of NVIDIA AIStore",
+                                    "product_id": "all_authn_component_of_nvidia_aistore",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:authn_component_of_nvidia_aistore:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "AuthN component of NVIDIA AIStore",
+                                "product": {
+                                    "name": " All versions prior to 3.31",
+                                    "product_id": "all_authn_component_of_nvidia_aistore__all_versions_prior_to_3_31",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:authn_component_of_nvidia_aistore:_all_versions_prior_to_3_31:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "AuthN component of NVIDIA AIStore",
+                                "product": {
+                                    "name": " 3.31",
+                                    "product_id": "all_authn_component_of_nvidia_aistore__3_31",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:authn_component_of_nvidia_aistore:_3_31:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33186",
+            "cwe": {
+                "id": "CWE-798",
+                "name": "Use of Hard-coded Credentials"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA AIStore contains a vulnerability in AuthN. A successful exploit of this vulnerability might lead to escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5455234",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_authn_component_of_nvidia_aistore__3_31"
+                ],
+                "known_affected": [
+                    "all_authn_component_of_nvidia_aistore__all_versions_prior_to_3_31"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33186"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33186"
+                }
+            ],
+            "release_date": "2025-11-11T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_authn_component_of_nvidia_aistore__all_versions_prior_to_3_31"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33185",
+            "cwe": {
+                "id": "CWE-862",
+                "name": "Missing Authorization"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA AIStore contains a vulnerability in AuthN where an unauthenticated user may cause information disclosure.\u00a0 A successful exploit of this vulnerability may lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5455626",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_authn_component_of_nvidia_aistore__3_31"
+                ],
+                "known_affected": [
+                    "all_authn_component_of_nvidia_aistore__all_versions_prior_to_3_31"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33185"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33185"
+                }
+            ],
+            "release_date": "2025-11-11T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.3,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_authn_component_of_nvidia_aistore__all_versions_prior_to_3_31"
+                    ]
+                }
+            ]
+        }
+    ]
+}
