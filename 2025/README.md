@@ -5,7 +5,7 @@
 | [5712](5712/5712.md) | Security Bulletin: NVIDIA Megatron LM - November 2025 | 2025-11-11 | 2025-11-11 | [CVE-2025-23357](5712/CVE-2025-23357.json) |
 | [5724](5724/5724.md) | Security Bulletin: NVIDIA AIStore Framework - November 2025 | 2025-11-11 | 2025-11-11 | [CVE-2025-33186](5724/CVE-2025-33186.json), [CVE-2025-33185](5724/CVE-2025-33185.json) |
 | [5718](5718/5718.md) | Security Bulletin: NVIDIA NeMo Framework - November 2025 | 2025-11-11 | 2025-11-11 | [CVE-2025-23361](5718/CVE-2025-23361.json), [CVE-2025-33178](5718/CVE-2025-33178.json) |
-| [5723](5723/5723.md) | Security Bulletin: NVIDIA Triton Inference Server - November 2025 | 2025-11-11 | 2025-11-11 | [CVE-2025-33202](5723/CVE-2025-33202.json) |
+| [5723](5723/5723.md) | Security Bulletin: NVIDIA Triton Inference Server - November 2025 | 2025-11-11 | 2025-11-17 | [CVE-2025-33202](5723/CVE-2025-33202.json) |
 | [5719](5719/5719.md) | Security Bulletin: NVIDIA RunAI - November 2025 | 2025-11-04 | 2025-11-04 | [CVE-2025-33176](5719/CVE-2025-33176.json) |
 | [5717](5717/5717.md) | Security Bulletin: NVIDIA App - November 2025 | 2025-11-04 | 2025-11-04 | [CVE-2025-23358](5717/CVE-2025-23358.json) |
 | [5684](5684/5684.md) | Security Bulletin: NVIDIA Networking Bluefield and ConnectX - October 2025 | 2025-10-21 | 2025-10-21 | [CVE-2025-23299](5684/CVE-2025-23299.json) |

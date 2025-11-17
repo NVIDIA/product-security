@@ -60,7 +60,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | nEINEI - Tencent-zhuquelab | [CVE-2024-53879](5594/CVE-2024-53879.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 | Nir Ohfeld (@nirohfeld) and Shir Tamari (@shirtamari) working with Trend Zero Day Initiative | [CVE-2025-23266](5659/CVE-2025-23266.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
 | Or Peles - JFrog Security | [CVE-2025-23360](5623/CVE-2025-23360.json) | [5623.json](5623/5623.json) | [5623.md](5623/5623.md) |
-| pcowan | [CVE-2025-33202](5723/CVE-2025-33202.json) | [5723.json](5723/5723.json) | [5723.md](5723/5723.md) |
+| Parker Cowan | [CVE-2025-33202](5723/CVE-2025-33202.json) | [5723.json](5723/5723.json) | [5723.md](5723/5723.md) |
 | Peng Zhou (zpbrent) @ Shanghai University | [CVE-2025-23249](5641/CVE-2025-23249.json) | [5641.json](5641/5641.json) | [5641.md](5641/5641.md) |
 |  | [CVE-2025-23250](5641/CVE-2025-23250.json) | [5641.json](5641/5641.json) | [5641.md](5641/5641.md) |
 |  | [CVE-2025-23251](5641/CVE-2025-23251.json) | [5641.json](5641/5641.json) | [5641.md](5641/5641.md) |

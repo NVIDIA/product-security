@@ -6,6 +6,7 @@ This file contains acknowledgments for security researchers and organizations wh
 
 | Acknowledgment | CVE | CSAF File | Bulletin |
 |----------------|-----|-----------|----------|
+| Artem S. Tashkinov | [CVE-2022-31608](5383/CVE-2022-31608.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
 | Billy Laws | [CVE-2021-34406](5259/CVE-2021-34406.json) | [5259.json](5259/5259.json) | [5259.md](5259/5259.md) |
 | Daniel Santos (@bananabr) | [CVE-2022-34669](5415/CVE-2022-34669.json) | [5415.json](5415/5415.json) | [5415.md](5415/5415.md) |
 | Galen Schretlen of Worldcoin | [CVE-2022-28195](5343/CVE-2022-28195.json) | [5343.json](5343/5343.json) | [5343.md](5343/5343.md) |
@@ -15,6 +16,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2022-28196](5343/CVE-2022-28196.json) | [5343.json](5343/5343.json) | [5343.md](5343/5343.md) |
 | hjy79425575 | [CVE-2022-34667](5373/CVE-2022-34667.json) | [5373.json](5373/5373.json) | [5373.md](5373/5373.md) |
 | Jeremy Brown | [CVE-2022-21820](5328/CVE-2022-21820.json) | [5328.json](5328/5328.json) | [5328.md](5328/5328.md) |
+| Le Wu of Baidu Security | [CVE-2022-31607](5383/CVE-2022-31607.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
 | Leonardo Galli | [CVE-2022-21821](5334/CVE-2022-21821.json) | [5334.json](5334/5334.json) | [5334.md](5334/5334.md) |
 | NVIDIA Offensive Security Research (OSR) team | [CVE-2022-42271](5435/CVE-2022-42271.json) | [5435.json](5435/5435.json) | [5435.md](5435/5435.md) |
 |  | [CVE-2022-42272](5435/CVE-2022-42272.json) | [5435.json](5435/5435.json) | [5435.md](5435/5435.md) |
@@ -43,7 +45,14 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2022-31602](5367/CVE-2022-31602.json) | [5367.json](5367/5367.json) | [5367.md](5367/5367.md) |
 |  | [CVE-2022-31603](5367/CVE-2022-31603.json) | [5367.json](5367/5367.json) | [5367.md](5367/5367.md) |
 | Piotr Bania - Cisco Talos | [CVE-2022-34671](5415/CVE-2022-34671.json) | [5415.json](5415/5415.json) | [5415.md](5415/5415.md) |
+| Piotr Bania of Cisco Talos | [CVE-2022-28181](5353/CVE-2022-28181.json) | [5353.json](5353/5353.json) | [5353.md](5353/5353.md) |
+|  | [CVE-2022-28182](5353/CVE-2022-28182.json) | [5353.json](5353/5353.json) | [5353.md](5353/5353.md) |
 | Tal Lossos | [CVE-2022-34682](5415/CVE-2022-34682.json) | [5415.json](5415/5415.json) | [5415.md](5415/5415.md) |
+|  | [CVE-2022-31615](5383/CVE-2022-31615.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
+| Thierry Doré of Quarkslab | [CVE-2022-31606](5383/CVE-2022-31606.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
+|  | [CVE-2022-31617](5383/CVE-2022-31617.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
+|  | [CVE-2022-31612](5383/CVE-2022-31612.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
+|  | [CVE-2022-31616](5383/CVE-2022-31616.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
 | Wei Lei and Sergey Kornienko (@b1thvn_) of PixiePoint Security | [CVE-2022-34683](5415/CVE-2022-34683.json) | [5415.json](5415/5415.json) | [5415.md](5415/5415.md) |
 |  | [CVE-2022-42266](5415/CVE-2022-42266.json) | [5415.json](5415/5415.json) | [5415.md](5415/5415.md) |
 | Xavier Danest - Decathlon | [CVE-2022-28198](5342/CVE-2022-28198.json) | [5342.json](5342/5342.json) | [5342.md](5342/5342.md) |

@@ -2,7 +2,7 @@
     "document": {
         "aggregate_severity": {
             "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
-            "text": "MEDIUM"
+            "text": "HIGH"
         },
         "category": "csaf_security_advisory",
         "csaf_version": "2.0",
@@ -65,9 +65,9 @@
         },
         "title": "Security Bulletin: NVIDIA Triton Inference Server - November 2025",
         "tracking": {
-            "current_release_date": "2025-11-11T00:00:00Z",
+            "current_release_date": "2025-11-17T00:00:00Z",
             "generator": {
-                "date": "2025-11-11T00:00:00Z",
+                "date": "2025-11-17T00:00:00Z",
                 "engine": {
                     "name": "NVIDIA PSIRT",
                     "version": "1.0.0"
@@ -80,10 +80,15 @@
                     "date": "2025-11-11T00:00:00Z",
                     "number": "1.0.0",
                     "summary": "Initial Release"
+                },
+                {
+                    "date": "2025-11-17T00:00:00Z",
+                    "number": "1.1.0",
+                    "summary": "Updated CVE Vector, Score, Severity & Acknowledgements"
                 }
             ],
             "status": "final",
-            "version": "1.0.0"
+            "version": "1.1.0"
         }
     },
     "product_tree": {
@@ -146,7 +151,7 @@
             "acknowledgments": [
                 {
                     "names": [
-                        "pcowan"
+                        "Parker Cowan"
                     ]
                 }
             ],
@@ -199,14 +204,14 @@
                         "attackComplexity": "LOW",
                         "attackVector": "NETWORK",
                         "availabilityImpact": "HIGH",
-                        "baseScore": 6.5,
-                        "baseSeverity": "MEDIUM",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
                         "confidentialityImpact": "NONE",
                         "integrityImpact": "NONE",
-                        "privilegesRequired": "LOW",
+                        "privilegesRequired": "NONE",
                         "scope": "UNCHANGED",
                         "userInteraction": "NONE",
-                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
                         "version": "3.1"
                     },
                     "products": [
