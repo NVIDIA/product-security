@@ -7,8 +7,10 @@ This file contains acknowledgments for security researchers and organizations wh
 | Acknowledgment | CVE | CSAF File | Bulletin |
 |----------------|-----|-----------|----------|
 | Artem S. Tashkinov | [CVE-2022-31608](5383/CVE-2022-31608.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
+| Bennie Affleck of The Good Penguin Ltd | [CVE-2022-21819](5321/CVE-2022-21819.json) | [5321.json](5321/5321.json) | [5321.md](5321/5321.md) |
 | Billy Laws | [CVE-2021-34406](5259/CVE-2021-34406.json) | [5259.json](5259/5259.json) | [5259.md](5259/5259.md) |
 | Daniel Santos (@bananabr) | [CVE-2022-34669](5415/CVE-2022-34669.json) | [5415.json](5415/5415.json) | [5415.md](5415/5415.md) |
+| Dmitriy Rabotyagov and Magnus Bergman | [CVE-2022-21818](5319/CVE-2022-21818.json) | [5319.json](5319/5319.json) | [5319.md](5319/5319.md) |
 | Galen Schretlen of Worldcoin | [CVE-2022-28195](5343/CVE-2022-28195.json) | [5343.json](5343/5343.json) | [5343.md](5343/5343.md) |
 |  | [CVE-2022-28193](5343/CVE-2022-28193.json) | [5343.json](5343/5343.json) | [5343.md](5343/5343.md) |
 |  | [CVE-2022-28194](5343/CVE-2022-28194.json) | [5343.json](5343/5343.json) | [5343.md](5343/5343.md) |

@@ -1,0 +1,395 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Jetson AGX Xavier\u2122 series, Jetson Xavier\u2122 NX, Jetson TX1, Jetson TX2 series (including Jetson TX2 NX), and Jetson Nano\u2122 devices (including Jetson Nano 2GB) in the NVIDIA JetPack\u2122 software development kit (SDK). The update addresses security issues that may lead to denial of service, escalation of privileges, and impact to data integrity and confidentiality.<br><div><br></div><div>To protect your system, download and install the latest NVIDIA JetPack SDK from <a href=\"https://developer.nvidia.com/embedded/downloads\">Jetson Download Center</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "None. See Security Updates for the version to install.",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-NA",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "NA",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "13:Jetson / L4T / IGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Jetson AGX Xavier Series, Jetson Xavier NX, Jetson TX1, Jetson TX2 Series (including Jetson TX2 NX), and Jetson Nano (including Jetson Nano 2GB) - March 2022",
+        "tracking": {
+            "current_release_date": "2022-03-08T00:00:00Z",
+            "generator": {
+                "date": "2022-03-08T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5321",
+            "initial_release_date": "2022-03-08T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2022-03-08T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "Jetson AGX Xavier series, Jetson Xavier NX, Jetson TX1, Jetson TX2 series, Jetson TX2 NX",
+                                "product": {
+                                    "name": "Jetson AGX Xavier series, Jetson Xavier NX, Jetson TX1, Jetson TX2 series, Jetson TX2 NX",
+                                    "product_id": "jetson_linux_jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Nano, Jetson Nano 2GB",
+                                "product": {
+                                    "name": "Jetson Nano, Jetson Nano 2GB",
+                                    "product_id": "jetson_linux_jetson_nano_jetson_nano_2gb",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_nano_jetson_nano_2gb:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Jetson AGX Xavier series, Jetson Xavier NX, Jetson TX1, Jetson TX2 series, Jetson TX2 NX",
+                                "product": {
+                                    "name": "All 32.x versions prior to 32.7.1",
+                                    "product_id": "jetson_linux_jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx_all_32_x_versions_prior_to_32_7_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx:all_32_x_versions_prior_to_32_7_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson AGX Xavier series, Jetson Xavier NX, Jetson TX1, Jetson TX2 series, Jetson TX2 NX",
+                                "product": {
+                                    "name": "32.7.1",
+                                    "product_id": "jetson_linux_jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx_32_7_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx:32_7_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Nano, Jetson Nano 2GB",
+                                "product": {
+                                    "name": "All 32.x versions prior to 32.7.1",
+                                    "product_id": "jetson_linux_jetson_nano_jetson_nano_2gb_all_32_x_versions_prior_to_32_7_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_nano_jetson_nano_2gb:all_32_x_versions_prior_to_32_7_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Nano, Jetson Nano 2GB",
+                                "product": {
+                                    "name": "32.7.1",
+                                    "product_id": "jetson_linux_jetson_nano_jetson_nano_2gb_32_7_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_nano_jetson_nano_2gb:32_7_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2021-34401",
+            "cwe": {
+                "id": "CWE-284",
+                "name": "Improper Access Control"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Linux kernel distributions contain a vulnerability in nvmap NVGPU_IOCTL_CHANNEL_SET_ERROR_NOTIFIER, where improper access control may lead to code execution, compromised integrity, or denial of service. The scope impact may extend to other components.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Escalation of Privileges, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3298623",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux_jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx_32_7_1",
+                    "jetson_linux_jetson_nano_jetson_nano_2gb_32_7_1"
+                ],
+                "known_affected": [
+                    "jetson_linux_jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx_all_32_x_versions_prior_to_32_7_1",
+                    "jetson_linux_jetson_nano_jetson_nano_2gb_all_32_x_versions_prior_to_32_7_1"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-34401"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-34401"
+                }
+            ],
+            "release_date": "2022-03-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux_jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx_all_32_x_versions_prior_to_32_7_1",
+                        "jetson_linux_jetson_nano_jetson_nano_2gb_all_32_x_versions_prior_to_32_7_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2021-4034",
+            "cwe": {
+                "id": "CWE-20",
+                "name": "Improper Input Validation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Jetson sample file system contains a vulnerability related in polkit's pkexec utility which can lead to local privilege escalation, causing impact to data confidentiality, data integrity, and service availability.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3517336",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux_jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx_32_7_1",
+                    "jetson_linux_jetson_nano_jetson_nano_2gb_32_7_1"
+                ],
+                "known_affected": [
+                    "jetson_linux_jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx_all_32_x_versions_prior_to_32_7_1",
+                    "jetson_linux_jetson_nano_jetson_nano_2gb_all_32_x_versions_prior_to_32_7_1"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-4034"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2021-4034"
+                }
+            ],
+            "release_date": "2022-03-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux_jetson_agx_xavier_series_jetson_xavier_nx_jetson_tx1_jetson_tx2_series_jetson_tx2_nx_all_32_x_versions_prior_to_32_7_1",
+                        "jetson_linux_jetson_nano_jetson_nano_2gb_all_32_x_versions_prior_to_32_7_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Bennie Affleck of The Good Penguin Ltd"
+                    ]
+                }
+            ],
+            "cve": "CVE-2022-21819",
+            "cwe": {
+                "id": "CWE-732",
+                "name": "Incorrect Permission Assignment for Critical Resource"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA distributions of Jetson Linux contain a vulnerability where an error in the IOMMU configuration may allow an unprivileged attacker with physical access to the board direct read/write access to the entire system address space through the PCI bus. Such an attack could result in denial of service, code execution, escalation of privileges, and impact to data integrity and confidentiality. The scope impact may extend to other components.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Escalation of Privileges, Information Disclosure, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "3477683",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux_jetson_nano_jetson_nano_2gb_32_7_1"
+                ],
+                "known_affected": [
+                    "jetson_linux_jetson_nano_jetson_nano_2gb_all_32_x_versions_prior_to_32_7_1"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-21819"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2022-21819"
+                }
+            ],
+            "release_date": "2022-03-08T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "PHYSICAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.6,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux_jetson_nano_jetson_nano_2gb_all_32_x_versions_prior_to_32_7_1"
+                    ]
+                }
+            ]
+        }
+    ]
+}
