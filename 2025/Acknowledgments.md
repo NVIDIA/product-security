@@ -69,6 +69,8 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-23298](5683/CVE-2025-23298.json) | [5683.json](5683/5683.json) | [5683.md](5683/5683.md) |
 |  | [CVE-2025-33186](5724/CVE-2025-33186.json) | [5724.json](5724/5724.json) | [5724.md](5724/5724.md) |
 |  | [CVE-2025-33185](5724/CVE-2025-33185.json) | [5724.json](5724/5724.json) | [5724.md](5724/5724.md) |
+|  | [CVE-2025-33183](5725/CVE-2025-33183.json) | [5725.json](5725/5725.json) | [5725.md](5725/5725.md) |
+|  | [CVE-2025-33184](5725/CVE-2025-33184.json) | [5725.json](5725/5725.json) | [5725.md](5725/5725.md) |
 | Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative and Tong Liu (IIE) | [CVE-2025-23296](5681/CVE-2025-23296.json) | [5681.json](5681/5681.json) | [5681.md](5681/5681.md) |
 | Pinji Chen (Tsinghua University) | [CVE-2025-23295](5680/CVE-2025-23295.json) | [5680.json](5680/5680.json) | [5680.md](5680/5680.md) |
 | pwni | [CVE-2025-23355](5704/CVE-2025-23355.json) | [5704.json](5704/5704.json) | [5704.md](5704/5704.md) |
@@ -119,6 +121,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Ali Shihab |
 | Arnesh Vikas Vaidya |
 | Arunava Chaudhuri, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India |
+| Ayşenur Demiral |
 | Azmal Khan |
 | BlackinOne (@blackinone) |
 | Debdeep Mukhopadhyay, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India |
@@ -127,11 +130,13 @@ This file contains acknowledgments for security researchers and organizations wh
 | François Proulx - BoostSecurity.io |
 | Gal Nagli - Wiz Research |
 | h3r & Tsingshui with 0xfa |
+| Harsh maheta |
 | Indra Putra (Voltage Park) |
 | Jacob Wujciak-Jens |
 | Jaeheng Yoon (JENBlack Soft) |
 | Kartik Mohite (@kartik2311) |
 | Kostas Tsilikis (MindTheHack) |
+| Kullai Metikala - @kullai12 |
 | Kun Jiang - Shanghai Fudan Microelectronics Group Co. Ltd |
 | Lewis Ardern - Semgrep |
 | Lewis Birch - Secure AI Researcher (Mindgard) |
@@ -139,6 +144,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Lütfü Mert Ceylan - OWASP Project Leader |
 | Magashwarahan A |
 | Michael DePlante (@izobashi) of Trend Zero Day Initiative |
+| Michal Biesiada |
 | Miguel Segovia Gil |
 | miguelse |
 | Milan Katwal |
@@ -154,6 +160,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Pratyush Dutta (xlsizebruh) |
 | Rami McCarthy - Wiz Research |
 | Ruslan Semchenko |
+| Sairaj Dattu Thorat |
 | Sarani Bhattacharya, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India |
 | Sascha Meyer |
 | Satoshi Ushioda |

@@ -2,6 +2,7 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5725](5725/5725.md) | Security Bulletin: NVIDIA Isaac-GR00T - November 2025 | 2025-11-18 | 2025-11-18 | [CVE-2025-33183](5725/CVE-2025-33183.json), [CVE-2025-33184](5725/CVE-2025-33184.json) |
 | [5712](5712/5712.md) | Security Bulletin: NVIDIA Megatron LM - November 2025 | 2025-11-11 | 2025-11-11 | [CVE-2025-23357](5712/CVE-2025-23357.json) |
 | [5724](5724/5724.md) | Security Bulletin: NVIDIA AIStore Framework - November 2025 | 2025-11-11 | 2025-11-11 | [CVE-2025-33186](5724/CVE-2025-33186.json), [CVE-2025-33185](5724/CVE-2025-33185.json) |
 | [5718](5718/5718.md) | Security Bulletin: NVIDIA NeMo Framework - November 2025 | 2025-11-11 | 2025-11-11 | [CVE-2025-23361](5718/CVE-2025-23361.json), [CVE-2025-33178](5718/CVE-2025-33178.json) |
