@@ -21,6 +21,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | cyfra07  | [CVE-2024-0140](5597/CVE-2024-0140.json) | [5597.json](5597/5597.json) | [5597.md](5597/5597.md) |
 | D.K | [CVE-2025-23307](5690/CVE-2025-23307.json) | [5690.json](5690/5690.json) | [5690.md](5690/5690.md) |
 | Daniel Rhea | [CVE-2025-23309](5703/CVE-2025-23309.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
+| Daniel Teixeira (NVIDIA AI Red Team) | [CVE-2025-33203](5726/CVE-2025-33203.json) | [5726.json](5726/5726.json) | [5726.md](5726/5726.md) |
 | David Fiser and Alfredo Oliveira - Nebula of Trend Micro | [CVE-2025-23242](5625/CVE-2025-23242.json) | [5625.json](5625/5625.json) | [5625.md](5625/5625.md) |
 |  | [CVE-2025-23243](5625/CVE-2025-23243.json) | [5625.json](5625/5625.json) | [5625.md](5625/5625.md) |
 | Dimitrios Tatsis - Cisco Talos | [CVE-2024-0142](5596/CVE-2024-0142.json) | [5596.json](5596/5596.json) | [5596.md](5596/5596.md) |
@@ -59,11 +60,26 @@ This file contains acknowledgments for security researchers and organizations wh
 | Mo XY of IceSword Lab | [CVE-2025-23346](5661/CVE-2025-23346.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 | nEINEI - Tencent-zhuquelab | [CVE-2024-53879](5594/CVE-2024-53879.json) | [5594.json](5594/5594.json) | [5594.md](5594/5594.md) |
 | Nir Ohfeld (@nirohfeld) and Shir Tamari (@shirtamari) working with Trend Zero Day Initiative | [CVE-2025-23266](5659/CVE-2025-23266.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
+| NVIDIA Offensive Security Research team | [CVE-2025-33187](5720/CVE-2025-33187.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33188](5720/CVE-2025-33188.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33189](5720/CVE-2025-33189.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33190](5720/CVE-2025-33190.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33191](5720/CVE-2025-33191.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33192](5720/CVE-2025-33192.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33193](5720/CVE-2025-33193.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33194](5720/CVE-2025-33194.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33195](5720/CVE-2025-33195.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33196](5720/CVE-2025-33196.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33197](5720/CVE-2025-33197.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33198](5720/CVE-2025-33198.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33199](5720/CVE-2025-33199.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
+|  | [CVE-2025-33200](5720/CVE-2025-33200.json) | [5720.json](5720/5720.json) | [5720.md](5720/5720.md) |
 | Or Peles - JFrog Security | [CVE-2025-23360](5623/CVE-2025-23360.json) | [5623.json](5623/5623.json) | [5623.md](5623/5623.md) |
 | Parker Cowan | [CVE-2025-33202](5723/CVE-2025-33202.json) | [5723.json](5723/5723.json) | [5723.md](5723/5723.md) |
 | Peng Zhou (zpbrent) @ Shanghai University | [CVE-2025-23249](5641/CVE-2025-23249.json) | [5641.json](5641/5641.json) | [5641.md](5641/5641.md) |
 |  | [CVE-2025-23250](5641/CVE-2025-23250.json) | [5641.json](5641/5641.json) | [5641.md](5641/5641.md) |
 |  | [CVE-2025-23251](5641/CVE-2025-23251.json) | [5641.json](5641/5641.json) | [5641.md](5641/5641.md) |
+|  | [CVE-2025-33205](5729/CVE-2025-33205.json) | [5729.json](5729/5729.json) | [5729.md](5729/5729.md) |
 |  | [CVE-2025-23303](5686/CVE-2025-23303.json) | [5686.json](5686/5686.json) | [5686.md](5686/5686.md) |
 | Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative | [CVE-2025-23357](5712/CVE-2025-23357.json) | [5712.json](5712/5712.json) | [5712.md](5712/5712.md) |
 |  | [CVE-2025-23298](5683/CVE-2025-23298.json) | [5683.json](5683/5683.json) | [5683.md](5683/5683.md) |
@@ -86,6 +102,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | TencentAISec  | [CVE-2025-23361](5718/CVE-2025-23361.json) | [5718.json](5718/5718.json) | [5718.md](5718/5718.md) |
 | thanhkiem29 | [CVE-2025-23321](5687/CVE-2025-23321.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 | Tong Liu | [CVE-2025-23315](5689/CVE-2025-23315.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |
+| Tong Liu (IIE) | [CVE-2025-33204](5729/CVE-2025-33204.json) | [5729.json](5729/5729.json) | [5729.md](5729/5729.md) |
 | Trend Micro Zero Day Initiative | [CVE-2025-23268](5691/CVE-2025-23268.json) | [5691.json](5691/5691.json) | [5691.md](5691/5691.md) |
 |  | [CVE-2025-23317](5687/CVE-2025-23317.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23318](5687/CVE-2025-23318.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |

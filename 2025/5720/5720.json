@@ -1,0 +1,1168 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "CRITICAL"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA DGX Spark.<div>To protect your system, download and install the latest version of NVIDIA DGX OS from the <a href=\"https://www.nvidia.com/en-us/products/workstations/dgx-spark/\">NVIDIA DGX</a> site.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, download and install the latest version of NVIDIA DGX OS from the <a href=\"https://www.nvidia.com/en-us/products/workstations/dgx-spark/\">NVIDIA DGX</a> site.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, download and install the latest version of NVIDIA DGX OS from the <a href=\"https://www.nvidia.com/en-us/products/workstations/dgx-spark/\">NVIDIA DGX site.</a>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12326-003_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1143856",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "9:DGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA DGX Spark - November  2025",
+        "tracking": {
+            "current_release_date": "2025-11-25T00:00:00Z",
+            "generator": {
+                "date": "2025-11-25T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5720",
+            "initial_release_date": "2025-11-25T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-11-25T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "DGX Spark",
+                                "product": {
+                                    "name": "DGX Spark",
+                                    "product_id": "nvidia_dgx_os_dgx_spark",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "DGX Spark",
+                                "product": {
+                                    "name": "All versions prior to OTA0",
+                                    "product_id": "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:all_versions_prior_to_ota0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "DGX Spark",
+                                "product": {
+                                    "name": "OTA0",
+                                    "product_id": "nvidia_dgx_os_dgx_spark_ota0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:ota0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "NVIDIA DGX OS"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33187",
+            "cwe": {
+                "id": "CWE-269",
+                "name": "Improper Privilege Management"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT, where an attacker could use privileged access to gain access to SoC protected areas. A successful exploit of this vulnerability might lead to code execution, information disclosure, data tampering, denial of service, or escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Escalation of Privileges, Data Tampering, Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5504206",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33187"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33187"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 9.3,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33188",
+            "cwe": {
+                "id": "CWE-269",
+                "name": "Improper Privilege Management"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in hardware resources where an attacker could tamper with hardware controls. A successful exploit of this vulnerability might lead to information disclosure, data tampering, or denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5481780",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33188"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33188"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33189",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause an out-of-bound write. A successful exploit of this vulnerability might lead to code execution, data tampering, denial of service, information disclosure, or escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Escalation of Privileges, Data Tampering, Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5438640",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33189"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33189"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33190",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware where an attacker could cause an out-of-bound write. A successful exploit of this vulnerability might lead to code execution, data tampering, denial of service, or escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Escalation of Privileges, Data Tampering, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5438650",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33190"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33190"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33191",
+            "cwe": {
+                "id": "CWE-20",
+                "name": "Improper Input Validation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in OSROOT firmware, where an attacker could cause an invalid memory read. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure, Denial of Service, Code Execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5441239",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33191"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33191"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 5.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33192",
+            "cwe": {
+                "id": "CWE-690",
+                "name": "Unchecked Return Value to NULL Pointer Dereference"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause an arbitrary memory read. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5441430",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33192"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33192"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 5.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33193",
+            "cwe": {
+                "id": "CWE-354",
+                "name": "Improper Validation of Integrity Check Value"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause improper validation of integrity. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5441437",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33193"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33193"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 5.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33194",
+            "cwe": {
+                "id": "CWE-180",
+                "name": "Incorrect Behavior Order: Validate Before Canonicalize"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause improper processing of input data. A successful exploit of this vulnerability might lead to information disclosure or denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of Service, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5441457",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33194"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33194"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 5.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33195",
+            "cwe": {
+                "id": "CWE-119",
+                "name": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause unexpected memory buffer operations. A successful exploit of this vulnerability might lead to data tampering, denial of service, or escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data Tampering, Escalation of Privileges, Denial of Service, Code Execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5438857",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33195"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33195"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 4.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33196",
+            "cwe": {
+                "id": "CWE-226",
+                "name": "Sensitive Information in Resource Not Removed Before Reuse"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause a resource to be reused. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5441508",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33196"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33196"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 4.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33197",
+            "cwe": {
+                "id": "CWE-476",
+                "name": "NULL Pointer Dereference"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause a NULL pointer dereference. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Denial of Service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5438865",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33197"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33197"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 4.3,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33198",
+            "cwe": {
+                "id": "CWE-226",
+                "name": "Sensitive Information in Resource Not Removed Before Reuse"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause a resource to be reused. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5441467",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33198"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33198"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 3.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33199",
+            "cwe": {
+                "id": "CWE-670",
+                "name": "Always-Incorrect Control Flow Implementation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause incorrect control flow behavior. A successful exploit of this vulnerability might lead to data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5438757",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33199"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33199"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 3.2,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "NVIDIA Offensive Security Research team"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33200",
+            "cwe": {
+                "id": "CWE-226",
+                "name": "Sensitive Information in Resource Not Removed Before Reuse"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX Spark GB10 contains a vulnerability in SROOT firmware, where an attacker could cause a resource to be reused. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5441451",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33200"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33200"
+                }
+            ],
+            "release_date": "2025-11-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 2.3,
+                        "baseSeverity": "LOW",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        }
+    ]
+}
