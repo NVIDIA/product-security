@@ -93,11 +93,13 @@ This file contains acknowledgments for security researchers and organizations wh
 | Ronen Shustin - WIZ.IO | [CVE-2025-23319](5687/CVE-2025-23319.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23334](5687/CVE-2025-23334.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 | Roronoan Zoro | [CVE-2025-23269](5662/CVE-2025-23269.json) | [5662.json](5662/5662.json) | [5662.md](5662/5662.md) |
+| S Lakshmi Vignesh (@lakshmivignesh) and Shrinivasan S (@normie34) | [CVE-2025-33208](5730/CVE-2025-33208.json) | [5730.json](5730/5730.json) | [5730.md](5730/5730.md) |
 | Sam Lovejoy and Valentina Palmiotti | [CVE-2025-23282](5703/CVE-2025-23282.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
 |  | [CVE-2025-23332](5703/CVE-2025-23332.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
 | Sarah Newman and Jason Zaman @ Blue River Technology | [CVE-2025-33182](5716/CVE-2025-33182.json) | [5716.json](5716/5716.json) | [5716.md](5716/5716.md) |
 | Sarah Newman, Jason Zaman and Brennan Coslett (Blue River Technology) | [CVE-2025-23270](5662/CVE-2025-23270.json) | [5662.json](5662/5662.json) | [5662.md](5662/5662.md) |
 | Sascha Meyer - GAI NetConsult GmbH | [CVE-2025-23253](5644/CVE-2025-23253.json) | [5644.json](5644/5644.json) | [5644.md](5644/5644.md) |
+| seaw1nd | [CVE-2025-33211](5734/CVE-2025-33211.json) | [5734.json](5734/5734.json) | [5734.md](5734/5734.md) |
 | TencentAISec | [CVE-2025-23348](5698/CVE-2025-23348.json) | [5698.json](5698/5698.json) | [5698.md](5698/5698.md) |
 | TencentAISec  | [CVE-2025-23361](5718/CVE-2025-23361.json) | [5718.json](5718/5718.json) | [5718.md](5718/5718.md) |
 | thanhkiem29 | [CVE-2025-23321](5687/CVE-2025-23321.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
@@ -108,6 +110,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-23318](5687/CVE-2025-23318.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23320](5687/CVE-2025-23320.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23333](5687/CVE-2025-23333.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
+| Tyler Zars and Rob Blakely of the Technical Debt Collectors - TrendMicro ZDI, taiphung217 (MDPC, OneMount Group) | [CVE-2025-33201](5734/CVE-2025-33201.json) | [5734.json](5734/5734.json) | [5734.md](5734/5734.md) |
 | Will Vandevanter - Trail of Bits | [CVE-2025-23310](5687/CVE-2025-23310.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23311](5687/CVE-2025-23311.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 | Wolfgang Frisch | [CVE-2024-0149](5614/CVE-2024-0149.json) | [5614.json](5614/5614.json) | [5614.md](5614/5614.md) |

@@ -2,6 +2,8 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5730](5730/5730.md) | Security Bulletin: NVIDIA TAO - December 2025 | 2025-12-02 | 2025-12-02 | [CVE-2025-33208](5730/CVE-2025-33208.json) |
+| [5734](5734/5734.md) | Security Bulletin: NVIDIA Triton Inference Server 25.10 - December 2025 | 2025-12-02 | 2025-12-02 | [CVE-2025-33211](5734/CVE-2025-33211.json), [CVE-2025-33201](5734/CVE-2025-33201.json) |
 | [5729](5729/5729.md) | Security Bulletin: NVIDIA NeMo Framework - November 2025 | 2025-11-25 | 2025-11-25 | [CVE-2025-33204](5729/CVE-2025-33204.json), [CVE-2025-33205](5729/CVE-2025-33205.json) |
 | [5726](5726/5726.md) | Security Bulletin: NVIDIA NeMo Agent Toolkit - November 2025 | 2025-11-25 | 2025-11-25 | [CVE-2025-33203](5726/CVE-2025-33203.json) |
 | [5720](5720/5720.md) | Security Bulletin: NVIDIA DGX Spark - November  2025 | 2025-11-25 | 2025-11-25 | [CVE-2025-33187](5720/CVE-2025-33187.json), [CVE-2025-33188](5720/CVE-2025-33188.json), [CVE-2025-33189](5720/CVE-2025-33189.json), [CVE-2025-33190](5720/CVE-2025-33190.json), [CVE-2025-33191](5720/CVE-2025-33191.json), [CVE-2025-33192](5720/CVE-2025-33192.json), [CVE-2025-33193](5720/CVE-2025-33193.json), [CVE-2025-33194](5720/CVE-2025-33194.json), [CVE-2025-33195](5720/CVE-2025-33195.json), [CVE-2025-33196](5720/CVE-2025-33196.json), [CVE-2025-33197](5720/CVE-2025-33197.json), [CVE-2025-33198](5720/CVE-2025-33198.json), [CVE-2025-33199](5720/CVE-2025-33199.json), [CVE-2025-33200](5720/CVE-2025-33200.json) |
