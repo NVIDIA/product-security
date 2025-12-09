@@ -1,0 +1,330 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released an update for Merlin to address a security issue that might lead to the impacts described in this bulletin.&nbsp;<div>To protect your system, clone or update this software to include the following commits:<br><div><ul><li>Commit 5dd11f4 or later from <a href=\"https://github.com/NVIDIA-Merlin/NVTabular\">NVIDIA Merlin/NVTabular<br></a></li><li>Commit 876f19e or later from <a href=\"https://github.com/NVIDIA-Merlin/Transformers4Rec\">NVIDIA-Merlin/Transformers4Rec</a></li></ul></div></div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, clone or update this software to include the following commits:<br><div><ul><li>Commit 5dd11f4 or later from <a href=\"https://github.com/NVIDIA-Merlin/NVTabular\">NVIDIA Merlin/NVTabular<br></a></li><li>Commit 876f19e or later from <a href=\"https://github.com/NVIDIA-Merlin/Transformers4Rec\">NVIDIA-Merlin/Transformers4Rec</a></li></ul></div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Refer to Security Updates for the updated versions to install.",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "These issues were found externally.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12480-008_v02",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "5739",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Merlin - December 2025",
+        "tracking": {
+            "current_release_date": "2025-12-09T00:00:00Z",
+            "generator": {
+                "date": "2025-12-09T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5739",
+            "initial_release_date": "2025-12-09T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2025-12-09T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA NVTabular",
+                                "product": {
+                                    "name": "NVIDIA NVTabular",
+                                    "product_id": "linux_nvidia_nvtabular",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nvtabular:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Merlin Transformers4Rec",
+                                "product": {
+                                    "name": "NVIDIA Merlin Transformers4Rec",
+                                    "product_id": "linux_nvidia_merlin_transformers4rec",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_merlin_transformers4rec:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA NVTabular",
+                                "product": {
+                                    "name": "All versions that do not include commit 5dd11f4",
+                                    "product_id": "linux_nvidia_nvtabular_all_versions_that_do_not_include_commit_5dd11f4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nvtabular:all_versions_that_do_not_include_commit_5dd11f4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA NVTabular",
+                                "product": {
+                                    "name": "Any code branch that includes commit 5dd11f4",
+                                    "product_id": "linux_nvidia_nvtabular_any_code_branch_that_includes_commit_5dd11f4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nvtabular:any_code_branch_that_includes_commit_5dd11f4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Merlin Transformers4Rec",
+                                "product": {
+                                    "name": "All versions that do not include commit 876f19e",
+                                    "product_id": "linux_nvidia_merlin_transformers4rec_all_versions_that_do_not_include_commit_876f19e",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_merlin_transformers4rec:all_versions_that_do_not_include_commit_876f19e:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Merlin Transformers4Rec",
+                                "product": {
+                                    "name": "Any code branch that includes commit 876f19e",
+                                    "product_id": "linux_nvidia_merlin_transformers4rec_any_code_branch_that_includes_commit_876f19e",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_merlin_transformers4rec:any_code_branch_that_includes_commit_876f19e:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "blazingwind"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33214",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NVTabular for Linux contains a vulnerability in the Workflow component, where a user could cause a deserialization issue. A successful exploit of this vulnerability might lead to code execution, denial of service, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, denial of service, information disclosure, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5568079",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_nvtabular_any_code_branch_that_includes_commit_5dd11f4"
+                ],
+                "known_affected": [
+                    "linux_nvidia_nvtabular_all_versions_that_do_not_include_commit_5dd11f4"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33214"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33214"
+                }
+            ],
+            "release_date": "2025-12-09T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_nvtabular_all_versions_that_do_not_include_commit_5dd11f4"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "blazingwind"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33213",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Merlin Transformers4Rec for Linux contains a vulnerability in the Trainer component, where a user could cause a deserialization issue. A successful exploit of this vulnerability might lead to code execution, denial of service, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, denial of service, information disclosure, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5568040",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_merlin_transformers4rec_any_code_branch_that_includes_commit_876f19e"
+                ],
+                "known_affected": [
+                    "linux_nvidia_merlin_transformers4rec_all_versions_that_do_not_include_commit_876f19e"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33213"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33213"
+                }
+            ],
+            "release_date": "2025-12-09T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_merlin_transformers4rec_all_versions_that_do_not_include_commit_876f19e"
+                    ]
+                }
+            ]
+        }
+    ]
+}

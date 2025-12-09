@@ -15,6 +15,8 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2024-0137](5599/CVE-2024-0137.json) | [5599.json](5599/5599.json) | [5599.md](5599/5599.md) |
 | Andres Riancho, Ronen Shustin, and Shir Tamari from Wiz Research; Dre Cura of Trend Micro Research; and Lei Wang - each separately reporting this vulnerability | [CVE-2025-23359](5616/CVE-2025-23359.json) | [5616.json](5616/5616.json) | [5616.md](5616/5616.md) |
 | Avi Lumelsky of Oligo Security | [CVE-2025-23254](5648/CVE-2025-23254.json) | [5648.json](5648/5648.json) | [5648.md](5648/5648.md) |
+| blazingwind | [CVE-2025-33214](5739/CVE-2025-33214.json) | [5739.json](5739/5739.json) | [5739.md](5739/5739.md) |
+|  | [CVE-2025-33213](5739/CVE-2025-33213.json) | [5739.json](5739/5739.json) | [5739.md](5739/5739.md) |
 | Boston Dynamics | [CVE-2024-0148](5617/CVE-2024-0148.json) | [5617.json](5617/5617.json) | [5617.md](5617/5617.md) |
 | C0ss4ck - Bytedance Security | [CVE-2025-23257](5655/CVE-2025-23257.json) | [5655.json](5655/5655.json) | [5655.md](5655/5655.md) |
 | Chen Cohen (Ebay) | [CVE-2025-33176](5719/CVE-2025-33176.json) | [5719.json](5719/5719.json) | [5719.md](5719/5719.md) |
