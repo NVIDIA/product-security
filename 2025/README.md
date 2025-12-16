@@ -2,6 +2,9 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5733](5733/5733.md) | Security Bulletin: NVIDIA Isaac Lab - December 2025 | 2025-12-16 | 2025-12-16 | [CVE-2025-33210](5733/CVE-2025-33210.json) |
+| [5736](5736/5736.md) | Security Bulletin: NVIDIA NeMo Framework - December 2025 | 2025-12-16 | 2025-12-16 | [CVE-2025-33212](5736/CVE-2025-33212.json), [CVE-2025-33226](5736/CVE-2025-33226.json) |
+| [5746](5746/5746.md) | Security Bulletin: NVIDIA Resiliency Extension - December 2025 | 2025-12-16 | 2025-12-16 | [CVE-2025-33225](5746/CVE-2025-33225.json), [CVE-2025-33235](5746/CVE-2025-33235.json) |
 | [5739](5739/5739.md) | Security Bulletin: NVIDIA Merlin - December 2025 | 2025-12-09 | 2025-12-09 | [CVE-2025-33214](5739/CVE-2025-33214.json), [CVE-2025-33213](5739/CVE-2025-33213.json) |
 | [5730](5730/5730.md) | Security Bulletin: NVIDIA TAO - December 2025 | 2025-12-02 | 2025-12-02 | [CVE-2025-33208](5730/CVE-2025-33208.json) |
 | [5734](5734/5734.md) | Security Bulletin: NVIDIA Triton Inference Server 25.10 - December 2025 | 2025-12-02 | 2025-12-02 | [CVE-2025-33211](5734/CVE-2025-33211.json), [CVE-2025-33201](5734/CVE-2025-33201.json) |
