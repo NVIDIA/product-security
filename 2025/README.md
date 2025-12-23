@@ -2,6 +2,7 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5749](5749/5749.md) | Security Bulletin: NVIDIA Isaac Launchable - December 2025 | 2025-12-23 | 2025-12-23 | [CVE-2025-33222](5749/CVE-2025-33222.json), [CVE-2025-33223](5749/CVE-2025-33223.json), [CVE-2025-33224](5749/CVE-2025-33224.json) |
 | [5733](5733/5733.md) | Security Bulletin: NVIDIA Isaac Lab - December 2025 | 2025-12-16 | 2025-12-16 | [CVE-2025-33210](5733/CVE-2025-33210.json) |
 | [5736](5736/5736.md) | Security Bulletin: NVIDIA NeMo Framework - December 2025 | 2025-12-16 | 2025-12-16 | [CVE-2025-33212](5736/CVE-2025-33212.json), [CVE-2025-33226](5736/CVE-2025-33226.json) |
 | [5746](5746/5746.md) | Security Bulletin: NVIDIA Resiliency Extension - December 2025 | 2025-12-16 | 2025-12-16 | [CVE-2025-33225](5746/CVE-2025-33225.json), [CVE-2025-33235](5746/CVE-2025-33235.json) |

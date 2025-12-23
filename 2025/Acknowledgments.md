@@ -23,7 +23,10 @@ This file contains acknowledgments for security researchers and organizations wh
 | cyfra07  | [CVE-2024-0140](5597/CVE-2024-0140.json) | [5597.json](5597/5597.json) | [5597.md](5597/5597.md) |
 | D.K | [CVE-2025-23307](5690/CVE-2025-23307.json) | [5690.json](5690/5690.json) | [5690.md](5690/5690.md) |
 | Daniel Rhea | [CVE-2025-23309](5703/CVE-2025-23309.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
-| Daniel Teixeira (NVIDIA AI Red Team) | [CVE-2025-33210](5733/CVE-2025-33210.json) | [5733.json](5733/5733.json) | [5733.md](5733/5733.md) |
+| Daniel Teixeira (NVIDIA AI Red Team) | [CVE-2025-33222](5749/CVE-2025-33222.json) | [5749.json](5749/5749.json) | [5749.md](5749/5749.md) |
+|  | [CVE-2025-33223](5749/CVE-2025-33223.json) | [5749.json](5749/5749.json) | [5749.md](5749/5749.md) |
+|  | [CVE-2025-33224](5749/CVE-2025-33224.json) | [5749.json](5749/5749.json) | [5749.md](5749/5749.md) |
+|  | [CVE-2025-33210](5733/CVE-2025-33210.json) | [5733.json](5733/5733.json) | [5733.md](5733/5733.md) |
 |  | [CVE-2025-33203](5726/CVE-2025-33203.json) | [5726.json](5726/5726.json) | [5726.md](5726/5726.md) |
 | David Fiser and Alfredo Oliveira - Nebula of Trend Micro | [CVE-2025-23242](5625/CVE-2025-23242.json) | [5625.json](5625/5625.json) | [5625.md](5625/5625.md) |
 |  | [CVE-2025-23243](5625/CVE-2025-23243.json) | [5625.json](5625/5625.json) | [5625.md](5625/5625.md) |
@@ -162,6 +165,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Jacob Wujciak-Jens |
 | Jaeheng Yoon (JENBlack Soft) |
 | Kartik Mohite (@kartik2311) |
+| Kiefer Lin @printedwaste |
 | Kostas Tsilikis (MindTheHack) |
 | Kullai Metikala - @kullai12 |
 | Kun Jiang - Shanghai Fudan Microelectronics Group Co. Ltd |
