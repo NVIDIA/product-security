@@ -1022,7 +1022,7 @@
             "notes": [
                 {
                     "category": "summary",
-                    "text": "NVIDIA GPU Display Driver for Windows and Linux contains a vulnerability in the kernel mode layer, where an unprivileged regular user on the network can cause an out-of-bounds write through a specially crafted shader, which may lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering. The scope of the impact may extend to other components.<br/>*CWE Info*<b>Out-of-bounds Write</b><hr/>The software writes data past the end, or before the beginning, of the intended buffer.<br/>************************",
+                    "text": "NVIDIA GPU Display Driver for Windows and Linux contains a vulnerability in the kernel mode layer, where an unprivileged regular user on the network can cause an out-of-bounds write through a specially crafted shader, which may lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
                     "title": "Vulnerability description"
                 },
                 {
