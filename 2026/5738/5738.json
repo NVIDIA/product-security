@@ -1,0 +1,224 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae NSIGHT Graphics. <br><div>To protect your system, download and install this software update from the <a href=\"https://developer.nvidia.com/nsight-graphics/get-started\">Download NVIDIA NSIGHT Graphics</a> page.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae NSIGHT Graphics. <br><div>To protect your system, download and install this software update from the <a href=\"https://developer.nvidia.com/nsight-graphics/get-started\">Download NVIDIA NSIGHT Graphics</a> page.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, download and install this software update from the <a href=\"https://developer.nvidia.com/nsight-graphics/get-started\">Download NVIDIA NSIGHT Graphics</a> page.",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12571-002_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1147562",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA NSIGHT Graphics - January 2026",
+        "tracking": {
+            "current_release_date": "2026-01-14T00:00:00Z",
+            "generator": {
+                "date": "2026-01-14T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5738",
+            "initial_release_date": "2026-01-14T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-01-14T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NSIGHT Graphics",
+                                "product": {
+                                    "name": "NSIGHT Graphics",
+                                    "product_id": "linux_nsight_graphics",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nsight_graphics:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NSIGHT Graphics",
+                                "product": {
+                                    "name": "All versions prior to NSIGHT Graphics 2025.5",
+                                    "product_id": "linux_nsight_graphics_all_versions_prior_to_nsight_graphics_2025_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nsight_graphics:all_versions_prior_to_nsight_graphics_2025_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NSIGHT Graphics",
+                                "product": {
+                                    "name": "NSIGHT Graphics 2025.5",
+                                    "product_id": "linux_nsight_graphics_nsight_graphics_2025_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nsight_graphics:nsight_graphics_2025_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "pwni"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33206",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NSIGHT Graphics for Linux contains a vulnerability where an attacker could cause command injection. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, escalation of privileges, data tampering, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5446329",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nsight_graphics_nsight_graphics_2025_5"
+                ],
+                "known_affected": [
+                    "linux_nsight_graphics_all_versions_prior_to_nsight_graphics_2025_5"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33206"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33206"
+                }
+            ],
+            "release_date": "2026-01-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nsight_graphics_all_versions_prior_to_nsight_graphics_2025_5"
+                    ]
+                }
+            ]
+        }
+    ]
+}
