@@ -1,0 +1,1904 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released security updates to address vulnerabilities in various products.",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<ul><li>Your computer hardware vendor might provide you with Windows GPU display driver versions including 591.55, 581.95, 573.91, and 539.61, which also contain the security updates</li><li>The table above might not be a comprehensive list of all affected supported versions or branch releases and might be updated as more information becomes available.<br></li><li>Earlier software branch releases that support these products might also be affected. If you are using an earlier branch release for which an update version is not listed above, upgrade to the latest branch release.</li></ul><div><br></div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Refer to the following sections for the version to install:<br><div><a href=\"https://docs.google.com/document/d/1_f24Peji2rJE13lSxMYu-gT4XibKY9Ni0UUI2xQJUCI/edit?tab=t.0#heading=h.2s8eyo1\">Security Updates for NVIDIA GPU Display Driver<br></a></div><div><a href=\"https://docs.google.com/document/d/1_f24Peji2rJE13lSxMYu-gT4XibKY9Ni0UUI2xQJUCI/edit?tab=t.0#heading=h.26in1rg\">Security Updates for NVIDIA vGPU Software</a></div>",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-07069-066_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1146406",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "11:GPU",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "true",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: GPU Display Driver - January 2026",
+        "tracking": {
+            "current_release_date": "2026-01-28T00:00:00Z",
+            "generator": {
+                "date": "2026-01-28T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5747",
+            "initial_release_date": "2026-01-28T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-01-28T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "GeForce",
+                                    "product_id": "windowsr590_geforce",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                    "product_id": "windowsr590_nvidia_rtx_pro_rtx_quadro",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                    "product_id": "windowsr580_nvidia_rtx_pro_rtx_quadro",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                    "product_id": "windowsr570_nvidia_rtx_pro_rtx_quadro",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                    "product_id": "windowsr535_nvidia_rtx_pro_rtx_quadro",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "Tesla",
+                                    "product_id": "windowsr590_tesla",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "Tesla",
+                                    "product_id": "windowsr580_tesla",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "Tesla",
+                                    "product_id": "windowsr570_tesla",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "Tesla",
+                                    "product_id": "windowsr535_tesla",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "Guest driver",
+                                    "product_id": "windowsr580_vgpu_19_guest_driver",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "Guest driver",
+                                    "product_id": "windowsr570_vgpu_18_guest_driver",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "Guest driver",
+                                    "product_id": "windowsr535_vgpu_16_guest_driver",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "GeForce",
+                                    "product_id": "linuxr590_geforce",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "GeForce",
+                                    "product_id": "linuxr580_geforce",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "GeForce",
+                                    "product_id": "linuxr570_geforce",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "GeForce",
+                                    "product_id": "linuxr535_geforce",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                    "product_id": "linuxr590_nvidia_rtx_pro_rtx_quadro",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                    "product_id": "linuxr580_nvidia_rtx_pro_rtx_quadro",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                    "product_id": "linuxr570_nvidia_rtx_pro_rtx_quadro",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                    "product_id": "linuxr535_nvidia_rtx_pro_rtx_quadro",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "Tesla",
+                                    "product_id": "linuxr590_tesla",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "Tesla",
+                                    "product_id": "linuxr580_tesla",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "Tesla",
+                                    "product_id": "linuxr570_tesla",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "Tesla",
+                                    "product_id": "linuxr535_tesla",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "Guest driver",
+                                    "product_id": "linuxr580_vgpu_19_guest_driver",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "Guest driver",
+                                    "product_id": "linuxr570_vgpu_18_guest_driver",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "Guest driver",
+                                    "product_id": "linuxr535_vgpu_16_guest_driver",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "Virtual GPU Manager",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_19_virtual_gpu_manager",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "Virtual GPU Manager",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "Virtual GPU Manager",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "Guest driver",
+                                    "product_id": "linuxgaming_guest_driver",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "Virtual GPU Manager",
+                                    "product_id": "red_hat_enterprise_linux_kvm_vmware_vspheregaming_virtual_gpu_manager",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA RTX, Quadro, NVS",
+                                "product": {
+                                    "name": "NVIDIA RTX, Quadro, NVS",
+                                    "product_id": "windowsr590_nvidia_rtx_quadro_nvs",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_quadro_nvs:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "All driver versions prior to 591.59",
+                                    "product_id": "windowsr590_geforce_all_driver_versions_prior_to_591_59",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:all_driver_versions_prior_to_591_59:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "591.59",
+                                    "product_id": "windowsr590_geforce_591_59",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:591_59:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "All driver versions prior to 1.4.5.7",
+                                    "product_id": "windowsr590_geforce_all_driver_versions_prior_to_1_4_5_7",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:all_driver_versions_prior_to_1_4_5_7:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "1.4.5.7",
+                                    "product_id": "windowsr590_geforce_1_4_5_7",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:1_4_5_7:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "All driver versions prior to 591.59",
+                                    "product_id": "windowsr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_591_59",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:all_driver_versions_prior_to_591_59:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "591.59",
+                                    "product_id": "windowsr590_nvidia_rtx_pro_rtx_quadro_591_59",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:591_59:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "All driver versions prior to 591.59",
+                                    "product_id": "windowsr590_tesla_all_driver_versions_prior_to_591_59",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:all_driver_versions_prior_to_591_59:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "591.59",
+                                    "product_id": "windowsr590_tesla_591_59",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:591_59:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX, Quadro, NVS",
+                                "product": {
+                                    "name": "All driver versions prior to 1.4.5.7",
+                                    "product_id": "windowsr590_nvidia_rtx_quadro_nvs_all_driver_versions_prior_to_1_4_5_7",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_quadro_nvs:all_driver_versions_prior_to_1_4_5_7:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX, Quadro, NVS",
+                                "product": {
+                                    "name": "1.4.5.7",
+                                    "product_id": "windowsr590_nvidia_rtx_quadro_nvs_1_4_5_7",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_quadro_nvs:1_4_5_7:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows(R590)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "All driver versions prior to 582.16",
+                                    "product_id": "windowsr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_582_16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:all_driver_versions_prior_to_582_16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "582.16",
+                                    "product_id": "windowsr580_nvidia_rtx_pro_rtx_quadro_582_16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:582_16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "All driver versions prior to 582.16",
+                                    "product_id": "windowsr580_tesla_all_driver_versions_prior_to_582_16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:all_driver_versions_prior_to_582_16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "582.16",
+                                    "product_id": "windowsr580_tesla_582_16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:582_16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows(R580)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "All driver versions prior to 573.96",
+                                    "product_id": "windowsr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_573_96",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:all_driver_versions_prior_to_573_96:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "573.96",
+                                    "product_id": "windowsr570_nvidia_rtx_pro_rtx_quadro_573_96",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:573_96:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "All driver versions prior to 573.96",
+                                    "product_id": "windowsr570_tesla_all_driver_versions_prior_to_573_96",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:all_driver_versions_prior_to_573_96:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "573.96",
+                                    "product_id": "windowsr570_tesla_573_96",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:573_96:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "All driver versions prior to 573.91",
+                                    "product_id": "windowsr570_tesla_all_driver_versions_prior_to_573_91",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:all_driver_versions_prior_to_573_91:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "573.91",
+                                    "product_id": "windowsr570_tesla_573_91",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:573_91:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows(R570)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "All driver versions prior to 539.64",
+                                    "product_id": "windowsr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_539_64",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:all_driver_versions_prior_to_539_64:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "539.64",
+                                    "product_id": "windowsr535_nvidia_rtx_pro_rtx_quadro_539_64",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:539_64:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "All driver versions prior to 539.64",
+                                    "product_id": "windowsr535_tesla_all_driver_versions_prior_to_539_64",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:all_driver_versions_prior_to_539_64:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "539.64",
+                                    "product_id": "windowsr535_tesla_539_64",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:539_64:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows(R535)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "581.80(All versions prior to and including vGPU software 19.3) ",
+                                    "product_id": "windowsr580_vgpu_19_guest_driver_581_80all_versions_prior_to_and_including_vgpu_software_19_3_",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:581_80all_versions_prior_to_and_including_vgpu_software_19_3_:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "582.16(vGPU software 19.4)",
+                                    "product_id": "windowsr580_vgpu_19_guest_driver_582_16vgpu_software_19_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:582_16vgpu_software_19_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows(R580 vGPU 19)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "573.76(All versions prior to and including vGPU software 18.5)",
+                                    "product_id": "windowsr570_vgpu_18_guest_driver_573_76all_versions_prior_to_and_including_vgpu_software_18_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:573_76all_versions_prior_to_and_including_vgpu_software_18_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "573.96(vGPU software 18.6)",
+                                    "product_id": "windowsr570_vgpu_18_guest_driver_573_96vgpu_software_18_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:573_96vgpu_software_18_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows(R570 vGPU 18)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "539.56(All versions prior to and including vGPU software 16.12)",
+                                    "product_id": "windowsr535_vgpu_16_guest_driver_539_56all_versions_prior_to_and_including_vgpu_software_16_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:539_56all_versions_prior_to_and_including_vgpu_software_16_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "539.64(vGPU software 16.13)",
+                                    "product_id": "windowsr535_vgpu_16_guest_driver_539_64vgpu_software_16_13",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:539_64vgpu_software_16_13:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Windows(R535 vGPU 16)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "All driver versions prior to 590.48.01",
+                                    "product_id": "linuxr590_geforce_all_driver_versions_prior_to_590_48_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:all_driver_versions_prior_to_590_48_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "590.48.01",
+                                    "product_id": "linuxr590_geforce_590_48_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:590_48_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "All driver versions prior to 590.48.01",
+                                    "product_id": "linuxr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_590_48_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:all_driver_versions_prior_to_590_48_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "590.48.01",
+                                    "product_id": "linuxr590_nvidia_rtx_pro_rtx_quadro_590_48_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:590_48_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "All driver versions prior to 590.48.01",
+                                    "product_id": "linuxr590_tesla_all_driver_versions_prior_to_590_48_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:all_driver_versions_prior_to_590_48_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "590.48.01",
+                                    "product_id": "linuxr590_tesla_590_48_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:590_48_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(R590)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "All driver versions prior to 580.126.09",
+                                    "product_id": "linuxr580_geforce_all_driver_versions_prior_to_580_126_09",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:all_driver_versions_prior_to_580_126_09:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "580.126.09",
+                                    "product_id": "linuxr580_geforce_580_126_09",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:580_126_09:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "All driver versions prior to 580.126.09",
+                                    "product_id": "linuxr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_580_126_09",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:all_driver_versions_prior_to_580_126_09:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "580.126.09",
+                                    "product_id": "linuxr580_nvidia_rtx_pro_rtx_quadro_580_126_09",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:580_126_09:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "All driver versions prior to 580.126.09",
+                                    "product_id": "linuxr580_tesla_all_driver_versions_prior_to_580_126_09",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:all_driver_versions_prior_to_580_126_09:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "580.126.09",
+                                    "product_id": "linuxr580_tesla_580_126_09",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:580_126_09:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(R580)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "All driver versions prior to 570.211.01",
+                                    "product_id": "linuxr570_geforce_all_driver_versions_prior_to_570_211_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:all_driver_versions_prior_to_570_211_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "570.211.01",
+                                    "product_id": "linuxr570_geforce_570_211_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:570_211_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "All driver versions prior to 570.211.01",
+                                    "product_id": "linuxr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_570_211_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:all_driver_versions_prior_to_570_211_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "570.211.01",
+                                    "product_id": "linuxr570_nvidia_rtx_pro_rtx_quadro_570_211_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:570_211_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "All driver versions prior to 570.211.01",
+                                    "product_id": "linuxr570_tesla_all_driver_versions_prior_to_570_211_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:all_driver_versions_prior_to_570_211_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "570.211.01",
+                                    "product_id": "linuxr570_tesla_570_211_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:570_211_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(R570)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "All driver versions prior to 535.288.01",
+                                    "product_id": "linuxr535_geforce_all_driver_versions_prior_to_535_288_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:all_driver_versions_prior_to_535_288_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "GeForce",
+                                "product": {
+                                    "name": "535.288.01",
+                                    "product_id": "linuxr535_geforce_535_288_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:geforce:535_288_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "All driver versions prior to 535.288.01",
+                                    "product_id": "linuxr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_535_288_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:all_driver_versions_prior_to_535_288_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA RTX PRO, RTX, Quadro",
+                                "product": {
+                                    "name": "535.288.01",
+                                    "product_id": "linuxr535_nvidia_rtx_pro_rtx_quadro_535_288_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_rtx_pro_rtx_quadro:535_288_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "All driver versions prior to 535.288.01",
+                                    "product_id": "linuxr535_tesla_all_driver_versions_prior_to_535_288_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:all_driver_versions_prior_to_535_288_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Tesla",
+                                "product": {
+                                    "name": "535.288.01",
+                                    "product_id": "linuxr535_tesla_535_288_01",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tesla:535_288_01:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(R535)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "580.105.08(All versions prior to and including vGPU software 19.3)",
+                                    "product_id": "linuxr580_vgpu_19_guest_driver_580_105_08all_versions_prior_to_and_including_vgpu_software_19_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:580_105_08all_versions_prior_to_and_including_vgpu_software_19_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "580.126.09(vGPU software 19.4)",
+                                    "product_id": "linuxr580_vgpu_19_guest_driver_580_126_09vgpu_software_19_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:580_126_09vgpu_software_19_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(R580 vGPU 19)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "570.195.03(All versions prior to and including vGPU software 18.5)",
+                                    "product_id": "linuxr570_vgpu_18_guest_driver_570_195_03all_versions_prior_to_and_including_vgpu_software_18_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:570_195_03all_versions_prior_to_and_including_vgpu_software_18_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "570.211.01(vGPU software 18.6)",
+                                    "product_id": "linuxr570_vgpu_18_guest_driver_570_211_01vgpu_software_18_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:570_211_01vgpu_software_18_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(R570 vGPU 18)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "535.274.02(All versions prior to and including vGPU software 16.12)",
+                                    "product_id": "linuxr535_vgpu_16_guest_driver_535_274_02all_versions_prior_to_and_including_vgpu_software_16_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:535_274_02all_versions_prior_to_and_including_vgpu_software_16_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "535.288.01(vGPU software 16.13)",
+                                    "product_id": "linuxr535_vgpu_16_guest_driver_535_288_01vgpu_software_16_13",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:535_288_01vgpu_software_16_13:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(R535 vGPU 16)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "580.105.06(All versions prior to and including vGPU software 19.3)",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_19_virtual_gpu_manager_580_105_06all_versions_prior_to_and_including_vgpu_software_19_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:580_105_06all_versions_prior_to_and_including_vgpu_software_19_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "580.129.08(vGPU software 19.4)",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_19_virtual_gpu_manager_580_129_08vgpu_software_19_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:580_129_08vgpu_software_19_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "XenServer, VMware vSphere, Red Hat Enterprise Linux KVM, Ubuntu(vGPU 19)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "570.195.02(All versions prior to and including vGPU software 18.5)",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager_570_195_02all_versions_prior_to_and_including_vgpu_software_18_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:570_195_02all_versions_prior_to_and_including_vgpu_software_18_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "570.211.01(vGPU software 18.6)",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager_570_211_01vgpu_software_18_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:570_211_01vgpu_software_18_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "570.211.01(vGPU software 19.4)",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager_570_211_01vgpu_software_19_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:570_211_01vgpu_software_19_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "XenServer, VMware vSphere, Red Hat Enterprise Linux KVM, Ubuntu(vGPU 18)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "535.274.03(All versions prior to and including vGPU software 16.12)",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_274_03all_versions_prior_to_and_including_vgpu_software_16_12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:535_274_03all_versions_prior_to_and_including_vgpu_software_16_12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "535.288.01(vGPU software 16.13)",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_288_01vgpu_software_16_13",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:535_288_01vgpu_software_16_13:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "535.274.03(All versions prior to and including vGPU software 16.13)",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_274_03all_versions_prior_to_and_including_vgpu_software_16_13",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:535_274_03all_versions_prior_to_and_including_vgpu_software_16_13:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "535.288.01(vGPU software 19.4)",
+                                    "product_id": "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_288_01vgpu_software_19_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:535_288_01vgpu_software_19_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "XenServer, VMware vSphere, Red Hat Enterprise Linux KVM, Ubuntu(vGPU 16)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "580.105.08(All versions up to and including the November 2025 release)",
+                                    "product_id": "linuxgaming_guest_driver_580_105_08all_versions_up_to_and_including_the_november_2025_release",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:580_105_08all_versions_up_to_and_including_the_november_2025_release:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Guest driver",
+                                "product": {
+                                    "name": "590.48.01(December 2025 Release)",
+                                    "product_id": "linuxgaming_guest_driver_590_48_01december_2025_release",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:guest_driver:590_48_01december_2025_release:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux(Gaming)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "580.105.06(All versions up to and including the November 2025 release)",
+                                    "product_id": "red_hat_enterprise_linux_kvm_vmware_vspheregaming_virtual_gpu_manager_580_105_06all_versions_up_to_and_including_the_november_2025_release",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:580_105_06all_versions_up_to_and_including_the_november_2025_release:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Virtual GPU Manager",
+                                "product": {
+                                    "name": "590.48.01(December 2025 Release)",
+                                    "product_id": "red_hat_enterprise_linux_kvm_vmware_vspheregaming_virtual_gpu_manager_590_48_01december_2025_release",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtual_gpu_manager:590_48_01december_2025_release:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Red Hat Enterprise Linux KVM, VMware vSphere(Gaming)"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Kentaro Kawane"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33217",
+            "cwe": {
+                "id": "CWE-416",
+                "name": "Use After Free"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Display Driver for Windows contains a vulnerability where an attacker could trigger a use after free. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, denial of service, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5484384",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windowsr590_geforce_591_59",
+                    "windowsr590_nvidia_rtx_pro_rtx_quadro_591_59",
+                    "windowsr580_nvidia_rtx_pro_rtx_quadro_582_16",
+                    "windowsr570_nvidia_rtx_pro_rtx_quadro_573_96",
+                    "windowsr535_nvidia_rtx_pro_rtx_quadro_539_64",
+                    "windowsr590_tesla_591_59",
+                    "windowsr580_tesla_582_16",
+                    "windowsr570_tesla_573_96",
+                    "windowsr535_tesla_539_64"
+                ],
+                "known_affected": [
+                    "windowsr590_geforce_all_driver_versions_prior_to_591_59",
+                    "windowsr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_591_59",
+                    "windowsr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_582_16",
+                    "windowsr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_573_96",
+                    "windowsr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_539_64",
+                    "windowsr590_tesla_all_driver_versions_prior_to_591_59",
+                    "windowsr580_tesla_all_driver_versions_prior_to_582_16",
+                    "windowsr570_tesla_all_driver_versions_prior_to_573_96",
+                    "windowsr535_tesla_all_driver_versions_prior_to_539_64"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33217"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33217"
+                }
+            ],
+            "release_date": "2026-01-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windowsr590_geforce_all_driver_versions_prior_to_591_59",
+                        "windowsr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_591_59",
+                        "windowsr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_582_16",
+                        "windowsr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_573_96",
+                        "windowsr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_539_64",
+                        "windowsr590_tesla_all_driver_versions_prior_to_591_59",
+                        "windowsr580_tesla_all_driver_versions_prior_to_582_16",
+                        "windowsr570_tesla_all_driver_versions_prior_to_573_96",
+                        "windowsr535_tesla_all_driver_versions_prior_to_539_64"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Kentaro Kawane"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33218",
+            "cwe": {
+                "id": "CWE-190",
+                "name": "Integer Overflow or Wraparound"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA GPU Display Driver for Windows contains a vulnerability in the kernel mode layer (nvlddmkm.sys), where an attacker could cause an integer overflow. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, denial of service, or information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5466316",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windowsr590_geforce_591_59",
+                    "windowsr590_nvidia_rtx_pro_rtx_quadro_591_59",
+                    "windowsr580_nvidia_rtx_pro_rtx_quadro_582_16",
+                    "windowsr570_nvidia_rtx_pro_rtx_quadro_573_96",
+                    "windowsr535_nvidia_rtx_pro_rtx_quadro_539_64",
+                    "windowsr590_tesla_591_59",
+                    "windowsr580_tesla_582_16",
+                    "windowsr570_tesla_573_91",
+                    "windowsr535_tesla_539_64",
+                    "windowsr580_vgpu_19_guest_driver_582_16vgpu_software_19_4",
+                    "windowsr570_vgpu_18_guest_driver_573_96vgpu_software_18_6",
+                    "windowsr535_vgpu_16_guest_driver_539_64vgpu_software_16_13"
+                ],
+                "known_affected": [
+                    "windowsr590_geforce_all_driver_versions_prior_to_591_59",
+                    "windowsr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_591_59",
+                    "windowsr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_582_16",
+                    "windowsr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_573_96",
+                    "windowsr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_539_64",
+                    "windowsr590_tesla_all_driver_versions_prior_to_591_59",
+                    "windowsr580_tesla_all_driver_versions_prior_to_582_16",
+                    "windowsr570_tesla_all_driver_versions_prior_to_573_91",
+                    "windowsr535_tesla_all_driver_versions_prior_to_539_64",
+                    "windowsr580_vgpu_19_guest_driver_581_80all_versions_prior_to_and_including_vgpu_software_19_3_",
+                    "windowsr570_vgpu_18_guest_driver_573_76all_versions_prior_to_and_including_vgpu_software_18_5",
+                    "windowsr535_vgpu_16_guest_driver_539_56all_versions_prior_to_and_including_vgpu_software_16_12"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33218"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33218"
+                }
+            ],
+            "release_date": "2026-01-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windowsr590_geforce_all_driver_versions_prior_to_591_59",
+                        "windowsr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_591_59",
+                        "windowsr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_582_16",
+                        "windowsr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_573_96",
+                        "windowsr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_539_64",
+                        "windowsr590_tesla_all_driver_versions_prior_to_591_59",
+                        "windowsr580_tesla_all_driver_versions_prior_to_582_16",
+                        "windowsr570_tesla_all_driver_versions_prior_to_573_91",
+                        "windowsr535_tesla_all_driver_versions_prior_to_539_64",
+                        "windowsr580_vgpu_19_guest_driver_581_80all_versions_prior_to_and_including_vgpu_software_19_3_",
+                        "windowsr570_vgpu_18_guest_driver_573_76all_versions_prior_to_and_including_vgpu_software_18_5",
+                        "windowsr535_vgpu_16_guest_driver_539_56all_versions_prior_to_and_including_vgpu_software_16_12"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Sam Lovejoy and Valentina Palmiotti"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33219",
+            "cwe": {
+                "id": "CWE-190",
+                "name": "Integer Overflow or Wraparound"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Display Driver for Linux contains a vulnerability in the NVIDIA kernel module where an attacker could cause an integer overflow or wraparound. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, denial of service, or information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5521841",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linuxr590_geforce_590_48_01",
+                    "linuxr580_geforce_580_126_09",
+                    "linuxr570_geforce_570_211_01",
+                    "linuxr535_geforce_535_288_01",
+                    "linuxr590_nvidia_rtx_pro_rtx_quadro_590_48_01",
+                    "linuxr580_nvidia_rtx_pro_rtx_quadro_580_126_09",
+                    "linuxr570_nvidia_rtx_pro_rtx_quadro_570_211_01",
+                    "linuxr535_nvidia_rtx_pro_rtx_quadro_535_288_01",
+                    "linuxr590_tesla_590_48_01",
+                    "linuxr580_tesla_580_126_09",
+                    "linuxr570_tesla_570_211_01",
+                    "linuxr535_tesla_535_288_01",
+                    "linuxr580_vgpu_19_guest_driver_580_126_09vgpu_software_19_4",
+                    "linuxr570_vgpu_18_guest_driver_570_211_01vgpu_software_18_6",
+                    "linuxr535_vgpu_16_guest_driver_535_288_01vgpu_software_16_13",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_19_virtual_gpu_manager_580_129_08vgpu_software_19_4",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager_570_211_01vgpu_software_18_6",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_288_01vgpu_software_16_13",
+                    "linuxgaming_guest_driver_590_48_01december_2025_release",
+                    "red_hat_enterprise_linux_kvm_vmware_vspheregaming_virtual_gpu_manager_590_48_01december_2025_release"
+                ],
+                "known_affected": [
+                    "linuxr590_geforce_all_driver_versions_prior_to_590_48_01",
+                    "linuxr580_geforce_all_driver_versions_prior_to_580_126_09",
+                    "linuxr570_geforce_all_driver_versions_prior_to_570_211_01",
+                    "linuxr535_geforce_all_driver_versions_prior_to_535_288_01",
+                    "linuxr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_590_48_01",
+                    "linuxr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_580_126_09",
+                    "linuxr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_570_211_01",
+                    "linuxr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_535_288_01",
+                    "linuxr590_tesla_all_driver_versions_prior_to_590_48_01",
+                    "linuxr580_tesla_all_driver_versions_prior_to_580_126_09",
+                    "linuxr570_tesla_all_driver_versions_prior_to_570_211_01",
+                    "linuxr535_tesla_all_driver_versions_prior_to_535_288_01",
+                    "linuxr580_vgpu_19_guest_driver_580_105_08all_versions_prior_to_and_including_vgpu_software_19_3",
+                    "linuxr570_vgpu_18_guest_driver_570_195_03all_versions_prior_to_and_including_vgpu_software_18_5",
+                    "linuxr535_vgpu_16_guest_driver_535_274_02all_versions_prior_to_and_including_vgpu_software_16_12",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_19_virtual_gpu_manager_580_105_06all_versions_prior_to_and_including_vgpu_software_19_3",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager_570_195_02all_versions_prior_to_and_including_vgpu_software_18_5",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_274_03all_versions_prior_to_and_including_vgpu_software_16_12",
+                    "linuxgaming_guest_driver_580_105_08all_versions_up_to_and_including_the_november_2025_release",
+                    "red_hat_enterprise_linux_kvm_vmware_vspheregaming_virtual_gpu_manager_580_105_06all_versions_up_to_and_including_the_november_2025_release"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33219"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33219"
+                }
+            ],
+            "release_date": "2026-01-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linuxr590_geforce_all_driver_versions_prior_to_590_48_01",
+                        "linuxr580_geforce_all_driver_versions_prior_to_580_126_09",
+                        "linuxr570_geforce_all_driver_versions_prior_to_570_211_01",
+                        "linuxr535_geforce_all_driver_versions_prior_to_535_288_01",
+                        "linuxr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_590_48_01",
+                        "linuxr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_580_126_09",
+                        "linuxr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_570_211_01",
+                        "linuxr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_535_288_01",
+                        "linuxr590_tesla_all_driver_versions_prior_to_590_48_01",
+                        "linuxr580_tesla_all_driver_versions_prior_to_580_126_09",
+                        "linuxr570_tesla_all_driver_versions_prior_to_570_211_01",
+                        "linuxr535_tesla_all_driver_versions_prior_to_535_288_01",
+                        "linuxr580_vgpu_19_guest_driver_580_105_08all_versions_prior_to_and_including_vgpu_software_19_3",
+                        "linuxr570_vgpu_18_guest_driver_570_195_03all_versions_prior_to_and_including_vgpu_software_18_5",
+                        "linuxr535_vgpu_16_guest_driver_535_274_02all_versions_prior_to_and_including_vgpu_software_16_12",
+                        "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_19_virtual_gpu_manager_580_105_06all_versions_prior_to_and_including_vgpu_software_19_3",
+                        "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager_570_195_02all_versions_prior_to_and_including_vgpu_software_18_5",
+                        "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_274_03all_versions_prior_to_and_including_vgpu_software_16_12",
+                        "linuxgaming_guest_driver_580_105_08all_versions_up_to_and_including_the_november_2025_release",
+                        "red_hat_enterprise_linux_kvm_vmware_vspheregaming_virtual_gpu_manager_580_105_06all_versions_up_to_and_including_the_november_2025_release"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2025-33220",
+            "cwe": {
+                "id": "CWE-416",
+                "name": "Use After Free"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA vGPU software contains a vulnerability in the Virtual GPU Manager, where a malicious guest could cause heap memory access after the memory is freed. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, denial of service, or information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5564829",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linuxr590_geforce_590_48_01",
+                    "linuxr580_geforce_580_126_09",
+                    "linuxr570_geforce_570_211_01",
+                    "linuxr535_geforce_535_288_01",
+                    "linuxr590_nvidia_rtx_pro_rtx_quadro_590_48_01",
+                    "linuxr580_nvidia_rtx_pro_rtx_quadro_580_126_09",
+                    "linuxr570_nvidia_rtx_pro_rtx_quadro_570_211_01",
+                    "linuxr535_nvidia_rtx_pro_rtx_quadro_535_288_01",
+                    "linuxr590_tesla_590_48_01",
+                    "linuxr580_tesla_580_126_09",
+                    "linuxr570_tesla_570_211_01",
+                    "linuxr535_tesla_535_288_01",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_19_virtual_gpu_manager_580_129_08vgpu_software_19_4",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager_570_211_01vgpu_software_19_4",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_288_01vgpu_software_19_4"
+                ],
+                "known_affected": [
+                    "linuxr590_geforce_all_driver_versions_prior_to_590_48_01",
+                    "linuxr580_geforce_all_driver_versions_prior_to_580_126_09",
+                    "linuxr570_geforce_all_driver_versions_prior_to_570_211_01",
+                    "linuxr535_geforce_all_driver_versions_prior_to_535_288_01",
+                    "linuxr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_590_48_01",
+                    "linuxr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_580_126_09",
+                    "linuxr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_570_211_01",
+                    "linuxr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_535_288_01",
+                    "linuxr590_tesla_all_driver_versions_prior_to_590_48_01",
+                    "linuxr580_tesla_all_driver_versions_prior_to_580_126_09",
+                    "linuxr570_tesla_all_driver_versions_prior_to_570_211_01",
+                    "linuxr535_tesla_all_driver_versions_prior_to_535_288_01",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_19_virtual_gpu_manager_580_105_06all_versions_prior_to_and_including_vgpu_software_19_3",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager_570_195_02all_versions_prior_to_and_including_vgpu_software_18_5",
+                    "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_274_03all_versions_prior_to_and_including_vgpu_software_16_13"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33220"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33220"
+                }
+            ],
+            "release_date": "2026-01-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linuxr590_geforce_all_driver_versions_prior_to_590_48_01",
+                        "linuxr580_geforce_all_driver_versions_prior_to_580_126_09",
+                        "linuxr570_geforce_all_driver_versions_prior_to_570_211_01",
+                        "linuxr535_geforce_all_driver_versions_prior_to_535_288_01",
+                        "linuxr590_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_590_48_01",
+                        "linuxr580_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_580_126_09",
+                        "linuxr570_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_570_211_01",
+                        "linuxr535_nvidia_rtx_pro_rtx_quadro_all_driver_versions_prior_to_535_288_01",
+                        "linuxr590_tesla_all_driver_versions_prior_to_590_48_01",
+                        "linuxr580_tesla_all_driver_versions_prior_to_580_126_09",
+                        "linuxr570_tesla_all_driver_versions_prior_to_570_211_01",
+                        "linuxr535_tesla_all_driver_versions_prior_to_535_288_01",
+                        "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_19_virtual_gpu_manager_580_105_06all_versions_prior_to_and_including_vgpu_software_19_3",
+                        "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_18_virtual_gpu_manager_570_195_02all_versions_prior_to_and_including_vgpu_software_18_5",
+                        "xenserver_vmware_vsphere_red_hat_enterprise_linux_kvm_ubuntuvgpu_16_virtual_gpu_manager_535_274_03all_versions_prior_to_and_including_vgpu_software_16_13"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Thomas Keefer (TKYN)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33237",
+            "cwe": {
+                "id": "CWE-476",
+                "name": "NULL Pointer Dereference"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA HD Audio Driver for Windows contains a vulnerability where an attacker could exploit a NULL pointer dereference issue. A successful exploit of this vulnerability might lead to a denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5660999",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "windowsr590_geforce_1_4_5_7",
+                    "windowsr590_nvidia_rtx_quadro_nvs_1_4_5_7"
+                ],
+                "known_affected": [
+                    "windowsr590_geforce_all_driver_versions_prior_to_1_4_5_7",
+                    "windowsr590_nvidia_rtx_quadro_nvs_all_driver_versions_prior_to_1_4_5_7"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33237"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33237"
+                }
+            ],
+            "release_date": "2026-01-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 5.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "windowsr590_geforce_all_driver_versions_prior_to_1_4_5_7",
+                        "windowsr590_nvidia_rtx_quadro_nvs_all_driver_versions_prior_to_1_4_5_7"
+                    ]
+                }
+            ]
+        }
+    ]
+}
