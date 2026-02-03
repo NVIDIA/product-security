@@ -62,6 +62,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | kikayli (Zhuque Lab, Tencent) | [CVE-2025-23356](5708/CVE-2025-23356.json) | [5708.json](5708/5708.json) | [5708.md](5708/5708.md) |
 | Lei Wang & Min Yao (Nebula Security Lab, Huawei Cloud) | [CVE-2025-23267](5659/CVE-2025-23267.json) | [5659.json](5659/5659.json) | [5659.md](5659/5659.md) |
 | Maxim Mints and Austin Herring | [CVE-2024-0112](5611/CVE-2024-0112.json) | [5611.json](5611/5611.json) | [5611.md](5611/5611.md) |
+| Michael DePlante (@izobashi) of Trend Zero Day Initiative | [CVE-2026-24149](5712/CVE-2026-24149.json) | [5712.json](5712/5712.json) | [5712.md](5712/5712.md) |
 | Microsoft Offensive Research and Security Engineering Team | [CVE-2025-23281](5670/CVE-2025-23281.json) | [5670.json](5670/5670.json) | [5670.md](5670/5670.md) |
 |  | [CVE-2025-23287](5670/CVE-2025-23287.json) | [5670.json](5670/5670.json) | [5670.md](5670/5670.md) |
 | Mo XY of IceSword Lab | [CVE-2025-23346](5661/CVE-2025-23346.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |

@@ -65,9 +65,9 @@
         },
         "title": "Security Bulletin: NVIDIA Megatron LM - November 2025",
         "tracking": {
-            "current_release_date": "2025-11-11T00:00:00Z",
+            "current_release_date": "2026-02-03T00:00:00Z",
             "generator": {
-                "date": "2025-11-11T00:00:00Z",
+                "date": "2026-02-03T00:00:00Z",
                 "engine": {
                     "name": "NVIDIA PSIRT",
                     "version": "1.0.0"
@@ -80,10 +80,15 @@
                     "date": "2025-11-11T00:00:00Z",
                     "number": "1.0.0",
                     "summary": "Initial Release"
+                },
+                {
+                    "date": "2026-02-03T00:00:00Z",
+                    "number": "2.0.0",
+                    "summary": "Added CVE-2026-24149"
                 }
             ],
             "status": "final",
-            "version": "1.0.0"
+            "version": "2.0.0"
         }
     },
     "product_tree": {
@@ -190,6 +195,79 @@
                     "category": "self",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2025-23357"
+                }
+            ],
+            "release_date": "2025-11-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_megatronlm_all_versions_prior_to_0_14_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Michael DePlante (@izobashi) of Trend Zero Day Initiative"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24149",
+            "cwe": {
+                "id": "CWE-94",
+                "name": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Megatron-LM for all platforms contains a vulnerability in a script, where malicious data created by an attacker may cause a code injection issue. A successful exploit of this vulnerability may lead to code execution, escalation of privileges, information disclosure, data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, escalation of privileges, information disclosure, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5539171",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_megatronlm_0_14_0"
+                ],
+                "known_affected": [
+                    "all_platforms_megatronlm_all_versions_prior_to_0_14_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24149"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24149"
                 }
             ],
             "release_date": "2025-11-04T00:00:00Z",

@@ -10,3 +10,5 @@
 | [5712.md.sha256](5712.md.sha256) | SHA256 checksum of the Markdown file |
 | [CVE-2025-23357.json](CVE-2025-23357.json) | Mitre standard representation of CVE-2025-23357 |
 | [CVE-2025-23357.json.sha256](CVE-2025-23357.json.sha256) | SHA256 checksum of the CVE file for CVE-2025-23357 |
+| [CVE-2026-24149.json](CVE-2026-24149.json) | Mitre standard representation of CVE-2026-24149 |
+| [CVE-2026-24149.json.sha256](CVE-2026-24149.json.sha256) | SHA256 checksum of the CVE file for CVE-2026-24149 |
