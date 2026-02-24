@@ -11,6 +11,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-33251](5762/CVE-2025-33251.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 |  | [CVE-2025-33252](5762/CVE-2025-33252.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 |  | [CVE-2025-33253](5762/CVE-2025-33253.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
+| David Gauthier | [CVE-2026-24241](5789/CVE-2026-24241.json) | [5789.json](5789/5789.json) | [5789.md](5789/5789.md) |
 | ev1lkow | [CVE-2025-33234](5764/CVE-2025-33234.json) | [5764.json](5764/5764.json) | [5764.md](5764/5764.md) |
 | Inga Cherny CTRL | [CVE-2025-33236](5762/CVE-2025-33236.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 | Javohir Abduxalilov (JavaSec.uz member of TuranSec) | [CVE-2025-33233](5761/CVE-2025-33233.json) | [5761.json](5761/5761.json) | [5761.md](5761/5761.md) |

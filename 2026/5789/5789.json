@@ -1,0 +1,256 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "MEDIUM"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released an update for the Delegated License Service (DLS) component of NVIDIA License System to address a security issue that might lead to impacts described in this bulletin.<br><div>To protect your system, download and install the <a href=\"https://docs.nvidia.com/license-system/latest/\">latest version of the DLS</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<div>Log in to the <a href=\"https://nvid.nvidia.com/dashboard/\">NVIDIA Enterprise Application Hub</a> to download updates from the NVIDIA Licensing Portal. To simplify the upgrade of an existing DLS virtual appliance, follow the instructions in <a href=\"https://docs.nvidia.com/license-system/latest/nvidia-license-system-user-guide/index.html#migrating-dls-instance\">Migrating a DLS Instance</a> in NVIDIA License System User Guide.<br></div><div>A DLS instance is hosted on-premises at a location that is accessible from your private network, such as inside your data center.</div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12059-003_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1149352",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "16:NLS",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA License System - February 2026",
+        "tracking": {
+            "current_release_date": "2026-02-24T00:00:00Z",
+            "generator": {
+                "date": "2026-02-24T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5789",
+            "initial_release_date": "2026-02-24T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-02-24T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "DLS component of NVIDIA License System",
+                                "product": {
+                                    "name": "DLS component of NVIDIA License System",
+                                    "product_id": "all3_6_dls_component_of_nvidia_license_system",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dls_component_of_nvidia_license_system:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "DLS component of NVIDIA License System",
+                                "product": {
+                                    "name": "DLS component of NVIDIA License System",
+                                    "product_id": "all3_1_dls_component_of_nvidia_license_system",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dls_component_of_nvidia_license_system:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "DLS component of NVIDIA License System",
+                                "product": {
+                                    "name": "All versions prior to v3.6",
+                                    "product_id": "all3_6_dls_component_of_nvidia_license_system_all_versions_prior_to_v3_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dls_component_of_nvidia_license_system:all_versions_prior_to_v3_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "DLS component of NVIDIA License System",
+                                "product": {
+                                    "name": "DLS v3.6",
+                                    "product_id": "all3_6_dls_component_of_nvidia_license_system_dls_v3_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dls_component_of_nvidia_license_system:dls_v3_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All(3.6)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "DLS component of NVIDIA License System",
+                                "product": {
+                                    "name": "All versions prior to v3.1.8",
+                                    "product_id": "all3_1_dls_component_of_nvidia_license_system_all_versions_prior_to_v3_1_8",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dls_component_of_nvidia_license_system:all_versions_prior_to_v3_1_8:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "DLS component of NVIDIA License System",
+                                "product": {
+                                    "name": "DLS v3.1.8",
+                                    "product_id": "all3_1_dls_component_of_nvidia_license_system_dls_v3_1_8",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dls_component_of_nvidia_license_system:dls_v3_1_8:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All(3.1)"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "David Gauthier"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24241",
+            "cwe": {
+                "id": "CWE-287",
+                "name": "Improper Authentication"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Delegated Licensing Service for all appliance platforms contains a vulnerability where an attacker could exploit an improper authentication issue. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5726900",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all3_6_dls_component_of_nvidia_license_system_dls_v3_6",
+                    "all3_1_dls_component_of_nvidia_license_system_dls_v3_1_8"
+                ],
+                "known_affected": [
+                    "all3_6_dls_component_of_nvidia_license_system_all_versions_prior_to_v3_6",
+                    "all3_1_dls_component_of_nvidia_license_system_all_versions_prior_to_v3_1_8"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24241"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24241"
+                }
+            ],
+            "release_date": "2026-02-24T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 4.3,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all3_6_dls_component_of_nvidia_license_system_all_versions_prior_to_v3_6",
+                        "all3_1_dls_component_of_nvidia_license_system_all_versions_prior_to_v3_1_8"
+                    ]
+                }
+            ]
+        }
+    ]
+}
