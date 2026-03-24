@@ -1,0 +1,506 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Megatron LM.<br><div>To protect your system, clone or update this software to version 0.15.3 or later from NVIDIA/Megatron-LM <a href=\"https://github.com/NVIDIA/Megatron-LM/releases\">on GitHub</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12354-006_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1150669",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "25:Megatron",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Megatron LM - March 2026",
+        "tracking": {
+            "current_release_date": "2026-03-24T00:00:00Z",
+            "generator": {
+                "date": "2026-03-24T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5769",
+            "initial_release_date": "2026-03-24T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-03-24T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "Megatron LM",
+                                "product": {
+                                    "name": "Megatron LM",
+                                    "product_id": "all_platforms_megatron_lm",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:megatron_lm:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Megatron LM",
+                                "product": {
+                                    "name": "All versions prior to 0.15.3",
+                                    "product_id": "all_platforms_megatron_lm_all_versions_prior_to_0_15_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:megatron_lm:all_versions_prior_to_0_15_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Megatron LM",
+                                "product": {
+                                    "name": "0.15.3",
+                                    "product_id": "all_platforms_megatron_lm_0_15_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:megatron_lm:0_15_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All platforms"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Xiangwei Zhang of Tencent Security (Yunding Lab)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33247",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Megatron LM contains a vulnerability in quantization configuration loading, which could allow remote code execution. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Escalation of Privileges, Data Tampering, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5660880",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_megatron_lm_0_15_3"
+                ],
+                "known_affected": [
+                    "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33247"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33247"
+                }
+            ],
+            "release_date": "2026-03-24T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Yongzhi Liu of Tencent Security (Yunding Lab)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2025-33248",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Megatron-LM contains a vulnerability in the hybrid conversion script where an Attacker may cause an RCE by convincing a user to load a maliciously crafted file. A successful exploit of this vulnerability may lead to code execution, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure, Code Execution, Escalation of Privileges, Data Tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5661431",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_megatron_lm_0_15_3"
+                ],
+                "known_affected": [
+                    "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33248"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33248"
+                }
+            ],
+            "release_date": "2026-03-24T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dan Aridor"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24152",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Megatron-LM contains a vulnerability in checkpoint loading where an Attacker may cause an RCE by convincing a user to load a maliciously crafted file. A successful exploit of this vulnerability may lead to code execution, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Escalation of Privileges, Data Tampering, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5706654",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_megatron_lm_0_15_3"
+                ],
+                "known_affected": [
+                    "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24152"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24152"
+                }
+            ],
+            "release_date": "2026-03-24T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dan Aridor"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24151",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Megatron-LM contains a vulnerability in inferencing where an Attacker may cause an RCE by convincing a user to load a maliciously crafted input. A successful exploit of this vulnerability may lead to code execution, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Escalation of Privileges, Data Tampering, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5706662",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_megatron_lm_0_15_3"
+                ],
+                "known_affected": [
+                    "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24151"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24151"
+                }
+            ],
+            "release_date": "2026-03-24T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dan Aridor"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24150",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Megatron-LM contains a vulnerability in checkpoint loading where an Attacker may cause an RCE by convincing a user to load a maliciously crafted file. A successful exploit of this vulnerability may lead to code execution, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution, Escalation of Privileges, Data Tampering, Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5706644",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_megatron_lm_0_15_3"
+                ],
+                "known_affected": [
+                    "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24150"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24150"
+                }
+            ],
+            "release_date": "2026-03-24T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_megatron_lm_all_versions_prior_to_0_15_3"
+                    ]
+                }
+            ]
+        }
+    ]
+}

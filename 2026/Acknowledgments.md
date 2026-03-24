@@ -6,7 +6,15 @@ This file contains acknowledgments for security researchers and organizations wh
 
 | Acknowledgment | CVE | CSAF File | Bulletin |
 |----------------|-----|-----------|----------|
-| Dan Aridor | [CVE-2025-33241](5762/CVE-2025-33241.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
+| Alexis Challande | [CVE-2025-33238](5790/CVE-2025-33238.json) | [5790.json](5790/5790.json) | [5790.md](5790/5790.md) |
+|  | [CVE-2025-33254](5790/CVE-2025-33254.json) | [5790.json](5790/5790.json) | [5790.md](5790/5790.md) |
+| Dan Aridor | [CVE-2026-24157](5800/CVE-2026-24157.json) | [5800.json](5800/5800.json) | [5800.md](5800/5800.md) |
+|  | [CVE-2026-24159](5800/CVE-2026-24159.json) | [5800.json](5800/5800.json) | [5800.md](5800/5800.md) |
+|  | [CVE-2026-24152](5769/CVE-2026-24152.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
+|  | [CVE-2026-24151](5769/CVE-2026-24151.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
+|  | [CVE-2026-24150](5769/CVE-2026-24150.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
+|  | [CVE-2025-33244](5782/CVE-2025-33244.json) | [5782.json](5782/5782.json) | [5782.md](5782/5782.md) |
+|  | [CVE-2025-33241](5762/CVE-2025-33241.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 |  | [CVE-2025-33243](5762/CVE-2025-33243.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 |  | [CVE-2025-33251](5762/CVE-2025-33251.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 |  | [CVE-2025-33252](5762/CVE-2025-33252.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
@@ -24,12 +32,16 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-33206](5738/CVE-2025-33206.json) | [5738.json](5738/5738.json) | [5738.md](5738/5738.md) |
 | Ruslan Semchenko (Руслан Семченко) | [CVE-2025-33245](5762/CVE-2025-33245.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 | Sam Lovejoy and Valentina Palmiotti | [CVE-2025-33219](5747/CVE-2025-33219.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
+| taiphung217 | [CVE-2026-24158](5790/CVE-2026-24158.json) | [5790.json](5790/5790.json) | [5790.md](5790/5790.md) |
 | TencentAISec | [CVE-2025-33239](5781/CVE-2025-33239.json) | [5781.json](5781/5781.json) | [5781.md](5781/5781.md) |
 |  | [CVE-2025-33240](5781/CVE-2025-33240.json) | [5781.json](5781/5781.json) | [5781.md](5781/5781.md) |
 |  | [CVE-2025-33246](5762/CVE-2025-33246.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 |  | [CVE-2025-33249](5762/CVE-2025-33249.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 | Thomas Keefer (TKYN) | [CVE-2025-33237](5747/CVE-2025-33237.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
+| Xiangwei Zhang of Tencent Security (Yunding Lab) | [CVE-2025-33247](5769/CVE-2025-33247.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
 | XlabAI Team of Tencent Xuanwu Lab, Atuin Automated Vulnerability Discovery Engine, Guannan Wang, Zhanpeng Liu, Guancheng Li | [CVE-2025-33250](5762/CVE-2025-33250.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
+| Yongzhi Liu of Tencent Security (Yunding Lab) | [CVE-2026-24141](5798/CVE-2026-24141.json) | [5798.json](5798/5798.json) | [5798.md](5798/5798.md) |
+|  | [CVE-2025-33248](5769/CVE-2025-33248.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
 
 ## NVIDIA would also like to thank the following
 

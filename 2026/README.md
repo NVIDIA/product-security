@@ -2,6 +2,13 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5790](5790/5790.md) | Security Bulletin: NVIDIA Triton Inference Server - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2025-33238](5790/CVE-2025-33238.json), [CVE-2025-33254](5790/CVE-2025-33254.json), [CVE-2026-24158](5790/CVE-2026-24158.json) |
+| [5798](5798/5798.md) | Security Bulletin: NVIDIA Model Optimizer - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2026-24141](5798/CVE-2026-24141.json) |
+| [5800](5800/5800.md) | Security Bulletin: NVIDIA NeMo Framework - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2026-24157](5800/CVE-2026-24157.json), [CVE-2026-24159](5800/CVE-2026-24159.json) |
+| [5744](5744/5744.md) | Security Bulletin: NVIDIA Networking SNAP4 - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2025-33215](5744/CVE-2025-33215.json), [CVE-2025-33216](5744/CVE-2025-33216.json) |
+| [5769](5769/5769.md) | Security Bulletin: NVIDIA Megatron LM - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2025-33247](5769/CVE-2025-33247.json), [CVE-2025-33248](5769/CVE-2025-33248.json), [CVE-2026-24152](5769/CVE-2026-24152.json), [CVE-2026-24151](5769/CVE-2026-24151.json), [CVE-2026-24150](5769/CVE-2026-24150.json) |
+| [5782](5782/5782.md) | Security Bulletin: NVIDIA Apex - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2025-33244](5782/CVE-2025-33244.json) |
+| [5768](5768/5768.md) | Security Bulletin: NVIDIA B300 MCU - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2025-33242](5768/CVE-2025-33242.json) |
 | [5722](5722/5722.md) | Security Bulletin: NVIDIA Cumulus Linux and NVOS - February 2026 | 2026-02-24 | 2026-02-24 | [CVE-2025-33179](5722/CVE-2025-33179.json), [CVE-2025-33180](5722/CVE-2025-33180.json), [CVE-2025-33181](5722/CVE-2025-33181.json) |
 | [5789](5789/5789.md) | Security Bulletin: NVIDIA License System - February 2026 | 2026-02-24 | 2026-02-24 | [CVE-2026-24241](5789/CVE-2026-24241.json) |
 | [5781](5781/5781.md) | Security Bulletin: NVIDIA Megatron Bridge - February 2026 | 2026-02-17 | 2026-02-17 | [CVE-2025-33239](5781/CVE-2025-33239.json), [CVE-2025-33240](5781/CVE-2025-33240.json) |
