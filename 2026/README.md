@@ -2,6 +2,8 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5808](5808/5808.md) | Security Bulletin: NVIDIA BioNeMo Framework - March 2026 | 2026-03-31 | 2026-03-31 | [CVE-2026-24164](5808/CVE-2026-24164.json), [CVE-2026-24165](5808/CVE-2026-24165.json) |
+| [5797](5797/5797.md) | Security Bulletin: NVIDIA Jetson and IGX Devices - March 2026 | 2026-03-31 | 2026-03-31 | [CVE-2026-24148](5797/CVE-2026-24148.json), [CVE-2026-24154](5797/CVE-2026-24154.json), [CVE-2026-24153](5797/CVE-2026-24153.json) |
 | [5790](5790/5790.md) | Security Bulletin: NVIDIA Triton Inference Server - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2025-33238](5790/CVE-2025-33238.json), [CVE-2025-33254](5790/CVE-2025-33254.json), [CVE-2026-24158](5790/CVE-2026-24158.json) |
 | [5798](5798/5798.md) | Security Bulletin: NVIDIA Model Optimizer - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2026-24141](5798/CVE-2026-24141.json) |
 | [5800](5800/5800.md) | Security Bulletin: NVIDIA NeMo Framework - March 2026 | 2026-03-24 | 2026-03-24 | [CVE-2026-24157](5800/CVE-2026-24157.json), [CVE-2026-24159](5800/CVE-2026-24159.json) |

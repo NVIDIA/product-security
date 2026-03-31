@@ -1,0 +1,519 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Jetson Linux.<div>To protect your system, download and install this software update from the APT server or <a href=\"https://developer.nvidia.com/embedded/downloads\">Jetson Download Center</a> page, <a href=\"https://developer.nvidia.com/embedded/jetson-linux-archive\">Jetson Linux Link</a> and <a href=\"https://developer.nvidia.com/igx-downloads?sortBy=igx_downloads%2Fsort%2Fdate%3Adesc\">IGX Link</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, download and install this software update from the APT server or <a href=\"https://developer.nvidia.com/embedded/downloads\">Jetson Download Center</a> page, <a href=\"https://developer.nvidia.com/embedded/jetson-linux-archive\">Jetson Linux Link</a> and <a href=\"https://developer.nvidia.com/igx-downloads?sortBy=igx_downloads%2Fsort%2Fdate%3Adesc\">IGX Link</a>.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12196-006_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1151707",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "13:Jetson / L4T / IGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Jetson and IGX Devices - March 2026",
+        "tracking": {
+            "current_release_date": "2026-03-31T00:00:00Z",
+            "generator": {
+                "date": "2026-03-31T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5797",
+            "initial_release_date": "2026-03-31T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-03-31T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Xavier Series and Jetson Orin Series",
+                                "product": {
+                                    "name": "Jetson Xavier Series and Jetson Orin Series",
+                                    "product_id": "jetson_linux35_jetson_xavier_series_and_jetson_orin_series",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_and_jetson_orin_series:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Xavier Series and Jetson Orin Series",
+                                "product": {
+                                    "name": "Jetson Xavier Series and Jetson Orin Series",
+                                    "product_id": "jetson_linux36_jetson_xavier_series_and_jetson_orin_series",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_and_jetson_orin_series:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                "product": {
+                                    "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                    "product_id": "jetson_linux35_jetson_xavier_series_jetson_orin_series_and_jetson_thor",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_jetson_orin_series_and_jetson_thor:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                "product": {
+                                    "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                    "product_id": "jetson_linux36_jetson_xavier_series_jetson_orin_series_and_jetson_thor",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_jetson_orin_series_and_jetson_thor:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                "product": {
+                                    "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                    "product_id": "jetson_linux38_jetson_xavier_series_jetson_orin_series_and_jetson_thor",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_jetson_orin_series_and_jetson_thor:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series and Jetson Orin Series",
+                                "product": {
+                                    "name": "All versions prior to 35.6.4",
+                                    "product_id": "jetson_linux35_jetson_xavier_series_and_jetson_orin_series_all_versions_prior_to_35_6_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_and_jetson_orin_series:all_versions_prior_to_35_6_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series and Jetson Orin Series",
+                                "product": {
+                                    "name": "35.6.4",
+                                    "product_id": "jetson_linux35_jetson_xavier_series_and_jetson_orin_series_35_6_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_and_jetson_orin_series:35_6_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                "product": {
+                                    "name": "All versions prior to 35.6.4",
+                                    "product_id": "jetson_linux35_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_35_6_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_jetson_orin_series_and_jetson_thor:all_versions_prior_to_35_6_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                "product": {
+                                    "name": "35.6.4",
+                                    "product_id": "jetson_linux35_jetson_xavier_series_jetson_orin_series_and_jetson_thor_35_6_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_jetson_orin_series_and_jetson_thor:35_6_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson Linux(35)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series and Jetson Orin Series",
+                                "product": {
+                                    "name": "All versions prior to 36.5",
+                                    "product_id": "jetson_linux36_jetson_xavier_series_and_jetson_orin_series_all_versions_prior_to_36_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_and_jetson_orin_series:all_versions_prior_to_36_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series and Jetson Orin Series",
+                                "product": {
+                                    "name": "36.5",
+                                    "product_id": "jetson_linux36_jetson_xavier_series_and_jetson_orin_series_36_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_and_jetson_orin_series:36_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                "product": {
+                                    "name": "All versions prior to 36.5",
+                                    "product_id": "jetson_linux36_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_36_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_jetson_orin_series_and_jetson_thor:all_versions_prior_to_36_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                "product": {
+                                    "name": "36.5",
+                                    "product_id": "jetson_linux36_jetson_xavier_series_jetson_orin_series_and_jetson_thor_36_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_jetson_orin_series_and_jetson_thor:36_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson Linux(36)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                "product": {
+                                    "name": "38.2",
+                                    "product_id": "jetson_linux38_jetson_xavier_series_jetson_orin_series_and_jetson_thor_38_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_jetson_orin_series_and_jetson_thor:38_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series, Jetson Orin Series and Jetson Thor",
+                                "product": {
+                                    "name": "38.4",
+                                    "product_id": "jetson_linux38_jetson_xavier_series_jetson_orin_series_and_jetson_thor_38_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series_jetson_orin_series_and_jetson_thor:38_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson Linux(38)"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Ozgur Ogul Koca"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24148",
+            "cwe": {
+                "id": "CWE-1188",
+                "name": "Initialization of a Resource with an Insecure Default"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Jetson for JetPack contains a vulnerability in the system initialization logic, where an unprivileged attacker could cause the initialization of a resource with an insecure default. A successful exploit of this vulnerability might lead to information disclosure of encrypted data, data tampering, and partial denial of service across devices sharing the same machine ID.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Data tampering, information disclosure, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5725338",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux35_jetson_xavier_series_and_jetson_orin_series_35_6_4",
+                    "jetson_linux36_jetson_xavier_series_and_jetson_orin_series_36_5"
+                ],
+                "known_affected": [
+                    "jetson_linux35_jetson_xavier_series_and_jetson_orin_series_all_versions_prior_to_35_6_4",
+                    "jetson_linux36_jetson_xavier_series_and_jetson_orin_series_all_versions_prior_to_36_5"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24148"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24148"
+                }
+            ],
+            "release_date": "2026-03-31T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 8.3,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux35_jetson_xavier_series_and_jetson_orin_series_all_versions_prior_to_35_6_4",
+                        "jetson_linux36_jetson_xavier_series_and_jetson_orin_series_all_versions_prior_to_36_5"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "th3_h1tchh1ker"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24154",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Jetson Linux has vulnerability in initrd, where an unprivileged attacker with physical access coul inject incorrect command line arguments. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, denial of service, data tampering, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, escalation of privileges, denial of service, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5519009",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux35_jetson_xavier_series_jetson_orin_series_and_jetson_thor_35_6_4",
+                    "jetson_linux36_jetson_xavier_series_jetson_orin_series_and_jetson_thor_36_5",
+                    "jetson_linux38_jetson_xavier_series_jetson_orin_series_and_jetson_thor_38_4"
+                ],
+                "known_affected": [
+                    "jetson_linux35_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_35_6_4",
+                    "jetson_linux36_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_36_5",
+                    "jetson_linux38_jetson_xavier_series_jetson_orin_series_and_jetson_thor_38_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24154"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24154"
+                }
+            ],
+            "release_date": "2026-03-31T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "PHYSICAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.6,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux35_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_35_6_4",
+                        "jetson_linux36_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_36_5",
+                        "jetson_linux38_jetson_xavier_series_jetson_orin_series_and_jetson_thor_38_2"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "th3_h1tchh1ker"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24153",
+            "cwe": {
+                "id": "CWE-501",
+                "name": "Trust Boundary Violation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Jetson Linux has a vulnerability in initrd, where the nvluks trusted application is not disabled. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5519022",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux35_jetson_xavier_series_jetson_orin_series_and_jetson_thor_35_6_4",
+                    "jetson_linux36_jetson_xavier_series_jetson_orin_series_and_jetson_thor_36_5",
+                    "jetson_linux38_jetson_xavier_series_jetson_orin_series_and_jetson_thor_38_4"
+                ],
+                "known_affected": [
+                    "jetson_linux35_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_35_6_4",
+                    "jetson_linux36_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_36_5",
+                    "jetson_linux38_jetson_xavier_series_jetson_orin_series_and_jetson_thor_38_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24153"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24153"
+                }
+            ],
+            "release_date": "2026-03-31T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "PHYSICAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux35_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_35_6_4",
+                        "jetson_linux36_jetson_xavier_series_jetson_orin_series_and_jetson_thor_all_versions_prior_to_36_5",
+                        "jetson_linux38_jetson_xavier_series_jetson_orin_series_and_jetson_thor_38_2"
+                    ]
+                }
+            ]
+        }
+    ]
+}
