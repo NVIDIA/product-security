@@ -1,0 +1,506 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Triton Inference Server. <br><div>To protect your system, clone or update this software to Triton Server r26.02 or later from the NVIDIA <a href=\"https://github.com/triton-inference-server/server\">Triton Inference Server </a>GitHub repo.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12183-006_ v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1152202",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "23:Triton",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Triton Inference Server - April 2026",
+        "tracking": {
+            "current_release_date": "2026-04-07T00:00:00Z",
+            "generator": {
+                "date": "2026-04-07T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5816",
+            "initial_release_date": "2026-04-07T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-04-07T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "Triton Inference Server",
+                                    "product_id": "all_triton_inference_server",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "All versions prior to r26.02",
+                                    "product_id": "all_triton_inference_server_all_versions_prior_to_r26_02",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:all_versions_prior_to_r26_02:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Triton Inference Server",
+                                "product": {
+                                    "name": "r26.02",
+                                    "product_id": "all_triton_inference_server_r26_02",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:triton_inference_server:r26_02:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Sarvesh Patil"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24146",
+            "cwe": {
+                "id": "CWE-789",
+                "name": "Memory Allocation with Excessive Size Value"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server contains a vulnerability where insufficient input validation and a large number of outputs could cause a server crash. A successful exploit of this vulnerability might lead to denial of service. ",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5840835",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_triton_inference_server_r26_02"
+                ],
+                "known_affected": [
+                    "all_triton_inference_server_all_versions_prior_to_r26_02"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24146"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24146"
+                }
+            ],
+            "release_date": "2026-04-07T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_triton_inference_server_all_versions_prior_to_r26_02"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "sungzii"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24173",
+            "cwe": {
+                "id": "CWE-190",
+                "name": "Integer Overflow or Wraparound"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server contains a vulnerability where an attacker could cause a server crash by sending a malformed request to the server. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5809862",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_triton_inference_server_r26_02"
+                ],
+                "known_affected": [
+                    "all_triton_inference_server_all_versions_prior_to_r26_02"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24173"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24173"
+                }
+            ],
+            "release_date": "2026-04-07T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_triton_inference_server_all_versions_prior_to_r26_02"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Mahammad Huseynkhanli\u00a0"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24174",
+            "cwe": {
+                "id": "CWE-681",
+                "name": "Incorrect Conversion between Numeric Types"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server contains a vulnerability where an attacker could cause a server crash by sending a malformed request to the server. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5802504",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_triton_inference_server_r26_02"
+                ],
+                "known_affected": [
+                    "all_triton_inference_server_all_versions_prior_to_r26_02"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24174"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24174"
+                }
+            ],
+            "release_date": "2026-04-07T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_triton_inference_server_all_versions_prior_to_r26_02"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "SeaWind (ZSEC Red Team, Zalo)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24175",
+            "cwe": {
+                "id": "CWE-248",
+                "name": "Uncaught Exception"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server contains a vulnerability where an attacker could cause a server crash by sending a malformed request header to the server. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5835847",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_triton_inference_server_r26_02"
+                ],
+                "known_affected": [
+                    "all_triton_inference_server_all_versions_prior_to_r26_02"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24175"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24175"
+                }
+            ],
+            "release_date": "2026-04-07T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_triton_inference_server_all_versions_prior_to_r26_02"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Tianze Ding (Tencent Security Xuanwu Lab)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24147",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Triton Inference Server contains a vulnerability in triton server where an attacker may cause an information disclosure by uploading a model configuration. A successful exploit of this vulnerability may lead to information disclosure or denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5781583",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_triton_inference_server_r26_02"
+                ],
+                "known_affected": [
+                    "all_triton_inference_server_all_versions_prior_to_r26_02"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24147"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24147"
+                }
+            ],
+            "release_date": "2026-04-07T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 4.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_triton_inference_server_all_versions_prior_to_r26_02"
+                    ]
+                }
+            ]
+        }
+    ]
+}
