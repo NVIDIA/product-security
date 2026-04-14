@@ -64,6 +64,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Dongsheng Wang - Tsinghua University |
 | Dr. Karim M. Abdellatif (Ledger, Donjon) |
 | Emin Yilmazer |
+| Halil Ibrahim Baysal (h-network) |
 | Harsh Maheta |
 | Julian Horoszkiewicz (Atos Threat Research Center) |
 | Kiefer Lin (@printedwaste) |
