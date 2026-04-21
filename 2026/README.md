@@ -2,6 +2,8 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5818](5818/5818.md) | Security Bulletin: NVIDIA KAI Scheduler - April 2026 | 2026-04-21 | 2026-04-21 | [CVE-2026-24177](5818/CVE-2026-24177.json), [CVE-2026-24176](5818/CVE-2026-24176.json) |
+| [5820](5820/5820.md) | Security Bulletin: NVIDIA CUDA-Q - April 2026 | 2026-04-21 | 2026-04-21 | [CVE-2026-24189](5820/CVE-2026-24189.json) |
 | [5816](5816/5816.md) | Security Bulletin: NVIDIA Triton Inference Server - April 2026 | 2026-04-07 | 2026-04-07 | [CVE-2026-24146](5816/CVE-2026-24146.json), [CVE-2026-24173](5816/CVE-2026-24173.json), [CVE-2026-24174](5816/CVE-2026-24174.json), [CVE-2026-24175](5816/CVE-2026-24175.json), [CVE-2026-24147](5816/CVE-2026-24147.json) |
 | [5811](5811/5811.md) | Security Bulletin: NVIDIA DALI - April 2026 | 2026-04-07 | 2026-04-07 | [CVE-2026-24156](5811/CVE-2026-24156.json) |
 | [5808](5808/5808.md) | Security Bulletin: NVIDIA BioNeMo Framework - March 2026 | 2026-03-31 | 2026-03-31 | [CVE-2026-24164](5808/CVE-2026-24164.json), [CVE-2026-24165](5808/CVE-2026-24165.json) |
