@@ -8,8 +8,10 @@ This file contains acknowledgments for security researchers and organizations wh
 |----------------|-----|-----------|----------|
 | Alexis Challande | [CVE-2025-33238](5790/CVE-2025-33238.json) | [5790.json](5790/5790.json) | [5790.md](5790/5790.md) |
 |  | [CVE-2025-33254](5790/CVE-2025-33254.json) | [5790.json](5790/5790.json) | [5790.md](5790/5790.md) |
+| Avi Lumelsky of Oligo Security | [CVE-2026-24231](5837/CVE-2026-24231.json) | [5837.json](5837/5837.json) | [5837.md](5837/5837.md) |
 | Chanho Kim (@HO-9), Jihyeok Han (@HanJeouk) | [CVE-2026-24189](5820/CVE-2026-24189.json) | [5820.json](5820/5820.json) | [5820.md](5820/5820.md) |
 | chen950724 | [CVE-2026-24165](5808/CVE-2026-24165.json) | [5808.json](5808/5808.json) | [5808.md](5808/5808.md) |
+| Colin McDonough of 50words.com | [CVE-2026-24222](5837/CVE-2026-24222.json) | [5837.json](5837/5837.json) | [5837.md](5837/5837.md) |
 | Dan Aridor | [CVE-2026-24157](5800/CVE-2026-24157.json) | [5800.json](5800/5800.json) | [5800.md](5800/5800.md) |
 |  | [CVE-2026-24159](5800/CVE-2026-24159.json) | [5800.json](5800/5800.json) | [5800.md](5800/5800.md) |
 |  | [CVE-2026-24152](5769/CVE-2026-24152.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
@@ -29,6 +31,8 @@ This file contains acknowledgments for security researchers and organizations wh
 | Kentaro Kawane | [CVE-2025-33217](5747/CVE-2025-33217.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
 |  | [CVE-2025-33218](5747/CVE-2025-33218.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
 | Mahammad Huseynkhanli  | [CVE-2026-24174](5816/CVE-2026-24174.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
+| Orel Asper Organization: EyeR SEC LTD | [CVE-2026-24178](5819/CVE-2026-24178.json) | [5819.json](5819/5819.json) | [5819.md](5819/5819.md) |
+|  | [CVE-2026-24186](5819/CVE-2026-24186.json) | [5819.json](5819/5819.json) | [5819.md](5819/5819.md) |
 | Ozgur Ogul Koca | [CVE-2026-24148](5797/CVE-2026-24148.json) | [5797.json](5797/5797.json) | [5797.md](5797/5797.md) |
 | pwni | [CVE-2025-33228](5755/CVE-2025-33228.json) | [5755.json](5755/5755.json) | [5755.md](5755/5755.md) |
 |  | [CVE-2025-33229](5755/CVE-2025-33229.json) | [5755.json](5755/5755.json) | [5755.md](5755/5755.md) |
@@ -52,6 +56,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Tian Yu from ADLab of VenusTech | [CVE-2026-24147](5816/CVE-2026-24147.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
 | Tianze Ding (Tencent Security Xuanwu Lab) | [CVE-2026-24177](5818/CVE-2026-24177.json) | [5818.json](5818/5818.json) | [5818.md](5818/5818.md) |
 | Xiangwei Zhang of Tencent Security (Yunding Lab) | [CVE-2025-33247](5769/CVE-2025-33247.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
+| xlabai | [CVE-2026-24204](5819/CVE-2026-24204.json) | [5819.json](5819/5819.json) | [5819.md](5819/5819.md) |
 | XlabAI Team of Tencent Xuanwu Lab, Atuin Automated Vulnerability Discovery Engine, Guannan Wang, Zhanpeng Liu, Guancheng Li | [CVE-2025-33250](5762/CVE-2025-33250.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 | Yongzhi Liu of Tencent Security (Yunding Lab) | [CVE-2026-24141](5798/CVE-2026-24141.json) | [5798.json](5798/5798.json) | [5798.md](5798/5798.md) |
 |  | [CVE-2025-33248](5769/CVE-2025-33248.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
@@ -61,8 +66,11 @@ This file contains acknowledgments for security researchers and organizations wh
 
 | Acknowledgment |
 |----------------|
+| @devyn |
 | Arunava Chaudhuri, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India |
+| Baran Teyin |
 | d3_kozmopolitan |
+| Daniel Rhea |
 | Debdeep Mukhopadhyay, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India |
 | Dongsheng Wang - Tsinghua University |
 | Dr. Karim M. Abdellatif (Ledger, Donjon) |
@@ -71,6 +79,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Harsh Maheta |
 | Julian Horoszkiewicz (Atos Threat Research Center) |
 | Kiefer Lin (@printedwaste) |
+| Loganaden Velvindron (cyberstorm.mu - part of cyberstorm.global) |
 | Naveen S |
 | Robin ‚r0BIT‘ Unglaub @ ProSec GmbH |
 | Sarani Bhattacharya, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India |
@@ -81,3 +90,4 @@ This file contains acknowledgments for security researchers and organizations wh
 | Yinqian Zhang - Southern University of Science and Technology |
 | Yun Chen - The Hong Kong University of Science and Technology (Guangzhou) |
 | Zihao Dan - The Hong Kong University of Science and Technology (Guangzhou) |
+| Ziyi Guo (Northwestern University) |

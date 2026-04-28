@@ -2,6 +2,8 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5819](5819/5819.md) | Security Bulletin: NVIDIA FLARE SDK - April 2026 | 2026-04-28 | 2026-04-28 | [CVE-2026-24178](5819/CVE-2026-24178.json), [CVE-2026-24186](5819/CVE-2026-24186.json), [CVE-2026-24204](5819/CVE-2026-24204.json) |
+| [5837](5837/5837.md) | Security Bulletin: NVIDIA NemoClaw - April 2026 | 2026-04-28 | 2026-04-28 | [CVE-2026-24222](5837/CVE-2026-24222.json), [CVE-2026-24231](5837/CVE-2026-24231.json) |
 | [5818](5818/5818.md) | Security Bulletin: NVIDIA KAI Scheduler - April 2026 | 2026-04-21 | 2026-04-21 | [CVE-2026-24177](5818/CVE-2026-24177.json), [CVE-2026-24176](5818/CVE-2026-24176.json) |
 | [5820](5820/5820.md) | Security Bulletin: NVIDIA CUDA-Q - April 2026 | 2026-04-21 | 2026-04-21 | [CVE-2026-24189](5820/CVE-2026-24189.json) |
 | [5816](5816/5816.md) | Security Bulletin: NVIDIA Triton Inference Server - April 2026 | 2026-04-07 | 2026-04-07 | [CVE-2026-24146](5816/CVE-2026-24146.json), [CVE-2026-24173](5816/CVE-2026-24173.json), [CVE-2026-24174](5816/CVE-2026-24174.json), [CVE-2026-24175](5816/CVE-2026-24175.json), [CVE-2026-24147](5816/CVE-2026-24147.json) |

@@ -1,0 +1,309 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae NemoClaw.&nbsp;<div>To protect your system, clone or update this software to v0.0.18 from the <a href=\"https://github.com/NVIDIA/NemoClaw\">NVIDIA/NemoClaw</a> GitHub repo.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12268-015_v03",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1154767",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "24:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA NemoClaw - April 2026",
+        "tracking": {
+            "current_release_date": "2026-04-28T00:00:00Z",
+            "generator": {
+                "date": "2026-04-28T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5837",
+            "initial_release_date": "2026-04-28T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-04-28T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "NemoClaw",
+                                    "product_id": "all_nemoclaw",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "All versions prior to v0.0.18",
+                                    "product_id": "all_nemoclaw_all_versions_prior_to_v0_0_18",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:all_versions_prior_to_v0_0_18:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "v0.0.18",
+                                    "product_id": "all_nemoclaw_v0_0_18",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:v0_0_18:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "All versions prior to v0.0.13",
+                                    "product_id": "all_nemoclaw_all_versions_prior_to_v0_0_13",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:all_versions_prior_to_v0_0_13:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "v0.0.13",
+                                    "product_id": "all_nemoclaw_v0_0_13",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:v0_0_13:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Colin McDonough of 50words.com"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24222",
+            "cwe": {
+                "id": "CWE-497",
+                "name": "Exposure of Sensitive System Information to an Unauthorized Control Sphere"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NeMoClaw contains a vulnerability in the sandbox environment initialization component, where a remote attacker could cause improper access control by sending prompt-injected content that causes the agent to read and exfiltrate host environment variables not properly restricted during sandbox creation. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6087222",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nemoclaw_v0_0_18"
+                ],
+                "known_affected": [
+                    "all_nemoclaw_all_versions_prior_to_v0_0_18"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24222"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24222"
+                }
+            ],
+            "release_date": "2026-04-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 8.6,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nemoclaw_all_versions_prior_to_v0_0_18"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Avi Lumelsky of Oligo Security"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24231",
+            "cwe": {
+                "id": "CWE-918",
+                "name": "Server-Side Request Forgery (SSRF)"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw contains a vulnerability in the validateEndpointUrl() SSRF protection component, where an attacker could cause a server-side request forgery by supplying a crafted endpoint URL referencing the 0.0.0.0/8 address range through a blueprint configuration file or CLI flag. A successful exploit of this vulnerability may lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6086471",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nemoclaw_v0_0_13"
+                ],
+                "known_affected": [
+                    "all_nemoclaw_all_versions_prior_to_v0_0_13"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24231"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24231"
+                }
+            ],
+            "release_date": "2026-04-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.9,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nemoclaw_all_versions_prior_to_v0_0_13"
+                    ]
+                }
+            ]
+        }
+    ]
+}

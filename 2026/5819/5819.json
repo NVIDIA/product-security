@@ -1,0 +1,365 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "CRITICAL"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA FLARE SDK.<div>To protect your system, clone or update this software to NVIDIA FLARE SDK v2.7.2 or later from the <a href=\"https://github.com/NVIDIA/NVFlare\">NVIDIA/NVFlare</a> GitHub repo.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "The following table lists the software products and versions affected, and the updated version available from the <a href=\"https://github.com/NVIDIA/NVFlare\">NVIDIA/NVFlare</a> GitHub repo that includes this security update.",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-12819-001_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1152954",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "19:NVFlare",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA FLARE SDK - April 2026",
+        "tracking": {
+            "current_release_date": "2026-04-28T00:00:00Z",
+            "generator": {
+                "date": "2026-04-28T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5819",
+            "initial_release_date": "2026-04-28T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-04-28T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA FLARE SDK",
+                                "product": {
+                                    "name": "NVIDIA FLARE SDK",
+                                    "product_id": "linuxmacos_nvidia_flare_sdk",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_flare_sdk:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA FLARE SDK",
+                                "product": {
+                                    "name": "All versions prior to 2.7.2",
+                                    "product_id": "linuxmacos_nvidia_flare_sdk_all_versions_prior_to_2_7_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_flare_sdk:all_versions_prior_to_2_7_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA FLARE SDK",
+                                "product": {
+                                    "name": "2.7.2",
+                                    "product_id": "linuxmacos_nvidia_flare_sdk_2_7_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_flare_sdk:2_7_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux/MacOS"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Orel Asper Organization: EyeR SEC LTD"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24178",
+            "cwe": {
+                "id": "CWE-639",
+                "name": "Authorization Bypass Through User-Controlled Key"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NVFlare Dashboard contains a vulnerability in the user management and authentication system where an unauthenticated attacker may cause authorization bypass through user-controlled key. A successful exploit of this vulnerability may lead to privilege escalation, data tampering, information disclosure, code execution, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Escalation of privilege, data tampering, information disclosure, code execution, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5686827",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linuxmacos_nvidia_flare_sdk_2_7_2"
+                ],
+                "known_affected": [
+                    "linuxmacos_nvidia_flare_sdk_all_versions_prior_to_2_7_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24178"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24178"
+                }
+            ],
+            "release_date": "2026-04-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 9.8,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linuxmacos_nvidia_flare_sdk_all_versions_prior_to_2_7_2"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Orel Asper Organization: EyeR SEC LTD"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24186",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA FLARE SDK  contains a vulnerability in FOBS, where an attacker may cause deserialization of untrusted data by sending a malicious FOBS- encoded message. A successful exploit of this vulnerability might lead to code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code Execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5968367",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linuxmacos_nvidia_flare_sdk_2_7_2"
+                ],
+                "known_affected": [
+                    "linuxmacos_nvidia_flare_sdk_all_versions_prior_to_2_7_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24186"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24186"
+                }
+            ],
+            "release_date": "2026-04-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linuxmacos_nvidia_flare_sdk_all_versions_prior_to_2_7_2"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "xlabai"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24204",
+            "cwe": {
+                "id": "CWE-20",
+                "name": "Improper Input Validation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Flare SDK contains a vulnerability where an Attacker may cause an Improper Input Validation by path traversing. A successful exploit of this vulnerability may lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Information Disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5927213",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linuxmacos_nvidia_flare_sdk_2_7_2"
+                ],
+                "known_affected": [
+                    "linuxmacos_nvidia_flare_sdk_all_versions_prior_to_2_7_2"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24204"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24204"
+                }
+            ],
+            "release_date": "2026-04-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linuxmacos_nvidia_flare_sdk_all_versions_prior_to_2_7_2"
+                    ]
+                }
+            ]
+        }
+    ]
+}
