@@ -60,9 +60,9 @@
         },
         "title": "Security Bulletin: NVIDIA AIStore on Kubernetes - June 2025",
         "tracking": {
-            "current_release_date": "2025-06-24T00:00:00Z",
+            "current_release_date": "2026-05-26T00:00:00Z",
             "generator": {
-                "date": "2025-06-24T00:00:00Z",
+                "date": "2026-05-26T00:00:00Z",
                 "engine": {
                     "name": "NVIDIA PSIRT",
                     "version": "1.0.0"
@@ -75,10 +75,15 @@
                     "date": "2025-06-24T00:00:00Z",
                     "number": "1.0.0",
                     "summary": "Initial Release"
+                },
+                {
+                    "date": "2026-05-26T00:00:00Z",
+                    "number": "2.0.0",
+                    "summary": "Updated affected product name"
                 }
             ],
             "status": "final",
-            "version": "1.0.0"
+            "version": "2.0.0"
         }
     },
     "product_tree": {
@@ -89,12 +94,12 @@
                         "branches": [
                             {
                                 "category": "product_name",
-                                "name": "NVIDIA AIStore",
+                                "name": "AIS Operator",
                                 "product": {
-                                    "name": "NVIDIA AIStore",
-                                    "product_id": "kubernetes_nvidia_aistore",
+                                    "name": "AIS Operator",
+                                    "product_id": "kubernetes_ais_operator",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:nvidia_aistore:*:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:ais_operator:*:*:*:*:*:*:*:*"
                                     }
                                 }
                             }
@@ -106,23 +111,23 @@
                         "branches": [
                             {
                                 "category": "product_version",
-                                "name": "NVIDIA AIStore",
+                                "name": "AIS Operator",
                                 "product": {
                                     "name": "All versions prior 2.3.0",
-                                    "product_id": "kubernetes_nvidia_aistore_all_versions_prior_2_3_0",
+                                    "product_id": "kubernetes_ais_operator_all_versions_prior_2_3_0",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:nvidia_aistore:all_versions_prior_2_3_0:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:ais_operator:all_versions_prior_2_3_0:*:*:*:*:*:*:*"
                                     }
                                 }
                             },
                             {
                                 "category": "product_version",
-                                "name": "NVIDIA AIStore",
+                                "name": "AIS Operator",
                                 "product": {
                                     "name": "AIStore on Kubernetes 2.3.0",
-                                    "product_id": "kubernetes_nvidia_aistore_aistore_on_kubernetes_2_3_0",
+                                    "product_id": "kubernetes_ais_operator_aistore_on_kubernetes_2_3_0",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:nvidia_aistore:aistore_on_kubernetes_2_3_0:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:ais_operator:aistore_on_kubernetes_2_3_0:*:*:*:*:*:*:*"
                                     }
                                 }
                             }
@@ -169,10 +174,10 @@
             ],
             "product_status": {
                 "fixed": [
-                    "kubernetes_nvidia_aistore_aistore_on_kubernetes_2_3_0"
+                    "kubernetes_ais_operator_aistore_on_kubernetes_2_3_0"
                 ],
                 "known_affected": [
-                    "kubernetes_nvidia_aistore_all_versions_prior_2_3_0"
+                    "kubernetes_ais_operator_all_versions_prior_2_3_0"
                 ]
             },
             "references": [
@@ -205,7 +210,7 @@
                         "version": "3.1"
                     },
                     "products": [
-                        "kubernetes_nvidia_aistore_all_versions_prior_2_3_0"
+                        "kubernetes_ais_operator_all_versions_prior_2_3_0"
                     ]
                 }
             ]

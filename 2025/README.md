@@ -47,7 +47,7 @@
 | [5662](5662/5662.md) | Security Bulletin: NVIDIA Jetson AGX Orin Series and IGX Orin - July 2025 | 2025-07-15 | 2025-07-15 | [CVE-2025-23270](5662/CVE-2025-23270.json), [CVE-2025-23269](5662/CVE-2025-23269.json) |
 | [5659](5659/5659.md) | Security Bulletin: NVIDIA Container Toolkit - July 2025 | 2025-07-15 | 2025-08-12 | [CVE-2025-23266](5659/CVE-2025-23266.json), [CVE-2025-23267](5659/CVE-2025-23267.json) |
 | [5654](5654/5654.md) | Security Bulletin: NVIDIA DOCA-Host and Mellanox OFED - July 2025 | 2025-07-15 | 2025-07-16 | [CVE-2025-23263](5654/CVE-2025-23263.json) |
-| [5660](5660/5660.md) | Security Bulletin: NVIDIA AIStore on Kubernetes - June 2025 | 2025-06-24 | 2025-06-24 | [CVE-2025-23260](5660/CVE-2025-23260.json) |
+| [5660](5660/5660.md) | Security Bulletin: NVIDIA AIStore on Kubernetes - June 2025 | 2025-06-24 | 2026-05-26 | [CVE-2025-23260](5660/CVE-2025-23260.json) |
 | [5663](5663/5663.md) | Security Bulletin: NVIDIA Megatron LM - June 2025 | 2025-06-24 | 2025-06-24 | [CVE-2025-23264](5663/CVE-2025-23264.json), [CVE-2025-23265](5663/CVE-2025-23265.json) |
 | [5651](5651/5651.md) | Security Bulletin: NVIDIA NVDebug Tool - June 2025 | 2025-06-17 | 2025-06-17 | [CVE-2025-23252](5651/CVE-2025-23252.json) |
 | [5643](5643/5643.md) | Security Bulletin: NVIDIA CUDA Toolkit - May 2025 | 2025-05-27 | 2025-05-27 | [CVE-2025-23247](5643/CVE-2025-23247.json) |

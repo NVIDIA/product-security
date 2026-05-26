@@ -1,0 +1,224 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA DGX Spark.<div>To protect your system, download and install the latest version of NVIDIA DGX OS from the <a href=\"https://www.nvidia.com/en-us/products/workstations/dgx-spark/\">NVIDIA DGX</a> site.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA DGX Spark.<div>To protect your system, download and install the latest version of NVIDIA DGX OS from the <a href=\"https://www.nvidia.com/en-us/products/workstations/dgx-spark/\">NVIDIA DGX</a> site.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "To avoid this issue, it is recommended to capture the golden image prior to the system\u2019s initial boot, before SSH host keys and the machine-id are generated.<div><span style=\"background-color: rgb(17, 22, 30);\">For systems already deployed, verify that the following files are unique per system and do not match the golden image:</span></div><div><ul><li>/etc/ssh/ssh_host_ecdsa_key</li><li>/etc/ssh/ssh_host_ecdsa_key.pub</li><li>/etc/ssh/ssh_host_ed25519_key</li><li>/etc/ssh/ssh_host_ed25519_key.pub</li><li>/etc/ssh/ssh_host_rsa_key</li><li>/etc/ssh/ssh_host_rsa_key.pub</li><li>/etc/machine-id</li></ul></div><div>If duplicates are found, regenerate the system identifiers after booting from the SSD using the commands below.</div><div>*The Recovery image (DGX OS ISO) does not require these commands, as the BaseOS ISO image installation automatically generates these files.</div><div>Regenerate the machine-id</div><div><ul><li>#clear the machine-id</li><li>sudo truncate -s 0 /etc/machine-id</li><li>#regenerate the machine-id</li><li>sudo systemd-machine-id-setup</li></ul></div><div>Regenerate the ssh keys</div><div><ul><li>rm /etc/ssh/ssh_host/*</li><li><span style=\"background-color: rgb(17, 22, 30);\">ssh-keygen -A</span></li></ul></div><div>Testing and Validation</div><div>After regeneration, confirm that all identifiers differ from those in the original golden image</div><div><ul><li>/etc/ssh/ssh_host_ecdsa_key</li><li>/etc/ssh/ssh_host_ecdsa_key.pub</li><li>/etc/ssh/ssh_host_ed25519_key</li><li>/etc/ssh/ssh_host_ed25519_key.pub</li><li>/etc/ssh/ssh_host_rsa_key</li><li>/etc/ssh/ssh_host_rsa_key.pub</li><li>/etc/machine-id</li></ul></div>",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "details",
+                "text": "TB-11334-010_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "1154555",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "9:DGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA DGX Spark - May 2026",
+        "tracking": {
+            "current_release_date": "2026-05-19T00:00:00Z",
+            "generator": {
+                "date": "2026-05-19T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "1.0.0"
+                }
+            },
+            "id": "5835",
+            "initial_release_date": "2026-05-19T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-05-19T00:00:00Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "DGX Spark",
+                                "product": {
+                                    "name": "DGX Spark",
+                                    "product_id": "nvidia_dgx_os_dgx_spark",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "DGX Spark",
+                                "product": {
+                                    "name": "All versions prior to OTA0",
+                                    "product_id": "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:all_versions_prior_to_ota0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "DGX Spark",
+                                "product": {
+                                    "name": "OTA0",
+                                    "product_id": "nvidia_dgx_os_dgx_spark_ota0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:ota0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "NVIDIA DGX OS"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Jeff Leaming"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24218",
+            "cwe": {
+                "id": "CWE-321",
+                "name": "Use of Hard-coded Cryptographic Key"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DGX OS contains a vulnerability in the factory provisioning process, where  the cloning of a base image causes identical SSH host keys to be deployed across multiple systems. The sharing of cryptographic identifiers across all similarly provisioned systems enables host impersonation or attacker-in-the-middle attacks. A successful exploit of this vulnerability might lead to code execution, data tampering, escalation of privileges, information disclosure, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "Code execution, denial of service, escalation of privileges, information disclosure, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6000247",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "nvidia_dgx_os_dgx_spark_ota0"
+                ],
+                "known_affected": [
+                    "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24218"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24218"
+                }
+            ],
+            "release_date": "2026-05-19T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "nvidia_dgx_os_dgx_spark_all_versions_prior_to_ota0"
+                    ]
+                }
+            ]
+        }
+    ]
+}
