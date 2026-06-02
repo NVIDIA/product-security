@@ -50,6 +50,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Mohamed Lemine ahmed jidou (mauritaniacoder) | [CVE-2026-24208](5828/CVE-2026-24208.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 | mohammed | [CVE-2025-33255](5805/CVE-2025-33255.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 |  | [CVE-2026-24163](5805/CVE-2026-24163.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
+| Muhammad Fadilullah Dzaki working with TrendAI Zero Day Initiative | [CVE-2026-24237](5851/CVE-2026-24237.json) | [5851.json](5851/5851.json) | [5851.md](5851/5851.md) |
 | Navtej Kathuria | [CVE-2026-24213](5828/CVE-2026-24213.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 |  | [CVE-2026-24214](5828/CVE-2026-24214.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 |  | [CVE-2026-24215](5828/CVE-2026-24215.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
@@ -61,6 +62,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-33230](5755/CVE-2025-33230.json) | [5755.json](5755/5755.json) | [5755.md](5755/5755.md) |
 |  | [CVE-2025-33231](5755/CVE-2025-33231.json) | [5755.json](5755/5755.json) | [5755.md](5755/5755.md) |
 |  | [CVE-2025-33206](5738/CVE-2025-33206.json) | [5738.json](5738/5738.json) | [5738.md](5738/5738.md) |
+| ReZyron (Member of CentiSec) | [CVE-2026-24221](5851/CVE-2026-24221.json) | [5851.json](5851/5851.json) | [5851.md](5851/5851.md) |
 | Ruslan Semchenko (Руслан Семченко) | [CVE-2025-33245](5762/CVE-2025-33245.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 | Sam Lovejoy and Valentina Palmiotti | [CVE-2025-33219](5747/CVE-2025-33219.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
 | Sarvesh Patil | [CVE-2026-24146](5816/CVE-2026-24146.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |

@@ -2,6 +2,7 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5851](5851/5851.md) | Security Bulletin: NVIDIA NVTabular - June 2026 | 2026-06-02 | 2026-06-02 | [CVE-2026-24237](5851/CVE-2026-24237.json), [CVE-2026-24221](5851/CVE-2026-24221.json) |
 | [5830](5830/5830.md) | Security Bulletin: NVIDIA Isaac Launchable - May 2026 | 2026-05-26 | 2026-05-26 | [CVE-2026-24212](5830/CVE-2026-24212.json) |
 | [5838](5838/5838.md) | Security Bulletin: NVIDIA Merlin - May 2026 | 2026-05-26 | 2026-05-26 | [CVE-2026-24162](5838/CVE-2026-24162.json) |
 | [5831](5831/5831.md) | Security Bulletin: NVIDIA BioNeMo Framework - May 2026 | 2026-05-19 | 2026-05-19 | [CVE-2026-24217](5831/CVE-2026-24217.json), [CVE-2026-24216](5831/CVE-2026-24216.json) |
