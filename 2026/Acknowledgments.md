@@ -54,6 +54,8 @@ This file contains acknowledgments for security researchers and organizations wh
 | Navtej Kathuria | [CVE-2026-24213](5828/CVE-2026-24213.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 |  | [CVE-2026-24214](5828/CVE-2026-24214.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 |  | [CVE-2026-24215](5828/CVE-2026-24215.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
+|  | [CVE-2026-24180](5814/CVE-2026-24180.json) | [5814.json](5814/5814.json) | [5814.md](5814/5814.md) |
+|  | [CVE-2026-24181](5814/CVE-2026-24181.json) | [5814.json](5814/5814.json) | [5814.md](5814/5814.md) |
 | Orel Asper Organization: EyeR SEC LTD | [CVE-2026-24178](5819/CVE-2026-24178.json) | [5819.json](5819/5819.json) | [5819.md](5819/5819.md) |
 |  | [CVE-2026-24186](5819/CVE-2026-24186.json) | [5819.json](5819/5819.json) | [5819.md](5819/5819.md) |
 | Ozgur Ogul Koca | [CVE-2026-24148](5797/CVE-2026-24148.json) | [5797.json](5797/5797.json) | [5797.md](5797/5797.md) |
