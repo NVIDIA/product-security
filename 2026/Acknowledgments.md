@@ -50,6 +50,8 @@ This file contains acknowledgments for security researchers and organizations wh
 | Mohamed Lemine ahmed jidou (mauritaniacoder) | [CVE-2026-24208](5828/CVE-2026-24208.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 | mohammed | [CVE-2025-33255](5805/CVE-2025-33255.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 |  | [CVE-2026-24163](5805/CVE-2026-24163.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
+| Moomi Chen | [CVE-2026-24155](5839/CVE-2026-24155.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
+|  | [CVE-2026-24252](5839/CVE-2026-24252.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
 | Muhammad Fadilullah Dzaki working with TrendAI Zero Day Initiative | [CVE-2026-24237](5851/CVE-2026-24237.json) | [5851.json](5851/5851.json) | [5851.md](5851/5851.md) |
 | Navtej Kathuria | [CVE-2026-24213](5828/CVE-2026-24213.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 |  | [CVE-2026-24214](5828/CVE-2026-24214.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
@@ -83,6 +85,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Thomas Keefer, Dan Aridor | [CVE-2026-24164](5808/CVE-2026-24164.json) | [5808.json](5808/5808.json) | [5808.md](5808/5808.md) |
 | Tian Yu from ADLab of VenusTech | [CVE-2026-24147](5816/CVE-2026-24147.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
 | Tianze Ding (Tencent Security Xuanwu Lab) | [CVE-2026-24177](5818/CVE-2026-24177.json) | [5818.json](5818/5818.json) | [5818.md](5818/5818.md) |
+| Tyler Zars working with TrendAI Zero Day Initiative | [CVE-2026-24228](5839/CVE-2026-24228.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
 | Xiangwei Zhang of Tencent Security (Yunding Lab) | [CVE-2025-33247](5769/CVE-2025-33247.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
 | Ximing Fan | [CVE-2025-33221](5821/CVE-2025-33221.json) | [5821.json](5821/5821.json) | [5821.md](5821/5821.md) |
 | xlabai | [CVE-2026-24204](5819/CVE-2026-24204.json) | [5819.json](5819/5819.json) | [5819.md](5819/5819.md) |

@@ -2,6 +2,7 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5839](5839/5839.md) | Security Bulletin: NVIDIA NeMo - June 2026 | 2026-06-16 | 2026-06-16 | [CVE-2026-24155](5839/CVE-2026-24155.json), [CVE-2026-24252](5839/CVE-2026-24252.json), [CVE-2026-24228](5839/CVE-2026-24228.json) |
 | [5814](5814/5814.md) | Security Bulletin: NVIDIA DALI - June 2026 | 2026-06-09 | 2026-06-09 | [CVE-2026-24180](5814/CVE-2026-24180.json), [CVE-2026-24181](5814/CVE-2026-24181.json) |
 | [5851](5851/5851.md) | Security Bulletin: NVIDIA NVTabular - June 2026 | 2026-06-02 | 2026-06-02 | [CVE-2026-24237](5851/CVE-2026-24237.json), [CVE-2026-24221](5851/CVE-2026-24221.json) |
 | [5830](5830/5830.md) | Security Bulletin: NVIDIA Isaac Launchable - May 2026 | 2026-05-26 | 2026-05-26 | [CVE-2026-24212](5830/CVE-2026-24212.json) |
