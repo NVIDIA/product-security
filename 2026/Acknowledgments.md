@@ -33,7 +33,6 @@ This file contains acknowledgments for security researchers and organizations wh
 | David Gauthier | [CVE-2026-24241](5789/CVE-2026-24241.json) | [5789.json](5789/5789.json) | [5789.md](5789/5789.md) |
 | deayzl | [CVE-2026-24207](5828/CVE-2026-24207.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 |  | [CVE-2026-24210](5828/CVE-2026-24210.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
-|  | [CVE-2026-24210](5848/CVE-2026-24210.json) | [5848.json](5848/5848.json) | [5848.md](5848/5848.md) |
 |  | [CVE-2026-24266](5848/CVE-2026-24266.json) | [5848.json](5848/5848.json) | [5848.md](5848/5848.md) |
 | ev1lkow | [CVE-2025-33234](5764/CVE-2025-33234.json) | [5764.json](5764/5764.json) | [5764.md](5764/5764.md) |
 | Faisal Tameesh | [CVE-2026-24260](5850/CVE-2026-24260.json) | [5850.json](5850/5850.json) | [5850.md](5850/5850.md) |
