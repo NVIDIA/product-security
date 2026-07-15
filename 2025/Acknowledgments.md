@@ -20,7 +20,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Boston Dynamics | [CVE-2024-0148](5617/CVE-2024-0148.json) | [5617.json](5617/5617.json) | [5617.md](5617/5617.md) |
 | C0ss4ck - Bytedance Security | [CVE-2025-23257](5655/CVE-2025-23257.json) | [5655.json](5655/5655.json) | [5655.md](5655/5655.md) |
 | Chen Cohen (Ebay) | [CVE-2025-33176](5719/CVE-2025-33176.json) | [5719.json](5719/5719.json) | [5719.md](5719/5719.md) |
-| cyfra07  | [CVE-2024-0140](5597/CVE-2024-0140.json) | [5597.json](5597/5597.json) | [5597.md](5597/5597.md) |
+| cyfra07 | [CVE-2024-0140](5597/CVE-2024-0140.json) | [5597.json](5597/5597.json) | [5597.md](5597/5597.md) |
 | D.K | [CVE-2025-23307](5690/CVE-2025-23307.json) | [5690.json](5690/5690.json) | [5690.md](5690/5690.md) |
 | Daniel Rhea | [CVE-2025-23309](5703/CVE-2025-23309.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
 | Daniel Teixeira (NVIDIA AI Red Team) | [CVE-2025-33222](5749/CVE-2025-33222.json) | [5749.json](5749/5749.json) | [5749.md](5749/5749.md) |
@@ -111,7 +111,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Sascha Meyer - GAI NetConsult GmbH | [CVE-2025-23253](5644/CVE-2025-23253.json) | [5644.json](5644/5644.json) | [5644.md](5644/5644.md) |
 | seaw1nd | [CVE-2025-33211](5734/CVE-2025-33211.json) | [5734.json](5734/5734.json) | [5734.md](5734/5734.md) |
 | TencentAISec | [CVE-2025-23348](5698/CVE-2025-23348.json) | [5698.json](5698/5698.json) | [5698.md](5698/5698.md) |
-| TencentAISec  | [CVE-2025-23361](5718/CVE-2025-23361.json) | [5718.json](5718/5718.json) | [5718.md](5718/5718.md) |
+| TencentAISec | [CVE-2025-23361](5718/CVE-2025-23361.json) | [5718.json](5718/5718.json) | [5718.md](5718/5718.md) |
 | thanhkiem29 | [CVE-2025-23321](5687/CVE-2025-23321.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 | Tian Yu from ADLab of VenusTech | [CVE-2025-33212](5736/CVE-2025-33212.json) | [5736.json](5736/5736.json) | [5736.md](5736/5736.md) |
 | Tong Liu | [CVE-2025-23315](5689/CVE-2025-23315.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |

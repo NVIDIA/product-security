@@ -1,0 +1,1103 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1157299",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-12354-010_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "TRT-LLM:TensorRT-LLM",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae TensorRT-LLM.&nbsp;<div>To protect your system, clone or update this software from the  <a href=\"https://github.com/NVIDIA/TensorRT-LLM\">NVIDIA/TensorRT-LLM</a> GitHub repo.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae TensorRT-LLM.&nbsp;<div>To protect your system, clone or update this software from the <a href=\"https://github.com/NVIDIA/TensorRT-LLM\">NVIDIA/TensorRT-LLM</a> GitHub repo.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA TensorRT-LLM - July 2026",
+        "tracking": {
+            "current_release_date": "2026-07-14T00:00:00.000Z",
+            "generator": {
+                "date": "2026-07-14T00:00:00.000Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5840",
+            "initial_release_date": "2026-07-14T00:00:00.000Z",
+            "revision_history": [
+                {
+                    "date": "2026-07-14T00:00:00.000Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "TensorRT-LLM",
+                                    "product_id": "all_tensorrtllm",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "0.0 to v1.3.0 rc16",
+                                    "product_id": "all_tensorrtllm_0_0_to_v1_3_0_rc16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:0_0_to_v1_3_0_rc16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "v1.3.0 rc15",
+                                    "product_id": "all_tensorrtllm_v1_3_0_rc15",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:v1_3_0_rc15:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "0.0  to v1.3.0 rc11",
+                                    "product_id": "all_tensorrtllm_0_0__to_v1_3_0_rc11",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:0_0__to_v1_3_0_rc11:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "0.0 to v1.3.0 rc12",
+                                    "product_id": "all_tensorrtllm_0_0_to_v1_3_0_rc12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:0_0_to_v1_3_0_rc12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "0.0 to v1.3.0 rc15",
+                                    "product_id": "all_tensorrtllm_0_0_to_v1_3_0_rc15",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:0_0_to_v1_3_0_rc15:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "v1.3.0 rc12",
+                                    "product_id": "all_tensorrtllm_v1_3_0_rc12",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:v1_3_0_rc12:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "v1.3.0 rc16",
+                                    "product_id": "all_tensorrtllm_v1_3_0_rc16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:v1_3_0_rc16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "0.0 to v1.3.0 rc14",
+                                    "product_id": "all_tensorrtllm_0_0_to_v1_3_0_rc14",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:0_0_to_v1_3_0_rc14:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "v1.3.0 rc13",
+                                    "product_id": "all_tensorrtllm_v1_3_0_rc13",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:v1_3_0_rc13:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "TensorRT-LLM",
+                                "product": {
+                                    "name": "v1.3.0 rc17",
+                                    "product_id": "all_tensorrtllm_v1_3_0_rc17",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:tensorrtllm:v1_3_0_rc17:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "k0x"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24233",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM for Linux contains a vulnerability in the restricted unpickler used for model weight deserialization, where a local, unauthenticated attacker could cause deserialization of untrusted data. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5972889",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc15"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc14"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24233"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24233"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.4,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc14"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Vitaly Simonovich, Facundo Fernandez"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24234",
+            "cwe": {
+                "id": "CWE-918",
+                "name": "Server-Side Request Forgery (SSRF)"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM for Linux contains a vulnerability in the multimodal media fetching functions, where a network-accessible attacker could cause server-side request forgery. A successful exploit of this vulnerability might lead to denial of service and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5911304",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc15"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc14"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24234"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24234"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 6.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc14"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "whoami00"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47472",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM contains a vulnerability in its inter-process communication layer where an attacker with local same-user access could cause deserialization. A successful exploit of this vulnerability might lead to code execution, information disclosure, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, information disclosure, data tampering, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5972776",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc17"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc16"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47472"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47472"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc16"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "dippatel1994"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47471",
+            "cwe": {
+                "id": "CWE-122",
+                "name": "Heap-based Buffer Overflow"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM for any platform contains a vulnerability in tensor deserialization, where an attacker could cause a heap based buffer overflow. A successful exploit of this vulnerability might lead to information disclosure, data tampering, or denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service, information disclosure, data tampering, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6043248",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc17"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc16"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47471"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47471"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc16"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "aportnoy"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47473",
+            "cwe": {
+                "id": "CWE-123",
+                "name": "Write-what-where Condition"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM contains a vulnerability where an attacker could cause a write-what-where condition. A successful exploit of this vulnerability might lead to data tampering, denial of service, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5979710",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc17"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc16"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47473"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47473"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.4,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc16"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Facundo Fernandez"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24229",
+            "cwe": {
+                "id": "CWE-306",
+                "name": "Missing Authentication for Critical Function"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM for Linux contains a vulnerability in the disaggregated orchestrator component, where an attacker could read, write, or delete internal cluster state by sending requests to the FastAPI server. A successful exploit of this vulnerability might lead to information disclosure, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure, data tampering, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5911594",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc17"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc16"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24229"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24229"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 7.3,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc16"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "jackey td"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24220",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM for any platform contains a vulnerability in visual gen server, where an attacker could cause an unsafe deserialization by unauthorized zeroMQ deserialization. A successful exploit of this vulnerability might lead to code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5922880",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc12"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0__to_v1_3_0_rc11"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24220"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24220"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0__to_v1_3_0_rc11"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Aryan Srivastava"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24259",
+            "cwe": {
+                "id": "CWE-306",
+                "name": "Missing Authentication for Critical Function"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM for Linux contains a vulnerability where an attacker could cause missing authentication for a critical function. A successful exploit of this vulnerability might lead to code execution, data tampering, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5883590",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc13"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc12"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24259"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24259"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc12"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Vitaly Simonovich"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24226",
+            "cwe": {
+                "id": "CWE-829",
+                "name": "Inclusion of Functionality from Untrusted Control Sphere"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM for Linux contains a vulnerability where an attacker could cause improper control of code generation. A successful exploit of this vulnerability might lead to code execution, data tampering, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5813192",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc13"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc12"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24226"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24226"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.3,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc12"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2026-47470",
+            "cwe": {
+                "id": "CWE-20",
+                "name": "Improper Input Validation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM for any platform contains a vulnerability in the gRPC server chat API endpoint, where an attacker could cause improper input validation by local attack. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5923456",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc15"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc14"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47470"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47470"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc14"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Facundo Fernandez"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47475",
+            "cwe": {
+                "id": "CWE-617",
+                "name": "Reachable Assertion"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM contains a vulnerability in the OpenAI-compatible inference API where an attacker could trigger a reachable assertion in the sampler thread. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5914391",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc16"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc15"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47475"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47475"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc15"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Facundo Fernandez"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24271",
+            "cwe": {
+                "id": "CWE-770",
+                "name": "Allocation of Resources Without Limits or Throttling"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA TensorRT-LLM contains a vulnerability in the OpenAI-compatible inference API, where an attacker could cause allocation of GPU resources without limits or throttling. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5944731",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_tensorrtllm_v1_3_0_rc15"
+                ],
+                "known_affected": [
+                    "all_tensorrtllm_0_0_to_v1_3_0_rc14"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24271"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24271"
+                }
+            ],
+            "release_date": "2026-07-14T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_tensorrtllm_0_0_to_v1_3_0_rc14"
+                    ]
+                }
+            ]
+        }
+    ]
+}
