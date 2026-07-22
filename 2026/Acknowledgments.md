@@ -15,7 +15,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | baseten | [CVE-2026-24205](5805/CVE-2026-24205.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 | Binarly Research Team | [CVE-2026-24182](5821/CVE-2026-24182.json) | [5821.json](5821/5821.json) | [5821.md](5821/5821.md) |
 | Chanho Kim (@HO-9), Jihyeok Han (@HanJeouk) | [CVE-2026-24189](5820/CVE-2026-24189.json) | [5820.json](5820/5820.json) | [5820.md](5820/5820.md) |
-| chen950724 | [CVE-2026-24217](5831/CVE-2026-24217.json) | [5831.json](5831/5831.json) | [5831.md](5831/5831.md) |
+| CheN | [CVE-2026-24217](5831/CVE-2026-24217.json) | [5831.json](5831/5831.json) | [5831.md](5831/5831.md) |
 |  | [CVE-2026-24216](5831/CVE-2026-24216.json) | [5831.json](5831/5831.json) | [5831.md](5831/5831.md) |
 |  | [CVE-2026-24165](5808/CVE-2026-24165.json) | [5808.json](5808/5808.json) | [5808.md](5808/5808.md) |
 | Colin McDonough of 50words.com | [CVE-2026-24222](5837/CVE-2026-24222.json) | [5837.json](5837/5837.json) | [5837.md](5837/5837.md) |
