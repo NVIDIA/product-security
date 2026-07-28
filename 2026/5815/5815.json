@@ -1,0 +1,315 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "CRITICAL"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1152368",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-11307-012_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "NBU:NBU",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "To protect your system, download and install the latest NVIDIA components from the links provided in this document.",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "Product -&nbsp;<span style=\"background-color: rgb(17, 22, 30);\">Web Link</span><div><span style=\"background-color: rgb(17, 22, 30);\">VIRTIO-Net - <a href=\"https://developer.nvidia.com/doca-downloads\">https://developer.nvidia.com/doca-downloads</a><br></span></div><div><br></div><div><br></div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Networking Bluefield, ConnectX - July 2026",
+        "tracking": {
+            "current_release_date": "2026-07-28T00:00:00.000Z",
+            "generator": {
+                "date": "2026-07-28T00:00:00.000Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5815",
+            "initial_release_date": "2026-07-28T00:00:00.000Z",
+            "revision_history": [
+                {
+                    "date": "2026-07-28T00:00:00.000Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "VIRTIO-Net GA",
+                                "product": {
+                                    "name": "VIRTIO-Net GA",
+                                    "product_id": "bluefield3_virtionet_ga",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_ga:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "VIRTIO-Net LTS25",
+                                "product": {
+                                    "name": "VIRTIO-Net LTS25",
+                                    "product_id": "bluefield3_virtionet_lts25",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_lts25:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "VIRTIO-Net LTS24",
+                                "product": {
+                                    "name": "VIRTIO-Net LTS24",
+                                    "product_id": "bluefield3_virtionet_lts24",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_lts24:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "VIRTIO-Net LTS23",
+                                "product": {
+                                    "name": "VIRTIO-Net LTS23",
+                                    "product_id": "bluefield3_virtionet_lts23",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_lts23:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "VIRTIO-Net GA",
+                                "product": {
+                                    "name": "All versions prior to 25.10.6",
+                                    "product_id": "bluefield3_virtionet_ga_all_versions_prior_to_25_10_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_ga:all_versions_prior_to_25_10_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "VIRTIO-Net GA",
+                                "product": {
+                                    "name": "25.10.6 or newer",
+                                    "product_id": "bluefield3_virtionet_ga_25_10_6_or_newer",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_ga:25_10_6_or_newer:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "VIRTIO-Net LTS25",
+                                "product": {
+                                    "name": "All versions prior to 25.10.2",
+                                    "product_id": "bluefield3_virtionet_lts25_all_versions_prior_to_25_10_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_lts25:all_versions_prior_to_25_10_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "VIRTIO-Net LTS25",
+                                "product": {
+                                    "name": "25.10.2 or newer",
+                                    "product_id": "bluefield3_virtionet_lts25_25_10_2_or_newer",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_lts25:25_10_2_or_newer:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "VIRTIO-Net LTS24",
+                                "product": {
+                                    "name": "24.10.50 or newer,",
+                                    "product_id": "bluefield3_virtionet_lts24_24_10_50_or_newer",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_lts24:24_10_50_or_newer:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "VIRTIO-Net LTS24",
+                                "product": {
+                                    "name": "All versions prior to 24.10.50",
+                                    "product_id": "bluefield3_virtionet_lts24_all_versions_prior_to_24_10_50",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_lts24:all_versions_prior_to_24_10_50:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "VIRTIO-Net LTS23",
+                                "product": {
+                                    "name": "1.7.21 and older versions",
+                                    "product_id": "bluefield3_virtionet_lts23_1_7_21_and_older_versions",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_lts23:1_7_21_and_older_versions:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "VIRTIO-Net LTS23",
+                                "product": {
+                                    "name": "23.10.23 or newer",
+                                    "product_id": "bluefield3_virtionet_lts23_23_10_23_or_newer",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:virtionet_lts23:23_10_23_or_newer:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Bluefield-3"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2025-33209",
+            "cwe": {
+                "id": "CWE-123",
+                "name": "Write-what-where Condition"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA VIRTIO-Net for Bluefield contains a vulnerability in Virtio-Net where a VM user may cause a Write-What-Where condition by crafted message. A successful exploit of this vulnerability may lead to Code Execution in Virtio-Net scope.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5617495",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "bluefield3_virtionet_ga_25_10_6_or_newer",
+                    "bluefield3_virtionet_lts24_24_10_50_or_newer",
+                    "bluefield3_virtionet_lts23_23_10_23_or_newer",
+                    "bluefield3_virtionet_lts25_25_10_2_or_newer"
+                ],
+                "known_affected": [
+                    "bluefield3_virtionet_ga_all_versions_prior_to_25_10_6",
+                    "bluefield3_virtionet_lts25_all_versions_prior_to_25_10_2",
+                    "bluefield3_virtionet_lts23_1_7_21_and_older_versions",
+                    "bluefield3_virtionet_lts24_all_versions_prior_to_24_10_50"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33209"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2025-33209"
+                }
+            ],
+            "release_date": "2026-07-28T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 9.0,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "bluefield3_virtionet_ga_all_versions_prior_to_25_10_6",
+                        "bluefield3_virtionet_lts25_all_versions_prior_to_25_10_2",
+                        "bluefield3_virtionet_lts23_1_7_21_and_older_versions",
+                        "bluefield3_virtionet_lts24_all_versions_prior_to_24_10_50"
+                    ]
+                }
+            ]
+        }
+    ]
+}
