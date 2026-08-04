@@ -1,0 +1,1301 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "CRITICAL"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1159403",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-12354-012_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "DYNAMO:Dynamo",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Dynamo.<div>To protect your system, clone or update this software from the <a href=\"https://github.com/ai-dynamo/dynamo\">ai-dynamo/dynamo</a> GitHub repo.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Dynamo.<div>To protect your system, clone or update this software from the <a href=\"https://github.com/ai-dynamo/dynamo\">ai-dynamo/dynamo</a> GitHub repo.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "Refer to Security Updates for the updated versions to install.",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Dynamo - August 2026",
+        "tracking": {
+            "current_release_date": "2026-08-04T00:00:00.000Z",
+            "generator": {
+                "date": "2026-08-04T00:00:00.000Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5842",
+            "initial_release_date": "2026-08-04T00:00:00.000Z",
+            "revision_history": [
+                {
+                    "date": "2026-08-04T00:00:00.000Z",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Dynamo",
+                                "product": {
+                                    "name": "NVIDIA Dynamo",
+                                    "product_id": "linux_nvidia_dynamo",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dynamo:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Dynamo",
+                                "product": {
+                                    "name": "0 to v1.0.0",
+                                    "product_id": "linux_nvidia_dynamo_0_to_v1_0_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dynamo:0_to_v1_0_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Dynamo",
+                                "product": {
+                                    "name": "0 to v1.1.0",
+                                    "product_id": "linux_nvidia_dynamo_0_to_v1_1_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dynamo:0_to_v1_1_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Dynamo",
+                                "product": {
+                                    "name": "v1.1.0",
+                                    "product_id": "linux_nvidia_dynamo_v1_1_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dynamo:v1_1_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Dynamo",
+                                "product": {
+                                    "name": "v1.2.0",
+                                    "product_id": "linux_nvidia_dynamo_v1_2_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dynamo:v1_2_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Dynamo",
+                                "product": {
+                                    "name": "v1.3.0",
+                                    "product_id": "linux_nvidia_dynamo_v1_3_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dynamo:v1_3_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Dynamo",
+                                "product": {
+                                    "name": "0 to v1.2.0",
+                                    "product_id": "linux_nvidia_dynamo_0_to_v1_2_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dynamo:0_to_v1_2_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Dynamo",
+                                "product": {
+                                    "name": "v1.1.1",
+                                    "product_id": "linux_nvidia_dynamo_v1_1_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_dynamo:v1_1_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Faisal Tameesh"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24254",
+            "cwe": {
+                "id": "CWE-288",
+                "name": "Authentication Bypass Using an Alternate Path or Channel"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability in the multimodal serving topology, where an attacker could cause an out-of-bounds write. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, denial of service, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6091148",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_1_1"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24254"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24254"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 9.8,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Faisal Tameesh, Ji'an Zhou"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24253",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability where an attacker could cause an out-of-bounds write. A successful exploit of this vulnerability might lead to denial of service and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6082085",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_1_1"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24253"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24253"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Faisal Tameesh"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47623",
+            "cwe": {
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability where an attacker could cause deserialization of untrusted data. A successful exploit of this vulnerability might lead to denial of service and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6086411",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_2_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47623"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47623"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.2,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Dem0"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-24255",
+            "cwe": {
+                "id": "CWE-1023",
+                "name": "Incomplete Comparison with Missing Factors"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability in the multimodal embedding cache, where an attacker could cause a hash collision by submitting images that share an identical pixel byte sequence but have different dimensions. A successful exploit of this vulnerability might lead to data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6023191",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_1_1"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24255"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24255"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47612",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability in the image loading component where an attacker may cause improper limitation of a pathname to a restricted directory. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067567",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_1_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_0_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47612"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47612"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_0_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47613",
+            "cwe": {
+                "id": "CWE-918",
+                "name": "Server-Side Request Forgery (SSRF)"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability where an attacker may cause improper limitation of a pathname to a restricted directory by supplying a crafted local path in a multimodal request. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067568",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_2_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47613"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47613"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47614",
+            "cwe": {
+                "id": "CWE-918",
+                "name": "Server-Side Request Forgery (SSRF)"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability where an attacker may cause server-side request forgery. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067569",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_2_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47614"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47614"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47615",
+            "cwe": {
+                "id": "CWE-918",
+                "name": "Server-Side Request Forgery (SSRF)"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability where an attacker may cause server-side request forgery by supplying a crafted URL in a multimodal request. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067570",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_2_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47615"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47615"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47616",
+            "cwe": {
+                "id": "CWE-918",
+                "name": "Server-Side Request Forgery (SSRF)"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability in the multimodal media fetcher where an attacker may cause server-side request forgery. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067571",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_2_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47616"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47616"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47617",
+            "cwe": {
+                "id": "CWE-918",
+                "name": "Server-Side Request Forgery (SSRF)"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability in the multimodal media fetcher where an attacker may cause server-side request forgery via DNS rebinding. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067572",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_2_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47617"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47617"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47618",
+            "cwe": {
+                "id": "CWE-918",
+                "name": "Server-Side Request Forgery (SSRF)"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability in the Rust multimodal media fetcher where an attacker could cause server-side request forgery. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067573",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_2_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47618"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47618"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47619",
+            "cwe": {
+                "id": "CWE-1357",
+                "name": "Reliance on Insufficiently Trustworthy Component"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux examples and recipes contain a vulnerability where an attacker could cause a system failure. A successful exploit of this vulnerability might lead to code execution, data tampering, denial of service, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067575",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_2_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47619"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47619"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.6,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47620",
+            "cwe": {
+                "id": "CWE-362",
+                "name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability where an attacker could cause a race condition in the LoRA manager singleton initialization. A successful exploit of this vulnerability might lead to data tampering and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067577",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_3_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_2_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47620"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47620"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_2_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47621",
+            "cwe": {
+                "id": "CWE-367",
+                "name": "Time-of-check Time-of-use (TOCTOU) Race Condition"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability where an attacker could cause a race condition in the LoRA manager singleton initialization. A successful exploit of this vulnerability might lead to denial of service and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service, data tampering",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067578",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_2_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_1_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47621"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47621"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_1_0"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Navtej Kathuria"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-47622",
+            "cwe": {
+                "id": "CWE-209",
+                "name": "Generation of Error Message Containing Sensitive Information"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Dynamo for Linux contains a vulnerability where an attacker could cause the generation of error messages that contain sensitive information. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6067579",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nvidia_dynamo_v1_3_0"
+                ],
+                "known_affected": [
+                    "linux_nvidia_dynamo_0_to_v1_2_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47622"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-47622"
+                }
+            ],
+            "release_date": "2026-08-04T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.3,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nvidia_dynamo_0_to_v1_2_0"
+                    ]
+                }
+            ]
+        }
+    ]
+}

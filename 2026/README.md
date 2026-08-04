@@ -2,6 +2,8 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5860](5860/5860.md) | Security Bulletin: NVIDIA Triton Inference Server - August 2026 | 2026-08-04 | 2026-08-04 | [CVE-2026-47487](5860/CVE-2026-47487.json) |
+| [5842](5842/5842.md) | Security Bulletin: NVIDIA Dynamo - August 2026 | 2026-08-04 | 2026-08-04 | [CVE-2026-24254](5842/CVE-2026-24254.json), [CVE-2026-24253](5842/CVE-2026-24253.json), [CVE-2026-47623](5842/CVE-2026-47623.json), [CVE-2026-24255](5842/CVE-2026-24255.json), [CVE-2026-47612](5842/CVE-2026-47612.json), [CVE-2026-47613](5842/CVE-2026-47613.json), [CVE-2026-47614](5842/CVE-2026-47614.json), [CVE-2026-47615](5842/CVE-2026-47615.json), [CVE-2026-47616](5842/CVE-2026-47616.json), [CVE-2026-47617](5842/CVE-2026-47617.json), [CVE-2026-47618](5842/CVE-2026-47618.json), [CVE-2026-47619](5842/CVE-2026-47619.json), [CVE-2026-47620](5842/CVE-2026-47620.json), [CVE-2026-47621](5842/CVE-2026-47621.json), [CVE-2026-47622](5842/CVE-2026-47622.json) |
 | [5815](5815/5815.md) | Security Bulletin: NVIDIA Networking Bluefield, ConnectX - July 2026 | 2026-07-28 | 2026-07-28 | [CVE-2026-65094](5815/CVE-2026-65094.json) |
 | [5857](5857/5857.md) | Security Bulletin: NVIDIA DCGM Exporter - July 2026 | 2026-07-28 | 2026-07-28 | [CVE-2026-47483](5857/CVE-2026-47483.json) |
 | [5869](5869/5869.md) | Security Bulletin - NVIDIA - Transformers4Rec - July 2026 | 2026-07-21 | 2026-07-21 | [CVE-2026-24232](5869/CVE-2026-24232.json) |
