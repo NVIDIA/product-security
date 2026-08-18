@@ -1,0 +1,525 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1153920",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-11307-013_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "NBU:NBU",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "NVIDIA has released security updates to address vulnerabilities in various products.",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "To protect your system, download and install the latest NVIDIA components from the <a href=\"https://enterprise-support.nvidia.com/s/\">NVIDIA Enterprise Support Portal</a>.<div>Custom versions of these products are also affected. If you are using a custom version, contact your account manager or CPM to get information about relevant patched versions to replace your custom version.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "For CVE-2026-24185, the issue is only applicable to systems that enable PKA-Only and require Admin operation on the certificate list to be triggered. The issue is only relevant for systems that do not maintain best practices for user passwords. Systems that don\u2019t use PKA-Only are not affected.",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "These issues were found internally.<div><br></div>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Cumulus Linux and NVOS - August 2026",
+        "tracking": {
+            "current_release_date": "2026-08-18T00:00:00Z",
+            "generator": {
+                "date": "2026-08-18T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5817",
+            "initial_release_date": "2026-08-18T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-08-18",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "Cumulus Linux GA",
+                                "product": {
+                                    "name": "Cumulus Linux GA",
+                                    "product_id": "cumulus_linux_cumulus_linux_ga",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_ga:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Cumulus Linux LTS",
+                                "product": {
+                                    "name": "Cumulus Linux LTS",
+                                    "product_id": "cumulus_linux5_11_cumulus_linux_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_lts:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Cumulus Linux LTS",
+                                "product": {
+                                    "name": "Cumulus Linux LTS",
+                                    "product_id": "cumulus_linux5_9_cumulus_linux_lts",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_lts:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVOS",
+                                "product": {
+                                    "name": "NVOS",
+                                    "product_id": "gb300_nvos",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvos:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVOS",
+                                "product": {
+                                    "name": "NVOS",
+                                    "product_id": "ibswitch_xdr_nvos",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvos:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Cumulus Linux GA",
+                                "product": {
+                                    "name": "5.15",
+                                    "product_id": "cumulus_linux_cumulus_linux_ga_5_15",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_ga:5_15:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Cumulus Linux GA",
+                                "product": {
+                                    "name": "0.0 to 5.16",
+                                    "product_id": "cumulus_linux_cumulus_linux_ga_0_0_to_5_16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_ga:0_0_to_5_16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Cumulus Linux GA",
+                                "product": {
+                                    "name": "5.16",
+                                    "product_id": "cumulus_linux_cumulus_linux_ga_5_16",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_ga:5_16:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Cumulus Linux"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Cumulus Linux LTS",
+                                "product": {
+                                    "name": "0.0 to 5.11.5",
+                                    "product_id": "cumulus_linux5_11_cumulus_linux_lts_0_0_to_5_11_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_lts:0_0_to_5_11_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Cumulus Linux LTS",
+                                "product": {
+                                    "name": "5.11.5",
+                                    "product_id": "cumulus_linux5_11_cumulus_linux_lts_5_11_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_lts:5_11_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Cumulus Linux(5.11)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Cumulus Linux LTS",
+                                "product": {
+                                    "name": "0.0 to 5.9.5",
+                                    "product_id": "cumulus_linux5_9_cumulus_linux_lts_0_0_to_5_9_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_lts:0_0_to_5_9_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Cumulus Linux LTS",
+                                "product": {
+                                    "name": "5.9.5",
+                                    "product_id": "cumulus_linux5_9_cumulus_linux_lts_5_9_5",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:cumulus_linux_lts:5_9_5:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Cumulus Linux(5.9)"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVOS",
+                                "product": {
+                                    "name": "25.0.2.4438",
+                                    "product_id": "gb300_nvos_25_0_2_4438",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvos:25_0_2_4438:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVOS",
+                                "product": {
+                                    "name": "0.0 to 25.0.2.4438",
+                                    "product_id": "gb300_nvos_0_0_to_25_0_2_4438",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvos:0_0_to_25_0_2_4438:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "GB300"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVOS",
+                                "product": {
+                                    "name": "0.0 to 25.0.2.6077",
+                                    "product_id": "ibswitch_xdr_nvos_0_0_to_25_0_2_6077",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvos:0_0_to_25_0_2_6077:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVOS",
+                                "product": {
+                                    "name": "25.0.2.6077",
+                                    "product_id": "ibswitch_xdr_nvos_25_0_2_6077",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvos:25_0_2_6077:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "IBSwitch XDR"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2026-24183",
+            "cwe": {
+                "id": "CWE-250",
+                "name": "Execution with Unnecessary Privileges"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Cumulus Linux contains a vulnerability in the user management component, where an unprivileged user could use improper privilege management on the system. A successful exploit of this vulnerability might lead to escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "escalation of privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5966397",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "cumulus_linux_cumulus_linux_ga_5_16"
+                ],
+                "known_affected": [
+                    "cumulus_linux_cumulus_linux_ga_5_15"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24183"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24183"
+                }
+            ],
+            "release_date": "2026-08-18T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "cumulus_linux_cumulus_linux_ga_5_15"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2026-24184",
+            "cwe": {
+                "id": "CWE-120",
+                "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Cumulus Linux contains a vulnerability in the Link Layer Discovery Protocol (LLDP) daemon component, where an unauthenticated attacker on an adjacent network could cause buffer overflow by sending crafted LLDP frames. A successful exploit of this vulnerability might lead to code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5966341",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "cumulus_linux5_9_cumulus_linux_lts_5_9_5",
+                    "cumulus_linux_cumulus_linux_ga_5_16",
+                    "cumulus_linux5_11_cumulus_linux_lts_5_11_5"
+                ],
+                "known_affected": [
+                    "cumulus_linux_cumulus_linux_ga_0_0_to_5_16",
+                    "cumulus_linux5_11_cumulus_linux_lts_0_0_to_5_11_5",
+                    "cumulus_linux5_9_cumulus_linux_lts_0_0_to_5_9_5"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24184"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24184"
+                }
+            ],
+            "release_date": "2026-08-18T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "cumulus_linux_cumulus_linux_ga_0_0_to_5_16",
+                        "cumulus_linux5_11_cumulus_linux_lts_0_0_to_5_11_5",
+                        "cumulus_linux5_9_cumulus_linux_lts_0_0_to_5_9_5"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2026-24185",
+            "cwe": {
+                "id": "CWE-288",
+                "name": "Authentication Bypass Using an Alternate Path or Channel"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NVOS for network switches contains a vulnerability in the secure shell (SSH) server configuration component while PKA-only mode is enabled, where an administrator could inadvertently enable an alternative authentication path. If best practices for replacing the default password as recommended by NVIDIA are not followed, this alternative authentication path might lead to unauthorized access. A successful exploit of this vulnerability might lead to escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "escalation of privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5963845",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "ibswitch_xdr_nvos_25_0_2_6077",
+                    "gb300_nvos_25_0_2_4438"
+                ],
+                "known_affected": [
+                    "ibswitch_xdr_nvos_0_0_to_25_0_2_6077",
+                    "gb300_nvos_0_0_to_25_0_2_4438"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24185"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24185"
+                }
+            ],
+            "release_date": "2026-08-18T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "ibswitch_xdr_nvos_0_0_to_25_0_2_6077",
+                        "gb300_nvos_0_0_to_25_0_2_4438"
+                    ]
+                }
+            ]
+        }
+    ]
+}
