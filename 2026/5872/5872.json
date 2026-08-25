@@ -1,0 +1,1642 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "CRITICAL"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1160952",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-12268-017_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "OTHER:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae&nbsp; NemoClaw and OpenShell.<div>To protect your system, clone or update this software from the <a href=\"https://github.com/NVIDIA/NemoClaw\">NVIDIA/NemoClaw</a>&nbsp;and <a href=\"https://github.com/NVIDIA/OpenShell\">NVIDIA/OpenShell</a> GitHub repos.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae  NemoClaw and OpenShell.<div>To protect your system, clone or update this software from the <a href=\"https://github.com/NVIDIA/NemoClaw\">NVIDIA/NemoClaw</a> and <a href=\"https://github.com/NVIDIA/OpenShell\">NVIDIA/OpenShell</a> GitHub repos.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "These vulnerabilities were found externally",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA NemoClaw and OpenShell - August 2026",
+        "tracking": {
+            "current_release_date": "2026-08-25T00:00:00Z",
+            "generator": {
+                "date": "2026-08-25T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5872",
+            "initial_release_date": "2026-08-25T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-08-25",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "OpenShell",
+                                    "product_id": "all_platforms_openshell",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "NemoClaw",
+                                    "product_id": "linux_nemoclaw",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "v0.0.34",
+                                    "product_id": "all_platforms_openshell_v0_0_34",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:v0_0_34:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0 to 0.0.33",
+                                    "product_id": "all_platforms_openshell_0_to_0_0_33",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_to_0_0_33:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All platforms"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "a46160697; 0.0.1",
+                                    "product_id": "linux_nemoclaw_a46160697_0_0_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:a46160697_0_0_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "0 to 0.0.25",
+                                    "product_id": "linux_nemoclaw_0_to_0_0_25",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:0_to_0_0_25:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "5864d9751; 0.0.4",
+                                    "product_id": "linux_nemoclaw_5864d9751_0_0_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:5864d9751_0_0_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "7983fc7d1; 0.0.17",
+                                    "product_id": "linux_nemoclaw_7983fc7d1_0_0_17",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:7983fc7d1_0_0_17:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "0 to 0.0.1",
+                                    "product_id": "linux_nemoclaw_0_to_0_0_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:0_to_0_0_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "0 to 0.0.21",
+                                    "product_id": "linux_nemoclaw_0_to_0_0_21",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:0_to_0_0_21:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "f06796ff3; 0.0.25",
+                                    "product_id": "linux_nemoclaw_f06796ff3_0_0_25",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:f06796ff3_0_0_25:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "11af5fdac; 0.0.21",
+                                    "product_id": "linux_nemoclaw_11af5fdac_0_0_21",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:11af5fdac_0_0_21:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "b7c254114; 0.0.1",
+                                    "product_id": "linux_nemoclaw_b7c254114_0_0_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:b7c254114_0_0_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "0 to 0.0.3",
+                                    "product_id": "linux_nemoclaw_0_to_0_0_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:0_to_0_0_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "800195b55; 0.0.3",
+                                    "product_id": "linux_nemoclaw_800195b55_0_0_3",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:800195b55_0_0_3:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "0 to 0.0.4",
+                                    "product_id": "linux_nemoclaw_0_to_0_0_4",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:0_to_0_0_4:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "48c0d54d4; 0.0.21",
+                                    "product_id": "linux_nemoclaw_48c0d54d4_0_0_21",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:48c0d54d4_0_0_21:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "0 to 0.0.17",
+                                    "product_id": "linux_nemoclaw_0_to_0_0_17",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:0_to_0_0_17:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NemoClaw",
+                                "product": {
+                                    "name": "156c9a201; 0.0.1",
+                                    "product_id": "linux_nemoclaw_156c9a201_0_0_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemoclaw:156c9a201_0_0_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Leo Lin"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65091",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for all platforms contains a vulnerability where a malicious gateway could cause OS command injection. A successful exploit of this vulnerability might lead to code execution, data tampering, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6087828",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_openshell_v0_0_34"
+                ],
+                "known_affected": [
+                    "all_platforms_openshell_0_to_0_0_33"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65091"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65091"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_openshell_0_to_0_0_33"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Leo Lin"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65092",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell Sandbox for Linux contains a vulnerability where an attacker could cause a path traversal bypass of L7 REST network policy. A successful exploit of this vulnerability might lead to information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6087821",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_openshell_v0_0_34"
+                ],
+                "known_affected": [
+                    "all_platforms_openshell_0_to_0_0_33"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65092"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65092"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 8.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_openshell_0_to_0_0_33"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Leo Lin"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65093",
+            "cwe": {
+                "id": "CWE-427",
+                "name": "Uncontrolled Search Path Element"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability where an attacker could cause a sandbox escape. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6087568",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_openshell_v0_0_34"
+                ],
+                "known_affected": [
+                    "all_platforms_openshell_0_to_0_0_33"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65093"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65093"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 9.9,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_openshell_0_to_0_0_33"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65096",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in the Telegram bridge component, where an attacker could cause an OS command injection. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002560",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_156c9a201_0_0_1"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_1"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65096"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65096"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen, Muhammad Salman Shakeel"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65097",
+            "cwe": {
+                "id": "CWE-494",
+                "name": "Download of Code Without Integrity Check"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in its installation scripts, where an attacker could cause a download of code without integrity check. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002564",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_48c0d54d4_0_0_21"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_21"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65097"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65097"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_21"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Eran Shimony Palo Alto Networks"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65098",
+            "cwe": {
+                "id": "CWE-1390",
+                "name": "Weak Authentication"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in its remote-access helper workflow, where an attacker could cause weak authentication. A successful exploit of this vulnerability might lead to code execution, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6007054",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_5864d9751_0_0_4"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_4"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65098"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65098"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_4"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65099",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in its command-line interface, where an attacker could cause OS command injection. A successful exploit of this vulnerability might lead to code execution, data tampering, information disclosure, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002576",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_156c9a201_0_0_1"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_1"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65099"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65099"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65090",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in its NIM management component, where an attacker could cause OS command injection. A successful exploit of this vulnerability might lead to code execution, data tampering, information disclosure, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002603",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_7983fc7d1_0_0_17"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_17"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65090"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65090"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_17"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65089",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in its status and logs plugin commands, where an attacker could cause OS command injection. A successful exploit of this vulnerability might lead to code execution, data tampering, information disclosure, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002625",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_800195b55_0_0_3"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_3"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65089"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65089"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_3"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65081",
+            "cwe": {
+                "id": "CWE-494",
+                "name": "Download of Code Without Integrity Check"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in its installation process, where an attacker could cause execution of untrusted code. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, information disclosure, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002675",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_11af5fdac_0_0_21"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_21"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65081"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65081"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_21"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65082",
+            "cwe": {
+                "id": "CWE-94",
+                "name": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in its migration command, where a local attacker could cause code injection. A successful exploit of this vulnerability might lead to code execution, data tampering, information disclosure, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002713",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_7983fc7d1_0_0_17"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_17"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65082"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65082"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.0,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_17"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "yongzhi"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65083",
+            "cwe": {
+                "id": "CWE-184",
+                "name": "Incomplete List of Disallowed Inputs"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in its sandbox provisioning API, where an attacker could cause an incomplete list of disallowed inputs. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, information disclosure, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6003106",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_openshell_v0_0_34"
+                ],
+                "known_affected": [
+                    "all_platforms_openshell_0_to_0_0_33"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65083"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65083"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 9.9,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_openshell_0_to_0_0_33"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65084",
+            "cwe": {
+                "id": "CWE-295",
+                "name": "Improper Certificate Validation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in its deployment process, where an attacker could cause improper certificate validation. A successful exploit of this vulnerability might lead to information disclosure, data tampering, code execution, and escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002727",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_b7c254114_0_0_1"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_1"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65084"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65084"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Reter AI Security Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65085",
+            "cwe": {
+                "id": "CWE-116",
+                "name": "Improper Encoding or Escaping of Output"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in its inference proxy, where an attacker could cause an improper encoding or escaping of output. A successful exploit of this vulnerability might lead to information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6007457",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_openshell_v0_0_34"
+                ],
+                "known_affected": [
+                    "all_platforms_openshell_0_to_0_0_33"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65085"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65085"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_openshell_0_to_0_0_33"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Reter AI Security Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65086",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in its sandbox exec handler, where an attacker could cause an OS command injection. A successful exploit of this vulnerability might lead to code execution, information disclosure, and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6007132",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_platforms_openshell_v0_0_34"
+                ],
+                "known_affected": [
+                    "all_platforms_openshell_0_to_0_0_33"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65086"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65086"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_platforms_openshell_0_to_0_0_33"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Christos Papakonstantinou"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65087",
+            "cwe": {
+                "id": "CWE-522",
+                "name": "Insufficiently Protected Credentials"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw contains a vulnerability where an attacker could cause\ninsufficiently protected credentials . A successful exploit of this vulnerability might lead to information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6007071",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_a46160697_0_0_1"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_1"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65087"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65087"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.6,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65088",
+            "cwe": {
+                "id": "CWE-214",
+                "name": "Invocation of Process Using Visible Sensitive Information"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw contains a vulnerability where an attacker could cause\ninvocation of process using visible sensitive information. A successful exploit of this vulnerability might lead to information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002728",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_7983fc7d1_0_0_17"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_17"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65088"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65088"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_17"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Markus Halvorsen, Elad Luz of Oasis Security"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65105",
+            "cwe": {
+                "id": "CWE-306",
+                "name": "Missing Authentication for Critical Function"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NemoClaw for Linux contains a vulnerability in its inference server setup, where a remote attacker may access the inference service without authentication. A successful exploit of this vulnerability may lead to information disclosure and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6002770",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_nemoclaw_f06796ff3_0_0_25"
+                ],
+                "known_affected": [
+                    "linux_nemoclaw_0_to_0_0_25"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65105"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65105"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_nemoclaw_0_to_0_0_25"
+                    ]
+                }
+            ]
+        }
+    ]
+}

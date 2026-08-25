@@ -23,6 +23,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | CheN | [CVE-2026-24165](5808/CVE-2026-24165.json) | [5808.json](5808/5808.json) | [5808.md](5808/5808.md) |
 |  | [CVE-2026-24217](5831/CVE-2026-24217.json) | [5831.json](5831/5831.json) | [5831.md](5831/5831.md) |
 |  | [CVE-2026-24216](5831/CVE-2026-24216.json) | [5831.json](5831/5831.json) | [5831.md](5831/5831.md) |
+| Christos Papakonstantinou | [CVE-2026-65087](5872/CVE-2026-65087.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Colin McDonough of 50words.com | [CVE-2026-24222](5837/CVE-2026-24222.json) | [5837.json](5837/5837.json) | [5837.md](5837/5837.md) |
 | cyberjoker | [CVE-2026-24142](5805/CVE-2026-24142.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 | Dan Aridor | [CVE-2025-33241](5762/CVE-2025-33241.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
@@ -43,6 +44,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-24266](5848/CVE-2026-24266.json) | [5848.json](5848/5848.json) | [5848.md](5848/5848.md) |
 | Dem0 | [CVE-2026-24255](5842/CVE-2026-24255.json) | [5842.json](5842/5842.json) | [5842.md](5842/5842.md) |
 | dippatel1994 | [CVE-2026-47471](5840/CVE-2026-47471.json) | [5840.json](5840/5840.json) | [5840.md](5840/5840.md) |
+| Eran Shimony Palo Alto Networks | [CVE-2026-65098](5872/CVE-2026-65098.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | ev1lkow | [CVE-2025-33234](5764/CVE-2025-33234.json) | [5764.json](5764/5764.json) | [5764.md](5764/5764.md) |
 | Facundo Fernandez | [CVE-2026-24229](5840/CVE-2026-24229.json) | [5840.json](5840/5840.json) | [5840.md](5840/5840.md) |
 |  | [CVE-2026-47475](5840/CVE-2026-47475.json) | [5840.json](5840/5840.json) | [5840.md](5840/5840.md) |
@@ -77,7 +79,20 @@ This file contains acknowledgments for security researchers and organizations wh
 | Kentaro Kawane | [CVE-2025-33217](5747/CVE-2025-33217.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
 |  | [CVE-2025-33218](5747/CVE-2025-33218.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
 | Legoclones working with Trend Micro Zero Day Initiative | [CVE-2026-24232](5869/CVE-2026-24232.json) | [5869.json](5869/5869.json) | [5869.md](5869/5869.md) |
+| Leo Lin | [CVE-2026-65091](5872/CVE-2026-65091.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65092](5872/CVE-2026-65092.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65093](5872/CVE-2026-65093.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Mahammad Huseynkhanli | [CVE-2026-24174](5816/CVE-2026-24174.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
+| Markus Halvorsen | [CVE-2026-65096](5872/CVE-2026-65096.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65099](5872/CVE-2026-65099.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65090](5872/CVE-2026-65090.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65089](5872/CVE-2026-65089.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65081](5872/CVE-2026-65081.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65082](5872/CVE-2026-65082.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65084](5872/CVE-2026-65084.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65088](5872/CVE-2026-65088.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+| Markus Halvorsen, Elad Luz of Oasis Security | [CVE-2026-65105](5872/CVE-2026-65105.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+| Markus Halvorsen, Muhammad Salman Shakeel | [CVE-2026-65097](5872/CVE-2026-65097.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Martin Brodeur | [CVE-2026-47627](5865/CVE-2026-47627.json) | [5865.json](5865/5865.json) | [5865.md](5865/5865.md) |
 | Michael Katchinskiy | [CVE-2026-47483](5857/CVE-2026-47483.json) | [5857.json](5857/5857.json) | [5857.md](5857/5857.md) |
 | Mohamed Lemine ahmed jidou (mauritaniacoder) | [CVE-2026-24208](5828/CVE-2026-24208.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
@@ -117,6 +132,8 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-33230](5755/CVE-2025-33230.json) | [5755.json](5755/5755.json) | [5755.md](5755/5755.md) |
 |  | [CVE-2025-33231](5755/CVE-2025-33231.json) | [5755.json](5755/5755.json) | [5755.md](5755/5755.md) |
 | responsiblereport10 | [CVE-2026-47487](5860/CVE-2026-47487.json) | [5860.json](5860/5860.json) | [5860.md](5860/5860.md) |
+| Reter AI Security Research | [CVE-2026-65085](5872/CVE-2026-65085.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
+|  | [CVE-2026-65086](5872/CVE-2026-65086.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | ReZyron (Member of CentiSec) | [CVE-2026-24221](5851/CVE-2026-24221.json) | [5851.json](5851/5851.json) | [5851.md](5851/5851.md) |
 | Ruslan Semchenko (Руслан Семченко) | [CVE-2025-33245](5762/CVE-2025-33245.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 | s1ko | [CVE-2026-47630](5865/CVE-2026-47630.json) | [5865.json](5865/5865.json) | [5865.md](5865/5865.md) |
@@ -155,6 +172,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | XlabAI Team of Tencent Xuanwu Lab, Atuin Automated Vulnerability Discovery Engine, Guannan Wang, Zhanpeng Liu, Guancheng Li | [CVE-2025-33250](5762/CVE-2025-33250.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 | Yegor Vasilenko | [CVE-2026-24187](5821/CVE-2026-24187.json) | [5821.json](5821/5821.json) | [5821.md](5821/5821.md) |
 | YJK(@YJK0805) of ZUSO ART working with TrendAI Zero Day Initiative | [CVE-2026-24251](5841/CVE-2026-24251.json) | [5841.json](5841/5841.json) | [5841.md](5841/5841.md) |
+| yongzhi | [CVE-2026-65083](5872/CVE-2026-65083.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Yongzhi Liu of Tencent Security (Yunding Lab) | [CVE-2025-33248](5769/CVE-2025-33248.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
 |  | [CVE-2026-24141](5798/CVE-2026-24141.json) | [5798.json](5798/5798.json) | [5798.md](5798/5798.md) |
 | Yuval E | [CVE-2026-24227](5855/CVE-2026-24227.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
