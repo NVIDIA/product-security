@@ -49,8 +49,8 @@ This file contains acknowledgments for security researchers and organizations wh
 | Piotr Bania - Cisco Talos | [CVE-2022-34671](5415/CVE-2022-34671.json) | [5415.json](5415/5415.json) | [5415.md](5415/5415.md) |
 | Piotr Bania of Cisco Talos | [CVE-2022-28181](5353/CVE-2022-28181.json) | [5353.json](5353/5353.json) | [5353.md](5353/5353.md) |
 |  | [CVE-2022-28182](5353/CVE-2022-28182.json) | [5353.json](5353/5353.json) | [5353.md](5353/5353.md) |
-| Tal Lossos | [CVE-2022-34682](5415/CVE-2022-34682.json) | [5415.json](5415/5415.json) | [5415.md](5415/5415.md) |
-|  | [CVE-2022-31615](5383/CVE-2022-31615.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
+| Tal Lossos | [CVE-2022-31615](5383/CVE-2022-31615.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
+|  | [CVE-2022-34682](5415/CVE-2022-34682.json) | [5415.json](5415/5415.json) | [5415.md](5415/5415.md) |
 | Thierry Doré of Quarkslab | [CVE-2022-31606](5383/CVE-2022-31606.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
 |  | [CVE-2022-31617](5383/CVE-2022-31617.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |
 |  | [CVE-2022-31612](5383/CVE-2022-31612.json) | [5383.json](5383/5383.json) | [5383.md](5383/5383.md) |

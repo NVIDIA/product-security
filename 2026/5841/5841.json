@@ -65,19 +65,19 @@
         },
         "title": "Security Bulletin: NVIDIA Megatron Bridge - June 2026",
         "tracking": {
-            "current_release_date": "2026-06-30T00:00:00.000Z",
+            "current_release_date": "2026-06-30T00:00:00Z",
             "generator": {
-                "date": "2026-06-30T00:00:00.000Z",
+                "date": "2026-06-30T00:00:00Z",
                 "engine": {
                     "name": "NVIDIA PSIRT",
                     "version": "2.0.0"
                 }
             },
             "id": "5841",
-            "initial_release_date": "2026-06-30T00:00:00.000Z",
+            "initial_release_date": "2026-06-30T00:00:00Z",
             "revision_history": [
                 {
-                    "date": "2026-06-30T00:00:00.000Z",
+                    "date": "2026-06-30",
                     "number": "1.0.0",
                     "summary": "Initial Release"
                 }
@@ -113,10 +113,10 @@
                                 "category": "product_version",
                                 "name": "Megatron-Bridge",
                                 "product": {
-                                    "name": "Versions 0.0 to 0.4.0",
-                                    "product_id": "all_platforms_megatronbridge_versions_0_0_to_0_4_0",
+                                    "name": "0.4.1",
+                                    "product_id": "all_platforms_megatronbridge_0_4_1",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:megatronbridge:versions_0_0_to_0_4_0:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:megatronbridge:0_4_1:*:*:*:*:*:*:*"
                                     }
                                 }
                             },
@@ -124,10 +124,10 @@
                                 "category": "product_version",
                                 "name": "Megatron-Bridge",
                                 "product": {
-                                    "name": "0.4.1",
-                                    "product_id": "all_platforms_megatronbridge_0_4_1",
+                                    "name": "Versions 0.0 to 0.4.0",
+                                    "product_id": "all_platforms_megatronbridge_versions_0_0_to_0_4_0",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:megatronbridge:0_4_1:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:megatronbridge:versions_0_0_to_0_4_0:*:*:*:*:*:*:*"
                                     }
                                 }
                             }
@@ -163,7 +163,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -236,7 +236,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -309,7 +309,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -382,7 +382,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -455,7 +455,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -528,7 +528,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -601,7 +601,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -674,7 +674,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -730,7 +730,7 @@
             "acknowledgments": [
                 {
                     "names": [
-                        "finder16"
+                        "Jaeyeong Lee, Xin Guo and Lei Lu and YJK(@YJK0805) of ZUSO ART working with TrendAI Zero Day Initiative"
                     ]
                 }
             ],
@@ -747,7 +747,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -803,7 +803,7 @@
             "acknowledgments": [
                 {
                     "names": [
-                        "YJK(@YJK0805)"
+                        "YJK(@YJK0805) of ZUSO ART working with TrendAI Zero Day Initiative"
                     ]
                 }
             ],
@@ -820,7 +820,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, data tampering, information disclosure",
+                    "text": "code execution, escalation of privileges, data tampering, information disclosure",
                     "title": "Impacts"
                 },
                 {
@@ -893,7 +893,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Information disclosure",
+                    "text": "information disclosure",
                     "title": "Impacts"
                 },
                 {

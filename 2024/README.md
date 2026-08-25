@@ -2,10 +2,10 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
-| [5600](5600/5600.md) | Security Bulletin: NVIDIA Base Command and Bright Cluster Managers - November 2024 | 2024-11-26 | 2024-11-26 | [CVE-2024-0139](5600/CVE-2024-0139.json) |
 | [5584](5584/5584.md) | Security Bulletin: NVIDIA UFM Enterprise, UFM Appliance, UFM CyberAI - November 2024 | 2024-11-26 | 2025-02-14 | [CVE-2024-0130](5584/CVE-2024-0130.json) |
-| [5595](5595/5595.md) | Security Bulletin: NVIDIA Base Command Manager - November 2024 | 2024-11-19 | 2024-11-19 | [CVE-2024-0138](5595/CVE-2024-0138.json) |
+| [5600](5600/5600.md) | Security Bulletin: NVIDIA Base Command and Bright Cluster Managers - November 2024 | 2024-11-26 | 2024-11-26 | [CVE-2024-0139](5600/CVE-2024-0139.json) |
 | [5570](5570/5570.md) | Security Bulletin: NVIDIA Delegated License System - November 2024 | 2024-11-19 | 2024-11-19 | [CVE-2024-0122](5570/CVE-2024-0122.json) |
+| [5595](5595/5595.md) | Security Bulletin: NVIDIA Base Command Manager - November 2024 | 2024-11-19 | 2024-11-19 | [CVE-2024-0138](5595/CVE-2024-0138.json) |
 | [5585](5585/5585.md) | Security Bulletin: NVIDIA Container Toolkit - November 2024 | 2024-11-05 | 2024-11-05 | [CVE-2024-0134](5585/CVE-2024-0134.json) |
 | [5562](5562/5562.md) | Security Bulletin: NVIDIA ConnectX and BlueField - October 2024 | 2024-10-29 | 2024-10-29 | [CVE-2024-0105](5562/CVE-2024-0105.json), [CVE-2024-0106](5562/CVE-2024-0106.json) |
 | [5586](5586/5586.md) | Security Bulletin: NVIDIA GPU Display Driver - October 2024 | 2024-10-22 | 2024-12-05 | [CVE-2024-0126](5586/CVE-2024-0126.json), [CVE-2024-0117](5586/CVE-2024-0117.json), [CVE-2024-0118](5586/CVE-2024-0118.json), [CVE-2024-0119](5586/CVE-2024-0119.json), [CVE-2024-0120](5586/CVE-2024-0120.json), [CVE-2024-0121](5586/CVE-2024-0121.json), [CVE-2024-0127](5586/CVE-2024-0127.json), [CVE-2024-0128](5586/CVE-2024-0128.json) |

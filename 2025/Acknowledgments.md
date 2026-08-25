@@ -23,11 +23,11 @@ This file contains acknowledgments for security researchers and organizations wh
 | cyfra07 | [CVE-2024-0140](5597/CVE-2024-0140.json) | [5597.json](5597/5597.json) | [5597.md](5597/5597.md) |
 | D.K | [CVE-2025-23307](5690/CVE-2025-23307.json) | [5690.json](5690/5690.json) | [5690.md](5690/5690.md) |
 | Daniel Rhea | [CVE-2025-23309](5703/CVE-2025-23309.json) | [5703.json](5703/5703.json) | [5703.md](5703/5703.md) |
-| Daniel Teixeira (NVIDIA AI Red Team) | [CVE-2025-33222](5749/CVE-2025-33222.json) | [5749.json](5749/5749.json) | [5749.md](5749/5749.md) |
+| Daniel Teixeira (NVIDIA AI Red Team) | [CVE-2025-33203](5726/CVE-2025-33203.json) | [5726.json](5726/5726.json) | [5726.md](5726/5726.md) |
+|  | [CVE-2025-33210](5733/CVE-2025-33210.json) | [5733.json](5733/5733.json) | [5733.md](5733/5733.md) |
+|  | [CVE-2025-33222](5749/CVE-2025-33222.json) | [5749.json](5749/5749.json) | [5749.md](5749/5749.md) |
 |  | [CVE-2025-33223](5749/CVE-2025-33223.json) | [5749.json](5749/5749.json) | [5749.md](5749/5749.md) |
 |  | [CVE-2025-33224](5749/CVE-2025-33224.json) | [5749.json](5749/5749.json) | [5749.md](5749/5749.md) |
-|  | [CVE-2025-33210](5733/CVE-2025-33210.json) | [5733.json](5733/5733.json) | [5733.md](5733/5733.md) |
-|  | [CVE-2025-33203](5726/CVE-2025-33203.json) | [5726.json](5726/5726.json) | [5726.md](5726/5726.md) |
 | David Fiser and Alfredo Oliveira - Nebula of Trend Micro | [CVE-2025-23242](5625/CVE-2025-23242.json) | [5625.json](5625/5625.json) | [5625.md](5625/5625.md) |
 |  | [CVE-2025-23243](5625/CVE-2025-23243.json) | [5625.json](5625/5625.json) | [5625.md](5625/5625.md) |
 | Dimitrios Tatsis - Cisco Talos | [CVE-2024-0142](5596/CVE-2024-0142.json) | [5596.json](5596/5596.json) | [5596.md](5596/5596.md) |
@@ -89,10 +89,10 @@ This file contains acknowledgments for security researchers and organizations wh
 | Peng Zhou (zpbrent) @ Shanghai University | [CVE-2025-23249](5641/CVE-2025-23249.json) | [5641.json](5641/5641.json) | [5641.md](5641/5641.md) |
 |  | [CVE-2025-23250](5641/CVE-2025-23250.json) | [5641.json](5641/5641.json) | [5641.md](5641/5641.md) |
 |  | [CVE-2025-23251](5641/CVE-2025-23251.json) | [5641.json](5641/5641.json) | [5641.md](5641/5641.md) |
-|  | [CVE-2025-33205](5729/CVE-2025-33205.json) | [5729.json](5729/5729.json) | [5729.md](5729/5729.md) |
 |  | [CVE-2025-23303](5686/CVE-2025-23303.json) | [5686.json](5686/5686.json) | [5686.md](5686/5686.md) |
-| Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative | [CVE-2025-23357](5712/CVE-2025-23357.json) | [5712.json](5712/5712.json) | [5712.md](5712/5712.md) |
-|  | [CVE-2025-23298](5683/CVE-2025-23298.json) | [5683.json](5683/5683.json) | [5683.md](5683/5683.md) |
+|  | [CVE-2025-33205](5729/CVE-2025-33205.json) | [5729.json](5729/5729.json) | [5729.md](5729/5729.md) |
+| Peter Girnus (@gothburz) of Trend of Trend Micro Zero Day Initiative | [CVE-2025-23298](5683/CVE-2025-23298.json) | [5683.json](5683/5683.json) | [5683.md](5683/5683.md) |
+|  | [CVE-2025-23357](5712/CVE-2025-23357.json) | [5712.json](5712/5712.json) | [5712.md](5712/5712.md) |
 |  | [CVE-2025-33186](5724/CVE-2025-33186.json) | [5724.json](5724/5724.json) | [5724.md](5724/5724.md) |
 |  | [CVE-2025-33185](5724/CVE-2025-33185.json) | [5724.json](5724/5724.json) | [5724.md](5724/5724.md) |
 |  | [CVE-2025-33183](5725/CVE-2025-33183.json) | [5725.json](5725/5725.json) | [5725.md](5725/5725.md) |
@@ -116,11 +116,11 @@ This file contains acknowledgments for security researchers and organizations wh
 | Tian Yu from ADLab of VenusTech | [CVE-2025-33212](5736/CVE-2025-33212.json) | [5736.json](5736/5736.json) | [5736.md](5736/5736.md) |
 | Tong Liu | [CVE-2025-23315](5689/CVE-2025-23315.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |
 | Tong Liu (IIE) | [CVE-2025-33204](5729/CVE-2025-33204.json) | [5729.json](5729/5729.json) | [5729.md](5729/5729.md) |
-| Trend Micro Zero Day Initiative | [CVE-2025-23268](5691/CVE-2025-23268.json) | [5691.json](5691/5691.json) | [5691.md](5691/5691.md) |
-|  | [CVE-2025-23317](5687/CVE-2025-23317.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
+| Trend Micro Zero Day Initiative | [CVE-2025-23317](5687/CVE-2025-23317.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23318](5687/CVE-2025-23318.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23320](5687/CVE-2025-23320.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23333](5687/CVE-2025-23333.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
+|  | [CVE-2025-23268](5691/CVE-2025-23268.json) | [5691.json](5691/5691.json) | [5691.md](5691/5691.md) |
 | Tyler Zars and Rob Blakely of the Technical Debt Collectors - TrendMicro ZDI, taiphung217 (MDPC, OneMount Group) | [CVE-2025-33201](5734/CVE-2025-33201.json) | [5734.json](5734/5734.json) | [5734.md](5734/5734.md) |
 | Will Vandevanter - Trail of Bits | [CVE-2025-23310](5687/CVE-2025-23310.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
 |  | [CVE-2025-23311](5687/CVE-2025-23311.json) | [5687.json](5687/5687.json) | [5687.md](5687/5687.md) |
@@ -131,13 +131,13 @@ This file contains acknowledgments for security researchers and organizations wh
 | Xuanzhe Yu | [CVE-2025-23313](5689/CVE-2025-23313.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |
 |  | [CVE-2025-23314](5689/CVE-2025-23314.json) | [5689.json](5689/5689.json) | [5689.md](5689/5689.md) |
 | Yash Kundlik Jare | [CVE-2025-23289](5679/CVE-2025-23289.json) | [5679.json](5679/5679.json) | [5679.md](5679/5679.md) |
-| Yu Rong and Hao Fan | [CVE-2025-23305](5685/CVE-2025-23305.json) | [5685.json](5685/5685.json) | [5685.md](5685/5685.md) |
+| Yu Rong and Hao Fan | [CVE-2025-23264](5663/CVE-2025-23264.json) | [5663.json](5663/5663.json) | [5663.md](5663/5663.md) |
+|  | [CVE-2025-23265](5663/CVE-2025-23265.json) | [5663.json](5663/5663.json) | [5663.md](5663/5663.md) |
+|  | [CVE-2025-23305](5685/CVE-2025-23305.json) | [5685.json](5685/5685.json) | [5685.md](5685/5685.md) |
 |  | [CVE-2025-23306](5685/CVE-2025-23306.json) | [5685.json](5685/5685.json) | [5685.md](5685/5685.md) |
 |  | [CVE-2025-23349](5698/CVE-2025-23349.json) | [5698.json](5698/5698.json) | [5698.md](5698/5698.md) |
 |  | [CVE-2025-23353](5698/CVE-2025-23353.json) | [5698.json](5698/5698.json) | [5698.md](5698/5698.md) |
 |  | [CVE-2025-23354](5698/CVE-2025-23354.json) | [5698.json](5698/5698.json) | [5698.md](5698/5698.md) |
-|  | [CVE-2025-23264](5663/CVE-2025-23264.json) | [5663.json](5663/5663.json) | [5663.md](5663/5663.md) |
-|  | [CVE-2025-23265](5663/CVE-2025-23265.json) | [5663.json](5663/5663.json) | [5663.md](5663/5663.md) |
 | Yuhao Zhou@Sichuan University | [CVE-2025-23272](5661/CVE-2025-23272.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 |  | [CVE-2025-23274](5661/CVE-2025-23274.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |
 |  | [CVE-2025-23275](5661/CVE-2025-23275.json) | [5661.json](5661/5661.json) | [5661.md](5661/5661.md) |

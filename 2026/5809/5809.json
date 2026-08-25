@@ -1,0 +1,620 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1151787",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-11307-011_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "OTHER:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae  Unified Fabric Manager (UFM).&nbsp;<div>To protect your system, follow instructions to clone or update this software to version 6.24 or later from the <a href=\"https://www.nvidia.com/en-us/networking/infiniband/ufm/\">UFM NVIDIA Application Hub</a>.</div>",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "Refer to Security Updates for the updated versions to install.",
+                "title": "Mitigation Notes"
+            },
+            {
+                "category": "details",
+                "text": "These issues were found internally.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Unified Fabric Manager - August 2026",
+        "tracking": {
+            "current_release_date": "2026-08-25T00:00:00Z",
+            "generator": {
+                "date": "2026-08-25T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5809",
+            "initial_release_date": "2026-08-25T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-08-25",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - GA",
+                                "product": {
+                                    "name": "NVIDIA Unified Fabric Manager Enterprise - GA",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__ga:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2025",
+                                "product": {
+                                    "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2025",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__lts_2025:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2024",
+                                "product": {
+                                    "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2024",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__lts_2024:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2023",
+                                "product": {
+                                    "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2023",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__lts_2023:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - GA",
+                                "product": {
+                                    "name": "All GA versions prior to 6.24.1-5",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__ga:all_ga_versions_prior_to_6_24_15:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - GA",
+                                "product": {
+                                    "name": "6.24.1-5",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_6_24_15",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__ga:6_24_15:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2025",
+                                "product": {
+                                    "name": "6.23.20-3",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_6_23_203",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__lts_2025:6_23_203:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2025",
+                                "product": {
+                                    "name": "All LTS versions prior to 6.23.20-3",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__lts_2025:all_lts_versions_prior_to_6_23_203:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2024",
+                                "product": {
+                                    "name": "6.19.15",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_6_19_15",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__lts_2024:6_19_15:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2024",
+                                "product": {
+                                    "name": "All LTS versions prior to 6.19.15",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__lts_2024:all_lts_versions_prior_to_6_19_15:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2023",
+                                "product": {
+                                    "name": "All LTS versions prior to 6.15.17",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__lts_2023:all_lts_versions_prior_to_6_15_17:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA Unified Fabric Manager Enterprise - LTS 2023",
+                                "product": {
+                                    "name": "6.15.17",
+                                    "product_id": "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_6_15_17",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_unified_fabric_manager_enterprise__lts_2023:6_15_17:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "UFM Enterprise Appliance, UFM XDR Enterprise Appliance"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2026-24170",
+            "cwe": {
+                "id": "CWE-287",
+                "name": "Improper Authentication"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA UFM Enterprise contains a vulnerability in the web interface authorization component, where an authenticated user could cause improper authentication by sending specially crafted HTTP requests. A successful exploit of this vulnerability might lead to code execution and escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5813478",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_6_15_17",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_6_24_15"
+                ],
+                "known_affected": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24170"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24170"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2026-24169",
+            "cwe": {
+                "id": "CWE-77",
+                "name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA UFM Enterprise contains a vulnerability in the plugin management API, where an authenticated user with low privileges could inject code by sending a specially crafted API request. A successful exploit of this vulnerability might lead to code execution, escalation of privileges and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of priveleges and information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5813395",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_6_15_17",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_6_24_15"
+                ],
+                "known_affected": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24169"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24169"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.0,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2026-24167",
+            "cwe": {
+                "id": "CWE-77",
+                "name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA UFM Enterprise contains a vulnerability in the user management component, where an authenticated administrator could inject commands by sending a crafted API request. A successful exploit of this vulnerability might lead to code execution, escalation of privileges and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges and information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5813598",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_6_15_17",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_6_24_15"
+                ],
+                "known_affected": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24167"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24167"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2026-24168",
+            "cwe": {
+                "id": "CWE-77",
+                "name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA UFM Enterprise contains a vulnerability in the IBDiagnet API where an authenticated attacker with administrative privileges may cause command injection by sending crafted API requests. A successful exploit of this vulnerability may lead to code execution, escalation of privileges and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges and information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5813361",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_6_15_17",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_6_24_15"
+                ],
+                "known_affected": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24168"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24168"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2026-24166",
+            "cwe": {
+                "id": "CWE-321",
+                "name": "Use of Hard-coded Cryptographic Key"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA UFM Enterprise contains a vulnerability in the session management component, where an attacker could use a hard-coded cryptographic key to extract information. A successful exploit of this vulnerability might lead to information disclosure and escalation of privileges.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "information disclosure and escalation of privileges",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "5813588",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_6_15_17",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_6_24_15"
+                ],
+                "known_affected": [
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                    "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                ]
+            },
+            "references": [
+                {
+                    "category": "self",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24166"
+                },
+                {
+                    "category": "self",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-24166"
+                }
+            ],
+            "release_date": "2026-08-25T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.1,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2025_all_lts_versions_prior_to_6_23_203",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2024_all_lts_versions_prior_to_6_19_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__ga_all_ga_versions_prior_to_6_24_15",
+                        "ufm_enterprise_appliance_ufm_xdr_enterprise_appliance_nvidia_unified_fabric_manager_enterprise__lts_2023_all_lts_versions_prior_to_6_15_17"
+                    ]
+                }
+            ]
+        }
+    ]
+}
