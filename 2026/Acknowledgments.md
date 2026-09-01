@@ -26,6 +26,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Christos Papakonstantinou | [CVE-2026-65087](5872/CVE-2026-65087.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Colin McDonough of 50words.com | [CVE-2026-24222](5837/CVE-2026-24222.json) | [5837.json](5837/5837.json) | [5837.md](5837/5837.md) |
 | cyberjoker | [CVE-2026-24142](5805/CVE-2026-24142.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
+| d0qbu | [CVE-2026-61759](5868/CVE-2026-61759.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | Dan Aridor | [CVE-2025-33241](5762/CVE-2025-33241.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 |  | [CVE-2025-33243](5762/CVE-2025-33243.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 |  | [CVE-2025-33251](5762/CVE-2025-33251.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
@@ -60,8 +61,19 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-24254](5842/CVE-2026-24254.json) | [5842.json](5842/5842.json) | [5842.md](5842/5842.md) |
 |  | [CVE-2026-47623](5842/CVE-2026-47623.json) | [5842.json](5842/5842.json) | [5842.md](5842/5842.md) |
 |  | [CVE-2026-24260](5850/CVE-2026-24260.json) | [5850.json](5850/5850.json) | [5850.md](5850/5850.md) |
+|  | [CVE-2026-61757](5868/CVE-2026-61757.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-61755](5868/CVE-2026-61755.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-61751](5868/CVE-2026-61751.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-61762](5868/CVE-2026-61762.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-61767](5868/CVE-2026-61767.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-61766](5868/CVE-2026-61766.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-61776](5868/CVE-2026-61776.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-61774](5868/CVE-2026-61774.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-61773](5868/CVE-2026-61773.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-61778](5868/CVE-2026-61778.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | Faisal Tameesh, Ji'an Zhou | [CVE-2026-24253](5842/CVE-2026-24253.json) | [5842.json](5842/5842.json) | [5842.md](5842/5842.md) |
 | finder16 | [CVE-2026-24156](5811/CVE-2026-24156.json) | [5811.json](5811/5811.json) | [5811.md](5811/5811.md) |
+| haehae | [CVE-2026-61753](5868/CVE-2026-61753.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | hihihehe | [CVE-2026-47479](5853/CVE-2026-47479.json) | [5853.json](5853/5853.json) | [5853.md](5853/5853.md) |
 | Hoang The Vinh (@indig0-zero) | [CVE-2026-47481](5853/CVE-2026-47481.json) | [5853.json](5853/5853.json) | [5853.md](5853/5853.md) |
 | Hyeonjun Ahn (@deayzl) | [CVE-2026-24206](5828/CVE-2026-24206.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
@@ -102,6 +114,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-24252](5839/CVE-2026-24252.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
 |  | [CVE-2026-24249](5841/CVE-2026-24249.json) | [5841.json](5841/5841.json) | [5841.md](5841/5841.md) |
 | Muhammad Fadilullah Dzaki working with TrendAI Zero Day Initiative | [CVE-2026-24237](5851/CVE-2026-24237.json) | [5851.json](5851/5851.json) | [5851.md](5851/5851.md) |
+| nambers | [CVE-2026-61750](5868/CVE-2026-61750.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | Navtej Kathuria | [CVE-2026-24180](5814/CVE-2026-24180.json) | [5814.json](5814/5814.json) | [5814.md](5814/5814.md) |
 |  | [CVE-2026-24181](5814/CVE-2026-24181.json) | [5814.json](5814/5814.json) | [5814.md](5814/5814.md) |
 |  | [CVE-2026-24213](5828/CVE-2026-24213.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
@@ -175,6 +188,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | yongzhi | [CVE-2026-65083](5872/CVE-2026-65083.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Yongzhi Liu of Tencent Security (Yunding Lab) | [CVE-2025-33248](5769/CVE-2025-33248.json) | [5769.json](5769/5769.json) | [5769.md](5769/5769.md) |
 |  | [CVE-2026-24141](5798/CVE-2026-24141.json) | [5798.json](5798/5798.json) | [5798.md](5798/5798.md) |
+| Yoseop Kim | [CVE-2026-61754](5868/CVE-2026-61754.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | Yuval E | [CVE-2026-24227](5855/CVE-2026-24227.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
 | Ziyi Guo (Northwestern University) | [CVE-2026-24176](5818/CVE-2026-24176.json) | [5818.json](5818/5818.json) | [5818.md](5818/5818.md) |
 
