@@ -1,7 +1,6 @@
 # NVIDIA Product Security Repository
 
-Starting October 1, 2025, NVIDIA PSIRT will publish an initial set of security bulletins on GitHub in Markdown, CSAF, and CVE formats to meet industry demand for easier integration. Coverage will expand across product lines over time, while all bulletins will continue to be available on the [Product Security website](https://www.nvidia.com/en-us/security/), ensuring access from both sources in parallel.
-
+Starting October 1, 2026, NVIDIA PSIRT will only publish security bulletins on GitHub in Markdown, CSAF, and CVE formats to meet industry demand for easier integration. 
 
 ## Purpose
 This repository provides:
