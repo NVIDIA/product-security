@@ -106,6 +106,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Markus Halvorsen, Elad Luz of Oasis Security | [CVE-2026-65105](5872/CVE-2026-65105.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Markus Halvorsen, Muhammad Salman Shakeel | [CVE-2026-65097](5872/CVE-2026-65097.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Martin Brodeur | [CVE-2026-47627](5865/CVE-2026-47627.json) | [5865.json](5865/5865.json) | [5865.md](5865/5865.md) |
+| mia-718ai | [CVE-2026-47625](5875/CVE-2026-47625.json) | [5875.json](5875/5875.json) | [5875.md](5875/5875.md) |
 | Michael Katchinskiy | [CVE-2026-47483](5857/CVE-2026-47483.json) | [5857.json](5857/5857.json) | [5857.md](5857/5857.md) |
 | Mohamed Lemine ahmed jidou (mauritaniacoder) | [CVE-2026-24208](5828/CVE-2026-24208.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 | mohammed | [CVE-2025-33255](5805/CVE-2025-33255.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
@@ -158,6 +159,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-24238](5855/CVE-2026-24238.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
 |  | [CVE-2026-24272](5855/CVE-2026-24272.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
 | Shiyu Mu | [CVE-2026-47628](5865/CVE-2026-47628.json) | [5865.json](5865/5865.json) | [5865.md](5865/5865.md) |
+|  | [CVE-2026-16497](5875/CVE-2026-16497.json) | [5875.json](5875/5875.json) | [5875.md](5875/5875.md) |
 | Shiyu Mu, ning1022, zane | [CVE-2026-47476](5853/CVE-2026-47476.json) | [5853.json](5853/5853.json) | [5853.md](5853/5853.md) |
 | Sihyun Roh and Byoungyoung Lee from Compsec, SNU | [CVE-2026-24190](5821/CVE-2026-24190.json) | [5821.json](5821/5821.json) | [5821.md](5821/5821.md) |
 | sungzii | [CVE-2026-24173](5816/CVE-2026-24173.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
