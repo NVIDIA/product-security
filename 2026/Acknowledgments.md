@@ -6,11 +6,6 @@ This file contains acknowledgments for security researchers and organizations wh
 
 | Acknowledgment | CVE | CSAF File | Bulletin |
 |----------------|-----|-----------|----------|
-| Alex Matrosov | [CVE-2026-24262](5867/CVE-2026-24262.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
-|  | [CVE-2026-47626](5867/CVE-2026-47626.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
-|  | [CVE-2026-24263](5867/CVE-2026-24263.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
-|  | [CVE-2026-24225](5867/CVE-2026-24225.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
-|  | [CVE-2026-47624](5867/CVE-2026-47624.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
 | Alexis Challande | [CVE-2025-33238](5790/CVE-2025-33238.json) | [5790.json](5790/5790.json) | [5790.md](5790/5790.md) |
 |  | [CVE-2025-33254](5790/CVE-2025-33254.json) | [5790.json](5790/5790.json) | [5790.md](5790/5790.md) |
 | alexiscarreras2000 | [CVE-2026-24160](5805/CVE-2026-24160.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
@@ -19,6 +14,10 @@ This file contains acknowledgments for security researchers and organizations wh
 | Avi Lumelsky of Oligo Security | [CVE-2026-24231](5837/CVE-2026-24231.json) | [5837.json](5837/5837.json) | [5837.md](5837/5837.md) |
 | baseten | [CVE-2026-24205](5805/CVE-2026-24205.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 | Binarly Research Team | [CVE-2026-24182](5821/CVE-2026-24182.json) | [5821.json](5821/5821.json) | [5821.md](5821/5821.md) |
+| BINARLY REsearch team | [CVE-2026-24262](5867/CVE-2026-24262.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
+|  | [CVE-2026-47626](5867/CVE-2026-47626.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
+|  | [CVE-2026-24263](5867/CVE-2026-24263.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
+|  | [CVE-2026-24225](5867/CVE-2026-24225.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
 | Chanho Kim (@HO-9), Jihyeok Han (@HanJeouk) | [CVE-2026-24189](5820/CVE-2026-24189.json) | [5820.json](5820/5820.json) | [5820.md](5820/5820.md) |
 | CheN | [CVE-2026-24165](5808/CVE-2026-24165.json) | [5808.json](5808/5808.json) | [5808.md](5808/5808.md) |
 |  | [CVE-2026-24217](5831/CVE-2026-24217.json) | [5831.json](5831/5831.json) | [5831.md](5831/5831.md) |
@@ -226,6 +225,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Nikolas Null (n0k0) |
 | Rikky Ihza Pratama |
 | Robin ‚r0BIT' Unglaub @ ProSec GmbH |
+| Sahar Shlichove, JFrog |
 | Sarani Bhattacharya, Department of Computer Science and Engineering, IIT Kharagpur, Kharagpur, India |
 | Shinan Liu - The University of Hong Kong |
 | Shubham Goyal |

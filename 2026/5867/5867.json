@@ -1,7 +1,7 @@
 {
     "document": {
         "aggregate_severity": {
-            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "namespace": "https://www.first.org/cvss/v3.1/specification-document#Qualitative-Severity-Rating-Scale",
             "text": "HIGH"
         },
         "category": "csaf_security_advisory",
@@ -70,9 +70,9 @@
         },
         "title": "Security Bulletin - NVIDIA DGX Spark - August 2026",
         "tracking": {
-            "current_release_date": "2026-08-25T00:00:00Z",
+            "current_release_date": "2026-09-21T00:00:00.000Z",
             "generator": {
-                "date": "2026-08-25T00:00:00Z",
+                "date": "2026-09-21T00:00:00.000Z",
                 "engine": {
                     "name": "NVIDIA PSIRT",
                     "version": "2.0.0"
@@ -85,10 +85,15 @@
                     "date": "2026-08-25",
                     "number": "1.0.0",
                     "summary": "Initial Release"
+                },
+                {
+                    "date": "2026-09-21T00:00:00.000Z",
+                    "number": "2.0.0",
+                    "summary": "Updated acknowledgments"
                 }
             ],
             "status": "final",
-            "version": "1.0.0"
+            "version": "2.0.0"
         }
     },
     "product_tree": {
@@ -118,10 +123,10 @@
                                 "category": "product_version",
                                 "name": "DGX Spark",
                                 "product": {
-                                    "name": "0 to 1.110.12",
-                                    "product_id": "uefi_dgx_spark_0_to_1_110_12",
+                                    "name": "1.110.13",
+                                    "product_id": "uefi_dgx_spark_1_110_13",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:0_to_1_110_12:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:1_110_13:*:*:*:*:*:*:*"
                                     }
                                 }
                             },
@@ -129,10 +134,10 @@
                                 "category": "product_version",
                                 "name": "DGX Spark",
                                 "product": {
-                                    "name": "1.110.13",
-                                    "product_id": "uefi_dgx_spark_1_110_13",
+                                    "name": "0 to 1.110.12",
+                                    "product_id": "uefi_dgx_spark_0_to_1_110_12",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:1_110_13:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:dgx_spark:0_to_1_110_12:*:*:*:*:*:*:*"
                                     }
                                 }
                             }
@@ -151,7 +156,7 @@
             "acknowledgments": [
                 {
                     "names": [
-                        "Alex Matrosov"
+                        "BINARLY REsearch team"
                     ]
                 }
             ],
@@ -187,12 +192,12 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24262"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2026-24262"
                 }
@@ -224,7 +229,7 @@
             "acknowledgments": [
                 {
                     "names": [
-                        "Alex Matrosov"
+                        "BINARLY REsearch team"
                     ]
                 }
             ],
@@ -260,12 +265,12 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47626"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2026-47626"
                 }
@@ -297,7 +302,7 @@
             "acknowledgments": [
                 {
                     "names": [
-                        "Alex Matrosov"
+                        "BINARLY REsearch team"
                     ]
                 }
             ],
@@ -333,12 +338,12 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24263"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2026-24263"
                 }
@@ -370,7 +375,7 @@
             "acknowledgments": [
                 {
                     "names": [
-                        "Alex Matrosov"
+                        "BINARLY REsearch team"
                     ]
                 }
             ],
@@ -406,12 +411,12 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24225"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2026-24225"
                 }
@@ -440,13 +445,6 @@
             ]
         },
         {
-            "acknowledgments": [
-                {
-                    "names": [
-                        "Alex Matrosov"
-                    ]
-                }
-            ],
             "cve": "CVE-2026-47624",
             "cwe": {
                 "id": "CWE-693",
@@ -479,12 +477,12 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47624"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2026-47624"
                 }
