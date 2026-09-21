@@ -65,9 +65,9 @@
         },
         "title": "Security Bulletin: Megatron Bridge - September 2026",
         "tracking": {
-            "current_release_date": "2026-09-01T00:00:00Z",
+            "current_release_date": "2026-09-21T00:00:00.000Z",
             "generator": {
-                "date": "2026-09-01T00:00:00Z",
+                "date": "2026-09-21T00:00:00.000Z",
                 "engine": {
                     "name": "NVIDIA PSIRT",
                     "version": "2.0.0"
@@ -80,10 +80,15 @@
                     "date": "2026-09-01",
                     "number": "1.0.0",
                     "summary": "Initial Release"
+                },
+                {
+                    "date": "2026-09-21T00:00:00.000Z",
+                    "number": "2.0.0",
+                    "summary": "Corrected CVE-2026-61753 CWE description"
                 }
             ],
             "status": "final",
-            "version": "1.0.0"
+            "version": "2.0.0"
         }
     },
     "product_tree": {
@@ -113,10 +118,10 @@
                                 "category": "product_version",
                                 "name": "Megatron Bridge",
                                 "product": {
-                                    "name": "0.0 to 0.5.0",
-                                    "product_id": "all_platforms_megatron_bridge_0_0_to_0_5_0",
+                                    "name": "0.5.1",
+                                    "product_id": "all_platforms_megatron_bridge_0_5_1",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:megatron_bridge:0_0_to_0_5_0:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:megatron_bridge:0_5_1:*:*:*:*:*:*:*"
                                     }
                                 }
                             },
@@ -124,10 +129,10 @@
                                 "category": "product_version",
                                 "name": "Megatron Bridge",
                                 "product": {
-                                    "name": "0.5.1",
-                                    "product_id": "all_platforms_megatron_bridge_0_5_1",
+                                    "name": "0.0 to 0.5.0",
+                                    "product_id": "all_platforms_megatron_bridge_0_0_to_0_5_0",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:megatron_bridge:0_5_1:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:megatron_bridge:0_0_to_0_5_0:*:*:*:*:*:*:*"
                                     }
                                 }
                             }
@@ -503,8 +508,8 @@
             ],
             "cve": "CVE-2026-61753",
             "cwe": {
-                "id": "CWE-22",
-                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+                "id": "CWE-502",
+                "name": "Deserialization of Untrusted Data"
             },
             "notes": [
                 {
