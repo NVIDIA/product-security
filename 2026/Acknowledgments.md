@@ -70,11 +70,13 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-61774](5868/CVE-2026-61774.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 |  | [CVE-2026-61773](5868/CVE-2026-61773.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 |  | [CVE-2026-61778](5868/CVE-2026-61778.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
+|  | [CVE-2026-65121](5879/CVE-2026-65121.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
 | Faisal Tameesh, Ji'an Zhou | [CVE-2026-24253](5842/CVE-2026-24253.json) | [5842.json](5842/5842.json) | [5842.md](5842/5842.md) |
 | finder16 | [CVE-2026-24156](5811/CVE-2026-24156.json) | [5811.json](5811/5811.json) | [5811.md](5811/5811.md) |
 | haehae | [CVE-2026-61753](5868/CVE-2026-61753.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | hihihehe | [CVE-2026-47479](5853/CVE-2026-47479.json) | [5853.json](5853/5853.json) | [5853.md](5853/5853.md) |
 | Hoang The Vinh (@indig0-zero) | [CVE-2026-47481](5853/CVE-2026-47481.json) | [5853.json](5853/5853.json) | [5853.md](5853/5853.md) |
+| Hwang JUNHA | [CVE-2026-24239](5885/CVE-2026-24239.json) | [5885.json](5885/5885.json) | [5885.md](5885/5885.md) |
 | Hyeonjun Ahn (@deayzl) | [CVE-2026-24206](5828/CVE-2026-24206.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 | Inga Cherny CTRL | [CVE-2025-33236](5762/CVE-2025-33236.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 | jackey td | [CVE-2026-24220](5840/CVE-2026-24220.json) | [5840.json](5840/5840.json) | [5840.md](5840/5840.md) |
@@ -131,6 +133,19 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-47620](5842/CVE-2026-47620.json) | [5842.json](5842/5842.json) | [5842.md](5842/5842.md) |
 |  | [CVE-2026-47621](5842/CVE-2026-47621.json) | [5842.json](5842/5842.json) | [5842.md](5842/5842.md) |
 |  | [CVE-2026-47622](5842/CVE-2026-47622.json) | [5842.json](5842/5842.json) | [5842.md](5842/5842.md) |
+|  | [CVE-2026-65124](5879/CVE-2026-65124.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65125](5879/CVE-2026-65125.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65126](5879/CVE-2026-65126.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65127](5879/CVE-2026-65127.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65128](5879/CVE-2026-65128.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65129](5879/CVE-2026-65129.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65130](5879/CVE-2026-65130.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65113](5879/CVE-2026-65113.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65114](5879/CVE-2026-65114.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65115](5879/CVE-2026-65115.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65117](5879/CVE-2026-65117.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65118](5879/CVE-2026-65118.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
+|  | [CVE-2026-65112](5879/CVE-2026-65112.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
 | NSK | [CVE-2026-24264](5848/CVE-2026-24264.json) | [5848.json](5848/5848.json) | [5848.md](5848/5848.md) |
 | NVIDIA thanks David Mound - Shinobi Security for finding and reporting this issue. | [CVE-2026-24270](5849/CVE-2026-24270.json) | [5849.json](5849/5849.json) | [5849.md](5849/5849.md) |
 | Oleh Konko of 1seal | [CVE-2026-47606](5865/CVE-2026-47606.json) | [5865.json](5865/5865.json) | [5865.md](5865/5865.md) |
@@ -150,6 +165,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | ReZyron (Member of CentiSec) | [CVE-2026-24221](5851/CVE-2026-24221.json) | [5851.json](5851/5851.json) | [5851.md](5851/5851.md) |
 | Ruslan Semchenko (Руслан Семченко) | [CVE-2025-33245](5762/CVE-2025-33245.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
 | s1ko | [CVE-2026-47630](5865/CVE-2026-47630.json) | [5865.json](5865/5865.json) | [5865.md](5865/5865.md) |
+| Saidakbarxon Maxsudxonov | [CVE-2026-65111](5885/CVE-2026-65111.json) | [5885.json](5885/5885.json) | [5885.md](5885/5885.md) |
 | Sam Lovejoy and Valentina Palmiotti | [CVE-2025-33219](5747/CVE-2025-33219.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
 | Sarvesh Patil | [CVE-2026-24146](5816/CVE-2026-24146.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
 | sarvesh patil | [CVE-2026-24209](5828/CVE-2026-24209.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
@@ -161,6 +177,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-16497](5875/CVE-2026-16497.json) | [5875.json](5875/5875.json) | [5875.md](5875/5875.md) |
 | Shiyu Mu, ning1022, zane | [CVE-2026-47476](5853/CVE-2026-47476.json) | [5853.json](5853/5853.json) | [5853.md](5853/5853.md) |
 | Sihyun Roh and Byoungyoung Lee from Compsec, SNU | [CVE-2026-24190](5821/CVE-2026-24190.json) | [5821.json](5821/5821.json) | [5821.md](5821/5821.md) |
+| Song Liu | [CVE-2026-65178](5885/CVE-2026-65178.json) | [5885.json](5885/5885.json) | [5885.md](5885/5885.md) |
 | sungzii | [CVE-2026-24173](5816/CVE-2026-24173.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
 | taiphung217 | [CVE-2026-24158](5790/CVE-2026-24158.json) | [5790.json](5790/5790.json) | [5790.md](5790/5790.md) |
 | TencentAISec | [CVE-2025-33246](5762/CVE-2025-33246.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
@@ -192,6 +209,8 @@ This file contains acknowledgments for security researchers and organizations wh
 | Yoseop Kim | [CVE-2026-61754](5868/CVE-2026-61754.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | Yuval E | [CVE-2026-24227](5855/CVE-2026-24227.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
 | Ziyi Guo (Northwestern University) | [CVE-2026-24176](5818/CVE-2026-24176.json) | [5818.json](5818/5818.json) | [5818.md](5818/5818.md) |
+| Руслан Семченко | [CVE-2026-24267](5885/CVE-2026-24267.json) | [5885.json](5885/5885.json) | [5885.md](5885/5885.md) |
+| 升 / CheN.. | [CVE-2026-65179](5885/CVE-2026-65179.json) | [5885.json](5885/5885.json) | [5885.md](5885/5885.md) |
 
 ## NVIDIA would also like to thank the following
 
