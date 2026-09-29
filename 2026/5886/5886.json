@@ -1,0 +1,219 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v3.1/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1161975",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-12987-001_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "OTHER:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae DeepStream&nbsp;<br>To protect your system, clone or update this software to version 9.1.0 or later from the <a href=\"https://github.com/nvidia/deepstream\">NVIDIA/DeepStream</a> GitHub repo.<br>",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae DeepStream&nbsp;<div>To protect your system, clone or update this software to version 9.1.0 or later from NVIDIA/DeepStream on GitHub.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "This issue was found externally&nbsp;",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA DeepStream - September 2026",
+        "tracking": {
+            "current_release_date": "2026-09-29T00:00:00Z",
+            "generator": {
+                "date": "2026-09-29T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5886",
+            "initial_release_date": "2026-09-29T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-09-29",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NVIDIA DeepStream",
+                                "product": {
+                                    "name": "NVIDIA DeepStream",
+                                    "product_id": "all_nvidia_deepstream",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_deepstream:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DeepStream",
+                                "product": {
+                                    "name": "0-9.0.1",
+                                    "product_id": "all_nvidia_deepstream_09_0_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_deepstream:09_0_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NVIDIA DeepStream",
+                                "product": {
+                                    "name": "9.1.0",
+                                    "product_id": "all_nvidia_deepstream_9_1_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_deepstream:9_1_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Mohamed Lemine Ahmed Jidou"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65102",
+            "cwe": {
+                "id": "CWE-190",
+                "name": "Integer Overflow or Wraparound"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA DeepStream  contains a vulnerability where an attacker could cause an integer overflow by supplying crafted tensor dimensions in a YAML configuration file. A successful exploit of this vulnerability might lead to denial of service, information disclosure, data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6113246",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nvidia_deepstream_9_1_0"
+                ],
+                "known_affected": [
+                    "all_nvidia_deepstream_09_0_1"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65102"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65102"
+                }
+            ],
+            "release_date": "2026-09-29T00:00:00Z",
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nvidia_deepstream_09_0_1"
+                    ]
+                }
+            ]
+        }
+    ]
+}

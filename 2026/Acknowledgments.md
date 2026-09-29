@@ -109,6 +109,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Martin Brodeur | [CVE-2026-47627](5865/CVE-2026-47627.json) | [5865.json](5865/5865.json) | [5865.md](5865/5865.md) |
 | mia-718ai | [CVE-2026-47625](5875/CVE-2026-47625.json) | [5875.json](5875/5875.json) | [5875.md](5875/5875.md) |
 | Michael Katchinskiy | [CVE-2026-47483](5857/CVE-2026-47483.json) | [5857.json](5857/5857.json) | [5857.md](5857/5857.md) |
+| Mohamed Lemine Ahmed Jidou | [CVE-2026-65102](5886/CVE-2026-65102.json) | [5886.json](5886/5886.json) | [5886.md](5886/5886.md) |
 | Mohamed Lemine ahmed jidou (mauritaniacoder) | [CVE-2026-24208](5828/CVE-2026-24208.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 | mohammed | [CVE-2025-33255](5805/CVE-2025-33255.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 |  | [CVE-2026-24163](5805/CVE-2026-24163.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |

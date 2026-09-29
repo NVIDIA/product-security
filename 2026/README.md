@@ -2,6 +2,8 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5847](5847/5847.md) | Security Bulletin: NVIDIA Networking BlueField, ConnectX - September 2026 | 2026-09-29 | 2026-09-29 | [CVE-2025-33207](5847/CVE-2025-33207.json) |
+| [5886](5886/5886.md) | Security Bulletin: NVIDIA DeepStream - September 2026 | 2026-09-29 | 2026-09-29 | [CVE-2026-65102](5886/CVE-2026-65102.json) |
 | [5879](5879/5879.md) | Security Bulletin - NVIDIA Infrastructure Controller - August 2026 | 2026-09-22 | 2026-09-22 | [CVE-2026-65121](5879/CVE-2026-65121.json), [CVE-2026-65124](5879/CVE-2026-65124.json), [CVE-2026-65125](5879/CVE-2026-65125.json), [CVE-2026-65126](5879/CVE-2026-65126.json), [CVE-2026-65127](5879/CVE-2026-65127.json), [CVE-2026-65128](5879/CVE-2026-65128.json), [CVE-2026-65129](5879/CVE-2026-65129.json), [CVE-2026-65130](5879/CVE-2026-65130.json), [CVE-2026-65113](5879/CVE-2026-65113.json), [CVE-2026-65114](5879/CVE-2026-65114.json), [CVE-2026-65115](5879/CVE-2026-65115.json), [CVE-2026-65117](5879/CVE-2026-65117.json), [CVE-2026-65118](5879/CVE-2026-65118.json), [CVE-2026-65112](5879/CVE-2026-65112.json) |
 | [5885](5885/5885.md) | Security Bulletin - NeMo Speech - August 2026 | 2026-09-22 | 2026-09-22 | [CVE-2026-24267](5885/CVE-2026-24267.json), [CVE-2026-24239](5885/CVE-2026-24239.json), [CVE-2026-65111](5885/CVE-2026-65111.json), [CVE-2026-65178](5885/CVE-2026-65178.json), [CVE-2026-65179](5885/CVE-2026-65179.json) |
 | [5875](5875/5875.md) | Security Bulletin - Triton Inference Server - August 2026 | 2026-09-08 | 2026-09-08 | [CVE-2026-16497](5875/CVE-2026-16497.json), [CVE-2026-47625](5875/CVE-2026-47625.json) |
