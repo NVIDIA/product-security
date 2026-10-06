@@ -23,6 +23,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-47626](5867/CVE-2026-47626.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
 |  | [CVE-2026-24263](5867/CVE-2026-24263.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
 |  | [CVE-2026-24225](5867/CVE-2026-24225.json) | [5867.json](5867/5867.json) | [5867.md](5867/5867.md) |
+| breakingbad | [CVE-2026-65122](5891/CVE-2026-65122.json) | [5891.json](5891/5891.json) | [5891.md](5891/5891.md) |
 | Chanho Kim (@HO-9), Jihyeok Han (@HanJeouk) | [CVE-2026-24189](5820/CVE-2026-24189.json) | [5820.json](5820/5820.json) | [5820.md](5820/5820.md) |
 | CheN | [CVE-2026-24165](5808/CVE-2026-24165.json) | [5808.json](5808/5808.json) | [5808.md](5808/5808.md) |
 |  | [CVE-2026-24217](5831/CVE-2026-24217.json) | [5831.json](5831/5831.json) | [5831.md](5831/5831.md) |
@@ -145,6 +146,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Moomi Chen | [CVE-2026-24155](5839/CVE-2026-24155.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
 |  | [CVE-2026-24252](5839/CVE-2026-24252.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
 |  | [CVE-2026-24249](5841/CVE-2026-24249.json) | [5841.json](5841/5841.json) | [5841.md](5841/5841.md) |
+|  | [CVE-2026-65142](5903/CVE-2026-65142.json) | [5903.json](5903/5903.json) | [5903.md](5903/5903.md) |
 | Muhammad Fadilullah Dzaki working with TrendAI Zero Day Initiative | [CVE-2026-24237](5851/CVE-2026-24237.json) | [5851.json](5851/5851.json) | [5851.md](5851/5851.md) |
 | nambers | [CVE-2026-61750](5868/CVE-2026-61750.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | Navtej Kathuria | [CVE-2026-24180](5814/CVE-2026-24180.json) | [5814.json](5814/5814.json) | [5814.md](5814/5814.md) |
