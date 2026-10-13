@@ -81,6 +81,11 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-65121](5879/CVE-2026-65121.json) | [5879.json](5879/5879.json) | [5879.md](5879/5879.md) |
 | Faisal Tameesh, Ji'an Zhou | [CVE-2026-24253](5842/CVE-2026-24253.json) | [5842.json](5842/5842.json) | [5842.md](5842/5842.md) |
 | finder16 | [CVE-2026-24156](5811/CVE-2026-24156.json) | [5811.json](5811/5811.json) | [5811.md](5811/5811.md) |
+| George Chen, Rocco Calvi (@TecR0c) with TecSecurity working with TrendAI Zero Day Initiative, Facundo Fernandez | [CVE-2026-65161](5889/CVE-2026-65161.json) | [5889.json](5889/5889.json) | [5889.md](5889/5889.md) |
+| Habibullo Izzatilloyev | [CVE-2026-65149](5900/CVE-2026-65149.json) | [5900.json](5900/5900.json) | [5900.md](5900/5900.md) |
+|  | [CVE-2026-65150](5900/CVE-2026-65150.json) | [5900.json](5900/5900.json) | [5900.md](5900/5900.md) |
+| Habibullo Izzatilloyev working with TrendAI Zero Day Initiative | [CVE-2026-65170](5889/CVE-2026-65170.json) | [5889.json](5889/5889.json) | [5889.md](5889/5889.md) |
+|  | [CVE-2026-65101](5889/CVE-2026-65101.json) | [5889.json](5889/5889.json) | [5889.md](5889/5889.md) |
 | haehae | [CVE-2026-61753](5868/CVE-2026-61753.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | hihihehe | [CVE-2026-47479](5853/CVE-2026-47479.json) | [5853.json](5853/5853.json) | [5853.md](5853/5853.md) |
 | Hoang The Vinh (@indig0-zero) | [CVE-2026-47481](5853/CVE-2026-47481.json) | [5853.json](5853/5853.json) | [5853.md](5853/5853.md) |
@@ -100,6 +105,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Ji'an Zhou, Lei Lu | [CVE-2026-47560](5861/CVE-2026-47560.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 |  | [CVE-2026-47595](5861/CVE-2026-47595.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 | Ji'an Zhou, Lei Lu, Hải Sơn Mai | [CVE-2026-47551](5861/CVE-2026-47551.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
+| jimmy00 | [CVE-2026-67456](5901/CVE-2026-67456.json) | [5901.json](5901/5901.json) | [5901.md](5901/5901.md) |
 | JunDong Xie (antgroup) | [CVE-2026-24192](5821/CVE-2026-24192.json) | [5821.json](5821/5821.json) | [5821.md](5821/5821.md) |
 |  | [CVE-2026-24196](5821/CVE-2026-24196.json) | [5821.json](5821/5821.json) | [5821.md](5821/5821.md) |
 |  | [CVE-2026-24199](5821/CVE-2026-24199.json) | [5821.json](5821/5821.json) | [5821.md](5821/5821.md) |
@@ -107,6 +113,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | junghyunpark2001 | [CVE-2026-47559](5861/CVE-2026-47559.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 |  | [CVE-2026-47563](5861/CVE-2026-47563.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 |  | [CVE-2026-47591](5861/CVE-2026-47591.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
+| Justin Hart (Viridis Security) and Kandlaguduru Vamsi (Xh081iX)  C H SAI LOHITH | [CVE-2026-65110](5881/CVE-2026-65110.json) | [5881.json](5881/5881.json) | [5881.md](5881/5881.md) |
 | k0x | [CVE-2026-24233](5840/CVE-2026-24233.json) | [5840.json](5840/5840.json) | [5840.md](5840/5840.md) |
 | Kentaro Kawane | [CVE-2025-33217](5747/CVE-2025-33217.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
 |  | [CVE-2025-33218](5747/CVE-2025-33218.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
@@ -127,6 +134,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Markus Halvorsen, Elad Luz of Oasis Security | [CVE-2026-65105](5872/CVE-2026-65105.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Markus Halvorsen, Muhammad Salman Shakeel | [CVE-2026-65097](5872/CVE-2026-65097.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Martin Brodeur | [CVE-2026-47627](5865/CVE-2026-47627.json) | [5865.json](5865/5865.json) | [5865.md](5865/5865.md) |
+| Mat Powell of TrendAI of TrendAI Zero Day Initiative | [CVE-2026-65103](5889/CVE-2026-65103.json) | [5889.json](5889/5889.json) | [5889.md](5889/5889.md) |
 | Matvej | [CVE-2026-47505](5861/CVE-2026-47505.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 |  | [CVE-2026-47506](5861/CVE-2026-47506.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 |  | [CVE-2026-47549](5861/CVE-2026-47549.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
@@ -139,13 +147,15 @@ This file contains acknowledgments for security researchers and organizations wh
 | mia-718ai | [CVE-2026-47625](5875/CVE-2026-47625.json) | [5875.json](5875/5875.json) | [5875.md](5875/5875.md) |
 | Michael Katchinskiy | [CVE-2026-47483](5857/CVE-2026-47483.json) | [5857.json](5857/5857.json) | [5857.md](5857/5857.md) |
 | mitesh5555 | [CVE-2026-47550](5861/CVE-2026-47550.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
-| Mohamed Lemine Ahmed Jidou | [CVE-2026-65102](5886/CVE-2026-65102.json) | [5886.json](5886/5886.json) | [5886.md](5886/5886.md) |
+| Mohamed Lemine Ahmed Jidou | [CVE-2026-65162](5889/CVE-2026-65162.json) | [5889.json](5889/5889.json) | [5889.md](5889/5889.md) |
+| Mohamed Lemine Ahmed Jidou (AegisSec) | [CVE-2026-65102](5886/CVE-2026-65102.json) | [5886.json](5886/5886.json) | [5886.md](5886/5886.md) |
 | Mohamed Lemine ahmed jidou (mauritaniacoder) | [CVE-2026-24208](5828/CVE-2026-24208.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 | mohammed | [CVE-2025-33255](5805/CVE-2025-33255.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 |  | [CVE-2026-24163](5805/CVE-2026-24163.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 | Moomi Chen | [CVE-2026-24155](5839/CVE-2026-24155.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
 |  | [CVE-2026-24252](5839/CVE-2026-24252.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
 |  | [CVE-2026-24249](5841/CVE-2026-24249.json) | [5841.json](5841/5841.json) | [5841.md](5841/5841.md) |
+|  | [CVE-2026-65180](5881/CVE-2026-65180.json) | [5881.json](5881/5881.json) | [5881.md](5881/5881.md) |
 |  | [CVE-2026-65142](5903/CVE-2026-65142.json) | [5903.json](5903/5903.json) | [5903.md](5903/5903.md) |
 | Muhammad Fadilullah Dzaki working with TrendAI Zero Day Initiative | [CVE-2026-24237](5851/CVE-2026-24237.json) | [5851.json](5851/5851.json) | [5851.md](5851/5851.md) |
 | nambers | [CVE-2026-61750](5868/CVE-2026-61750.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
@@ -192,6 +202,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-33229](5755/CVE-2025-33229.json) | [5755.json](5755/5755.json) | [5755.md](5755/5755.md) |
 |  | [CVE-2025-33230](5755/CVE-2025-33230.json) | [5755.json](5755/5755.json) | [5755.md](5755/5755.md) |
 |  | [CVE-2025-33231](5755/CVE-2025-33231.json) | [5755.json](5755/5755.json) | [5755.md](5755/5755.md) |
+| Renan Malafatti | [CVE-2026-65141](5902/CVE-2026-65141.json) | [5902.json](5902/5902.json) | [5902.md](5902/5902.md) |
 | responsiblereport10 | [CVE-2026-47487](5860/CVE-2026-47487.json) | [5860.json](5860/5860.json) | [5860.md](5860/5860.md) |
 | Reter AI Security Research | [CVE-2026-65085](5872/CVE-2026-65085.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 |  | [CVE-2026-65086](5872/CVE-2026-65086.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
@@ -206,6 +217,8 @@ This file contains acknowledgments for security researchers and organizations wh
 | Seiji Sakurai (@HeapSmasher) working with TrendAI Zero Day Initiative | [CVE-2026-24268](5855/CVE-2026-24268.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
 |  | [CVE-2026-24238](5855/CVE-2026-24238.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
 |  | [CVE-2026-24272](5855/CVE-2026-24272.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
+| sharadboni | [CVE-2026-65147](5900/CVE-2026-65147.json) | [5900.json](5900/5900.json) | [5900.md](5900/5900.md) |
+|  | [CVE-2026-65148](5900/CVE-2026-65148.json) | [5900.json](5900/5900.json) | [5900.md](5900/5900.md) |
 | Shiyu Mu | [CVE-2026-47628](5865/CVE-2026-47628.json) | [5865.json](5865/5865.json) | [5865.md](5865/5865.md) |
 |  | [CVE-2026-16497](5875/CVE-2026-16497.json) | [5875.json](5875/5875.json) | [5875.md](5875/5875.md) |
 | Shiyu Mu, ning1022, zane | [CVE-2026-47476](5853/CVE-2026-47476.json) | [5853.json](5853/5853.json) | [5853.md](5853/5853.md) |
@@ -226,6 +239,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Thomas Keefer (TKYN) | [CVE-2025-33237](5747/CVE-2025-33237.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
 | Thomas Keefer, Dan Aridor | [CVE-2026-24164](5808/CVE-2026-24164.json) | [5808.json](5808/5808.json) | [5808.md](5808/5808.md) |
 | Thomas Pitt | [CVE-2026-47557](5861/CVE-2026-47557.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
+| Tian Xia(Dem0), jianjun chen,Qi Wang(Eki) @Tsinghua University | [CVE-2026-65104](5881/CVE-2026-65104.json) | [5881.json](5881/5881.json) | [5881.md](5881/5881.md) |
 | Tian Yu from ADLab of VenusTech | [CVE-2026-24147](5816/CVE-2026-24147.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
 | Tianze Ding (Tencent Security Xuanwu Lab) | [CVE-2026-24177](5818/CVE-2026-24177.json) | [5818.json](5818/5818.json) | [5818.md](5818/5818.md) |
 | TrendAI Zero Day Initiative | [CVE-2026-47602](5861/CVE-2026-47602.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
@@ -247,6 +261,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-24141](5798/CVE-2026-24141.json) | [5798.json](5798/5798.json) | [5798.md](5798/5798.md) |
 | Yoseop Kim | [CVE-2026-61754](5868/CVE-2026-61754.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | Yuval E | [CVE-2026-24227](5855/CVE-2026-24227.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
+| Yuval Fradkin | [CVE-2026-65131](5890/CVE-2026-65131.json) | [5890.json](5890/5890.json) | [5890.md](5890/5890.md) |
 | Ziyi Guo | [CVE-2026-47599](5861/CVE-2026-47599.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 | Ziyi Guo (Northwestern University) | [CVE-2026-24176](5818/CVE-2026-24176.json) | [5818.json](5818/5818.json) | [5818.md](5818/5818.md) |
 | Руслан Семченко | [CVE-2026-24267](5885/CVE-2026-24267.json) | [5885.json](5885/5885.json) | [5885.md](5885/5885.md) |

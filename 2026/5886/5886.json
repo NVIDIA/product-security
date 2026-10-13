@@ -146,7 +146,7 @@
             "acknowledgments": [
                 {
                     "names": [
-                        "Mohamed Lemine Ahmed Jidou"
+                        "Mohamed Lemine Ahmed Jidou (AegisSec)"
                     ]
                 }
             ],
@@ -193,6 +193,15 @@
                 }
             ],
             "release_date": "2026-09-29T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 9.1.0.",
+                    "product_ids": [
+                        "all_nvidia_deepstream_09_0_1"
+                    ]
+                }
+            ],
             "scores": [
                 {
                     "cvss_v3": {
