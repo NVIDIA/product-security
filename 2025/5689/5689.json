@@ -1,13 +1,13 @@
 {
     "document": {
         "aggregate_severity": {
-            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "namespace": "https://www.first.org/cvss/v3.1/specification-document#Qualitative-Severity-Rating-Scale",
             "text": "HIGH"
         },
         "category": "csaf_security_advisory",
         "csaf_version": "2.0",
         "distribution": {
-            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
             "tlp": {
                 "label": "WHITE",
                 "url": "https://www.first.org/tlp/"
@@ -16,14 +16,29 @@
         "lang": "en",
         "notes": [
             {
+                "category": "details",
+                "text": "1139602",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-12268-004_v1.0",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "NEMO:NeMo",
+                "title": "Product Team"
+            },
+            {
                 "category": "summary",
                 "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Framework<br>To protect your system, download and install the latest NVIDIA NeMo Framework from <a href=\"https://github.com/NVIDIA/NeMo/releases\">NVIDIA Github</a> and <a href=\"https://pypi.org/project/nemo-toolkit/\">pypi</a>.",
                 "title": "Summary"
-            },
-            {
-                "category": "legal_disclaimer",
-                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
-                "title": "Terms of Use"
             },
             {
                 "category": "details",
@@ -36,24 +51,9 @@
                 "title": "Bulletin Notes"
             },
             {
-                "category": "details",
-                "text": "TB-12268-004_v1.0",
-                "title": "Part Number"
-            },
-            {
-                "category": "details",
-                "text": "1139602",
-                "title": "Product Information Delivery"
-            },
-            {
-                "category": "details",
-                "text": "15:NeMo",
-                "title": "Product Team"
-            },
-            {
-                "category": "details",
-                "text": "false",
-                "title": "Contains Firmware"
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
             }
         ],
         "publisher": {
@@ -70,14 +70,14 @@
                 "date": "2025-08-26T00:00:00Z",
                 "engine": {
                     "name": "NVIDIA PSIRT",
-                    "version": "1.0.0"
+                    "version": "2.0.0"
                 }
             },
             "id": "5689",
             "initial_release_date": "2025-08-26T00:00:00Z",
             "revision_history": [
                 {
-                    "date": "2025-08-26T00:00:00Z",
+                    "date": "2025-08-26",
                     "number": "1.0.0",
                     "summary": "Initial Release"
                 }
@@ -113,10 +113,10 @@
                                 "category": "product_version",
                                 "name": "NVIDIA NeMo Framework",
                                 "product": {
-                                    "name": "All versions prior to 2.4.0",
-                                    "product_id": "windows_linux_macos_nvidia_nemo_framework_all_versions_prior_to_2_4_0",
+                                    "name": "2.4.0",
+                                    "product_id": "windows_linux_macos_nvidia_nemo_framework_2_4_0",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:all_versions_prior_to_2_4_0:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:2_4_0:*:*:*:*:*:*:*"
                                     }
                                 }
                             },
@@ -124,10 +124,10 @@
                                 "category": "product_version",
                                 "name": "NVIDIA NeMo Framework",
                                 "product": {
-                                    "name": "2.4.0",
-                                    "product_id": "windows_linux_macos_nvidia_nemo_framework_2_4_0",
+                                    "name": "All versions prior to 2.4.0",
+                                    "product_id": "windows_linux_macos_nvidia_nemo_framework_all_versions_prior_to_2_4_0",
                                     "product_identification_helper": {
-                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:2_4_0:*:*:*:*:*:*:*"
+                                        "cpe": "cpe:2.3:a:nvidia:nvidia_nemo_framework:all_versions_prior_to_2_4_0:*:*:*:*:*:*:*"
                                     }
                                 }
                             }
@@ -163,7 +163,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, information disclosure, data tampering",
+                    "text": "code execution, escalation of privileges, information disclosure, data tampering",
                     "title": "Impacts"
                 },
                 {
@@ -182,17 +182,26 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23312"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2025-23312"
                 }
             ],
             "release_date": "2025-08-26T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 2.4.0.",
+                    "product_ids": [
+                        "windows_linux_macos_nvidia_nemo_framework_all_versions_prior_to_2_4_0"
+                    ]
+                }
+            ],
             "scores": [
                 {
                     "cvss_v3": {
@@ -236,7 +245,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, information disclosure, data tampering",
+                    "text": "code execution, escalation of privileges, information disclosure, data tampering",
                     "title": "Impacts"
                 },
                 {
@@ -255,17 +264,26 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23313"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2025-23313"
                 }
             ],
             "release_date": "2025-08-26T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 2.4.0.",
+                    "product_ids": [
+                        "windows_linux_macos_nvidia_nemo_framework_all_versions_prior_to_2_4_0"
+                    ]
+                }
+            ],
             "scores": [
                 {
                     "cvss_v3": {
@@ -309,7 +327,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, information disclosure, data tampering",
+                    "text": "code execution, escalation of privileges, information disclosure, data tampering",
                     "title": "Impacts"
                 },
                 {
@@ -328,17 +346,26 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23314"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2025-23314"
                 }
             ],
             "release_date": "2025-08-26T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 2.4.0.",
+                    "product_ids": [
+                        "windows_linux_macos_nvidia_nemo_framework_all_versions_prior_to_2_4_0"
+                    ]
+                }
+            ],
             "scores": [
                 {
                     "cvss_v3": {
@@ -382,7 +409,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, escalation of privileges, information disclosure, data tampering",
+                    "text": "code execution, escalation of privileges, information disclosure, data tampering",
                     "title": "Impacts"
                 },
                 {
@@ -401,17 +428,26 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23315"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2025-23315"
                 }
             ],
             "release_date": "2025-08-26T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 2.4.0.",
+                    "product_ids": [
+                        "windows_linux_macos_nvidia_nemo_framework_all_versions_prior_to_2_4_0"
+                    ]
+                }
+            ],
             "scores": [
                 {
                     "cvss_v3": {

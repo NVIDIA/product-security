@@ -1,13 +1,13 @@
 {
     "document": {
         "aggregate_severity": {
-            "namespace": "https://www.first.org/cvss/v4.0/specification-document#Qualitative-Severity-Rating-Scale",
+            "namespace": "https://www.first.org/cvss/v3.1/specification-document#Qualitative-Severity-Rating-Scale",
             "text": "HIGH"
         },
         "category": "csaf_security_advisory",
         "csaf_version": "2.0",
         "distribution": {
-            "text": "Copyright \u00a9 2025 NVIDIA Corporation. All rights reserved.",
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
             "tlp": {
                 "label": "WHITE",
                 "url": "https://www.first.org/tlp/"
@@ -16,19 +16,9 @@
         "lang": "en",
         "notes": [
             {
-                "category": "summary",
-                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Framework.&nbsp;<div>To protect your system, clone or update this software to version 2.6.2 or later from <a href=\"https://github.com/NVIDIA/NeMo\">NVIDIA/NeMo Framework</a> on NVIDIA GitHub or <a href=\"https://pypi.org/project/nemo-toolkit/\">pypi</a>.</div>",
-                "title": "Summary"
-            },
-            {
-                "category": "legal_disclaimer",
-                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
-                "title": "Terms of Use"
-            },
-            {
                 "category": "details",
-                "text": "These issues were found externally.",
-                "title": "Bulletin Notes"
+                "text": "1150717",
+                "title": "Product Information Delivery"
             },
             {
                 "category": "details",
@@ -37,18 +27,28 @@
             },
             {
                 "category": "details",
-                "text": "1150717",
-                "title": "Product Information Delivery"
+                "text": "false",
+                "title": "Contains Firmware"
             },
             {
                 "category": "details",
-                "text": "15:NeMo",
+                "text": "NEMO:NeMo",
                 "title": "Product Team"
             },
             {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Framework.&nbsp;<div>To protect your system, clone or update this software to version 2.6.2 or later from <a href=\"https://github.com/NVIDIA/NeMo\">NVIDIA/NeMo Framework</a> on NVIDIA GitHub or <a href=\"https://pypi.org/project/nemo-toolkit/\">pypi</a>.</div>",
+                "title": "Summary"
+            },
+            {
                 "category": "details",
-                "text": "false",
-                "title": "Contains Firmware"
+                "text": "These issues were found externally.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
             }
         ],
         "publisher": {
@@ -65,14 +65,14 @@
                 "date": "2026-03-24T00:00:00Z",
                 "engine": {
                     "name": "NVIDIA PSIRT",
-                    "version": "1.0.0"
+                    "version": "2.0.0"
                 }
             },
             "id": "5800",
             "initial_release_date": "2026-03-24T00:00:00Z",
             "revision_history": [
                 {
-                    "date": "2026-03-24T00:00:00Z",
+                    "date": "2026-03-24",
                     "number": "1.0.0",
                     "summary": "Initial Release"
                 }
@@ -158,7 +158,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, information disclosure, data tampering",
+                    "text": "code execution, information disclosure, data tampering",
                     "title": "Impacts"
                 },
                 {
@@ -177,17 +177,26 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24157"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2026-24157"
                 }
             ],
             "release_date": "2026-03-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 2.6.2.",
+                    "product_ids": [
+                        "all_platforms_nemo_framework_all_versions_prior_to_2_6_2"
+                    ]
+                }
+            ],
             "scores": [
                 {
                     "cvss_v3": {
@@ -231,7 +240,7 @@
                 },
                 {
                     "category": "details",
-                    "text": "Code execution, information disclosure, data tampering",
+                    "text": "code execution, information disclosure, data tampering",
                     "title": "Impacts"
                 },
                 {
@@ -250,17 +259,26 @@
             },
             "references": [
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "NVD",
                     "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24159"
                 },
                 {
-                    "category": "self",
+                    "category": "external",
                     "summary": "Mitre",
                     "url": "https://www.cve.org/CVERecord?id=CVE-2026-24159"
                 }
             ],
             "release_date": "2026-03-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 2.6.2.",
+                    "product_ids": [
+                        "all_platforms_nemo_framework_all_versions_prior_to_2_6_2"
+                    ]
+                }
+            ],
             "scores": [
                 {
                     "cvss_v3": {

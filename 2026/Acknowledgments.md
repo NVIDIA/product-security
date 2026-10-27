@@ -6,6 +6,7 @@ This file contains acknowledgments for security researchers and organizations wh
 
 | Acknowledgment | CVE | CSAF File | Bulletin |
 |----------------|-----|-----------|----------|
+| Aaron Portnoy, Mindgard | [CVE-2026-24269](5883/CVE-2026-24269.json) | [5883.json](5883/5883.json) | [5883.md](5883/5883.md) |
 | Aleksandar Nikolic | [CVE-2026-47589](5861/CVE-2026-47589.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 |  | [CVE-2026-47590](5861/CVE-2026-47590.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 |  | [CVE-2026-47592](5861/CVE-2026-47592.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
@@ -15,6 +16,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2025-33254](5790/CVE-2025-33254.json) | [5790.json](5790/5790.json) | [5790.md](5790/5790.md) |
 | alexiscarreras2000 | [CVE-2026-24160](5805/CVE-2026-24160.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 | aportnoy | [CVE-2026-47473](5840/CVE-2026-47473.json) | [5840.json](5840/5840.json) | [5840.md](5840/5840.md) |
+|  | [CVE-2026-24269](5883/CVE-2026-24269.json) | [5883.json](5883/5883.json) | [5883.md](5883/5883.md) |
 | Aryan Srivastava | [CVE-2026-24259](5840/CVE-2026-24259.json) | [5840.json](5840/5840.json) | [5840.md](5840/5840.md) |
 | Avi Lumelsky of Oligo Security | [CVE-2026-24231](5837/CVE-2026-24231.json) | [5837.json](5837/5837.json) | [5837.md](5837/5837.md) |
 | baseten | [CVE-2026-24205](5805/CVE-2026-24205.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
@@ -30,6 +32,8 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-24216](5831/CVE-2026-24216.json) | [5831.json](5831/5831.json) | [5831.md](5831/5831.md) |
 | Christos Papakonstantinou | [CVE-2026-65087](5872/CVE-2026-65087.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 | Colin McDonough of 50words.com | [CVE-2026-24222](5837/CVE-2026-24222.json) | [5837.json](5837/5837.json) | [5837.md](5837/5837.md) |
+|  | [CVE-2026-65151](5912/CVE-2026-65151.json) | [5912.json](5912/5912.json) | [5912.md](5912/5912.md) |
+| Colin McDonough of 50words.com, YJK(@YJK0805) of ZUSO ART working with TrendAI Zero Day Initiative | [CVE-2026-65145](5912/CVE-2026-65145.json) | [5912.json](5912/5912.json) | [5912.md](5912/5912.md) |
 | cyberjoker | [CVE-2026-24142](5805/CVE-2026-24142.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 | d0qbu | [CVE-2026-61759](5868/CVE-2026-61759.json) | [5868.json](5868/5868.json) | [5868.md](5868/5868.md) |
 | Dan Aridor | [CVE-2025-33241](5762/CVE-2025-33241.json) | [5762.json](5762/5762.json) | [5762.md](5762/5762.md) |
@@ -152,6 +156,10 @@ This file contains acknowledgments for security researchers and organizations wh
 | Mohamed Lemine ahmed jidou (mauritaniacoder) | [CVE-2026-24208](5828/CVE-2026-24208.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 | mohammed | [CVE-2025-33255](5805/CVE-2025-33255.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
 |  | [CVE-2026-24163](5805/CVE-2026-24163.json) | [5805.json](5805/5805.json) | [5805.md](5805/5805.md) |
+| Mohammed | [CVE-2026-65119](5883/CVE-2026-65119.json) | [5883.json](5883/5883.json) | [5883.md](5883/5883.md) |
+| mohammed | [CVE-2026-65119](5883/CVE-2026-65119.json) | [5883.json](5883/5883.json) | [5883.md](5883/5883.md) |
+| Mohammed | [CVE-2026-65120](5883/CVE-2026-65120.json) | [5883.json](5883/5883.json) | [5883.md](5883/5883.md) |
+| mohammed | [CVE-2026-65120](5883/CVE-2026-65120.json) | [5883.json](5883/5883.json) | [5883.md](5883/5883.md) |
 | Moomi Chen | [CVE-2026-24155](5839/CVE-2026-24155.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
 |  | [CVE-2026-24252](5839/CVE-2026-24252.json) | [5839.json](5839/5839.json) | [5839.md](5839/5839.md) |
 |  | [CVE-2026-24249](5841/CVE-2026-24249.json) | [5841.json](5841/5841.json) | [5841.md](5841/5841.md) |
@@ -214,6 +222,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | Sarvesh Patil | [CVE-2026-24146](5816/CVE-2026-24146.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
 | sarvesh patil | [CVE-2026-24209](5828/CVE-2026-24209.json) | [5828.json](5828/5828.json) | [5828.md](5828/5828.md) |
 | SeaWind (ZSEC Red Team, Zalo) | [CVE-2026-24175](5816/CVE-2026-24175.json) | [5816.json](5816/5816.json) | [5816.md](5816/5816.md) |
+| Sebastián Alba | [CVE-2026-47486](5915/CVE-2026-47486.json) | [5915.json](5915/5915.json) | [5915.md](5915/5915.md) |
 | Seiji Sakurai (@HeapSmasher) working with TrendAI Zero Day Initiative | [CVE-2026-24268](5855/CVE-2026-24268.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
 |  | [CVE-2026-24238](5855/CVE-2026-24238.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |
 |  | [CVE-2026-24272](5855/CVE-2026-24272.json) | [5855.json](5855/5855.json) | [5855.md](5855/5855.md) |

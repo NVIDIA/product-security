@@ -1,0 +1,332 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v3.1/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "CRITICAL"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1163424",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-12268-019_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "OTHER:Other",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Agent Toolkit - September 2026.<br>To protect your system, clone or update this software to version 1.9.0 or later from the <a href=\"https://github.com/NVIDIA/NeMo-Agent-Toolkit/tree/main\">NVIDIA/NeMo-Agent-Toolkit</a>&nbsp;GitHub repo.",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Agent Toolkit - September 2026.<div>To protect your system, clone or update this software to version 1.9.0 or later from the <a href=\"https://github.com/NVIDIA/NeMo-Agent-Toolkit/tree/main\">NVIDIA/NeMo-Agent-Toolkit</a> GitHub repo.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "These issues were found externally.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NeMo Agent Toolkit - October 2026",
+        "tracking": {
+            "current_release_date": "2026-10-27T00:00:00Z",
+            "generator": {
+                "date": "2026-10-27T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5912",
+            "initial_release_date": "2026-10-27T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-10-27",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "NeMo Agent Toolkit",
+                                "product": {
+                                    "name": "NeMo Agent Toolkit",
+                                    "product_id": "all_nemo_agent_toolkit",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemo_agent_toolkit:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "NeMo Agent Toolkit",
+                                "product": {
+                                    "name": "1.0 to 1.8.0",
+                                    "product_id": "all_nemo_agent_toolkit_1_0_to_1_8_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemo_agent_toolkit:1_0_to_1_8_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NeMo Agent Toolkit",
+                                "product": {
+                                    "name": "1.4 to 1.6",
+                                    "product_id": "all_nemo_agent_toolkit_1_4_to_1_6",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemo_agent_toolkit:1_4_to_1_6:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NeMo Agent Toolkit",
+                                "product": {
+                                    "name": "1.9.0",
+                                    "product_id": "all_nemo_agent_toolkit_1_9_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemo_agent_toolkit:1_9_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "NeMo Agent Toolkit",
+                                "product": {
+                                    "name": "1.7.0",
+                                    "product_id": "all_nemo_agent_toolkit_1_7_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:nemo_agent_toolkit:1_7_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "All"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Colin McDonough of 50words.com"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65151",
+            "cwe": {
+                "id": "CWE-89",
+                "name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NeMo Agent Toolkit contains vulnerability where an attacker could cause a SQL injection issue. A successful exploit of this vulnerability might lead to data tampering, denial of service and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6091091",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nemo_agent_toolkit_1_7_0"
+                ],
+                "known_affected": [
+                    "all_nemo_agent_toolkit_1_4_to_1_6"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65151"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65151"
+                }
+            ],
+            "release_date": "2026-10-27T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 1.7.0.",
+                    "product_ids": [
+                        "all_nemo_agent_toolkit_1_4_to_1_6"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.4,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nemo_agent_toolkit_1_4_to_1_6"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Colin McDonough of 50words.com, YJK(@YJK0805) of ZUSO ART working with TrendAI Zero Day Initiative"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65145",
+            "cwe": {
+                "id": "CWE-306",
+                "name": "Missing Authentication for Critical Function"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA NeMo Agent Toolkit contains a vulnerability where a attacker could cause a missing authentication issue. This vulnerability might lead to code execution, escalation of privileges, data tampering, denial of service, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6367301",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "all_nemo_agent_toolkit_1_9_0"
+                ],
+                "known_affected": [
+                    "all_nemo_agent_toolkit_1_0_to_1_8_0"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65145"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65145"
+                }
+            ],
+            "release_date": "2026-10-27T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 1.9.0.",
+                    "product_ids": [
+                        "all_nemo_agent_toolkit_1_0_to_1_8_0"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 10.0,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "all_nemo_agent_toolkit_1_0_to_1_8_0"
+                    ]
+                }
+            ]
+        }
+    ]
+}
