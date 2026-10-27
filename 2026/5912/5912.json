@@ -37,12 +37,12 @@
             },
             {
                 "category": "summary",
-                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Agent Toolkit - September 2026.<br>To protect your system, clone or update this software to version 1.9.0 or later from the <a href=\"https://github.com/NVIDIA/NeMo-Agent-Toolkit/tree/main\">NVIDIA/NeMo-Agent-Toolkit</a>&nbsp;GitHub repo.",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Agent Toolkit<br>To protect your system, clone or update this software to version 1.9.0 or later from the <a href=\"https://github.com/NVIDIA/NeMo-Agent-Toolkit/tree/main\">NVIDIA/NeMo-Agent-Toolkit</a>&nbsp;GitHub repo.",
                 "title": "Summary"
             },
             {
                 "category": "details",
-                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Agent Toolkit - September 2026.<div>To protect your system, clone or update this software to version 1.9.0 or later from the <a href=\"https://github.com/NVIDIA/NeMo-Agent-Toolkit/tree/main\">NVIDIA/NeMo-Agent-Toolkit</a> GitHub repo.</div>",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae NeMo Agent Toolkit<br>To protect your system, clone or update this software to version 1.9.0 or later from the <a href=\"https://github.com/NVIDIA/NeMo-Agent-Toolkit/tree/main\">NVIDIA/NeMo-Agent-Toolkit</a>&nbsp;GitHub repo.",
                 "title": "Security Update Notes"
             },
             {
