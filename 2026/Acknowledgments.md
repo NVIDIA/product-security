@@ -150,6 +150,7 @@ This file contains acknowledgments for security researchers and organizations wh
 |  | [CVE-2026-47496](5861/CVE-2026-47496.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 | mia-718ai | [CVE-2026-47625](5875/CVE-2026-47625.json) | [5875.json](5875/5875.json) | [5875.md](5875/5875.md) |
 | Michael Katchinskiy | [CVE-2026-47483](5857/CVE-2026-47483.json) | [5857.json](5857/5857.json) | [5857.md](5857/5857.md) |
+| Mingkai Li Columbia University | [CVE-2026-65160](5910/CVE-2026-65160.json) | [5910.json](5910/5910.json) | [5910.md](5910/5910.md) |
 | mitesh5555 | [CVE-2026-47550](5861/CVE-2026-47550.json) | [5861.json](5861/5861.json) | [5861.md](5861/5861.md) |
 | Mohamed Lemine Ahmed Jidou | [CVE-2026-65162](5889/CVE-2026-65162.json) | [5889.json](5889/5889.json) | [5889.md](5889/5889.md) |
 | Mohamed Lemine Ahmed Jidou (AegisSec) | [CVE-2026-65102](5886/CVE-2026-65102.json) | [5886.json](5886/5886.json) | [5886.md](5886/5886.md) |

@@ -2,6 +2,7 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5910](5910/5910.md) | Security Bulletin: NVIDIA® CUDA Toolkit - November 2026 | 2026-11-03 | 2026-11-03 | [CVE-2026-65160](5910/CVE-2026-65160.json) |
 | [5883](5883/5883.md) | Security Bulletin: - NVIDIA - TensorRT LLM - October 2026 | 2026-10-27 | 2026-10-27 | [CVE-2026-65119](5883/CVE-2026-65119.json), [CVE-2026-24269](5883/CVE-2026-24269.json), [CVE-2026-65120](5883/CVE-2026-65120.json) |
 | [5912](5912/5912.md) | Security Bulletin: NeMo Agent Toolkit - October 2026 | 2026-10-27 | 2026-10-27 | [CVE-2026-65151](5912/CVE-2026-65151.json), [CVE-2026-65145](5912/CVE-2026-65145.json) |
 | [5915](5915/5915.md) | Security Bulletin: - NVIDIA PhysX - October 2026 | 2026-10-27 | 2026-10-27 | [CVE-2026-47486](5915/CVE-2026-47486.json) |
