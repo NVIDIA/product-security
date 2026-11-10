@@ -121,6 +121,7 @@ This file contains acknowledgments for security researchers and organizations wh
 | k0x | [CVE-2026-24233](5840/CVE-2026-24233.json) | [5840.json](5840/5840.json) | [5840.md](5840/5840.md) |
 | Kentaro Kawane | [CVE-2025-33217](5747/CVE-2025-33217.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
 |  | [CVE-2025-33218](5747/CVE-2025-33218.json) | [5747.json](5747/5747.json) | [5747.md](5747/5747.md) |
+| kta1kri | [CVE-2026-100962](5920/CVE-2026-100962.json) | [5920.json](5920/5920.json) | [5920.md](5920/5920.md) |
 | Legoclones working with Trend Micro Zero Day Initiative | [CVE-2026-24232](5869/CVE-2026-24232.json) | [5869.json](5869/5869.json) | [5869.md](5869/5869.md) |
 | Leo Lin | [CVE-2026-65091](5872/CVE-2026-65091.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
 |  | [CVE-2026-65092](5872/CVE-2026-65092.json) | [5872.json](5872/5872.json) | [5872.md](5872/5872.md) |
