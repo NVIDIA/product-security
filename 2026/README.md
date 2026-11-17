@@ -2,6 +2,11 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5914](5914/5914.md) | Security Bulletin: NVIDIA Model Optimizer - November 2026 | 2026-11-17 | 2026-11-17 | [CVE-2026-67455](5914/CVE-2026-67455.json) |
+| [5921](5921/5921.md) | Security Bulletin: TensorRT - November 2026 | 2026-11-17 | 2026-11-17 | [CVE-2026-100963](5921/CVE-2026-100963.json), [CVE-2026-65167](5921/CVE-2026-65167.json) |
+| [5926](5926/5926.md) | Security Bulletin: NVIDIA Megatron LM - November 2026 | 2026-11-17 | 2026-11-17 | [CVE-2026-65132](5926/CVE-2026-65132.json), [CVE-2026-100967](5926/CVE-2026-100967.json), [CVE-2026-100968](5926/CVE-2026-100968.json) |
+| [5927](5927/5927.md) | Security Bulletin: NVIDIA TransformerEngine - November 2026 | 2026-11-17 | 2026-11-17 | [CVE-2026-65106](5927/CVE-2026-65106.json) |
+| [5929](5929/5929.md) | Security Bulletin: NVIDIA OpenShell - November 2026 | 2026-11-17 | 2026-11-17 | [CVE-2026-100970](5929/CVE-2026-100970.json), [CVE-2026-100971](5929/CVE-2026-100971.json), [CVE-2026-100972](5929/CVE-2026-100972.json), [CVE-2026-100973](5929/CVE-2026-100973.json), [CVE-2026-100974](5929/CVE-2026-100974.json), [CVE-2026-100975](5929/CVE-2026-100975.json), [CVE-2026-100976](5929/CVE-2026-100976.json), [CVE-2026-100977](5929/CVE-2026-100977.json), [CVE-2026-100978](5929/CVE-2026-100978.json), [CVE-2026-100980](5929/CVE-2026-100980.json), [CVE-2026-100979](5929/CVE-2026-100979.json), [CVE-2026-100981](5929/CVE-2026-100981.json), [CVE-2026-100982](5929/CVE-2026-100982.json) |
 | [5920](5920/5920.md) | Security Bulletin: NVIDIA® NeMo Export-Deploy - November 2026 | 2026-11-10 | 2026-11-10 | [CVE-2026-100962](5920/CVE-2026-100962.json) |
 | [5910](5910/5910.md) | Security Bulletin: NVIDIA® CUDA Toolkit - November 2026 | 2026-11-03 | 2026-11-03 | [CVE-2026-65160](5910/CVE-2026-65160.json) |
 | [5883](5883/5883.md) | Security Bulletin: - NVIDIA - TensorRT LLM - October 2026 | 2026-10-27 | 2026-10-27 | [CVE-2026-65119](5883/CVE-2026-65119.json), [CVE-2026-24269](5883/CVE-2026-24269.json), [CVE-2026-65120](5883/CVE-2026-65120.json) |

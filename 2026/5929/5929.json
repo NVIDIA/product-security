@@ -1,0 +1,1336 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v3.1/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "HIGH"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1164676",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-12268-021_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "OpenShell:OpenShell",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA OpenShell\u2122.<br>To protect your system, download and install the latest version of&nbsp;<a href=\"https://www.nvidia.com/en-us/ai/openshell/\">NVIDIA OpenShell\u2122</a>.",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA OpenShell\u2122.<div>To protect your system, download and install the latest version of<a href=\"https://www.nvidia.com/en-us/ai/openshell/\">&nbsp;NVIDIA OpenShell\u2122</a>.</div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "<br>",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA OpenShell - November 2026",
+        "tracking": {
+            "current_release_date": "2026-11-17T00:00:00Z",
+            "generator": {
+                "date": "2026-11-17T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5929",
+            "initial_release_date": "2026-11-17T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-11-17",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "OpenShell",
+                                    "product_id": "linux__amd64_arm64_openshell",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "OpenShell",
+                                    "product_id": "linux_openshell",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.36",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_36",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_36:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.42",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_42",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_42:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.37",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_37",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_37:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.109",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_109",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_109:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.96",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_96",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_96:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.68",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_68",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_68:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.40",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_40",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_40:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.47",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_47",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_47:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.66",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_66",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_66:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.92",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_92",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_92:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.25",
+                                    "product_id": "linux__amd64_arm64_openshell_0_0_25",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_25:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux / amd64, arm64"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.15",
+                                    "product_id": "linux_openshell_0_0_15",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_15:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "OpenShell",
+                                "product": {
+                                    "name": "0.0.14 (repository-confirmed; full affected range unconfirmed)",
+                                    "product_id": "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:openshell:0_0_14_repositoryconfirmed_full_affected_range_unconfirmed:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "cve": "CVE-2026-100970",
+            "cwe": {
+                "id": "CWE-862",
+                "name": "Missing Authorization"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in the network policy hot-reload component where a local attacker with low privileges could bypass updated network policy restrictions through existing L7-inspected tunnels that continue to use the previous policy after a reload. A successful exploit of this vulnerability might lead to information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6131644",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux__amd64_arm64_openshell_0_0_37"
+                ],
+                "known_affected": [
+                    "linux__amd64_arm64_openshell_0_0_25"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100970"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100970"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.37.",
+                    "product_ids": [
+                        "linux__amd64_arm64_openshell_0_0_25"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux__amd64_arm64_openshell_0_0_25"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "yarpo123"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100971",
+            "cwe": {
+                "id": "CWE-22",
+                "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in the L7 path allowlist enforcement component where a local attacker with low privileges could cause path traversal by using semicolon-dot path sequences to bypass allowlist restrictions. A successful exploit of this vulnerability might lead to information disclosure, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6192363",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux__amd64_arm64_openshell_0_0_109"
+                ],
+                "known_affected": [
+                    "linux__amd64_arm64_openshell_0_0_36"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100971"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100971"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.109.",
+                    "product_ids": [
+                        "linux__amd64_arm64_openshell_0_0_36"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 8.4,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux__amd64_arm64_openshell_0_0_36"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Kfir Fleischer"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100972",
+            "cwe": {
+                "id": "CWE-862",
+                "name": "Missing Authorization"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in resource-level authorization for create, read, update, and delete operations where an authenticated remote attacker with low privileges could access or modify resources without the required authorization checks. A successful exploit of this vulnerability might lead to information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6234006",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux__amd64_arm64_openshell_0_0_96"
+                ],
+                "known_affected": [
+                    "linux__amd64_arm64_openshell_0_0_40"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100972"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100972"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.96.",
+                    "product_ids": [
+                        "linux__amd64_arm64_openshell_0_0_40"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 8.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux__amd64_arm64_openshell_0_0_40"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Kfir Fleischer"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100973",
+            "cwe": {
+                "id": "CWE-636",
+                "name": "Not Failing Securely ('Failing Open')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in L7 policy enforcement for HTTP CONNECT tunnels where a local attacker with low privileges could cause a protection mechanism failure by using nonstandard HTTP methods to bypass policy restrictions. A successful exploit of this vulnerability might lead to information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6234014",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux__amd64_arm64_openshell_0_0_68"
+                ],
+                "known_affected": [
+                    "linux__amd64_arm64_openshell_0_0_40"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100973"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100973"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.68.",
+                    "product_ids": [
+                        "linux__amd64_arm64_openshell_0_0_40"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux__amd64_arm64_openshell_0_0_40"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Kfir Fleischer"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100974",
+            "cwe": {
+                "id": "CWE-798",
+                "name": "Use of Hard-coded Credentials"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in the sandbox SSH authentication component where a remote attacker with high privileges could gain unauthorized access to other sandboxes by using an SSH handshake secret shared across sandboxes. A successful exploit of this vulnerability might lead to information disclosure, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6234019",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux__amd64_arm64_openshell_0_0_47"
+                ],
+                "known_affected": [
+                    "linux__amd64_arm64_openshell_0_0_40"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100974"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100974"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.47.",
+                    "product_ids": [
+                        "linux__amd64_arm64_openshell_0_0_40"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "LOW",
+                        "baseScore": 6.7,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "HIGH",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:L",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux__amd64_arm64_openshell_0_0_40"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Kfir Fleischer"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100975",
+            "cwe": {
+                "id": "CWE-526",
+                "name": "Cleartext Storage of Sensitive Information in an Environment Variable"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in the Kubernetes sandbox SSH authentication configuration where a local attacker with low privileges could obtain sensitive authentication information by accessing an SSH handshake secret stored in a plaintext environment variable and reuse the shared secret to gain unauthorized access to other sandboxes. A successful exploit of this vulnerability might lead to information disclosure, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6234026",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux__amd64_arm64_openshell_0_0_42"
+                ],
+                "known_affected": [
+                    "linux__amd64_arm64_openshell_0_0_40"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100975"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100975"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.42.",
+                    "product_ids": [
+                        "linux__amd64_arm64_openshell_0_0_40"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.6,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux__amd64_arm64_openshell_0_0_40"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Jakub Ciolek"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100976",
+            "cwe": {
+                "id": "CWE-290",
+                "name": "Authentication Bypass by Spoofing"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in Kubernetes network policy enforcement where a local attacker with low privileges could cause the proxy to attribute network traffic to a different process due to TCP source-port identity confusion, allowing the attacker to bypass process-based network policy restrictions. A successful exploit of this vulnerability might lead to information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6298978",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux__amd64_arm64_openshell_0_0_92"
+                ],
+                "known_affected": [
+                    "linux__amd64_arm64_openshell_0_0_47"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100976"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100976"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.92.",
+                    "product_ids": [
+                        "linux__amd64_arm64_openshell_0_0_47"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 5.2,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux__amd64_arm64_openshell_0_0_47"
+                    ]
+                }
+            ]
+        },
+        {
+            "cve": "CVE-2026-100977",
+            "cwe": {
+                "id": "CWE-444",
+                "name": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in L7 REST policy enforcement where a local attacker with low privileges could exploit inconsistent HTTP interpretation by using cleartext HTTP/2 (h2c) over an HTTP CONNECT tunnel to bypass policy restrictions. A successful exploit of this vulnerability might lead to information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6575583",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux__amd64_arm64_openshell_0_0_68"
+                ],
+                "known_affected": [
+                    "linux__amd64_arm64_openshell_0_0_66"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100977"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100977"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.68.",
+                    "product_ids": [
+                        "linux__amd64_arm64_openshell_0_0_66"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux__amd64_arm64_openshell_0_0_66"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Reter AI Security Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100978",
+            "cwe": {
+                "id": "CWE-295",
+                "name": "Improper Certificate Validation"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in its gateway-to-sandbox transport where a network attacker positioned on the internal path could intercept credentials and tamper with commands and data because the transport accepts any host key without verification, permitting a machine-in-the-middle to impersonate the sandbox endpoint. A successful exploit of this vulnerability might lead to information disclosure, data tampering, and code execution.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6007137",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_openshell_0_0_15"
+                ],
+                "known_affected": [
+                    "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100978"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100978"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.15.",
+                    "product_ids": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "ADJACENT_NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Reter AI Security Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100980",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in its command-line diagnostic interface where an attacker could cause OS command injection because user- or configuration-supplied values are incorporated into a command that is interpreted by two successive shell layers in the remote path while being escaped for only one layer. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, information disclosure, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6007143",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_openshell_0_0_15"
+                ],
+                "known_affected": [
+                    "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100980"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100980"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.15.",
+                    "product_ids": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "REQUIRED",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Reter AI Security Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100979",
+            "cwe": {
+                "id": "CWE-918",
+                "name": "Server-Side Request Forgery (SSRF)"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in its gateway connection-proxy component where an attacker who can manipulate a sandbox's status metadata could cause the control-plane server to initiate connections to arbitrary internal hosts because the connection target is derived from that metadata and used without validation against the expected address range. A successful exploit of this vulnerability might lead to information disclosure and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6007423",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_openshell_0_0_15"
+                ],
+                "known_affected": [
+                    "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100979"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100979"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.15.",
+                    "product_ids": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.6,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "LOW",
+                        "privilegesRequired": "HIGH",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:L/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Reter AI Security Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100981",
+            "cwe": {
+                "id": "CWE-444",
+                "name": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in its layer-7 REST proxy where a sandboxed actor could bypass the proxy's policy enforcement by sending a request whose body framing is interpreted differently by the proxy and the upstream server, allowing a second request to be smuggled past policy checks. A successful exploit of this vulnerability might lead to data tampering and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6007434",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_openshell_0_0_15"
+                ],
+                "known_affected": [
+                    "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100981"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100981"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.15.",
+                    "product_ids": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "HIGH",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "NONE",
+                        "baseScore": 6.4,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "LOW",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:N",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Reter AI Security Research"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100982",
+            "cwe": {
+                "id": "CWE-190",
+                "name": "Integer Overflow or Wraparound"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA OpenShell for Linux contains a vulnerability in its inference-interception request parser where a sandboxed actor could exhaust processing resources by sending a chunked request that lacks body-size and chunk-count limits, causing excessive parsing work. A successful exploit of this vulnerability might lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6007441",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "linux_openshell_0_0_15"
+                ],
+                "known_affected": [
+                    "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100982"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100982"
+                }
+            ],
+            "release_date": "2026-11-17T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 0.0.15.",
+                    "product_ids": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.5,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "linux_openshell_0_0_14_repositoryconfirmed_full_affected_range_unconfirmed"
+                    ]
+                }
+            ]
+        }
+    ]
+}
