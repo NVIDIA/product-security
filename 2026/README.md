@@ -2,6 +2,9 @@
 
 | Bulletin ID | Title | Initial Publication Date | Updated Publication Date | CVEs |
 |-------------|-------|-------------------------|-------------------------|------|
+| [5894](5894/5894.md) | Security Bulletin: NVIDIA Jetson Xavier Series, Jetson Orin Series, Jetson Thor Series, and IGX Thor Devices - November 2026 | 2026-11-24 | 2026-11-24 | [CVE-2026-65135](5894/CVE-2026-65135.json), [CVE-2026-65136](5894/CVE-2026-65136.json), [CVE-2026-65154](5894/CVE-2026-65154.json), [CVE-2026-65155](5894/CVE-2026-65155.json), [CVE-2026-65156](5894/CVE-2026-65156.json), [CVE-2026-65157](5894/CVE-2026-65157.json), [CVE-2026-65158](5894/CVE-2026-65158.json), [CVE-2026-65159](5894/CVE-2026-65159.json), [CVE-2026-65137](5894/CVE-2026-65137.json), [CVE-2026-100991](5894/CVE-2026-100991.json) |
+| [5923](5923/5923.md) | Security Bulletin: NVIDIA Triton Inference Server - November 2026 | 2026-11-24 | 2026-11-24 | [CVE-2026-100965](5923/CVE-2026-100965.json), [CVE-2026-100969](5923/CVE-2026-100969.json) |
+| [5928](5928/5928.md) | Security Bulletin: NVIDIA AIStore Framework - November 2026 | 2026-11-24 | 2026-11-24 | [CVE-2026-100986](5928/CVE-2026-100986.json), [CVE-2026-65175](5928/CVE-2026-65175.json), [CVE-2026-100985](5928/CVE-2026-100985.json) |
 | [5914](5914/5914.md) | Security Bulletin: NVIDIA Model Optimizer - November 2026 | 2026-11-17 | 2026-11-17 | [CVE-2026-67455](5914/CVE-2026-67455.json) |
 | [5921](5921/5921.md) | Security Bulletin: TensorRT - November 2026 | 2026-11-17 | 2026-11-17 | [CVE-2026-100963](5921/CVE-2026-100963.json), [CVE-2026-65167](5921/CVE-2026-65167.json) |
 | [5926](5926/5926.md) | Security Bulletin: NVIDIA Megatron LM - November 2026 | 2026-11-17 | 2026-11-17 | [CVE-2026-65132](5926/CVE-2026-65132.json), [CVE-2026-100967](5926/CVE-2026-100967.json), [CVE-2026-100968](5926/CVE-2026-100968.json) |

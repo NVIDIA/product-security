@@ -1,0 +1,1307 @@
+{
+    "document": {
+        "aggregate_severity": {
+            "namespace": "https://www.first.org/cvss/v3.1/specification-document#Qualitative-Severity-Rating-Scale",
+            "text": "CRITICAL"
+        },
+        "category": "csaf_security_advisory",
+        "csaf_version": "2.0",
+        "distribution": {
+            "text": "Copyright \u00a9 2026 NVIDIA Corporation. All rights reserved.",
+            "tlp": {
+                "label": "WHITE",
+                "url": "https://www.first.org/tlp/"
+            }
+        },
+        "lang": "en",
+        "notes": [
+            {
+                "category": "details",
+                "text": "1165275",
+                "title": "Product Information Delivery"
+            },
+            {
+                "category": "details",
+                "text": "TB-12196-006_v01",
+                "title": "Part Number"
+            },
+            {
+                "category": "details",
+                "text": "false",
+                "title": "Contains Firmware"
+            },
+            {
+                "category": "details",
+                "text": "JETSON/L4T/IGX:Jetson / L4T / IGX",
+                "title": "Product Team"
+            },
+            {
+                "category": "summary",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Jetson Linux.<div>To protect your system, download and install this software update from the APT server or <a href=\"https://developer.nvidia.com/embedded/downloads\">Jetson Download Center</a> page, <a href=\"https://developer.nvidia.com/embedded/jetson-linux-archive\">Jetson Linux Link</a> and <a href=\"https://developer.nvidia.com/igx-downloads?sortBy=igx_downloads%2Fsort%2Fdate%3Adesc\">IGX Link</a>.</div><div><br></div>",
+                "title": "Summary"
+            },
+            {
+                "category": "details",
+                "text": "NVIDIA has released a software update for NVIDIA\u00ae Jetson Linux.<div>To protect your system, download and install this software update from the APT server or <a href=\"https://developer.nvidia.com/embedded/downloads\">Jetson Download Center</a> page, <a href=\"https://developer.nvidia.com/embedded/jetson-linux-archive\">Jetson Linux Link</a> and <a href=\"https://developer.nvidia.com/igx-downloads?sortBy=igx_downloads%2Fsort%2Fdate%3Adesc\">IGX Link</a>.</div><div><br></div>",
+                "title": "Security Update Notes"
+            },
+            {
+                "category": "details",
+                "text": "All issues were found externally.",
+                "title": "Bulletin Notes"
+            },
+            {
+                "category": "legal_disclaimer",
+                "text": "ALL NVIDIA INFORMATION, DESIGN SPECIFICATIONS, REFERENCE BOARDS, FILES, DRAWINGS, DIAGNOSTICS, LISTS, AND OTHER DOCUMENTS (TOGETHER AND SEPARATELY, \"MATERIALS\") ARE BEING PROVIDED \"AS IS.\" NVIDIA MAKES NO WARRANTIES, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE WITH RESPECT TO THE MATERIALS, AND ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OR CONDITION OF TITLE, MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, ARE HEREBY EXCLUDED TO THE MAXIMUM EXTENT PERMITTED BY LAW.\n\nInformation is believed to be accurate and reliable at the time it is furnished. However, NVIDIA Corporation assumes no responsibility for the consequences of use of such information or for any infringement of patents or other rights of third parties that may result from its use. No license is granted by implication or otherwise under any patent or patent rights of NVIDIA Corporation. Specifications mentioned in this publication are subject to change without notice. This publication supersedes and replaces all information previously supplied. NVIDIA Corporation products are not authorized for use as critical components in life support devices or systems without express written approval of NVIDIA Corporation.",
+                "title": "Terms of Use"
+            }
+        ],
+        "publisher": {
+            "category": "vendor",
+            "contact_details": "https://www.nvidia.com/security/report-vulnerability/",
+            "issuing_authority": "NVIDIA Product Security is responsible for vulnerability handling across all NVIDIA products and services.",
+            "name": "NVIDIA Product Security",
+            "namespace": "https://www.nvidia.com/security"
+        },
+        "title": "Security Bulletin: NVIDIA Jetson Xavier Series, Jetson Orin Series, Jetson Thor Series, and IGX Thor Devices - November 2026",
+        "tracking": {
+            "current_release_date": "2026-11-24T00:00:00Z",
+            "generator": {
+                "date": "2026-11-24T00:00:00Z",
+                "engine": {
+                    "name": "NVIDIA PSIRT",
+                    "version": "2.0.0"
+                }
+            },
+            "id": "5894",
+            "initial_release_date": "2026-11-24T00:00:00Z",
+            "revision_history": [
+                {
+                    "date": "2026-11-24",
+                    "number": "1.0.0",
+                    "summary": "Initial Release"
+                }
+            ],
+            "status": "final",
+            "version": "1.0.0"
+        }
+    },
+    "product_tree": {
+        "branches": [
+            {
+                "branches": [
+                    {
+                        "branches": [
+                            {
+                                "category": "product_name",
+                                "name": "IGX Thor",
+                                "product": {
+                                    "name": "IGX Thor",
+                                    "product_id": "igx_os_igx_thor",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:igx_thor:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Thor Series",
+                                "product": {
+                                    "name": "Jetson Thor Series",
+                                    "product_id": "jetson_linux_jetson_thor_series",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_thor_series:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Orin Series(35)",
+                                "product": {
+                                    "name": "Jetson Orin Series(35)",
+                                    "product_id": "jetson_linux_jetson_orin_series35",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_orin_series35:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Orin Series(36)",
+                                "product": {
+                                    "name": "Jetson Orin Series(36)",
+                                    "product_id": "jetson_linux_jetson_orin_series36",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_orin_series36:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Orin Series(39)",
+                                "product": {
+                                    "name": "Jetson Orin Series(39)",
+                                    "product_id": "jetson_linux_jetson_orin_series39",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_orin_series39:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_name",
+                                "name": "Jetson Xavier Series",
+                                "product": {
+                                    "name": "Jetson Xavier Series",
+                                    "product_id": "jetson_linux_jetson_xavier_series",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series:*:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "product_family",
+                        "name": "NVIDIA Product Family"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "IGX Thor",
+                                "product": {
+                                    "name": "IGX 2.0",
+                                    "product_id": "igx_os_igx_thor_igx_2_0",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:igx_thor:igx_2_0:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "IGX Thor",
+                                "product": {
+                                    "name": "IGX 2.0.1",
+                                    "product_id": "igx_os_igx_thor_igx_2_0_1",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:igx_thor:igx_2_0_1:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "IGX OS"
+                    },
+                    {
+                        "branches": [
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Thor Series",
+                                "product": {
+                                    "name": "39.2.1 and later",
+                                    "product_id": "jetson_linux_jetson_thor_series_39_2_1_and_later",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_thor_series:39_2_1_and_later:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Thor Series",
+                                "product": {
+                                    "name": "39.2 and earlier",
+                                    "product_id": "jetson_linux_jetson_thor_series_39_2_and_earlier",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_thor_series:39_2_and_earlier:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Orin Series(35)",
+                                "product": {
+                                    "name": "35.6.5 and later",
+                                    "product_id": "jetson_linux_jetson_orin_series35_35_6_5_and_later",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_orin_series35:35_6_5_and_later:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Orin Series(35)",
+                                "product": {
+                                    "name": "35.6.4 and earlier",
+                                    "product_id": "jetson_linux_jetson_orin_series35_35_6_4_and_earlier",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_orin_series35:35_6_4_and_earlier:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Orin Series(36)",
+                                "product": {
+                                    "name": "36.5.1 and earlier",
+                                    "product_id": "jetson_linux_jetson_orin_series36_36_5_1_and_earlier",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_orin_series36:36_5_1_and_earlier:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Orin Series(36)",
+                                "product": {
+                                    "name": "36.5.2 and later",
+                                    "product_id": "jetson_linux_jetson_orin_series36_36_5_2_and_later",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_orin_series36:36_5_2_and_later:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Orin Series(39)",
+                                "product": {
+                                    "name": "39.2.1 and later",
+                                    "product_id": "jetson_linux_jetson_orin_series39_39_2_1_and_later",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_orin_series39:39_2_1_and_later:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Orin Series(39)",
+                                "product": {
+                                    "name": "39.2",
+                                    "product_id": "jetson_linux_jetson_orin_series39_39_2",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_orin_series39:39_2:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series",
+                                "product": {
+                                    "name": "35.6.5 and later",
+                                    "product_id": "jetson_linux_jetson_xavier_series_35_6_5_and_later",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series:35_6_5_and_later:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            },
+                            {
+                                "category": "product_version",
+                                "name": "Jetson Xavier Series",
+                                "product": {
+                                    "name": "35.6.4 and earlier",
+                                    "product_id": "jetson_linux_jetson_xavier_series_35_6_4_and_earlier",
+                                    "product_identification_helper": {
+                                        "cpe": "cpe:2.3:a:nvidia:jetson_xavier_series:35_6_4_and_earlier:*:*:*:*:*:*:*"
+                                    }
+                                }
+                            }
+                        ],
+                        "category": "architecture",
+                        "name": "Jetson Linux"
+                    }
+                ],
+                "category": "vendor",
+                "name": "NVIDIA"
+            }
+        ]
+    },
+    "vulnerabilities": [
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "LiQiang, LuoDing and XuLiangjun (Xiaomi ShadowBlade Security Lab)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65135",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Video Codec SDK for Linux contains a vulnerability where a user may cause a heap-based buffer overflow issue. A successful exploit of this vulnerability may lead to code execution, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6269695",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "igx_os_igx_thor_igx_2_0_1",
+                    "jetson_linux_jetson_thor_series_39_2_1_and_later"
+                ],
+                "known_affected": [
+                    "igx_os_igx_thor_igx_2_0",
+                    "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65135"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65135"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version IGX 2.0.1.",
+                    "product_ids": [
+                        "igx_os_igx_thor_igx_2_0"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 9.8,
+                        "baseSeverity": "CRITICAL",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "igx_os_igx_thor_igx_2_0",
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Thomas Sermpinis"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65136",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Jetson Linux for Linux contains a vulnerability where an attacker may cause an out of bounds write. A successful exploit of this vulnerability may lead to escalation of privileges and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "escalation of privileges, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6355239",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux_jetson_orin_series39_39_2_1_and_later",
+                    "jetson_linux_jetson_orin_series36_36_5_2_and_later",
+                    "jetson_linux_jetson_orin_series35_35_6_5_and_later"
+                ],
+                "known_affected": [
+                    "jetson_linux_jetson_orin_series39_39_2",
+                    "jetson_linux_jetson_orin_series36_36_5_1_and_earlier",
+                    "jetson_linux_jetson_orin_series35_35_6_4_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65136"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65136"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 35.6.5 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_orin_series35_35_6_4_and_earlier"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 36.5.2 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_orin_series36_36_5_1_and_earlier"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_orin_series39_39_2"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "CHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux_jetson_orin_series39_39_2",
+                        "jetson_linux_jetson_orin_series36_36_5_1_and_earlier",
+                        "jetson_linux_jetson_orin_series35_35_6_4_and_earlier"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Daniel Cohen Hillel (@0xDACA)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65154",
+            "cwe": {
+                "id": "CWE-416",
+                "name": "Use After Free"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Open GPU Kernel Module for Linux contains a vulnerability where a user may cause a use-after-free issue. A successful exploit of this vulnerability may lead to code execution, escalation of privileges, data tampering, denial of service, and information disclosure.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6188038",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "igx_os_igx_thor_igx_2_0_1",
+                    "jetson_linux_jetson_thor_series_39_2_1_and_later"
+                ],
+                "known_affected": [
+                    "igx_os_igx_thor_igx_2_0",
+                    "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65154"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65154"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version IGX 2.0.1.",
+                    "product_ids": [
+                        "igx_os_igx_thor_igx_2_0"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "igx_os_igx_thor_igx_2_0",
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "LiQiang, LuoDing and XuLiangjun (Xiaomi ShadowBlade Security Lab)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65155",
+            "cwe": {
+                "id": "CWE-835",
+                "name": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Video Codec SDK (CUVID) for Jetson Linux contains a vulnerability where an attacker may cause a loop with an unreachable exit condition. Successful exploitation may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6269732",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "igx_os_igx_thor_igx_2_0_1",
+                    "jetson_linux_jetson_thor_series_39_2_1_and_later"
+                ],
+                "known_affected": [
+                    "igx_os_igx_thor_igx_2_0",
+                    "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65155"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65155"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version IGX 2.0.1.",
+                    "product_ids": [
+                        "igx_os_igx_thor_igx_2_0"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "igx_os_igx_thor_igx_2_0",
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "LiQiang, LuoDing and XuLiangjun (Xiaomi ShadowBlade Security Lab)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65156",
+            "cwe": {
+                "id": "CWE-835",
+                "name": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA CUDA Video Codec SDK for Jetson Linux contains a vulnerability where an attacker may cause an infinite loop. A successful exploit of this vulnerability may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6269737",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "igx_os_igx_thor_igx_2_0_1",
+                    "jetson_linux_jetson_thor_series_39_2_1_and_later"
+                ],
+                "known_affected": [
+                    "igx_os_igx_thor_igx_2_0",
+                    "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65156"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65156"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version IGX 2.0.1.",
+                    "product_ids": [
+                        "igx_os_igx_thor_igx_2_0"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "igx_os_igx_thor_igx_2_0",
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "LiQiang, LuoDing and XuLiangjun (Xiaomi ShadowBlade Security Lab"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65157",
+            "cwe": {
+                "id": "CWE-125",
+                "name": "Out-of-bounds Read"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Video Codec SDK for Linux contains a vulnerability where a user may cause an out of bounds read. A successful exploit of this vulnerability may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6269720",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "igx_os_igx_thor_igx_2_0_1",
+                    "jetson_linux_jetson_thor_series_39_2_1_and_later"
+                ],
+                "known_affected": [
+                    "igx_os_igx_thor_igx_2_0",
+                    "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65157"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65157"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version IGX 2.0.1.",
+                    "product_ids": [
+                        "igx_os_igx_thor_igx_2_0"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "igx_os_igx_thor_igx_2_0",
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "LiQiang, LuoDing and XuLiangjun (Xiaomi ShadowBlade Security Lab)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65158",
+            "cwe": {
+                "id": "CWE-476",
+                "name": "NULL Pointer Dereference"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Video Codec SDK for Linux contains a vulnerability where a user may cause a NULL pointer dereference issue. A successful exploit of this vulnerability may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6269715",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "igx_os_igx_thor_igx_2_0_1",
+                    "jetson_linux_jetson_thor_series_39_2_1_and_later"
+                ],
+                "known_affected": [
+                    "igx_os_igx_thor_igx_2_0",
+                    "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65158"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65158"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version IGX 2.0.1.",
+                    "product_ids": [
+                        "igx_os_igx_thor_igx_2_0"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "igx_os_igx_thor_igx_2_0",
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "LiQiang, LuoDing and XuLiangjun (Xiaomi ShadowBlade Security Lab)"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65159",
+            "cwe": {
+                "id": "CWE-787",
+                "name": "Out-of-bounds Write"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Video Codec SDK for Linux contains a vulnerability where a user may cause an out-of-bounds write issue. A successful exploit of this vulnerability may lead to denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6269708",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "igx_os_igx_thor_igx_2_0_1",
+                    "jetson_linux_jetson_thor_series_39_2_1_and_later"
+                ],
+                "known_affected": [
+                    "igx_os_igx_thor_igx_2_0",
+                    "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65159"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65159"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version IGX 2.0.1.",
+                    "product_ids": [
+                        "igx_os_igx_thor_igx_2_0"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.5,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "NONE",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "igx_os_igx_thor_igx_2_0",
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Thomas Sermpinis"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-65137",
+            "cwe": {
+                "id": "CWE-476",
+                "name": "NULL Pointer Dereference"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Jetson Linux for Linux contains a vulnerability where a local attacker may cause a NULL pointer dereference issue. A successful exploit of this vulnerability may lead to denial of service and data tampering.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "data tampering, denial of service",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6355805",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux_jetson_orin_series39_39_2_1_and_later",
+                    "jetson_linux_jetson_thor_series_39_2_1_and_later",
+                    "igx_os_igx_thor_igx_2_0_1",
+                    "jetson_linux_jetson_orin_series35_35_6_5_and_later",
+                    "jetson_linux_jetson_orin_series36_36_5_2_and_later"
+                ],
+                "known_affected": [
+                    "jetson_linux_jetson_orin_series35_35_6_4_and_earlier",
+                    "igx_os_igx_thor_igx_2_0",
+                    "jetson_linux_jetson_orin_series39_39_2",
+                    "jetson_linux_jetson_thor_series_39_2_and_earlier",
+                    "jetson_linux_jetson_orin_series36_36_5_1_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65137"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-65137"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version IGX 2.0.1.",
+                    "product_ids": [
+                        "igx_os_igx_thor_igx_2_0"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 35.6.5 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_orin_series35_35_6_4_and_earlier"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 36.5.2 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_orin_series36_36_5_1_and_earlier"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_orin_series39_39_2"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "LOCAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 7.1,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "NONE",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux_jetson_orin_series35_35_6_4_and_earlier",
+                        "igx_os_igx_thor_igx_2_0",
+                        "jetson_linux_jetson_orin_series39_39_2",
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier",
+                        "jetson_linux_jetson_orin_series36_36_5_1_and_earlier"
+                    ]
+                }
+            ]
+        },
+        {
+            "acknowledgments": [
+                {
+                    "names": [
+                        "Quentin Kaiser"
+                    ]
+                }
+            ],
+            "cve": "CVE-2026-100991",
+            "cwe": {
+                "id": "CWE-78",
+                "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            "notes": [
+                {
+                    "category": "summary",
+                    "text": "NVIDIA Jetson contains a vulnerability where an attacker may cause an OS command injection issue. A successful exploit of this vulnerability may lead to code execution, escalation of privilege, information disclosure, data tampering, and denial of service.",
+                    "title": "Vulnerability description"
+                },
+                {
+                    "category": "details",
+                    "text": "code execution, escalation of privileges, data tampering, denial of service, information disclosure",
+                    "title": "Impacts"
+                },
+                {
+                    "category": "details",
+                    "text": "6207968",
+                    "title": "defect"
+                }
+            ],
+            "product_status": {
+                "fixed": [
+                    "jetson_linux_jetson_orin_series39_39_2_1_and_later",
+                    "jetson_linux_jetson_thor_series_39_2_1_and_later",
+                    "jetson_linux_jetson_xavier_series_35_6_5_and_later",
+                    "jetson_linux_jetson_orin_series35_35_6_5_and_later",
+                    "jetson_linux_jetson_orin_series36_36_5_2_and_later"
+                ],
+                "known_affected": [
+                    "jetson_linux_jetson_orin_series35_35_6_4_and_earlier",
+                    "jetson_linux_jetson_xavier_series_35_6_4_and_earlier",
+                    "jetson_linux_jetson_orin_series39_39_2",
+                    "jetson_linux_jetson_thor_series_39_2_and_earlier",
+                    "jetson_linux_jetson_orin_series36_36_5_1_and_earlier"
+                ]
+            },
+            "references": [
+                {
+                    "category": "external",
+                    "summary": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100991"
+                },
+                {
+                    "category": "external",
+                    "summary": "Mitre",
+                    "url": "https://www.cve.org/CVERecord?id=CVE-2026-100991"
+                }
+            ],
+            "release_date": "2026-11-24T00:00:00Z",
+            "remediations": [
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 35.6.5 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_orin_series35_35_6_4_and_earlier"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 36.5.2 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_orin_series36_36_5_1_and_earlier"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_orin_series39_39_2"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 39.2.1 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier"
+                    ]
+                },
+                {
+                    "category": "vendor_fix",
+                    "details": "Upgrade to version 35.6.5 and later.",
+                    "product_ids": [
+                        "jetson_linux_jetson_xavier_series_35_6_4_and_earlier"
+                    ]
+                }
+            ],
+            "scores": [
+                {
+                    "cvss_v3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "PHYSICAL",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 6.8,
+                        "baseSeverity": "MEDIUM",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "NONE",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "products": [
+                        "jetson_linux_jetson_orin_series35_35_6_4_and_earlier",
+                        "jetson_linux_jetson_xavier_series_35_6_4_and_earlier",
+                        "jetson_linux_jetson_orin_series39_39_2",
+                        "jetson_linux_jetson_thor_series_39_2_and_earlier",
+                        "jetson_linux_jetson_orin_series36_36_5_1_and_earlier"
+                    ]
+                }
+            ]
+        }
+    ]
+}
